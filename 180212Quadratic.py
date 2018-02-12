@@ -75,3 +75,63 @@ main()
 #
 #  The solution are: -0.2928932188134524 -1.7071067811865475
 # This program find the real solution to a quadratic
+
+
+###多分支的程序结构
+#多分支决策：
+#要解决双根问题，就需要对delta等于0的情况进行处理。语句的结构上要引入嵌套结构。
+## 当delta < 0，处理无实根情况
+## 当delta = 0，处理实根（重根）情况
+## 当delta > 0，处理双根情况
+
+#一种解决方案是在程序中使用两个if-else语句。
+#把一个复合语句放到另一个语句的结构之中称为嵌套。
+
+#下面是使用了三分支决策的程序代码片段：
+if delta <0:
+    print("Equation has no real roots")
+   else:
+       if delta ==0 :
+           x=-b/(2*a)
+           print("There is a double root at",x)
+       else:
+           #计算两个实根
+
+##多分支决策
+#多分支决策是解决复杂问题的重要手段之一。
+#一个三分支决策可以由两个二分支结构嵌套实现。
+#使用if-else描述多分支决策时，实现更多分支需要更多嵌套，影响程序的易读性。
+# Python使用if-elif-else描述多分支决策，简化分支结构的嵌套问题。
+
+if <condition1>:
+    <case1 statements>
+elif <condition2>:
+    <case2 statements>
+elif <condition3>:
+    <case3 statements>
+...
+else:
+    <default statements>
+
+
+##完整程序示例：
+import math
+def main():
+    print("Let us find the solutions to a quadratic\n")
+    a,b,c=eval(input("Do enter the coefficients (a,b,c)："))
+    delta=b*b-4*a*c
+    if a==0:
+        x=-b/c
+        print("\nThere is an solution",x)
+    elif delta <0:
+        print("\nThe equation has no real roots!")
+    elif delta==0:
+        x=-b / (2*a)
+        print("\nThere is a doubel root at",x)
+    else:
+        #计算两个实根
+        discRoot = math.sqrt(delta)
+        x1=(-b+discRoot)/(2*a)
+        x2=(-b-discRoot)/(2*a)
+        print("\nThe solution are :",x1,x2)
+main()
