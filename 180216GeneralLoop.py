@@ -33,7 +33,7 @@ def main():
 # Do you have more numbers (yes or no)？no
 #
 # The average of the numbers is: 3.5
-#用户不再需要计数，但又总被提示信息打扰。
+#用户不再需要计数，但又总被提示信息打扰。（提示信息多，令人反感）
 
 
 ###哨兵循环
@@ -59,7 +59,7 @@ def SBmain1():
         count=count+1
         x=eval(input("Enter a number (negative to quit)>>"))
     print("\n The average of the number is",sum/count)
-SBmain1()
+# SBmain1()
 #程序输出如下：
 # Enter a number (negative to quit)>>2
 # Enter a number (negative to quit)>>3
@@ -84,4 +84,137 @@ SBmain1()
 ######## count 值加1
 ######## 接受下个字符串数据，xStr
 #### 输出sum/count
+
+#average4.py
 def SBmain2():
+    sum=0.0
+    count=0
+    xStr=input("Enter a number (<Enter> to quit ) >> ")
+    while xStr!="":
+        x=eval(xStr)
+        sum=sum+x
+        count=count+1
+        xStr=input("Enter a number (<Enter> to quit) >>")
+    print("\nThe average of the number is",sum/count)
+# SBmain2()
+
+#程序输出如下：
+# Enter a number (<Enter> to quit ) >> 1
+# Enter a number (<Enter> to quit) >>2
+# Enter a number (<Enter> to quit) >>3
+# Enter a number (<Enter> to quit) >>4
+# Enter a number (<Enter> to quit) >>
+#
+# The average of the number is 2.5
+
+# Enter a number (<Enter> to quit ) >> 1
+# Enter a number (<Enter> to quit) >>2
+# Enter a number (<Enter> to quit) >>3
+# Enter a number (<Enter> to quit) >>4
+# Enter a number (<Enter> to quit) >>5
+# Enter a number (<Enter> to quit) >>6
+# Enter a number (<Enter> to quit) >>7
+# Enter a number (<Enter> to quit) >>8
+# Enter a number (<Enter> to quit) >>9
+# Enter a number (<Enter> to quit) >>10
+# Enter a number (<Enter> to quit) >>
+#
+# The average of the number is 5.5
+
+###文件循环：
+#面向文件的方法是数据处理的典型应用
+#之前求平均数的数字都是用户输入的，如果几百个数求平均，输入困难且容易出错
+#可以事先将数据录入到文件中，然后将这个文件作为程序的输入，避免人工输入的麻烦，便于编辑修改
+
+#average5.py
+def FileLoopmain():
+    fileName=input("What file are the numbers in ?")
+    infile=open(fileName,'r')
+    sum=0
+    count=0
+    for line in infile:
+        sum=sum+eval(line)
+        count=count+1
+    print("\n The average of the numbers is :",sum/count)
+# FileLoopmain()
+# 程序执行结果：
+# What file are the numbers in ?180216CountAverage-File-oneLineoneNum.txt （含有1-10一共10个数）
+#
+#  The average of the numbers is : 5.5
+
+
+###遍历文件
+##在这段代码中，循环变量line遍历文件的每一行，将每行都转成数字然后加到sum中。
+##通过Python的readline（）来读取，ReadLine（）将文件的一行读取到字符串中。
+##在文件尾部，ReadLine（）返回的一个空字符串可以作为哨兵值。
+##Python中采用ReadLine（）方法的end-of-file循环模式：
+# line=infile.readline()
+# while line !="":
+#     #处理每一行
+#     line=infile.readline()
+#
+
+##文件循环代码while
+#将end-of-file哨兵循环应用到平均数问题的代码：
+#average6.py
+def FileLoopEndOfFilemain():
+    fileName=input("What file are the numbers in ?")
+    infile=open(fileName,'r')
+    sum=0.0
+    count=0
+    line=infile.readline()
+    while line !="":
+        sum=sum+eval(line)
+        count=count+1
+        line=infile.readline()
+    print("\n The average of the numbers is:",sum/count)
+# FileLoopEndOfFilemain()
+
+# 180216CountAverage-File-oneLineoneNum.txt 数据结构为：每一行一个数字
+
+# 程序执行结果为：
+# What file are the numbers in ?180216CountAverage-File-oneLineoneNum.txt
+#
+# The average of the numbers is: 5.5
+
+###嵌套循环
+#决策和循环互相嵌套可以实现复杂算法
+#之前实例中文件每行只存一个数字，这一次数字以逗号分隔出现在文件的同一行上
+#下面是处理一行的代码片段：
+# for xStr in line.split(","):
+#     sum=sum+eval(xStr)
+#     count=count+1
+
+##嵌套循环的代码
+#average7.py ：
+def nestingLoop():
+    fileName=input("What file are the numbers in ?")
+    infile=open(fileName,'r')
+    sum=0.0
+    count=0
+    line=infile.readline()
+    while line !="":  ##外循环：while语句对每行循环一次
+    # 为line中的值更新其count和sum
+        for xStr in line.split(","): ##内循环：for语句对一行中每个数字进行循环
+             sum=sum+eval(xStr)
+             count=count+1
+        line=infile.readline()
+    print("\nThe average of the number is",sum/count)
+nestingLoop()
+
+# 180216CountAverage-File-oneLinemoreNum.txt的文件结构如下：
+# 1,1
+# 2,2
+# 3,3
+# 4,4
+# 5,5
+# 6
+# 7
+# 8
+# 9
+# 10
+
+# 程序执行结果为：
+# What file are the numbers in ?180216CountAverage-File-oneLinemoreNum.txt
+#
+# The average of the number is 4.666666666666667
