@@ -35,24 +35,26 @@
 #1 假设scoreA和scoreB代表两个壁球选手的分数
 #2 规则：只要一个选手达到了15分，本场比赛就结束。即如下布尔表达式为真时比赛结束：
 #   scoreA ==15 or scoreB ==15
-#3 可以构造循环条件，对游戏结束条件取反：while not (scoreA==15 or scoreB ==15) ：比赛继续
+#3 可以构造循环条件，对游戏结束条件取反：while not (scoreA==15 or scoreB ==15) ：#比赛继续
 #4 a和b代表两个壁球选手的分数
-#5 规则1：只要一个选手达到了15分，本场比赛就结束。
-#6 规则2：需要一个团队赢得至少两分才算赢，即其中 一个队已经达到了15分，且分数差异至少为2时比赛结束。
+#5 规则1：只要一个选手达到了15分，本场比赛就结束。如果一方打了七分而另一方未得时，比赛也会结束。
+#        下面这个表达式考虑了更为复杂的情况：
+#         a==15 or b==15 or (a==7 and b==0) or (b==7 and a==0)
+#6 规则2：需要一个团队赢得至少两分才算赢，即其中 一个队已经达到了15分，且分数差异至少为2时比赛结束。（此为排球比赛的规则）
 #         即：(a>=15 and a-b>=2) or (b >=15 and b-a >=2)
 #7 故等价于： （a>=15 or b>=15） and abs(a-b)>=2  （abs函数返回表达式的绝对值
 
 ################# 布尔代数
 #1 布尔表达式遵循特定的代数定律，这些规律被称为布尔逻辑或布尔代数。
 #2 布尔代数规则：
-#    Algebra     Boolean algebra
-#----------------------------------
-#    a*0=0         a and false==false
-#    a*1=a         a and true==a
-#    a+0=a         a or false==a
+#    Algebra  |  Boolean algebra
+#---------------------------------
+#    a*0=0    |   a and false==false
+#    a*1=a    |   a and true==a
+#    a+0=a    |   a or false==a
 #
 #3 当0和1对应false和true时，and与乘法相似，or与加法相似
-#4 任何值和true进行“or”操作都是真。 aor true ==true
+#4 任何值和true进行“or”操作都是真。 a or true ==true
 #5 and 和or操作符都符合分配率：
 #   a or (b and c) ==(a or b) and (a or c)
 #   a and (b or c) ==(a and b) or (a and c)
@@ -65,7 +67,8 @@
 # while not (scoreA==15 or scoreB ==15)
 #     #比赛继续
 #通过使用布尔代数，可以转换上面这个表达式。应用德摩根定律，其等同于下面这个表达式：
-#  (not scoreA==15) and (not scoreB==15)
+#  (not scoreA==15) and (not scoreB==15)  #可以理解为A没有达到15分且B没有得到15分就继续比赛
+#  有时候找一个循环停止的条件比找一个循环继续的条件更容易。
 #注意，当使用not的分配率时，or和and的转变。
 # while scoreA ！=15 and scoreB !=15)
 #     #比赛继续
@@ -80,10 +83,9 @@
 #    因为：第二个表达式“Y”，它是一个非空的字符串，所以Python会永远把它解释为真。
 #4 Python的条件运算符（即==）总是在与一个bool类型的值进行比较！
 #5 布尔True和False来代表布尔值的真和假。
-#6 对于数字（整型和浮点型）的零值被认为是false。
-#7 任何非零值都是true
-#8 bool类型仅仅是一个特殊的整数，可以通过计算表达式True+True的值来测试一下。
-#9 对于序列类型来说，一个空序列被解释为假，而任何非空序列被指示为真。
+#6 对于数字（整型和浮点型）的零值被认为是false。任何非零值都是true
+#7 bool类型仅仅是一个特殊的整数，可以通过计算表达式True+True的值来测试一下。
+#8 对于序列类型来说，一个空序列被解释为假，而任何非空序列被指示为真。
 print(bool(0)) #False
 print(bool(1)) #True
 print(bool("Hello")) #True
@@ -91,15 +93,19 @@ print(bool("")) #False
 print(bool([1,2,3])) #True
 print(bool([])) #False
 
-#10 Python的布尔灵活性也扩展到了布尔运算符。下表总结了这些运算符的特性：
-# operator        operational definition
+#9 Python的布尔灵活性也扩展到了布尔运算符。下表总结了这些运算符的特性：
+# operator |       operational definition
 #-------------------------------------------
-#  x and y   if x is false,return x. otherwise,return y
-#  x or y    if x is true,return x. otherwise,return y
-#   not x    if x is false, return True. itherwise, return False
+#  x and y |  if x is false,return x. otherwise,return y （在and表达式中，只要知道第一个是假
+#  x or y  |  if x is true,return x. otherwise,return y （在or表达式中，只要知道第一个为真，Python就不会去评估第2个表达式了
+#   not x  |  if x is false, return True. itherwise, return False
 
-#11 Python的布尔运算符是短路运算符
-#12 Python从左到右扫描表达式一旦知道结果，就立即返回True或False值。
+#   while response[0]=="y" or "Y"
+#   其实这是一个无限循环。为什么这里的条件表达式总为真？
+#    因为：第二个表达式“Y”，它是一个非空的字符串，所以Python会永远把它解释为真。
+
+#10 Python的布尔运算符是短路运算符
+#11 Python从左到右扫描表达式一旦知道结果，就立即返回True或False值。
 
 ######  简洁表示：
 #如果用户仅仅简单敲下回车键，可以使用方括号中的值作为默认值
