@@ -1,7 +1,7 @@
 # !/usr/bin/env python
 # encoding: utf-8
 __author__ = 'Administrator'
-######-------文件实例
+######----------------------文件实例一
 
 #编写程序根据文件 data.txt 中的数据，使用turtle库来动态绘制图形路径
 #文件 data.txt 中的数据，数据格式为：
@@ -72,4 +72,17 @@ def drawMain():
             pen.lt(result[i][2])
     pen.goto(0,0)
 
-drawMain()
+# drawMain()
+
+######----------------------文件实例二
+#多文件读写的例子
+#编写程序将电话簿TeleAddressBook.txt和电子邮件EmailAddressBook.txt合并为一个完整的AddressBook.txt
+
+#打开文件、读取文件：
+ftele1=open('EmailAddressBook.txt','rb')
+ftele2=open('TeleAddressBook.txt','rb')
+
+ftele1.readlines()#跳过第一行
+ftele2.readlines()
+lines1=ftele1.readlines()
+lines2=ftele2.readlines()
