@@ -104,10 +104,9 @@ def AddressMain():
     list2_name = []
     list2_email = []
 
-    print(lines1)
+
     # 获取TeleAddressBook中的信息：
     for line in lines1:  # 获取第一个文本中的姓名和电话信息
-
         elements = line.split()
         list1_name.append(str(elements[0].decode('gbk'))) #将文本读出来的bytes转换为str类型
         list1_tele.append(str(elements[1].decode('gbk')))
@@ -144,6 +143,9 @@ def AddressMain():
 
     # 将新生成的合并数据写入新的文件中：
     print("\n新生成的数据为：")
+    for line in lines:
+        print(str(line.decode('gbk')))
+
     print(lines)
     ftele3 = open('AddressBook.txt', 'w')
     ftele3.writelines(lines)
