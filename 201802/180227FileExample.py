@@ -80,6 +80,10 @@ def drawMain():
 #多文件读写的例子
 #编写程序将电话簿TeleAddressBook.txt和电子邮件EmailAddressBook.txt合并为一个完整的AddressBook.txt
 #（利用字符串和列表将两个通讯录合并为一个文本）
+#该问题的IPO模式为：
+#输入：电话簿、邮箱地址簿文件
+#
+
 
 #完整代码如下：
 def AddressMain():
