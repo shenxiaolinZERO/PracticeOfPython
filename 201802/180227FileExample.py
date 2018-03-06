@@ -80,14 +80,25 @@ def drawMain():
 #多文件读写的例子
 #编写程序将电话簿TeleAddressBook.txt和电子邮件EmailAddressBook.txt合并为一个完整的AddressBook.txt
 #（利用字符串和列表将两个通讯录合并为一个文本）
+
 #该问题的IPO模式为：
 #输入：电话簿、邮箱地址簿文件
-#
+#处理：将两个文件内容进行合并
+#输出：合并后包含电话和邮箱地址簿的文件
 
+#程序步骤：
+#1.第一步：打开文件、读取文件。
+#2.第二步：分别获取文件中的信息，到两个列表1和列表2
+#3.第三步：建立合并用的空列表3，完成列表1和2的信息合并操作到列表3中。
+#        1）生成信息表头。
+#        2）遍历列表1中的人，创立列表3的信息。此过程中，同时处理列表2所出现的与列表1为同一个人的信息。
+#        3）处理列表2中剩余人的信息，合并到列表3中。
+#4.第四步：将列表3中的信息写入到新文件。
+#5.第五步：关闭所有打开的文件。
 
 #完整代码如下：
 def AddressMain():
-    # 打开文件、读取文件：
+    # 打开文件、读取文件：（因为文件是中文，所以打开方式是rb，读取出来二进制数据）
     ftele1 = open('180227data2-TeleAddressBook.txt', 'rb')
     ftele2 = open('180227data2-EmailAddressBook.txt', 'rb')
 
@@ -110,7 +121,7 @@ def AddressMain():
 
     # 获取TeleAddressBook中的信息：
     for line in lines1:  # 获取第一个文本中的姓名和电话信息
-        elements = line.split()
+        elements = line.split() #elements是二进制
         list1_name.append(str(elements[0].decode('gbk'))) #将文本读出来的bytes转换为str类型
         list1_tele.append(str(elements[1].decode('gbk')))
 
