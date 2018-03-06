@@ -52,6 +52,10 @@ def main():
             s += '\n'
         lines.append(s)
 
+    print("\n新生成的数据为：")
+    for line in lines:
+        print(line)
+
     ftele3 = open('AddressBook-ref.txt', 'w')
     ftele3.writelines(lines)
     ftele3.close()
