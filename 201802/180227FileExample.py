@@ -169,7 +169,7 @@ def AddressMain_Notcan():
     ftele2.close()
 
     print("\nThe AddressBooks are merged !")
-# AddressMain_Notcan()
+
 
 #------------上下两段一模一样的代码，然后上面不可以，下面可以。。。。。求解释……
 
@@ -257,4 +257,8 @@ def AddressMain():
 
     print("\nThe AddressBooks are merged !")
 
-# AddressMain()
+
+if __name__ == '__main__':
+   # AddressMain_Notcan()
+   AddressMain()
+   ###简直了
