@@ -138,6 +138,7 @@ def AddressMain():
     # 2.按索引方式遍历姓名列表1
     for i in range(len(list1_name)):
         s = ''
+
         if list1_name[i] in list2_name:
             j = list2_name.index(list1_name[i])  # 找到姓名列表1对应列表2中的姓名索引位置
             s = '\t'.join([list1_name[i],list1_tele[i],list2_email[j]])
@@ -150,6 +151,7 @@ def AddressMain():
     # 3.处理姓名列表2剩余的姓名
     for i in range(len(list2_name)):
         s = ''
+        print("我是我是")
         if list2_name[i] not in list1_name:
             s = '\t'.join([list2_name[i], str('   -----    '), list2_email[i]])
             s += '\n'
