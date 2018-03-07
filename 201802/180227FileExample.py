@@ -247,7 +247,7 @@ def AddressMain():
         print(line) #for循环输出的line正常显示，而直接输出print(lines)则含\t等符号
 
     # print(lines)
-    ftele3 = open('AddressBook.txt', 'w')
+    ftele3 = open('180227Result-AddressBook.txt', 'w')
     ftele3.writelines(lines)
 
     # 关闭文件
