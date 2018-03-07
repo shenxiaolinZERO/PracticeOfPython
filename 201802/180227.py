@@ -12,22 +12,30 @@ def main():
     ftele2.readline()
     lines1 = ftele1.readlines()
     lines2 = ftele2.readlines()
+    print("lines1是：", lines1)
+    # for line in ftele1:
+    #     print(str(line.decode('gbk')))
+    # print("\n《邮件簿》如下：")
+    # for line in ftele2:
+    #     print(str(line.decode('gbk')))
+
 
     list1_name = []
     list1_tele = []
     list2_name = []
     list2_email = []
 
+    print("lines1是：", lines1)
     for line in lines1:  # 获取第一个文本中的姓名和电话信息
         elements = line.split()
         list1_name.append(str(elements[0].decode('gbk')))
         list1_tele.append(str(elements[1].decode('gbk')))  # 将文本读出来的bytes转换为str类型
-
+    print("11111", list1_name)
     for line in lines2:  # 获取第二个文本中的姓名和邮件信息
         elements = line.split()
         list2_name.append(str(elements[0].decode('gbk')))
         list2_email.append(str(elements[1].decode('gbk')))
-
+    print("22222", list2_email)
     ###开始处理###
     lines = []
     lines.append('姓名\t    电话   \t  邮箱\n')
@@ -58,6 +66,7 @@ def main():
 
     ftele3 = open('AddressBook-ref.txt', 'w')
     ftele3.writelines(lines)
+
     ftele3.close()
     ftele1.close()
     ftele2.close()

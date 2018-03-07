@@ -101,18 +101,16 @@ def AddressMain():
     # 打开文件、读取文件：（因为文件是中文，所以打开方式是rb，读取出来二进制数据）
     ftele1 = open('180227data2-TeleAddressBook.txt', 'rb')
     ftele2 = open('180227data2-EmailAddressBook.txt', 'rb')
-
-    print("《电话簿》如下：")
-    for line in ftele1:
-        print(str(line.decode('gbk')))
-    print("\n《邮件簿》如下：")
-    for line in ftele2:
-        print(str(line.decode('gbk')))
     ftele1.readlines()  # 跳过第一行
     ftele2.readlines()
     lines1 = ftele1.readlines()
     lines2 = ftele2.readlines()
-
+    # print("《电话簿》如下：")
+    # for line in ftele1:
+    #     print(str(line.decode('gbk')))
+    # print("\n《邮件簿》如下：")
+    # for line in ftele2:
+    #     print(str(line.decode('gbk')))
     # 建立空列表用于存储姓名、电话、Email：
     list1_name = []
     list1_tele = []
@@ -138,7 +136,6 @@ def AddressMain():
     # 2.按索引方式遍历姓名列表1
     for i in range(len(list1_name)):
         s = ''
-
         if list1_name[i] in list2_name:
             j = list2_name.index(list1_name[i])  # 找到姓名列表1对应列表2中的姓名索引位置
             s = '\t'.join([list1_name[i],list1_tele[i],list2_email[j]])
@@ -172,5 +169,5 @@ def AddressMain():
     ftele2.close()
 
     print("\nThe AddressBooks are merged !")
-if __name__ == '__main__':
-    AddressMain()
+
+AddressMain()
