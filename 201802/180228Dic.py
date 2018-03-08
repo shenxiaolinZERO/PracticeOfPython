@@ -2,6 +2,7 @@
 # encoding: utf-8
 __author__ = 'Administrator'
 
+# >1hours
 
 #字典是针对非序列集合而提供的一种数据类型，灵活地查找信息。
 #是一种“键值对”。
@@ -86,3 +87,4 @@ print(" 删除并返回字典中key对应的值：",students3.pop("2302018001"))
 print("删除后的字典为：",students3) #删除后的字典为： {'2302017002': 'Peter'}
 print("删除字典中所有项目后：",students3.clear()) #删除字典中所有项目后： None
 print(students3) #{}
+
