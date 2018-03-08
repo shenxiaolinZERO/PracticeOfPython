@@ -128,10 +128,81 @@ def CountOccurencesOfWords():
     t.width(3)
     drawGraph(t)
 
-if __name__ == '__main__':
-    CountOccurencesOfWords()
 
-#程序运行结果：
+#---------------字典实例2：
+# 同180227FileExample
+# 将电话簿TeleAddressBook.txt和电子邮件EmailAddressBook.txt合并为一个完整的AddressBook.txt
+#（不同的是：此处利用字典结构将两个通讯录合并为一个文本）
+
+# 利用字典将两个通讯录文本合并为一个文本
+def MergeAddress():
+    #打开并读取文件
+    ftele2 = open('180227data2-TeleAddressBook.txt', 'rb')
+    ftele1 = open('180227data2-EmailAddressBook.txt', 'rb')
+
+    ftele1.readline()  # 跳过第一行
+    ftele2.readline()
+    lines1 = ftele1.readlines()
+    lines2 = ftele2.readlines()
+
+    #建立空字典dic1,dic2存储姓名、电话和邮箱：
+    dic1 = {}  # 字典方式保存
+    dic2 = {}
+
+    for line in lines1:  # 获取第一个本文中的姓名和电话信息
+        elements = line.split()
+        # 将文本读出来的bytes转换为str类型
+        dic1[elements[0]] = str(elements[1].decode('gbk'))
+
+    for line in lines2:  # 获取第二个本文中的姓名和电话信息
+        elements = line.split()
+        dic2[elements[0]] = str(elements[1].decode('gbk'))
+
+    ###文件合并开始处理###
+    #生成新的数据表头
+    lines = []
+    lines.append('姓名\t    电话   \t  邮箱\n')
+
+    #按字典键的操作遍历姓名列表1
+    for key in dic1:
+        s = ''
+        if key in dic2.keys(): #处理与表2重名的信息
+            s = '\t'.join([str(key.decode('gbk')), dic1[key], dic2[key]])
+            s += '\n'
+        else: #处理其他信息
+            s = '\t'.join([str(key.decode('gbk')), dic1[key], str('   -----   ')])
+            s += '\n'
+        lines.append(s)
+
+    for key in dic2: #处理列表2中剩余的姓名
+        s = ''
+        if key not in dic1.keys():
+            s = '\t'.join([str(key.decode('gbk')), str('   -----   '), dic2[key]])
+            s += '\n'
+        lines.append(s)
+
+        # 将新生成的合并数据写入新的文件中：
+    print("\n新生成的数据为：")
+    for line in lines:
+        print(line)  # for循环输出的line正常显示，而直接输出print(lines)则含\t等符号
+
+    #将新生成的合并数据写入新文件。
+    ftele3 = open('180228Result-AddressBook.txt', 'w')
+    ftele3.writelines(lines)
+
+    ftele3.close()
+    ftele1.close()
+    ftele2.close()
+    print("The addressBooks are merged!")
+
+
+
+
+
+if __name__ == '__main__':
+    # CountOccurencesOfWords()
+     MergeAddress()
+#CountOccurencesOfWords()程序运行结果：
 # the	7
 # you	6
 # connect	4
@@ -142,3 +213,22 @@ if __name__ == '__main__':
 # trust	2
 # that	2
 # looking	2
+
+
+# MergeAddress() 程序运行结果：
+# 新生成的数据为：
+# 姓名	    电话   	  邮箱
+#
+# 王五	4562139@139.com	14256327845
+#
+# 赵六	liuzhao@gmail.com	15859632356
+#
+# 斯嘉丽	123456@edu.com	   -----
+#
+# 李四	52637891@163.com	13969524561
+#
+# 张三	57321562@qq.com	18296324569
+#
+# 黄七	   -----   	56278451289
+#
+# The addressBooks are merged!
