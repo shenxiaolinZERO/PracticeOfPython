@@ -88,3 +88,17 @@ print("删除后的字典为：",students3) #删除后的字典为： {'23020170
 print("删除字典中所有项目后：",students3.clear()) #删除字典中所有项目后： None
 print(students3) #{}
 
+
+#项目的一个例子：
+# f = open('..\\data\\dataset1\\test\\item_session_times_dic', 'rb')
+# item_session_times_dic = pickle.load(f)
+# print(item_session_times_dic[(294143, 356808)])
+# for key, value in item_session_times_dic.items():
+#     print(key,value)  #key为（item，session）元组，
+# (294143, 356808)   9
+# (356471, 1069914)  1
+# (112203, 1061214)  1
+# print(key[0])  #输出字典的key的第一个元素，也就是item了
+
+# for k in key:
+#     print(k)  #输出的是字典的键，此处键为（item，session）的元组
