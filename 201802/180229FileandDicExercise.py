@@ -43,3 +43,6 @@ def exercise4():
     import jieba
     print(jieba.lcut(strCN))  # 输出结果为：['中国', '是', '一个', '伟大', '的', '国家']
 # exercise4()
+
+
+#5. 文件、字典有哪些常用方法？？？
