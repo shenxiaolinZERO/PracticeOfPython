@@ -91,7 +91,7 @@ def processLine(line,wordCounts):
 #空格替换标点的函数  replacePunctuations(line)
 def replacePunctuations(line):
     for ch in line:
-        if ch in "~@#$%^&*()_-+=<>?/,.:;{}[]|\'""":
+        if ch in "~!@#$%^&*()_-+=<>?/,.:;{}[]|\'""":
             line=line.replace(ch,"")
     return line
 
