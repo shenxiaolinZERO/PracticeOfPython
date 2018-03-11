@@ -28,14 +28,18 @@ def exercise1():
     # fo.close()
 
 #3. 哈姆雷特词频统计
-
-
+def exercise3_CountOccurencesOfWords():
+    #第一步：分解并提取英文文章的单词
+    ## 详见180230……
+    return 180230
 
 #4. 中文分词学习
-strEN="China is a great country"
-print(strEN.split()) #输出结果为：['China', 'is', 'a', 'great', 'country']
+def exercise4():
+    strEN = "China is a great country"
+    print(strEN.split())  # 输出结果为：['China', 'is', 'a', 'great', 'country']
 
-strCN="中国是一个伟大的国家"
-print(strCN.split()) #输出结果为：['中国是一个伟大的国家']……分词失败
-import jieba
-print(jieba.lcut(strCN))  #输出结果为：['中国', '是', '一个', '伟大', '的', '国家']
+    strCN = "中国是一个伟大的国家"
+    print(strCN.split())  # 输出结果为：['中国是一个伟大的国家']……分词失败
+    import jieba
+    print(jieba.lcut(strCN))  # 输出结果为：['中国', '是', '一个', '伟大', '的', '国家']
+# exercise4()

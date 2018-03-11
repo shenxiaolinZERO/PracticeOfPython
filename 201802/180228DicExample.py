@@ -201,8 +201,8 @@ def MergeAddress():
 
 
 if __name__ == '__main__':
-    # CountOccurencesOfWords()
-     MergeAddress()
+    CountOccurencesOfWords()
+     # MergeAddress()
 #CountOccurencesOfWords()程序运行结果：
 # the	7
 # you	6
