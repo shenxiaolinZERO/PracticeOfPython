@@ -2,7 +2,7 @@
 # encoding: utf-8
 __author__ = 'Administrator'
 
-#计算思维：运用计算机科学基础概念求解问题、设计系统和理解人类行为
+#----------------------------------计算思维：运用计算机科学基础概念求解问题、设计系统和理解人类行为
 #计算思维的本质：
 #1、抽象（Abstraction）、自动化（Automation）
 #2、实证思维、逻辑思维、计算思维
@@ -26,5 +26,16 @@ __author__ = 'Administrator'
 #  球员B获胜场次：232（46.4%）
 
 
-#自顶向下的设计
-## 顶层设计
+#----------------------------------自顶向下的设计
+## 基本思想：总问题分解为几个子问题，各个子问题的解决，最后解决总问题。
+#第一阶段：
+#  步骤1：打印程序的介绍性信息：printIntro()
+#  步骤2：获得程序运行所需的参数：proA,proB,n =getInputs()
+#  步骤3：模拟n次比赛：winsA,winsB=simNGames(n,proA,proB)
+#  步骤4：输出球员A和B获胜比赛的次数和概率：printSummary(winsA,winsB)
+#  codes:
+def main():
+    printIntro()
+    proA, proB, n = getInputs()
+    winsA, winsB = simNGames(n, proA, proB)
+    printSummary(winsA, winsB)
