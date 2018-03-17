@@ -33,9 +33,22 @@ __author__ = 'Administrator'
 #  步骤2：获得程序运行所需的参数：proA,proB,n =getInputs()
 #  步骤3：模拟n次比赛：winsA,winsB=simNGames(n,proA,proB)
 #  步骤4：输出球员A和B获胜比赛的次数和概率：printSummary(winsA,winsB)
-#  codes:
-def main():
-    printIntro()
-    proA, proB, n = getInputs()
-    winsA, winsB = simNGames(n, proA, proB)
-    printSummary(winsA, winsB)
+# codes:
+#     def main():
+#         printIntro()
+#         proA, proB, n = getInputs()
+#         winsA, winsB = simNGames(n, proA, proB)
+#         printSummary(winsA, winsB)
+
+#第二阶段：
+#printIntro()函数：
+def printIntro():
+    print("This program simulates a game between two")
+    print("There are two players, A and B")
+    print("Probability (a number between 0 and 1) is used ")
+#getInputs()函数：
+def getInputs():
+    a=eval(input("What is the prob.player A wins ?"))
+    b=eval(input("What is the prob.player B wins ?"))
+    n=eval(input("How many games to simulate ?"))
+    return a,b,n
