@@ -51,6 +51,13 @@ class Student:
     def GPA(self):
         return self.qpoints/self.hours
 
+
+## aaa ，这个思路！！
+def makeStudent(infoStr):
+    name,hours,qpoints=infoStr.split(",")
+    return Student(name,hours,qpoints)
+
+
 #GPA 算法描述为：
 #1 获取文件名
 #2 打开文件
@@ -60,14 +67,56 @@ class Student:
 #        设置s为best
 #5 打印best学生的信息
 def main ():
-    stu=Student() #实例化学生类
-    fileName=input("Please enter the grade file's name").strip() #删除开头结尾处的空格
-    infile=open(fileName,"r")
-    # infile=open("180304students.dat")
+    # stu=Student() #实例化学生类
+    # fileName=input("Please enter the grade file's name").strip() #删除开头结尾处的空格
+    #打开输入文件
+    # infile=open(fileName,"r")
+    infile=open("180304students.dat","r")
 
-    students=infile.readlines() #读取文件中的所有行。返回值为整个文件内容的列表
-    for stu in students:
-        elements=stu.split()
-        name=elements[0]
-        hours=elements[1]
-        qpoints=elements[3]
+    # 设置文件中第一个学生的记录为 best
+    best=makeStudent(infile.readline()) # readline()读取第一行
+
+    # students=infile.readlines() # readlines()读取文件中的所有行。返回值为整个文件内容的列表
+    # for stu in students:
+    #     elements=stu.split()
+    #     name=elements[0]
+    #     hours=elements[1]
+    #     qpoints=elements[3]
+
+    #处理文件剩余行数据
+    for line in infile:
+        #将每一行数据转换为一个记录
+        s=makeStudent(line)
+        #如果该学生是目前GPA最高的，则记录下来
+        if s.GPA()> best.GPA():
+            best=s
+    infile.close()
+
+
+    # 打印GPA成绩最高的学生信息
+    print("The best student is:", best.getName())
+    print("hours:", best.getHours())
+    print("GPA:", best.GPA())
+
+
+if __name__ == '__main__':
+    main()
+
+
+#--------------
+#输入数据文件为：
+# Zhang San,127,228
+# Li Si,100,400
+# Wang Wu,18,41.5
+# Ma Liu,48.5,155
+# Sun Qi,37,125.33
+
+#输出结果为：
+# The best student is: Li Si
+# hours: 100.0
+# GPA: 4.0
+
+#而MOOC给的结果：
+# The best student is: Sun Qi
+# hours: 37.0
+# GPA: 3.387297297

@@ -22,8 +22,12 @@ from pandas import Series,DataFrame
 # data={"name":["Kangkang","Michale","Jane","Maria"],"age":["18","19","20","21"]}
 # dataFrame=DataFrame(data,columns=["name","age","score"])
 # print(dataFrame)
-filepath1=r"I:\Papers\consumer\codeandpaper\TmallCode\\new_code_new_implicit\\new_code\data\dataset1\implicit\train_implicit\session_item.txt"
-filepath2=r"I:\Papers\consumer\codeandpaper\TmallCode\\new_code_new_implicit\\new_code\data\dataset1\implicit\train_implicit\items.txt"
+filepath1=r"I:\Papers\consumer\codeandpaper\TmallCode\new_code_new_implicit\new_code\data\dataset1\train\session_item.txt"
+filepath2=r"I:\Papers\consumer\codeandpaper\TmallCode\new_code_new_implicit\new_code\data\dataset1\train\items.txt"
+
+# r"I:\Papers\consumer\codeandpaper\TmallCode\\new_code_new_implicit\\new_code\data\dataset1\implicit\train_implicit\session_item.txt"
+# r"I:\Papers\consumer\codeandpaper\TmallCode\\new_code_new_implicit\\new_code\data\dataset1\implicit\train_implicit\items.txt"
+
 
 infile1=open(filepath1,"r")
 infile2=open(filepath2,"r")
@@ -37,15 +41,18 @@ for session in lines:
     explicit_item_len=len(explicit_item)
     item_sum+=explicit_item_len
 average1=item_sum/session_len
-print("一共有 %d 个session。"%session_len)
-print("一共有 %d 个explicit item。(session_item文件中的第二列总数)"%item_sum)
-print("每个session平均有 %d 个explicit item。"%average1)
+# print("一共有 %d 个session。"%session_len)
+# print("一共有 %d 个explicit item。(session_item文件中的第二列总数)"%item_sum)
+# print("每个session平均有 %d 个explicit item。"%average1)
 
+print("一共有 %d 个session。"%session_len)
+print("一共有 %d 个buy item。(session_item文件中的第二列总数)"%item_sum)
+print("每个session平均有 %d 个buy item。"%average1)
 
 print("\\\\\\\\\\")
 item_line=infile2.readline()
 item_split=item_line.split()
 explicit_item=len(item_line)
-print("item文件总共有 %d 个explicit_item"%explicit_item)
 average2=explicit_item/session_len
-print("每个session平均有 %d 个explicit item。"%average2)
+# print("item文件总共有 %d 个explicit_item"%explicit_item)
+# print("每个session平均有 %d 个explicit item。"%average2)
