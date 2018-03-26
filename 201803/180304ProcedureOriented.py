@@ -72,13 +72,13 @@ def ShotFlight():
 
 
 #------------程序模块化
-def mainModule():
-    angle,vel,h0,time=getInput()
-    xpos,ypos=0,h0
-    xvel,yvel=getXYComponents(vel,angle)
-    while ypos >=0:
-        xpos,ypos,yvel=updatePosition(time,xpos,ypos,xvel,yvel)
-    print("\n Distance traveled:{0:0.1f} meters.".format(xpos))
+# def mainModule():
+#     angle,vel,h0,time=getInput()
+#     xpos,ypos=0,h0
+#     xvel,yvel=getXYComponents(vel,angle)
+#     while ypos >=0:
+#         xpos,ypos,yvel=updatePosition(time,xpos,ypos,xvel,yvel)
+#     print("\n Distance traveled:{0:0.1f} meters.".format(xpos))
 
 
 #面向过程程序设计基本步骤：
