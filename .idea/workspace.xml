@@ -68,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/Pandas/dataframe.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
-              <caret line="323" column="7" lean-forward="true" selection-start-line="323" selection-start-column="4" selection-end-line="323" selection-end-column="7" />
+              <caret line="323" column="52" lean-forward="false" selection-start-line="323" selection-start-column="52" selection-end-line="323" selection-end-column="52" />
               <folding>
                 <element signature="e#70#89#0" expanded="true" />
               </folding>
@@ -168,7 +168,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="619" />
+    <option name="x" value="613" />
     <option name="y" value="24" />
     <option name="width" value="1180" />
     <option name="height" value="812" />
@@ -590,7 +590,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="619" y="24" width="1180" height="812" extended-state="0" />
+    <frame x="613" y="24" width="1180" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -836,7 +836,7 @@
     <entry file="file://$PROJECT_DIR$/Pandas/dataframe.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
-          <caret line="323" column="7" lean-forward="true" selection-start-line="323" selection-start-column="4" selection-end-line="323" selection-end-column="7" />
+          <caret line="323" column="52" lean-forward="false" selection-start-line="323" selection-start-column="52" selection-end-line="323" selection-end-column="52" />
           <folding>
             <element signature="e#70#89#0" expanded="true" />
           </folding>
