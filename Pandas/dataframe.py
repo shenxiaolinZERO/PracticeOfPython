@@ -332,9 +332,9 @@ print(df1)
 # 2018-03-04 -0.015582  1.540852 -0.792882 -0.380751  NaN
 
 #2. 去掉包含缺失值的行：
-df1=df1.dropna(how='any')
-print(df1)
-#                    A         B         C         D    E
+# df1=df1.dropna(how='any')
+# print(df1)
+# #                    A         B         C         D    E
 # 2018-03-01 -0.914568  0.784980 -1.698139 -0.096874  1.0
 # 2018-03-02 -0.410249 -0.494166  0.932946 -0.467547  1.0
 
@@ -347,4 +347,11 @@ print(df1)
 # 2018-03-03 -1.589094 -0.517478 -0.164942 -0.507224  5.0
 # 2018-03-04  2.363145  2.089114 -0.081683 -0.184851  5.0
 
-#4.
+#4.对数据进行布尔填充
+df1=pd.isnull(df1)
+print(df1)
+#                 A      B      C      D      E
+# 2018-03-01  False  False  False  False  False
+# 2018-03-02  False  False  False  False  False
+# 2018-03-03  False  False  False  False  False
+# 2018-03-04  False  False  False  False  False
