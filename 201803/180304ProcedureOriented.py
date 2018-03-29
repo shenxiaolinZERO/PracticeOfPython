@@ -48,7 +48,7 @@ def ShotFlight():
     #x轴的速度
     xvel=vel*cos(theta)
     #y轴的速度
-    yvel=vel*cos(theta)
+    yvel=vel*sin(theta)
 
     #程序主循环：
     while ypos >=0:
