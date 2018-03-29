@@ -519,7 +519,7 @@ print(df1)
 # 6 -0.442280  0.539277 -1.428910  1.060193
 # 7  0.257239 -2.034086  1.121833  1.518571
 # 8 -0.851987 -0.821248  0.125836  0.819543
-'''
+
 
 #七、分组
 #对于“group by”操作，我们通常是指以下一个或多个操作步骤：
@@ -561,3 +561,76 @@ print(dfg2)
 #     three -0.486434 -0.930165
 #     two    1.215156  2.360629
 
+#八、Reshapeing
+#1、Stack
+tuples=list(zip(*[['bar','bar','baz','baz','foo','foo','quz','quz'],
+                  ['one','two','one','two','one','two','one','two']]))
+index=pd.MultiIndex.from_tuples(tuples,names=['first','second'])
+df=pd.DataFrame(np.random.randn(8,2),index=index,columns=['A','B'])
+df2=df[:4]
+print(df2)
+#                      A         B
+# first second
+# bar   one     1.146806  0.413660
+#       two    -0.241280 -0.756498
+# baz   one    -0.429149 -1.598932
+#       two     0.103805 -2.092773
+
+stacked=df2.stack()
+print(stacked)
+# first  second
+# bar    one     A   -0.671894
+#                B    0.488440
+#        two     A   -0.085894
+#                B   -0.888060
+# baz    one     A   -0.647487
+#                B   -1.573074
+#        two     A    0.084324
+#                B   -0.216785
+# dtype: float64
+
+stacked0=stacked.unstack()
+print(stacked0)
+#                      A         B
+# first second
+# bar   one    -2.281352  0.683124
+#       two    -2.555841  0.020481
+# baz   one     1.007699 -0.605463
+#       two     1.177308  0.833826
+stacked1=stacked.unstack(1)
+print(stacked1)
+# second        one       two
+# first
+# bar   A -2.281352 -2.555841
+#       B  0.683124  0.020481
+# baz   A  1.007699  1.177308
+#       B -0.605463  0.833826
+stacked2=stacked.unstack(0)
+print(stacked2)
+# first          bar       baz
+# second
+# one    A -0.279379  0.011654
+#        B  0.713347  0.482510
+# two    A -0.980093  0.536366
+#        B -0.378279 -1.023949
+'''
+#2、数据透视表
+df=pd.DataFrame({'A':['one','one','two','three']*3,
+                 'B':['A','B','C']*4,
+                 'C':['foo','foo','foo','bar','bar','bar']*2,
+                 'D':np.random.randn(12),
+                 'E':np.random.randn(12) })
+print(df)
+#         A  B    C         D         E
+# 0     one  A  foo -1.037929 -0.967839
+# 1     one  B  foo  0.143201  1.936801
+# 2     two  C  foo -1.108452  1.350176
+# 3   three  A  bar  0.696497  0.578974
+# 4     one  B  bar -1.206393  1.218049
+# 5     one  C  bar -0.814728  0.440277
+# 6     two  A  foo -2.039865 -1.298114
+# 7   three  B  foo -0.155810 -0.249138
+# 8     one  C  foo -0.436593  0.548266
+# 9     one  A  bar -2.236853 -1.218478
+# 10    two  B  bar -0.542738 -1.018322
+# 11  three  C  bar -0.657995 -0.772053
