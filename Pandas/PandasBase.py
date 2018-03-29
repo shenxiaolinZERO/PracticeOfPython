@@ -668,4 +668,26 @@ print(pdtable)
 # ........
 
 #十一、画图
+ts=pd.Series(np.random.randn(1000),index=pd.date_range('1/1/2018',periods=1000))
+ts=ts.cumsum()
+ts.plot()
+# ........
+# ........
 
+#十二、导入和保存数据
+#（一）CSV
+#1、写入 csv文件
+df.to_csv('foo.csv')
+#2、从CSV文件中读取：
+pd.read_csv('foo.csv')
+
+#（二）HDF5
+#1、
+# ........
+# ........
+
+#（三）Excel
+#1、写入excel文件：
+df.to_excel('foo.xlsx',sheet_name='Sheet1')
+#2、从excel文件中读取：
+pd.read_excel('foo.xlsx','Sheet1',index_col=None,na_values=['NA'])
