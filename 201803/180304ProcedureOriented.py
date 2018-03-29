@@ -57,18 +57,16 @@ def ShotFlight():
         ypos=ypos+time*(yvel+yvel1)/2.0
         yvel1=yvel
     print("\n Distance traveled :{0:0.1f}meters.".format(xpos))
+ShotFlight()
 
 #程序运行结果：
-# This program simulates a game between two.
-# There are two players, A and B.
-# Probability (a number between 0 and 1) is used
-# What is the prob.player A wins ?0.5
-# What is the prob.palyer B wins ?0.5
-# How many games to simulate ?10
+# Enter the launch angle (in degrees):30
+# Enter the initial velocity(in meters/sec):20
+# Enter the initial height (in meters):50
+# Enter the time interval:60
 #
-# Game simulated:10
-# Wins for A:7(70.0%)
-# Wins for B:3(30.0%)
+#  Distance traveled :1039.2meters.
+
 
 
 #------------程序模块化
