@@ -358,7 +358,7 @@ print(df1)
 # 2018-03-03  False  False  False  False  False
 # 2018-03-04  False  False  False  False  False
 
-'''
+
 
 
 #五、相关操作
@@ -403,4 +403,39 @@ print(df.apply(lambda x:x.max()-x.min()))
 # dtype: float64
 
 # （三）直方图
-s=
+s=pd.Series(np.random.randint(0,7,size=10))
+print(s)
+# 0    2
+# 1    6
+# 2    6
+# 3    3
+# 4    3
+# 5    4
+# 6    4
+# 7    6
+# 8    6
+# 9    2
+# dtype: int32
+print(s.value_counts())
+# 6    4
+# 4    2
+# 3    2
+# 2    2
+# dtype: int64
+'''
+
+# （四）字符串方法
+# Series对象在其str属性中配备了一组字符串处理方法，可以很容易的应用到数组中的每个元素，如下段代码所示。
+s=pd.Series(['A','B','C','Aaba','Baca',np.nan,'CABA','dog','cat'])
+print(s.str.lower())
+# 0       a
+# 1       b
+# 2       c
+# 3    aaba
+# 4    baca
+# 5     NaN
+# 6    caba
+# 7     dog
+# 8     cat
+# dtype: object
+
