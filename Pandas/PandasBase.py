@@ -5,6 +5,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+#【Reference】十分钟搞定pandas
+# https://www.cnblogs.com/chaosimple/p/4153083.html
+
 #一、创建对象
 #1. 通过传递一个list对象来创建一个Series，pandas会默认创建整型索引：
 s=pd.Series([1,3,4,np.nan,6,8])
@@ -613,7 +616,7 @@ print(stacked2)
 #        B  0.713347  0.482510
 # two    A -0.980093  0.536366
 #        B -0.378279 -1.023949
-'''
+
 #2、数据透视表
 df=pd.DataFrame({'A':['one','one','two','three']*3,
                  'B':['A','B','C']*4,
@@ -648,7 +651,21 @@ print(pdtable)
 # two   A       NaN -0.249317
 #       B  0.341066       NaN
 #       C       NaN  0.706030
-
+'''
 #九、时间序列
 #Pandas在对频率转换进行重新采样时拥有简单、强大且高效的功能（如将按秒采样的数据转换为按5分钟为单位进行采样的数据）。这种操作在金融领域非常常见。
+# rng=pd.date_range('1/1/2018',periods=100,freq='S')
+# ts=pd.Series(np.random.randint(0,500,len(rng)),index=rng)
+# ts0=ts.resample('5Min',how='sum')
+# ........
+# ........
+
+#十、Categorical
+#从0.15版本开始，pandas可以在DataFrame中支持Categorical类型的数据
+
+#1、将原始的grade转换为Categorical数据类型：
+# ........
+# ........
+
+#十一、画图
 

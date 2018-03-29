@@ -22,6 +22,7 @@
     <SUITE FILE_PATH="coverage/PracticeOfPython$180131TempConvert.coverage" NAME="180131TempConvert Coverage Results" MODIFIED="1517380241908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180305ObjectOriented.coverage" NAME="180305ObjectOriented Coverage Results" MODIFIED="1521816416068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180225FileBase.coverage" NAME="180225FileBase Coverage Results" MODIFIED="1519892595204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PracticeOfPython$PandasBase.coverage" NAME="PandasBase Coverage Results" MODIFIED="1522332486257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180213Exceptions.coverage" NAME="180213Exceptions Coverage Results" MODIFIED="1518430076811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180229FileandDicExercise.coverage" NAME="180229FileandDicExercise Coverage Results" MODIFIED="1520600219163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201802" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180130NumPy.coverage" NAME="180130NumPy Coverage Results" MODIFIED="1517244968195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -67,8 +68,8 @@
       <file leaf-file-name="PandasBase.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pandas/PandasBase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="653" column="0" lean-forward="false" selection-start-line="653" selection-start-column="0" selection-end-line="653" selection-end-column="0" />
+            <state relative-caret-position="189">
+              <caret line="667" column="10" lean-forward="true" selection-start-line="667" selection-start-column="10" selection-end-line="667" selection-end-column="10" />
               <folding>
                 <element signature="e#70#89#0" expanded="true" />
               </folding>
@@ -158,6 +159,7 @@
         <option value="$PROJECT_DIR$/201803/180305ObjectOriented.py" />
         <option value="$PROJECT_DIR$/201803/180306OOExample.py" />
         <option value="$PROJECT_DIR$/Pandas/dataframe.py" />
+        <option value="$PROJECT_DIR$/Pandas/PandasBase.py" />
       </list>
     </option>
   </component>
@@ -168,7 +170,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="568" />
+    <option name="x" value="626" />
     <option name="width" value="1154" />
     <option name="height" value="860" />
   </component>
@@ -261,7 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dataframe">
+  <component name="RunManager" selected="Python.PandasBase">
     <configuration name="0318" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,25 +278,6 @@
       <module name="PracticeOfPython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0318.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="180302PM-SimulateGame" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/201803" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PracticeOfPython" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/201803/180302PM-SimulateGame.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,6 +316,25 @@
       <module name="PracticeOfPython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/180320CountDays.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="PandasBase" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PracticeOfPython" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/PandasBase.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -573,17 +575,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.0318" />
       <item index="1" class="java.lang.String" itemvalue="Python.180320CountDays" />
-      <item index="2" class="java.lang.String" itemvalue="Python.180302PM-SimulateGame" />
-      <item index="3" class="java.lang.String" itemvalue="Python.180305ObjectOriented" />
-      <item index="4" class="java.lang.String" itemvalue="Python.dataframe" />
+      <item index="2" class="java.lang.String" itemvalue="Python.180305ObjectOriented" />
+      <item index="3" class="java.lang.String" itemvalue="Python.dataframe" />
+      <item index="4" class="java.lang.String" itemvalue="Python.PandasBase" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.dataframe" />
-        <item index="1" class="java.lang.String" itemvalue="Python.180320CountDays" />
-        <item index="2" class="java.lang.String" itemvalue="Python.180305ObjectOriented" />
-        <item index="3" class="java.lang.String" itemvalue="Python.0318" />
-        <item index="4" class="java.lang.String" itemvalue="Python.180302PM-SimulateGame" />
+        <item index="0" class="java.lang.String" itemvalue="Python.PandasBase" />
+        <item index="1" class="java.lang.String" itemvalue="Python.dataframe" />
+        <item index="2" class="java.lang.String" itemvalue="Python.180320CountDays" />
+        <item index="3" class="java.lang.String" itemvalue="Python.180305ObjectOriented" />
+        <item index="4" class="java.lang.String" itemvalue="Python.0318" />
       </list>
     </recent_temporary>
   </component>
@@ -604,7 +606,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="568" y="0" width="1154" height="860" extended-state="0" />
+    <frame x="626" y="0" width="1154" height="860" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -612,7 +615,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15539305" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.053016454" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -848,8 +851,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pandas/PandasBase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="653" column="0" lean-forward="false" selection-start-line="653" selection-start-column="0" selection-end-line="653" selection-end-column="0" />
+        <state relative-caret-position="189">
+          <caret line="667" column="10" lean-forward="true" selection-start-line="667" selection-start-column="10" selection-end-line="667" selection-end-column="10" />
           <folding>
             <element signature="e#70#89#0" expanded="true" />
           </folding>
