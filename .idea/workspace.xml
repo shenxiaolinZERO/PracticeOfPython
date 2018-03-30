@@ -52,11 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="180315OSplatformProgram.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/201803/180315OSplatformProgram.py">
+      <file leaf-file-name="180316OfficeProgram.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/201803/180316OfficeProgram.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="356">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -124,6 +124,7 @@
         <option value="$PROJECT_DIR$/201803/180313TurtleArt-Rainbow.py" />
         <option value="$PROJECT_DIR$/201803/180314PythonLibrary.py" />
         <option value="$PROJECT_DIR$/201803/190315OSplatformProgram.py" />
+        <option value="$PROJECT_DIR$/201803/180316OfficeProgram.py" />
       </list>
     </option>
   </component>
@@ -617,6 +618,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="566" y="14" width="945" height="860" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -653,7 +655,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/180208Libofmath&amp;random.py" />
     <entry file="file://$PROJECT_DIR$/180209CalculatePi.py" />
     <entry file="file://$PROJECT_DIR$/180210StringFormat.py" />
     <entry file="file://$PROJECT_DIR$/180211ProgramStructure.py" />
@@ -933,6 +934,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201803/180316OfficeProgram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
