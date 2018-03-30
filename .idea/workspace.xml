@@ -13,6 +13,7 @@
     <SUITE FILE_PATH="coverage/PracticeOfPython$180320CountDays.coverage" NAME="180320CountDays Coverage Results" MODIFIED="1522333651490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180210StringFormat.coverage" NAME="180210StringFormat Coverage Results" MODIFIED="1518339576056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180227FileExample.coverage" NAME="180227FileExample Coverage Results" MODIFIED="1520505177619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201802" />
+    <SUITE FILE_PATH="coverage/PracticeOfPython$180309TurtleIntroduction.coverage" NAME="180309TurtleIntroduction Coverage Results" MODIFIED="1522413800647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180201PythonGrammar.coverage" NAME="180201PythonGrammar Coverage Results" MODIFIED="1517819239507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$0000.coverage" NAME="0000 Coverage Results" MODIFIED="1520427547454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201802" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180212Quadratic.coverage" NAME="180212Quadratic Coverage Results" MODIFIED="1518356208872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -47,12 +48,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="180308GraphicProgram.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/201803/180308GraphicProgram.py">
+      <file leaf-file-name="180309TurtleIntroduction.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/201803/180309TurtleIntroduction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="356">
+              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <element signature="e#270#283#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,6 +115,7 @@
         <option value="$PROJECT_DIR$/201803/180306OOExample.py" />
         <option value="$PROJECT_DIR$/201803/180307OOCharacteristic.py" />
         <option value="$PROJECT_DIR$/201803/180308GraphicProgram.py" />
+        <option value="$PROJECT_DIR$/201803/180309TurtleIntroduction.py" />
       </list>
     </option>
   </component>
@@ -261,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.180306OOExample">
+  <component name="RunManager" selected="Python.180309TurtleIntroduction">
     <configuration name="180304ProcedureOriented" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,6 +304,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="180309TurtleIntroduction" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/201803" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PracticeOfPython" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/201803/180309TurtleIntroduction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="180320CountDays" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -333,25 +356,6 @@
       <module name="PracticeOfPython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/PandasBase.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="dataframe" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PracticeOfPython" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="I:\GithubCodes\PracticeOfPython\PracticeOfPython\Pandas\PandasBase.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -572,18 +576,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.180320CountDays" />
-      <item index="1" class="java.lang.String" itemvalue="Python.dataframe" />
-      <item index="2" class="java.lang.String" itemvalue="Python.PandasBase" />
-      <item index="3" class="java.lang.String" itemvalue="Python.180304ProcedureOriented" />
-      <item index="4" class="java.lang.String" itemvalue="Python.180306OOExample" />
+      <item index="1" class="java.lang.String" itemvalue="Python.PandasBase" />
+      <item index="2" class="java.lang.String" itemvalue="Python.180304ProcedureOriented" />
+      <item index="3" class="java.lang.String" itemvalue="Python.180306OOExample" />
+      <item index="4" class="java.lang.String" itemvalue="Python.180309TurtleIntroduction" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.180306OOExample" />
-        <item index="1" class="java.lang.String" itemvalue="Python.180304ProcedureOriented" />
-        <item index="2" class="java.lang.String" itemvalue="Python.180320CountDays" />
-        <item index="3" class="java.lang.String" itemvalue="Python.PandasBase" />
-        <item index="4" class="java.lang.String" itemvalue="Python.dataframe" />
+        <item index="0" class="java.lang.String" itemvalue="Python.180309TurtleIntroduction" />
+        <item index="1" class="java.lang.String" itemvalue="Python.180306OOExample" />
+        <item index="2" class="java.lang.String" itemvalue="Python.180304ProcedureOriented" />
+        <item index="3" class="java.lang.String" itemvalue="Python.180320CountDays" />
+        <item index="4" class="java.lang.String" itemvalue="Python.PandasBase" />
       </list>
     </recent_temporary>
   </component>
@@ -613,7 +617,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24632768" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2723164" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -642,7 +646,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/180130NumPy.py" />
     <entry file="file://$PROJECT_DIR$/180202DrawSnake.py" />
     <entry file="file://$PROJECT_DIR$/180201PythonGrammar.py" />
     <entry file="file://$PROJECT_DIR$/180131TempConvert.py" />
@@ -865,9 +868,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/201803/180308GraphicProgram.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="294">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201803/180309TurtleIntroduction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="e#270#283#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
