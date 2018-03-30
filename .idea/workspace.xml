@@ -32,6 +32,7 @@
     <SUITE FILE_PATH="coverage/PracticeOfPython$180207PythonDataType3tuple.coverage" NAME="180207PythonDataType3tuple Coverage Results" MODIFIED="1517985041882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180208Libofmath_random.coverage" NAME="180208Libofmath&amp;random Coverage Results" MODIFIED="1518077629701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$dataframe.coverage" NAME="dataframe Coverage Results" MODIFIED="1522332129877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
+    <SUITE FILE_PATH="coverage/PracticeOfPython$180310ChattingWindow.coverage" NAME="180310ChattingWindow Coverage Results" MODIFIED="1522414080275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180228Dic.coverage" NAME="180228Dic Coverage Results" MODIFIED="1520509180561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201802" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180302PM_SimulateGame.coverage" NAME="180302PM-SimulateGame Coverage Results" MODIFIED="1521645523810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180205PythonDataType.coverage" NAME="180205PythonDataType Coverage Results" MODIFIED="1517821753636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -48,13 +49,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="180309TurtleIntroduction.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="180309TurtleIntroduction.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/201803/180309TurtleIntroduction.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="356">
-              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
               <folding>
                 <element signature="e#270#283#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="180310TkinterExam-ChattingWindow.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/201803/180310TkinterExam-ChattingWindow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+              <folding>
+                <element signature="e#142#163#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,6 +129,7 @@
         <option value="$PROJECT_DIR$/201803/180307OOCharacteristic.py" />
         <option value="$PROJECT_DIR$/201803/180308GraphicProgram.py" />
         <option value="$PROJECT_DIR$/201803/180309TurtleIntroduction.py" />
+        <option value="$PROJECT_DIR$/201803/180310ChattingWindow.py" />
       </list>
     </option>
   </component>
@@ -249,8 +263,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="I:\GithubCodes\PracticeOfPython\PracticeOfPython\data" />
       <recent name="I:\GithubCodes\PracticeOfPython\PracticeOfPython\201803" />
+      <recent name="I:\GithubCodes\PracticeOfPython\PracticeOfPython\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -265,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.180309TurtleIntroduction">
+  <component name="RunManager" selected="Python.180310ChattingWindow">
     <configuration name="180304ProcedureOriented" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,6 +337,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="180310ChattingWindow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/201803" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PracticeOfPython" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="I:\GithubCodes\PracticeOfPython\PracticeOfPython\201803\180310TkinterExam-ChattingWindow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="180320CountDays" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -337,25 +370,6 @@
       <module name="PracticeOfPython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/180320CountDays.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="PandasBase" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PracticeOfPython" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/PandasBase.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -576,18 +590,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.180320CountDays" />
-      <item index="1" class="java.lang.String" itemvalue="Python.PandasBase" />
-      <item index="2" class="java.lang.String" itemvalue="Python.180304ProcedureOriented" />
-      <item index="3" class="java.lang.String" itemvalue="Python.180306OOExample" />
-      <item index="4" class="java.lang.String" itemvalue="Python.180309TurtleIntroduction" />
+      <item index="1" class="java.lang.String" itemvalue="Python.180304ProcedureOriented" />
+      <item index="2" class="java.lang.String" itemvalue="Python.180306OOExample" />
+      <item index="3" class="java.lang.String" itemvalue="Python.180309TurtleIntroduction" />
+      <item index="4" class="java.lang.String" itemvalue="Python.180310ChattingWindow" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.180309TurtleIntroduction" />
-        <item index="1" class="java.lang.String" itemvalue="Python.180306OOExample" />
-        <item index="2" class="java.lang.String" itemvalue="Python.180304ProcedureOriented" />
-        <item index="3" class="java.lang.String" itemvalue="Python.180320CountDays" />
-        <item index="4" class="java.lang.String" itemvalue="Python.PandasBase" />
+        <item index="0" class="java.lang.String" itemvalue="Python.180310ChattingWindow" />
+        <item index="1" class="java.lang.String" itemvalue="Python.180309TurtleIntroduction" />
+        <item index="2" class="java.lang.String" itemvalue="Python.180306OOExample" />
+        <item index="3" class="java.lang.String" itemvalue="Python.180304ProcedureOriented" />
+        <item index="4" class="java.lang.String" itemvalue="Python.180320CountDays" />
       </list>
     </recent_temporary>
   </component>
@@ -646,7 +660,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/180202DrawSnake.py" />
     <entry file="file://$PROJECT_DIR$/180201PythonGrammar.py" />
     <entry file="file://$PROJECT_DIR$/180131TempConvert.py" />
     <entry file="file://$PROJECT_DIR$/180205PythonDataType1numeric.py" />
@@ -877,9 +890,19 @@
     <entry file="file://$PROJECT_DIR$/201803/180309TurtleIntroduction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
-          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding>
             <element signature="e#270#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201803/180310TkinterExam-ChattingWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#142#163#0" expanded="true" />
           </folding>
         </state>
       </provider>
