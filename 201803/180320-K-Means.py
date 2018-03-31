@@ -114,6 +114,7 @@ def showCluster(dataSet,k,centers,clusterAssignment):
     #draw the centroids 图心，几何中心
     for i in range(k):
         plt.plot(centers[i,0],centers[i,1],mark[i],markersize=17)
+    plt.title("K=%d"%k)
     plt.show()
 
 
