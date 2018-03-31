@@ -31,7 +31,7 @@
     <SUITE FILE_PATH="coverage/PracticeOfPython$180317_Numpy.coverage" NAME="180317-Numpy Coverage Results" MODIFIED="1522461325343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180225FileBase.coverage" NAME="180225FileBase Coverage Results" MODIFIED="1519892595204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$PandasBase.coverage" NAME="PandasBase Coverage Results" MODIFIED="1522332848876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
-    <SUITE FILE_PATH="coverage/PracticeOfPython$180319_Matplotlib.coverage" NAME="180319-Matplotlib Coverage Results" MODIFIED="1522465602945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
+    <SUITE FILE_PATH="coverage/PracticeOfPython$180319_Matplotlib.coverage" NAME="180319-Matplotlib Coverage Results" MODIFIED="1522466067243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180213Exceptions.coverage" NAME="180213Exceptions Coverage Results" MODIFIED="1518430076811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180229FileandDicExercise.coverage" NAME="180229FileandDicExercise Coverage Results" MODIFIED="1520600219163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201802" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180306OOExample.coverage" NAME="180306OOExample Coverage Results" MODIFIED="1522334975725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
@@ -71,8 +71,8 @@
       <file leaf-file-name="180319-Matplotlib.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/201803/180319-Matplotlib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="111" column="14" lean-forward="true" selection-start-line="111" selection-start-column="14" selection-end-line="111" selection-end-column="14" />
+            <state relative-caret-position="264">
+              <caret line="119" column="5" lean-forward="false" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -674,7 +674,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/180212Quadratic.py" />
     <entry file="file://$PROJECT_DIR$/180213MultiCase.py" />
     <entry file="file://$PROJECT_DIR$/180213Exceptions.py" />
     <entry file="file://$PROJECT_DIR$/180224DrawSevenSegDisplay.py" />
@@ -980,10 +979,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/201803/180319-pythonlogo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/201803/180319-Matplotlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="111" column="14" lean-forward="true" selection-start-line="111" selection-start-column="14" selection-end-line="111" selection-end-column="14" />
+        <state relative-caret-position="264">
+          <caret line="119" column="5" lean-forward="false" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
           <folding />
         </state>
       </provider>

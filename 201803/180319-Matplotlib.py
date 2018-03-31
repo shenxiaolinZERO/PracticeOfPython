@@ -106,7 +106,15 @@ plt.show()
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
-img=mpimg.imread(".\\pythonlogo.png")
+img=mpimg.imread("180319-pythonlogo.png")
 plt.imshow(img)
 plt.show()
 #  显示结果如下:...
+
+# Traceback (most recent call last):
+#   File "I:/GithubCodes/PracticeOfPython/PracticeOfPython/201803/180319-Matplotlib.py", line 109, in <module>
+#     img=mpimg.imread("180319-pythonlogo.png")
+#   File "C:\Anaconda3\lib\site-packages\matplotlib\image.py", line 1298, in imread
+#     return handler(fd)
+# ValueError: invalid PNG header
+#????
