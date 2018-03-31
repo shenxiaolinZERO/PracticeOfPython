@@ -31,7 +31,7 @@
     <SUITE FILE_PATH="coverage/PracticeOfPython$180317_Numpy.coverage" NAME="180317-Numpy Coverage Results" MODIFIED="1522461325343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180225FileBase.coverage" NAME="180225FileBase Coverage Results" MODIFIED="1519892595204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$PandasBase.coverage" NAME="PandasBase Coverage Results" MODIFIED="1522332848876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
-    <SUITE FILE_PATH="coverage/PracticeOfPython$180319_Matplotlib.coverage" NAME="180319-Matplotlib Coverage Results" MODIFIED="1522466067243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
+    <SUITE FILE_PATH="coverage/PracticeOfPython$180319_Matplotlib.coverage" NAME="180319-Matplotlib Coverage Results" MODIFIED="1522484426081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180213Exceptions.coverage" NAME="180213Exceptions Coverage Results" MODIFIED="1518430076811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180229FileandDicExercise.coverage" NAME="180229FileandDicExercise Coverage Results" MODIFIED="1520600219163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201802" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180306OOExample.coverage" NAME="180306OOExample Coverage Results" MODIFIED="1522334975725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
@@ -81,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="180318-NumpyExam-GPS.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/201803/180318-NumpyExam-GPS.py">
+      <file leaf-file-name="180319-Matplotlib.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/201803/180319-Matplotlib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <state relative-caret-position="87">
+              <caret line="113" column="36" lean-forward="true" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -152,11 +152,11 @@
         <option value="$PROJECT_DIR$/201803/180314PythonLibrary.py" />
         <option value="$PROJECT_DIR$/201803/190315OSplatformProgram.py" />
         <option value="$PROJECT_DIR$/201803/180316OfficeProgram.py" />
-        <option value="$PROJECT_DIR$/201803/180319-Matplotlib.py" />
         <option value="$PROJECT_DIR$/201803/180320-K-Means.py" />
         <option value="$PROJECT_DIR$/201803/180321-PythonDebug.py" />
         <option value="$PROJECT_DIR$/201803/180317-Numpy.py" />
         <option value="$PROJECT_DIR$/201803/180318-NumpyExam-GPS.py" />
+        <option value="$PROJECT_DIR$/201803/180319-Matplotlib.py" />
       </list>
     </option>
   </component>
@@ -306,7 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.180320-K-Means">
+  <component name="RunManager" selected="Python.180319-Matplotlib">
     <configuration name="180313TurtleArt-Rainbow" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -624,8 +624,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.180320-K-Means" />
-        <item index="1" class="java.lang.String" itemvalue="Python.180319-Matplotlib" />
+        <item index="0" class="java.lang.String" itemvalue="Python.180319-Matplotlib" />
+        <item index="1" class="java.lang.String" itemvalue="Python.180320-K-Means" />
         <item index="2" class="java.lang.String" itemvalue="Python.180318-NumpyExam-GPS" />
         <item index="3" class="java.lang.String" itemvalue="Python.180317-Numpy" />
         <item index="4" class="java.lang.String" itemvalue="Python.180313TurtleArt-Rainbow" />
@@ -650,15 +650,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="199" y="23" width="1224" height="804" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39583334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39583334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18127148" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09965636" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -952,14 +951,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201803/180319-Matplotlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="114" column="12" lean-forward="true" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/201802/180208Libofmath&amp;random.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-441">
@@ -1012,6 +1003,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/201803/180318-NumpyExam-GPS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="100" column="19" lean-forward="false" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/201803/180321-PythonDebug.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1020,10 +1019,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201803/180318-NumpyExam-GPS.py">
+    <entry file="file://$PROJECT_DIR$/201803/180319-Matplotlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        <state relative-caret-position="87">
+          <caret line="113" column="36" lean-forward="true" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
           <folding />
         </state>
       </provider>

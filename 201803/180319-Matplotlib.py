@@ -99,9 +99,9 @@ plt.axis([40,160,0,0.03])
 plt.show()
 #  显示结果如下:...
 
-# 初级绘图
-#  matplotlib还有很多功能强大的其他子库，比如可以利用image这个子库，对图像进行操作 g
-#  示例如下， 其中image子库的imread函数将png 图片各个像素点的RGB值存入到numpy的数组中 图片各个像素点的RGB值存入到numpy的数组中
+初级绘图
+ matplotlib还有很多功能强大的其他子库，比如可以利用image这个子库，对图像进行操作 g
+ 示例如下， 其中image子库的imread函数将png 图片各个像素点的RGB值存入到numpy的数组中 图片各个像素点的RGB值存入到numpy的数组中
 
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
