@@ -149,7 +149,6 @@ f=a<35
 print(f) #f 为： [ True  True False False]
 
 
-
 #  非数组的运算可以利用ndarrary类方法实现。
 #  通用函数(ufunc) -- NumPy提供常见的数学函数。如sin cos和exp 如sin, cos和exp。
 #    在NumPy里这些函数作用按数组的元素运算，产生一个数组作为输出。示例如下：
@@ -183,7 +182,7 @@ print(a) #[  0   1   8  27  64 125 216 343 512 729]
 print(a[2]) #8
 print(a[2:5])  #[ 8 27 64]
 b=a[:6:2]=-1000  #equivalent to a[0:6:2]=-1000; from start to position 6,exclusive, set every 2nd element to -1000
-print(b) #-1000?
+print(b) #-1000? 答案应该是：[-1000,1,-1000,27,-1000,125,216,343,512,729
 print(a[::-1]) #reversed a
 # [  729   512   343   216   125 -1000    27 -1000     1 -1000]
 
@@ -210,7 +209,8 @@ print(a*a**-1)
 #  [  4.44089210e-16   1.00000000e+00   4.44089210e-16]
 #  [  0.00000000e+00  -4.44089210e-16   1.00000000e+00]]
 
-#  矩阵中更高级的一些运算可以在NumPy的线性代数子库linalg中找到。例如inv函数计算逆矩阵，solve函数可以求解多元一次方程组程组。
+#  矩阵中更高级的一些运算可以在NumPy的线性代数子库linalg中找到。
+# 例如inv函数计算逆矩阵，solve函数可以求解多元一次方程组程组。
 
 
 # 函数和方法的总览
@@ -224,4 +224,9 @@ print(a*a**-1)
 
 #---操作的函数：
 #array split
+
+#---询问的函数：
+#all,any,nonzero,where
+
+
 
