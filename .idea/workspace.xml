@@ -16,6 +16,7 @@
     <SUITE FILE_PATH="coverage/PracticeOfPython$180320CountDays.coverage" NAME="180320CountDays Coverage Results" MODIFIED="1522333651490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180210StringFormat.coverage" NAME="180210StringFormat Coverage Results" MODIFIED="1518339576056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180312TurtleAtr_Snowfall.coverage" NAME="180312TurtleAtr-Snowfall Coverage Results" MODIFIED="1522414673415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
+    <SUITE FILE_PATH="coverage/PracticeOfPython$180318_NumpyExam_GPS.coverage" NAME="180318-NumpyExam-GPS Coverage Results" MODIFIED="1522464157400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180227FileExample.coverage" NAME="180227FileExample Coverage Results" MODIFIED="1520505177619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201802" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180309TurtleIntroduction.coverage" NAME="180309TurtleIntroduction Coverage Results" MODIFIED="1522413800647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180201PythonGrammar.coverage" NAME="180201PythonGrammar Coverage Results" MODIFIED="1517819239507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -59,8 +60,8 @@
       <file leaf-file-name="180318-NumpyExam-GPS.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/201803/180318-NumpyExam-GPS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="340">
+              <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -129,8 +130,8 @@
         <option value="$PROJECT_DIR$/201803/180314PythonLibrary.py" />
         <option value="$PROJECT_DIR$/201803/190315OSplatformProgram.py" />
         <option value="$PROJECT_DIR$/201803/180316OfficeProgram.py" />
-        <option value="$PROJECT_DIR$/201803/180318-NumpyExam-GPS.py" />
         <option value="$PROJECT_DIR$/201803/180317-Numpy.py" />
+        <option value="$PROJECT_DIR$/201803/180318-NumpyExam-GPS.py" />
       </list>
     </option>
   </component>
@@ -141,8 +142,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="555" />
-    <option name="y" value="14" />
+    <option name="x" value="605" />
     <option name="width" value="1145" />
     <option name="height" value="832" />
   </component>
@@ -280,26 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.180317-Numpy">
-    <configuration name="180310ChattingWindow" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/201803" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PracticeOfPython" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="I:\GithubCodes\PracticeOfPython\PracticeOfPython\201803\180310TkinterExam-ChattingWindow.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.180318-NumpyExam-GPS">
     <configuration name="180311TurtleExam-Clock" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -371,6 +352,25 @@
       <module name="PracticeOfPython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/201803/180317-Numpy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="180318-NumpyExam-GPS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/201803" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PracticeOfPython" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/201803/180318-NumpyExam-GPS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -590,19 +590,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.180310ChattingWindow" />
-      <item index="1" class="java.lang.String" itemvalue="Python.180311TurtleExam-Clock" />
-      <item index="2" class="java.lang.String" itemvalue="Python.180312TurtleAtr-Snowfall" />
-      <item index="3" class="java.lang.String" itemvalue="Python.180313TurtleArt-Rainbow" />
-      <item index="4" class="java.lang.String" itemvalue="Python.180317-Numpy" />
+      <item index="0" class="java.lang.String" itemvalue="Python.180311TurtleExam-Clock" />
+      <item index="1" class="java.lang.String" itemvalue="Python.180312TurtleAtr-Snowfall" />
+      <item index="2" class="java.lang.String" itemvalue="Python.180313TurtleArt-Rainbow" />
+      <item index="3" class="java.lang.String" itemvalue="Python.180317-Numpy" />
+      <item index="4" class="java.lang.String" itemvalue="Python.180318-NumpyExam-GPS" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.180317-Numpy" />
-        <item index="1" class="java.lang.String" itemvalue="Python.180313TurtleArt-Rainbow" />
-        <item index="2" class="java.lang.String" itemvalue="Python.180312TurtleAtr-Snowfall" />
-        <item index="3" class="java.lang.String" itemvalue="Python.180311TurtleExam-Clock" />
-        <item index="4" class="java.lang.String" itemvalue="Python.180310ChattingWindow" />
+        <item index="0" class="java.lang.String" itemvalue="Python.180318-NumpyExam-GPS" />
+        <item index="1" class="java.lang.String" itemvalue="Python.180317-Numpy" />
+        <item index="2" class="java.lang.String" itemvalue="Python.180313TurtleArt-Rainbow" />
+        <item index="3" class="java.lang.String" itemvalue="Python.180312TurtleAtr-Snowfall" />
+        <item index="4" class="java.lang.String" itemvalue="Python.180311TurtleExam-Clock" />
       </list>
     </recent_temporary>
   </component>
@@ -623,16 +623,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="555" y="14" width="1145" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="605" y="0" width="1145" height="832" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31857142" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8042857" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14746544" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.013824885" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -962,8 +961,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/201803/180318-NumpyExam-GPS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="340">
+          <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
           <folding />
         </state>
       </provider>
