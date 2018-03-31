@@ -51,13 +51,13 @@ import matplotlib.pyplot as plt
 #子函数：Initialize center函数通过使用numpy库的zeros函数和random.uniform函数，
 #      随机选取了k个数据做聚类中心， 并将结果存放在Numpy的Array对象centers中
 def initCenters(dataSet,k):
-    numSamples,dim=dataSet.shape
-    centers=np.zeros((k,dim))
+    numSamples,dim=dataSet.shape # 返回（行数，列数）
+    centers=np.zeros((k,dim))  # 函数zeros创建一个全是0的数组（K行，dim列）
     for i in range(k):
-        index=int(np.random.uniform(0,numSamples)) # random get k centers
+        index=int(np.random.uniform(0,numSamples)) # random get k centers # 产生一个[0,numSamples)的数
         centers[i,:]=dataSet[index,:]
     print(centers)
-    return centers
+    return centers #最后产生 k 个聚类中心点
 
 #子函数：Dist2Centers这个函数用来计算一个数据点到所有聚类中心的距离，将其存放在dis2cents中返回
 def Dist2Centers(sample,centers):
