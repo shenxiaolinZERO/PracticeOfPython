@@ -5,6 +5,7 @@ __author__ = 'Administrator'
 # NumPy库介绍
 
 # NumPy的安装
+
 #  NumPy系统是Python的一种开源的数值计算扩展
 #  可用来存储和处理大型矩阵。
 #  因为不是Python的内嵌模块，因此使用前需要安装。
@@ -131,7 +132,6 @@ print(c)
 #   [16 17 18 19]
 #   [20 21 22 23]]]
 
-
 # 基本运算
 #  数组的算术运算是按元素进行。新的数组被创建并且被结果来填充。
 #    NumPy中的乘法运算符*指示按元素计算
@@ -174,7 +174,6 @@ print(b.cumsum(axis=1)) #cumulative累加 sum along each row
 #  [ 4  9 15 22]
 #  [ 8 17 27 38]]
 
-
 # 索引、切片与迭代
 #  数组还可以被索引、切片和迭代，示例如下：
 a=arange(10)**3
@@ -216,17 +215,17 @@ print(a*a**-1)
 # 函数和方法的总览
 #  NumPy库提供作用丰富的函数和方法，下面是一个分类排列汇目录总揽，可通过手册即用即学。
 #
-#---创建数组的函数：
-#arang,array,cpoy,...
-
-#---转化的函数：
-#astype,atleast 1d
-
-#---操作的函数：
-#array split
-
-#---询问的函数：
-#all,any,nonzero,where
+# ---创建数组的函数：
+# arang,array,cpoy,...
+#
+# ---转化的函数：
+# astype,atleast 1d
+#
+# ---操作的函数：
+# array split
+#
+# ---询问的函数：
+# all,any,nonzero,where
 
 
 

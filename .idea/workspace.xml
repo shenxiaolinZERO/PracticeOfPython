@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/201803/180317-Numpy.py" line="55" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/201803/180317-Numpy.py" line="56" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91eb10ce-e3c2-4e2a-b63e-ff33c5329e34" name="Default" comment="" />
@@ -59,7 +59,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="180320-K-Means.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="180320-K-Means.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/201803/180320-K-Means.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
@@ -71,12 +71,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="180320-testSet.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201803/180320-testSet.txt">
+      <file leaf-file-name="180321-PythonDebug.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201803/180321-PythonDebug.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1852">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="341">
+              <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="180316OfficeProgram.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201803/180316OfficeProgram.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="180317-Numpy.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/201803/180317-Numpy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="222" column="1" lean-forward="true" selection-start-line="222" selection-start-column="1" selection-end-line="222" selection-end-column="1" />
+              <folding>
+                <element signature="e#1140#1159#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/180131TempConvert.py" />
         <option value="$PROJECT_DIR$/180201PythonGrammar.py" />
         <option value="$PROJECT_DIR$/180202DrawSnake.py" />
         <option value="$PROJECT_DIR$/180205PythonDataType.py" />
@@ -143,10 +164,11 @@
         <option value="$PROJECT_DIR$/201803/180314PythonLibrary.py" />
         <option value="$PROJECT_DIR$/201803/190315OSplatformProgram.py" />
         <option value="$PROJECT_DIR$/201803/180316OfficeProgram.py" />
-        <option value="$PROJECT_DIR$/201803/180317-Numpy.py" />
         <option value="$PROJECT_DIR$/201803/180318-NumpyExam-GPS.py" />
         <option value="$PROJECT_DIR$/201803/180319-Matplotlib.py" />
         <option value="$PROJECT_DIR$/201803/180320-K-Means.py" />
+        <option value="$PROJECT_DIR$/201803/180321-PythonDebug.py" />
+        <option value="$PROJECT_DIR$/201803/180317-Numpy.py" />
       </list>
     </option>
   </component>
@@ -157,9 +179,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="559" />
-    <option name="y" value="19" />
-    <option name="width" value="1145" />
+    <option name="x" value="199" />
+    <option name="y" value="23" />
+    <option name="width" value="1224" />
     <option name="height" value="804" />
   </component>
   <component name="ProjectView">
@@ -639,16 +661,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="559" y="19" width="1145" height="804" extended-state="0" />
+    <frame x="199" y="23" width="1224" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.53869045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20535715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06912442" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.096219935" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -677,7 +699,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/180224DrawSevenSegDisplay.py" />
     <entry file="file://$PROJECT_DIR$/180220FunctionIntroduction.py" />
     <entry file="file://$PROJECT_DIR$/180225FileBase.py" />
     <entry file="file://$PROJECT_DIR$/180226FileProcess.py" />
@@ -938,24 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201803/180316OfficeProgram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201803/180317-Numpy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="184" column="18" lean-forward="true" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="18" />
-          <folding>
-            <element signature="e#1139#1158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/201803/180318-NumpyExam-GPS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -993,6 +996,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/201803/180320-K-Means.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="142" column="12" lean-forward="true" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="12" />
+          <folding>
+            <element signature="e#1150#1168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/201803/180320-testSet.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1852">
@@ -1001,12 +1014,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201803/180320-K-Means.py">
+    <entry file="file://$PROJECT_DIR$/201803/180321-PythonDebug.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="142" column="12" lean-forward="true" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="12" />
+        <state relative-caret-position="341">
+          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201803/180316OfficeProgram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201803/180317-Numpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="222" column="1" lean-forward="true" selection-start-line="222" selection-start-column="1" selection-end-line="222" selection-end-column="1" />
           <folding>
-            <element signature="e#1150#1168#0" expanded="true" />
+            <element signature="e#1140#1159#0" expanded="true" />
           </folding>
         </state>
       </provider>
