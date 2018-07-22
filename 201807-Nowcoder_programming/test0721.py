@@ -1,4 +1,7 @@
 
+
+#  数字求和：
+#  给定一个正整数a，以及另外的5个正整数，问题是：这5个整数中，小于a的整数的和是多少？
 def SumOfLqa():
     inputIntegers = input("Please input 6 positive integers[<100],the first integer is a： ")
     list = inputIntegers.split(" ")
@@ -11,10 +14,6 @@ def SumOfLqa():
     print("The sum is : ",sum)
     return sum
 
-
-
-
 if __name__ == '__main__':
-    # zhangsan = Person('zhangsan',24)
-    # print(zhangsan)
+
     SumOfLqa()
