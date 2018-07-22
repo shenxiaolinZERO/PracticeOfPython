@@ -14,7 +14,9 @@ def SumOfLqa():
     print("The sum is : ",sum)
     return sum
 
+def Calculate():
+    inputs = input()
 
 if __name__ == '__main__':
-
     SumOfLqa()
+    
