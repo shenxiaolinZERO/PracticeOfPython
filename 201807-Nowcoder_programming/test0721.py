@@ -22,7 +22,7 @@ def Calculate():
     if operator == "!":
         out = 1
         if a < 0:
-            print("error")
+            print("error！负数无阶乘!")
         elif a == 0:
             out = 0
         else:
