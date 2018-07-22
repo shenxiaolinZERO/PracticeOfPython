@@ -16,7 +16,38 @@ def SumOfLqa():
 
 def Calculate():
     inputs = input()
+    list = inputs.split()
+    operator = list[1]
+    a = int(list[0])
+    if operator == "!":
+        out = 1
+        if a < 0:
+            print("error")
+        elif a == 0:
+            out = 0
+        else:
+            for i in range(1,a+1):
+                out = out * i
+            print(out)
+    else:
+        b = int(list[2])
+        if operator == "+":
+            print(a+b)
+        if operator == "-":
+            print(a-b)
+        if operator == "*":
+            print(a*b)
+        if operator == "/":
+            if b == 0:
+                print("error!")
+            else:
+                print(a/b)
+        if operator == "%":
+            if b == 0:
+                print("error")
+            else:
+                print(a%b)
 
 if __name__ == '__main__':
-    SumOfLqa()
-    
+    # SumOfLqa()
+    Calculate()
