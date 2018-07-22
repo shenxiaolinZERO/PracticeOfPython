@@ -41,7 +41,7 @@ def Calculate():
             if b == 0:
                 print("error!")
             else:
-                print(a/b)
+                print(a//b)
         if operator == "%":
             if b == 0:
                 print("error")
