@@ -337,9 +337,9 @@ print(df1)
 # 2018-03-04 -0.015582  1.540852 -0.792882 -0.380751  NaN
 
 #2. 去掉包含缺失值的行：
-# df1=df1.dropna(how='any')
-# print(df1)
-# #                    A         B         C         D    E
+df1=df1.dropna(how='any')
+print(df1)
+#                    A         B         C         D    E
 # 2018-03-01 -0.914568  0.784980 -1.698139 -0.096874  1.0
 # 2018-03-02 -0.410249 -0.494166  0.932946 -0.467547  1.0
 
@@ -360,8 +360,6 @@ print(df1)
 # 2018-03-02  False  False  False  False  False
 # 2018-03-03  False  False  False  False  False
 # 2018-03-04  False  False  False  False  False
-
-
 
 
 #五、相关操作

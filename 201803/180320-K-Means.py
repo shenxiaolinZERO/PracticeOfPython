@@ -52,17 +52,17 @@ import matplotlib.pyplot as plt
 #      随机选取了k个数据做聚类中心， 并将结果存放在Numpy的Array对象centers中
 def initCenters(dataSet,k):
     numSamples,dim=dataSet.shape # 返回（行数，列数）
-    centers=np.zeros((k,dim))  # 函数zeros创建一个全是0的数组（K行，dim列）
+    centers=np.zeros((k,dim))  # 初始化：函数zeros创建一个全是0的数组（K行，dim列）
     for i in range(k):
         index=int(np.random.uniform(0,numSamples)) # random get k centers # 产生一个[0,numSamples)的数
         centers[i,:]=dataSet[index,:]
     print(centers)
-    return centers #最后产生 k 个聚类中心点
+    return centers #最后产生 k 个聚类中心点（横纵坐标）
 
 #子函数：Dist2Centers这个函数用来计算一个数据点到所有聚类中心的距离，将其存放在dis2cents中返回
 def Dist2Centers(sample,centers):
-    k=centers.shape[0]
-    dis2cents=np.zeros(k)
+    k=centers.shape[0] #centers 有多少行，也即是 k个聚类中心点
+    dis2cents=np.zeros(k) #距离初始化为一个含有k 个全是0元素的数组
     for i in range(k):
         dis2cents[i]=np.sqrt(np.sum(np.power(sample-centers[i,:],2)))
     return dis2cents
@@ -71,10 +71,11 @@ def Dist2Centers(sample,centers):
 #        这部分代码完成了kmeans算法中为数据点决定所属类别以及迭代更新类中心点的主要功能。
 #        注意numpy库的返回最小值索引的argmin函数以及计算平均值的mean函数的使用方法
 def kmeans(dataSet,k,iterNum):
-    numSamples=dataSet.shape[0]
+    numSamples=dataSet.shape[0] #dataSet 一共有多少行
     iterCount=0
 
     #clusterAssignment stores which cluster this sample belongs to
+    #聚类分配存储的是某个样本属于哪个聚类
     clusterAssignment=np.zeros(numSamples)
     clusterChanged=True
 
