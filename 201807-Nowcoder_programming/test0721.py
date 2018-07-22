@@ -1,5 +1,5 @@
 
-
+#  20180721 Sat
 #  数字求和：
 #  给定一个正整数a，以及另外的5个正整数，问题是：这5个整数中，小于a的整数的和是多少？
 def SumOfLqa():
@@ -13,6 +13,7 @@ def SumOfLqa():
             sum += b
     print("The sum is : ",sum)
     return sum
+
 
 if __name__ == '__main__':
 
