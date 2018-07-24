@@ -14,7 +14,7 @@ def SumOfLqa():
     print("The sum is : ",sum)
     return sum
 
-#  20180722 Sun
+#  20180722 Sunday
 #  根据输入的运算符对输入的整数进行简单的整数运算。 运算符只会是加+、减-、乘*、除/、求余%、阶乘！六个运算符之一。
 #  输出运算的结果，如果出现除数为零，则输出“error”,如果求余运算的第二个运算数为0，也输出“error”。
 def Calculate():
