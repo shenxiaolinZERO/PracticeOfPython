@@ -65,7 +65,7 @@ def GradeSort():
         list[i][0]=int(lineEle[0])
         list[i][1]=int(lineEle[1])
     print(list)
-    # 
+    # 冒泡排序
     for i in range(n):
         for j in range(n-i-1):
           if list[j][2] > list[j+1][2]:
