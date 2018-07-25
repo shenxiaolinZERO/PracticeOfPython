@@ -54,7 +54,8 @@ def Calculate():
 #  20180725 Wednesday
 #
 
-def GradeSort():
+# 用的列表存，但是【答案错误:您提交的程序没有通过所有的测试用例】
+def GradeSort1():
     inputN = input("Please input the N...")
     n = eval(inputN)
     # 创建一个5 * 5，每个数都初始化为0的二维列表：
@@ -71,6 +72,11 @@ def GradeSort():
           if list[j][1] > list[j+1][1]:
               list[j],list[j+1]= list[j+1],list[j]
     print(list)
+
+# 改用dict()存
+def GradeSort2():
+    inputN = input("Please input the N :")
+    n = eval(inputN)
 
 
 
