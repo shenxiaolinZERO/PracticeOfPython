@@ -68,8 +68,9 @@ def GradeSort():
     # 冒泡排序
     for i in range(n):
         for j in range(n-i-1):
-          if list[j][2] > list[j+1][2]:
-
+          if list[j][1] > list[j+1][1]:
+              list[j],list[j+1]= list[j+1],list[j]
+    print(list)
 
 
 
