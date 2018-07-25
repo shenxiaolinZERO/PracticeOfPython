@@ -77,6 +77,17 @@ def GradeSort1():
 def GradeSort2():
     inputN = input("Please input the N :")
     n = eval(inputN)
+    dic1={}
+    for i in range(n):
+        lineEle = input("Please input StuNo and Score:").split()
+        dic1[lineEle[0]] = lineEle[1]
+    print(dic1)
+    # sorted的结果是一个list
+    dic1SortList=sorted(dic1.items(),key = lambda x:x[1])
+    print(dic1SortList)
+    for i in dic1SortList:
+    # for i in sorted(dic1.items(), key=lambda x: x[1]):
+        print(str(i[0])+" "+str(i[1]))
 
 
 
@@ -84,4 +95,4 @@ def GradeSort2():
 if __name__ == '__main__':
     # SumOfLqa()
     # Calculate()
-    GradeSort()
+    GradeSort2()
