@@ -65,10 +65,12 @@ def GradeSort():
         list[i][0]=int(lineEle[0])
         list[i][1]=int(lineEle[1])
     print(list)
-    max = list[0][1]
+    # 
     for i in range(n):
-        if
-        max = list
+        for j in range(n-i-1):
+          if list[j][2] > list[j+1][2]:
+
+
 
 
 
