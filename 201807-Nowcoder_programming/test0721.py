@@ -54,8 +54,25 @@ def Calculate():
 #  20180725 Wednesday
 #
 
+def GradeSort():
+    inputN = input("Please input the N...")
+    n = eval(inputN)
+    # 创建一个5 * 5，每个数都初始化为0的二维列表：
+    list = [[0 for col in range(2)] for row in range(n)]
+    # list =[]
+    for i in range(n):
+        lineEle = input("Please input StuNo and Score:").split()
+        list[i][0]=int(lineEle[0])
+        list[i][1]=int(lineEle[1])
+    print(list)
+    max = list[0][1]
+    for i in range(n):
+        if
+        max = list
+
 
 
 if __name__ == '__main__':
     # SumOfLqa()
-    Calculate()
+    # Calculate()
+    GradeSort()
