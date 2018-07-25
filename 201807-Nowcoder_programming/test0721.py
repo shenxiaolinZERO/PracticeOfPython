@@ -51,6 +51,11 @@ def Calculate():
             else:
                 print(a%b)
 
+#  20180725 Wednesday
+#
+
+
+
 if __name__ == '__main__':
     # SumOfLqa()
     Calculate()
