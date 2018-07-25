@@ -54,7 +54,7 @@ def Calculate():
 #  20180725 Wednesday
 #
 
-# 用的列表存，但是【答案错误:您提交的程序没有通过所有的测试用例】
+# GradeSort1()用的列表存，但是【答案错误:您提交的程序没有通过所有的测试用例】
 def GradeSort1():
     inputN = input("Please input the N...")
     n = eval(inputN)
@@ -73,7 +73,7 @@ def GradeSort1():
               list[j],list[j+1]= list[j+1],list[j]
     print(list)
 
-# 改用dict()存
+# GradeSort2()改用dict()存，还是没能通过？？
 def GradeSort2():
     inputN = input("Please input the N :")
     n = eval(inputN)
@@ -89,10 +89,35 @@ def GradeSort2():
     # for i in sorted(dic1.items(), key=lambda x: x[1]):
         print(str(i[0])+" "+str(i[1]))
 
+def GradeSort3_otherNowcoder():
+    while True:
+        try:
+         a = int(input())
+         d = {}
+         for i in range(a):
+             x, y = map(int, input().split())
+             d[x] = y
+         for i in sorted(d.items(), key=lambda c: c[1]):
+             print(str(i[0]) + " " + str(i[1]))
+        except:
+            break
+
+# 4
+# 1 87
+# 2 90
+# 3 98
+# 4 87
+# 1 87
+# 4 87
+# 2 90
+# 3 98
 
 
 
 if __name__ == '__main__':
     # SumOfLqa()
     # Calculate()
-    GradeSort2()
+    # GradeSort2()
+    GradeSort3_Nowcoder()
+
+
