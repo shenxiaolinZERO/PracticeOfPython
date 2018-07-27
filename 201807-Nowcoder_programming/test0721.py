@@ -114,7 +114,9 @@ def GradeSort3_otherNowcoder():
 
 #  20180727 Friday
 #  Digital Roots
-
+def DigitalRoots():
+    inputData = int(input("Please input the integer:"))
+    
 
 
 if __name__ == '__main__':
