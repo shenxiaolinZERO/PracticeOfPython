@@ -122,6 +122,7 @@ def DigitalRoots():
     else:
         sum1 = inputData
         while True:
+           # 计算各个位数之和
            sum1 = sum(int(i) for i in str(sum1) if i.isdigit())
            if sum1<9:break
         print(sum1)
@@ -134,6 +135,7 @@ def DigitalRoots():
     #     inputData//=10
     #     n+=1
     # print(n)
+
 # 套公式 ：return (n+8)%9+1;
 
 if __name__ == '__main__':
