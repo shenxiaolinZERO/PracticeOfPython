@@ -139,7 +139,7 @@ def DigitalRoots1():
 # 套公式 ：return (n+8)%9+1;
 def DigitalRoots2():
     inputData = int(input("Please input the integer:"))
-    result= (inputData+8)%9+1 # 套公式
+    result= (inputData+8)%9+1 # 套公式 。。。。不得不服。。。。。
     print(result)
 
 
