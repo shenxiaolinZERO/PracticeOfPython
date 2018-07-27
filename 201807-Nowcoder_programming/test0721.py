@@ -116,19 +116,21 @@ def GradeSort3_otherNowcoder():
 #  Digital Roots
 def DigitalRoots():
     inputData = input("Please input the integer:")
-    n=0
+
     if int(inputData) <= 9:
         print("The digital root is itself:",inputData)
     else:
-        sum = 10
-        while(sum > 9):
-            sum = sum(int(i) for i in str(inputData) if i.isdigit())
-        print(sum)
+        sum1 = inputData
+        while True:
+           sum1 = sum(int(i) for i in str(sum1) if i.isdigit())
+           if sum1<9:break
+        print(sum1)
+
     # while(inputData >= 1):
     #     inputData//=10
     #     n+=1
     # print(n)
-
+# 套公式 ：return (n+8)%9+1;
 
 if __name__ == '__main__':
     # SumOfLqa()
