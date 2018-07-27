@@ -123,6 +123,6 @@ if __name__ == '__main__':
     # SumOfLqa()
     # Calculate()
     # GradeSort2()
-    GradeSort3_Nowcoder()
+    GradeSort3_otherNowcoder()
 
 
