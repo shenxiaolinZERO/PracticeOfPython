@@ -114,7 +114,7 @@ def GradeSort3_otherNowcoder():
 
 #  20180727 Friday
 #  Digital Roots
-def DigitalRoots():
+def DigitalRoots1():
     inputData = input("Please input the integer:")
 
     if int(inputData) <= 9:
@@ -137,11 +137,18 @@ def DigitalRoots():
     # print(n)
 
 # 套公式 ：return (n+8)%9+1;
+def DigitalRoots2():
+    inputData = int(input("Please input the integer:"))
+    result= (inputData+8)%9+1 # 套公式
+    print(result)
+
+
+
 
 if __name__ == '__main__':
     # SumOfLqa()
     # Calculate()
     # GradeSort2()
     # GradeSort3_otherNowcoder()
-    DigitalRoots()
+    DigitalRoots2()
 
