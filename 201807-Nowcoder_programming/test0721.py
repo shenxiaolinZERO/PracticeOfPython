@@ -115,13 +115,15 @@ def GradeSort3_otherNowcoder():
 #  20180727 Friday
 #  Digital Roots
 def DigitalRoots():
-    inputData = int(input("Please input the integer:"))
+    inputData = input("Please input the integer:")
     n=0
-    if inputData <= 9:
+    if int(inputData) <= 9:
         print("The digital root is itself:",inputData)
     else:
         sum = 10
-
+        while(sum > 9):
+            sum = sum(int(i) for i in str(inputData) if i.isdigit())
+        print(sum)
     # while(inputData >= 1):
     #     inputData//=10
     #     n+=1
