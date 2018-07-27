@@ -117,14 +117,15 @@ def GradeSort3_otherNowcoder():
 def DigitalRoots():
     inputData = int(input("Please input the integer:"))
     n=0
-    if inputData <=9:
+    if inputData <= 9:
         print("The digital root is itself:",inputData)
     else:
+        sum = 10
 
-    while(inputData >= 1):
-        inputData//=10
-        n+=1
-    print(n)
+    # while(inputData >= 1):
+    #     inputData//=10
+    #     n+=1
+    # print(n)
 
 
 if __name__ == '__main__':
