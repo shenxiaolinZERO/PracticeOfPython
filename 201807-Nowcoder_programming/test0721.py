@@ -112,6 +112,9 @@ def GradeSort3_otherNowcoder():
 # 2 90
 # 3 98
 
+#  20180727 Friday
+#  Digital Roots
+
 
 
 if __name__ == '__main__':
