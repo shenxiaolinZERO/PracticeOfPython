@@ -116,13 +116,17 @@ def GradeSort3_otherNowcoder():
 #  Digital Roots
 def DigitalRoots():
     inputData = int(input("Please input the integer:"))
-    
+    n=0
+    while(inputData >= 1):
+        inputData//=10
+        n+=1
+    print(n)
 
 
 if __name__ == '__main__':
     # SumOfLqa()
     # Calculate()
     # GradeSort2()
-    GradeSort3_otherNowcoder()
-
+    # GradeSort3_otherNowcoder()
+    DigitalRoots()
 
