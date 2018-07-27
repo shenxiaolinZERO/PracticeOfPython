@@ -125,6 +125,10 @@ def DigitalRoots():
            sum1 = sum(int(i) for i in str(sum1) if i.isdigit())
            if sum1<9:break
         print(sum1)
+    # 不通过
+    # 您的代码已保存
+    # 运行超时: 您的程序未能在规定时间内运行结束，请检查是否循环有错或算法复杂度过大。
+    # case通过率为94.74 %
 
     # while(inputData >= 1):
     #     inputData//=10
