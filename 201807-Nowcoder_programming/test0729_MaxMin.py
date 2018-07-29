@@ -8,10 +8,11 @@ def MaxAndMin():
     n = int(input())
     listStr = input().split()
     print(listStr)
-    list = [4,5,6,8,2,9]
-    # for i in range(n):
-    #     list[i] = listStr[i]
-    print(list)
+    # list = [4,5,6,8,2,9]
+    list = []
+    for i in range(n-1):
+        list[i] = listStr[i]
+    print("list为：",list)
     # print(list)
     max = list[0]
     min = list[0]
