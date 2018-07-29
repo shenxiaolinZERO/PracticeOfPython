@@ -7,16 +7,19 @@ __author__ = 'Administrator'
 def MaxAndMin():
     n = int(input())
     list = input().strip(" ")
+    print(list)
     max = 0
     min = 0
     for i in range(n):
-        max = int(list[i])
-        if int(list[i+1]) > max:
-            max = int(list[i+1])
-        min = int(list[i])
-        if int(list[i+1]) < min:
-            min = int(list[i+1])
-    print(max,min)
+        max = list[i]
+        if list[i+1] > max:
+            max = list[i+1]
+    print(max,end='\n')
+    for i in range(n):
+        min = list[i]
+        if list[i+1] < min:
+            min = list[i+1]
+    print(min)
 
 
 if __name__ == '__main__':
