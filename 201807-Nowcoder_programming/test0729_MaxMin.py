@@ -6,11 +6,14 @@ __author__ = 'Administrator'
 
 def MaxAndMin():
     n = int(input())
-    list = input().strip(" ")
+    list = []
+    for i in range(n):
+        list[i] = int(input())
+
     # print(list)
     max = list[0]
     min = list[0]
-    for i in range(len(list)-1):
+    for i in range(n-1):
         if list[i+1] > max:
             max = list[i+1]
     # for i in range(len(list)-1):
