@@ -26,11 +26,11 @@ def Triangle():
     max = listStr[0]
     sum = 0
     for i in range(len(listStr)-1):
-        if listStr[i+1] >max:
+        if listStr[i+1] > max:
             max = listStr[i+1]
     for i in range(len(listStr)):
         sum += listStr[i]
-    s = sum - 2*max
+    s = sum - 2 * int(max)
     print(s)
 
 
