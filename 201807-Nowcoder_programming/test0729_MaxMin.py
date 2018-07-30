@@ -22,7 +22,7 @@ def MaxAndMin():
 def Triangle():
     listStr = input().split()
     for i in range(len(listStr)):
-        listStr = int(listStr[i])
+        listStr[i] = int(listStr[i])
     max = listStr[0]
     sum = 0
     for i in range(len(listStr)-1):
