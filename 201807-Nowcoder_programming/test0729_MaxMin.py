@@ -19,6 +19,7 @@ def MaxAndMin():
     print(max, min)
 
 # 20180730 Triangle's three edge length
+# Yes!Accept at the first time!!
 def Triangle():
     listStr = input().split()
     for i in range(len(listStr)):
