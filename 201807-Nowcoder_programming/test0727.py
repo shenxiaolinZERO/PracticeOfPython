@@ -14,11 +14,25 @@ def DigitalRoots3():
     result1= sum(int(i) for i in str(inputData) if i.isdigit())
     result2= sum(int(i) for i in str(powData) if i.isdigit())
     print(result1,result2)
-    
+
+
+
+# 20180801
+def AveAge():
+    n = int(input())
+    sum = 0
+    for i in range(n):
+        sum += int(input())
+    print(sum,n)
+    aveAge = sum / n
+    print("%.2f"%aveAge)
+
 
 if __name__ == '__main__':
     # 1、
-    num = input('请输入一个整数: ')
-    print('{} 每位数相加之和是: {}'.format(num, xj(num)))
+    # num = input('请输入一个整数: ')
+    # print('{} 每位数相加之和是: {}'.format(num, xj(num)))
     # 2、
-    DigitalRoots3()
+    # DigitalRoots3()
+    # 3、
+    AveAge()
