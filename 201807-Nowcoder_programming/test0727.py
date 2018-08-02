@@ -29,8 +29,8 @@ def AveAge():
 
 
 # 20180802 计算球体的半径和体积
-# 
-# acos()方法返回x的反余弦值，以弧度表示。
+# 题目：为避免精度问题，PI值请使用arccos(-1)。
+# 在Python中，acos()方法返回x的反余弦值，以弧度表示。
 from  math import *
 def cal_Sphere():
     x0,y0,z0,x1,y1,z1 = 0,0,0,1,1,1
