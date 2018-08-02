@@ -39,7 +39,7 @@ def cal_Sphere():
     r = math.sqrt((x1 - x0)**2+(y1 - y0)**2+(z1 - z0)**2)
     V =4/3 * math.acos(-1)*r*r*r
 
-    print("{:.3f} {:.3f}".format(r,V))
+    print("{:.3f} {:.3f}".format(r,V)) # 格式化输出
 
 if __name__ == '__main__':
     # 1、
