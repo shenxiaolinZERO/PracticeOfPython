@@ -29,8 +29,14 @@ def AveAge():
 
 
 # 20180802 计算球体的半径和体积
+# 
+# acos()方法返回x的反余弦值，以弧度表示。
+from  math import *
 def cal_Sphere():
-    
+    x0,y0,z0,x1,y1,z1 = 0,0,0,1,1,1
+    r = x1-x0
+    V =4/3* math.acos(-1)*r*r*r
+    print(r,V)
 
 if __name__ == '__main__':
     # 1、
@@ -39,4 +45,5 @@ if __name__ == '__main__':
     # 2、
     # DigitalRoots3()
     # 3、
-    AveAge()
+    # AveAge()
+    cal_Sphere()
