@@ -34,6 +34,7 @@ def AveAge():
 # 在Python中，acos()方法返回x的反余弦值，以弧度表示。
 import  math
 def cal_Sphere():
+    # -------------------------比较笨拙的写法
     list = input().split()
     # for i in range(6):
     #     list[i] = int(list[i])
@@ -43,9 +44,10 @@ def cal_Sphere():
     x1 = int(list[3])
     y1 = int(list[4])
     z1 = int(list[5])
+    # -------------------------
 
     # 高手的写法：
-
+    x0, y0, z0, x1, y1, z1 = map(int, input().split())
     
     # x0,y0,z0,x1,y1,z1 = 0,0,0,1,1,1
     r = math.sqrt((x1 - x0)**2+(y1 - y0)**2+(z1 - z0)**2)
