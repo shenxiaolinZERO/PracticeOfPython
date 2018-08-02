@@ -18,6 +18,7 @@ def DigitalRoots3():
 
 
 # 20180801
+# 计算输入的 n 个数的平均值
 def AveAge():
     n = int(input())
     sum = 0
@@ -33,11 +34,12 @@ def AveAge():
 # 在Python中，acos()方法返回x的反余弦值，以弧度表示。
 import  math
 def cal_Sphere():
+
     x0,y0,z0,x1,y1,z1 = 0,0,0,1,1,1
     r = math.sqrt((x1 - x0)**2+(y1 - y0)**2+(z1 - z0)**2)
     V =4/3 * math.acos(-1)*r*r*r
-    # print("%.3f ,%.3f"%r%V)
-    print("{:.3f}{:.3f}".format(r,V))
+
+    print("{:.3f} {:.3f}".format(r,V))
 
 if __name__ == '__main__':
     # 1、
