@@ -32,7 +32,9 @@ def GreatestCommonDivisor():
     elif a > b :
         (x,y) = divmod(a,b)
         while y != 0:
-            
+            b = a
+            y = b
+
     else:
         (x,y) = divmod(b,a)
         if
