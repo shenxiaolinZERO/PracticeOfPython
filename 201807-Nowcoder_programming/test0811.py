@@ -23,6 +23,7 @@ def MinStamp():
         tempRe = targetValue
 
 
+# 20180816 求两个正
 
 if __name__ == '__main__':
     MinStamp()
