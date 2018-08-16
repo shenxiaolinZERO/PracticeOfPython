@@ -23,7 +23,8 @@ def MinStamp():
         tempRe = targetValue
 
 
-# 20180816 求两个正
+# 20180816 求两个正整数的最大公约数
+
 
 if __name__ == '__main__':
     MinStamp()
