@@ -27,8 +27,8 @@ def MinStamp():
 def GreatestCommonDivisor():
     a = int(input())
     b = int(input())
-    if a = b:
-        
+    if a == b:
+       print(a)
     if a >= b :
         (x,y) = divmod(a,b)
     else:
