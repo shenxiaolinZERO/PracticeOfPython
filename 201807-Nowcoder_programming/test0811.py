@@ -40,10 +40,10 @@ def GreatestCommonDivisor():
     else:
         (x,y) = divmod(b,a)
         while y != 0:
-            b = a
-            y = b
-            (x, y) = divmod(a, b)
-        print(b)
+            a = b
+            y = a
+            (x, y) = divmod(b, a)
+        print(a)
 
 
 
