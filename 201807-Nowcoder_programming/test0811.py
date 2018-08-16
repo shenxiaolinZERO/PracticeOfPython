@@ -25,7 +25,13 @@ def MinStamp():
 
 # 20180816 求两个正整数的最大公约数
 def GreatestCommonDivisor():
-
+    a = int(input())
+    b = int(input())
+    if a >= b :
+        (x,y) = divmod(a,b)
+    else:
+        (x,y) = divmod(b,a)
+        if 
 
 
 
