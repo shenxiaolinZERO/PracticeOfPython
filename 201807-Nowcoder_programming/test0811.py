@@ -28,7 +28,7 @@ def GreatestCommonDivisor():
     a = int(input())
     b = int(input())
     if a == b:
-       print(a)
+       # print(a)
     elif a > b :
         (x,y) = divmod(a,b)
         while y != 0:
@@ -43,7 +43,7 @@ def GreatestCommonDivisor():
             a = b
             y = a
             (x, y) = divmod(b, a)
-        print(a)
+        # print(a)
 
 
 
