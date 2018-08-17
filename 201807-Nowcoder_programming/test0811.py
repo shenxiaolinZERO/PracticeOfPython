@@ -29,26 +29,13 @@ def GreatestCommonDivisor():
     num2 = int(input())
     if num1 < num2:
         num1,num2 = num2,num1
-    vari = num1 % num2
-    while vari != 0:
+    mod = num1 % num2
+    while mod != 0:
+        num1 = num2
+        num2 = mod
+        mod = num1%num2
+    print()
 
-
-       print("a==b",a)
-    elif a > b :
-        (x,y) = divmod(a,b)
-        while y != 0:
-            b = a
-            y = b
-            (x, y) = divmod(a, b)
-        print(b)
-
-    else:
-        (x,y) = divmod(b,a)
-        while y != 0:
-            a = b
-            y = a
-            (x, y) = divmod(b, a)
-        # print(a)
 
 
 
