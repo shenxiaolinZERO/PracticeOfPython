@@ -34,9 +34,7 @@ def GreatestCommonDivisor():
         num1 = num2
         num2 = mod
         mod = num1%num2
-    print()
-
-
+    print(num2)
 
 
 if __name__ == '__main__':
