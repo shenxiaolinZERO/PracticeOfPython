@@ -46,6 +46,7 @@ def  ABC( ):
     print(a,b,c)  #实则为3 2 1 只有一组解
 # 其实文明一点的解法应该为：
 def ABC_polite():
+    # 5*5*10种组合，暴力解决。实际上只有一组解。
     for i in range(1,6): # 取值为1~5
         for j in range(1,6):
             for k in range(10):# 取值为0~9
