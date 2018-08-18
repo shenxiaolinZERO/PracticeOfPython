@@ -50,8 +50,10 @@ def ABC_polite():
         for j in range(1,6):
             for k in range(10):
                 if i*100 +j*10 + k + j*100 +k*11 ==532:
-                    print(str(i)+" "+str(j)+" "+str)
+                    print(str(i)+" "+str(j)+" "+str(k))
 
 if __name__ == '__main__':
     # MinStamp()
-    GreatestCommonDivisor()
+    # GreatestCommonDivisor()
+    ABC()
+    ABC_polite()
