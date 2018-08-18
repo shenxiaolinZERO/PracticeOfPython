@@ -46,9 +46,9 @@ def  ABC( ):
     print(a,b,c)  #实则为3 2 1 只有一组解
 # 其实文明一点的解法应该为：
 def ABC_polite():
-    for i in range(1,6): # 取值为
+    for i in range(1,6): # 取值为1~5
         for j in range(1,6):
-            for k in range(10):
+            for k in range(10):# 取值为0~9
                 if i*100 +j*10 + k + j*100 +k*11 ==532:
                     print(str(i)+" "+str(j)+" "+str(k))
 
@@ -57,5 +57,5 @@ if __name__ == '__main__':
     # GreatestCommonDivisor()
     ABC()
     ABC_polite()
-    for z in range(1,6):
+    for z in range(10):
         print(z)
