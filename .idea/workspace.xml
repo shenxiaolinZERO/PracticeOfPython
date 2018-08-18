@@ -87,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/201807-Nowcoder_programming/test0811.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="31" />
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="40" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -957,7 +957,7 @@
     <entry file="file://$PROJECT_DIR$/201807-Nowcoder_programming/test0811.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="31" />
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="40" selection-end-column="33" />
           <folding />
         </state>
       </provider>
