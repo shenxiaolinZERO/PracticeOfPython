@@ -36,6 +36,9 @@ def GreatestCommonDivisor():
         mod = num1%num2
     print(num2)
 
+# 20180818 Sat
+设a、b、c均是0到9之间的数字，abc、bcc是两个三位数，
+且有：abc+bcc=532。求满足条件的所有a、b、c的值。
 
 if __name__ == '__main__':
     # MinStamp()
