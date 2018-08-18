@@ -60,5 +60,3 @@ if __name__ == '__main__':
     # GreatestCommonDivisor()
     ABC()
     ABC_polite()
-    for z in range(10):
-        print(z)
