@@ -44,6 +44,9 @@ def  ABC( ):
     b=3-c
     a=5-b
     print(a,b,c)  #实则为3 2 1 只有一组解
+# 其实文明一点的解法应该为：
+def ABC_polite():
+    
 
 if __name__ == '__main__':
     # MinStamp()
