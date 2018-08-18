@@ -50,9 +50,9 @@ def ABC_polite():
     for i in range(1,6): # 取值为1~5
         for j in range(1,6):
             for k in range(10):# 取值为0~9
-                abc = i*100 +j*10 + k
-                bcc = 
-                if  + j*100 +k*11 ==532:
+                abc = i*100 + j*10 + k
+                bcc = j*100 + k*11
+                if abc + bcc ==532:
                     print(str(i)+" "+str(j)+" "+str(k))
 
 if __name__ == '__main__':
