@@ -46,7 +46,10 @@ def  ABC( ):
     print(a,b,c)  #实则为3 2 1 只有一组解
 # 其实文明一点的解法应该为：
 def ABC_polite():
-    
+    for i in range(1,6):
+        for j in range(1,6):
+            for k in range(10):
+                
 
 if __name__ == '__main__':
     # MinStamp()
