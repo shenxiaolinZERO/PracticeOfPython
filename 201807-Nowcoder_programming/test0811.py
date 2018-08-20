@@ -56,7 +56,7 @@ def ABC_polite():
                     print(str(i)+" "+str(j)+" "+str(k))
 
 # 20180820 Mon
-
+# 吃糖果策略问题
 
 if __name__ == '__main__':
     # MinStamp()
