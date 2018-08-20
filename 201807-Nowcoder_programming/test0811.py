@@ -55,6 +55,9 @@ def ABC_polite():
                 if abc + bcc ==532:
                     print(str(i)+" "+str(j)+" "+str(k))
 
+# 20180820 Mon
+
+
 if __name__ == '__main__':
     # MinStamp()
     # GreatestCommonDivisor()
