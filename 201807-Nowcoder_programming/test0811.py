@@ -57,6 +57,12 @@ def ABC_polite():
 
 # 20180820 Mon
 # 吃糖果策略问题
+def StrategyOfCandy(n):
+    if n == 1:
+        return 1
+    if n == 2:
+        return 2
+    if
 
 if __name__ == '__main__':
     # MinStamp()
