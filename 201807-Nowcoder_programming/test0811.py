@@ -66,10 +66,13 @@ def StrategyOfCandy(n):
         return StrategyOfCandy(n-1)+StrategyOfCandy(n-2)
 def MainCandy():
     N = int(input())
+    method = StrategyOfCandy(N)
+    print(method)
 
 
 if __name__ == '__main__':
     # MinStamp()
     # GreatestCommonDivisor()
-    ABC()
-    ABC_polite()
+    # ABC()
+    # ABC_polite()
+    MainCandy()
