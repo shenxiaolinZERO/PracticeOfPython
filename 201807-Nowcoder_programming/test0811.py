@@ -62,7 +62,11 @@ def StrategyOfCandy(n):
         return 1
     if n == 2:
         return 2
-    if
+    else:
+        return StrategyOfCandy(n-1)+StrategyOfCandy(n-2)
+def MainCandy():
+    N = int(input())
+
 
 if __name__ == '__main__':
     # MinStamp()
