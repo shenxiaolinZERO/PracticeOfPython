@@ -70,7 +70,7 @@ def MainCandy():
     print(method)
 
 
-#
+# 
 def FibonacciNum(n):
     if n ==0 :
         return 0
@@ -88,4 +88,5 @@ if __name__ == '__main__':
     # GreatestCommonDivisor()
     # ABC()
     # ABC_polite()
-    MainCandy()
+    # MainCandy()
+    FibonacciMain()
