@@ -70,6 +70,19 @@ def MainCandy():
     print(method)
 
 
+#
+def FibonacciNum(n):
+    if n ==0 :
+        return 0
+    if n ==1:
+        return 1
+    else:
+        return FibonacciNum(n-1)+FibonacciNum(n-2)
+def FibonacciMain():
+    n = int(input())
+    out = FibonacciNum(n)
+    print(out)
+
 if __name__ == '__main__':
     # MinStamp()
     # GreatestCommonDivisor()
