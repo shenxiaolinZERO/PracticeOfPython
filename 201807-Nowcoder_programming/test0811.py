@@ -70,7 +70,7 @@ def MainCandy():
     print(method)
 
 
-# 
+#
 def FibonacciNum(n):
     if n ==0 :
         return 0
