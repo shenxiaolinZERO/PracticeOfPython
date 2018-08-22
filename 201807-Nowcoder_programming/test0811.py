@@ -70,7 +70,7 @@ def MainCandy():
     print(method)
 
 
-# 20180821 
+# 20180821Tue Fibonacci
 def FibonacciNum(n):
     if n ==0 :
         return 0
@@ -83,6 +83,7 @@ def FibonacciMain():
     out = FibonacciNum(n)
     print(out)
 
+# 20180822Wed
 
 
 if __name__ == '__main__':
