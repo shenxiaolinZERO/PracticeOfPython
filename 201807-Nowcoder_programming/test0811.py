@@ -83,7 +83,7 @@ def FibonacciMain():
     out = FibonacciNum(n)
     print(out)
 
-# 20180822Wed MagicPocket 涉及动态规划 all
+# 20180822Wed MagicPocket 涉及动态规划 a little difficult
 def MagicPocket():
 
 
