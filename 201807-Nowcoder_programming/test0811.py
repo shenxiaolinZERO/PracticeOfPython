@@ -70,7 +70,7 @@ def MainCandy():
     print(method)
 
 
-#
+# 20180821 
 def FibonacciNum(n):
     if n ==0 :
         return 0
@@ -82,6 +82,8 @@ def FibonacciMain():
     n = int(input())
     out = FibonacciNum(n)
     print(out)
+
+
 
 if __name__ == '__main__':
     # MinStamp()
