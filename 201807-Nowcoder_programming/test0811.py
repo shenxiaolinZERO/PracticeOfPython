@@ -85,6 +85,10 @@ def FibonacciMain():
 
 # 20180822Wed MagicPocket 涉及动态规划 a little difficult
 def MagicPocket():
+    n = int(input())
+
+
+# 20180824Fri A+B
 
 
 if __name__ == '__main__':
