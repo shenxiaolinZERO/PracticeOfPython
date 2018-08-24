@@ -102,4 +102,9 @@ if __name__ == '__main__':
     # ABC_polite()
     # MainCandy()
     # FibonacciMain()
-    AplusB()
+    AplusB()  # AC failed???
+    while True:
+        try:
+            print(sum(map(int, input().split())))
+        except:
+            break
