@@ -89,6 +89,10 @@ def MagicPocket():
 
 
 # 20180824Fri A+B
+def AplusB():
+    a,b = map(int, input().split())
+    c = a+b
+    print(c)
 
 
 if __name__ == '__main__':
@@ -97,4 +101,5 @@ if __name__ == '__main__':
     # ABC()
     # ABC_polite()
     # MainCandy()
-    FibonacciMain()
+    # FibonacciMain()
+    AplusB()
