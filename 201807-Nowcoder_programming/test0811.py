@@ -115,16 +115,16 @@ def FactorialMain():
     n = int(input())
     y1,y2 = 0, 0
     if n%2 == 0: # n 是偶数
-        for i in range(1,n):
+        for i in range(1,n,2):
             y1 = y1 + Factorial(i)
-            i = i + 2
+            # i = i + 2
         for j in range(2,n+1):
             y2 = y2 + Factorial(j)
-            j = j + 2
+            # j = j + 2
     else:  # n 是奇数
-        for i in range(1, n + 1):
+        for i in range(1, n + 1,2):
             y1 = y1 + Factorial(i)
-            i = i + 2
+            # i = i + 2
         for j in range(2, n):
             y2 = y2 + Factorial(j)
             j = j + 2
