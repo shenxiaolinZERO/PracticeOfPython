@@ -103,6 +103,14 @@ def AplusB_yes():
             break
 
 # 20180825 Sat
+def Factorial(n):
+    if n == 1:
+        factorial = 1
+    else:
+        factorial =1
+        for i in range(1,n+1):
+            factorial = factorial * i
+    return factorial
 
 
 if __name__ == '__main__':
