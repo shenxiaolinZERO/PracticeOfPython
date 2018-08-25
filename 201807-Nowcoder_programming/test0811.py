@@ -119,15 +119,15 @@ def FactorialMain():
             y1 = y1 + Factorial(i)
             i = i + 2
         for j in range(2,n+1):
-            y2 = y2 + Factorial(i)
+            y2 = y2 + Factorial(j)
             j = j + 2
     else:  # n 是奇数
         for i in range(1, n + 1):
             y1 = y1 + Factorial(i)
             i = i + 2
         for j in range(2, n):
-            y2 = y2 + Factorial(i)
-            i = i + 2
+            y2 = y2 + Factorial(j)
+            j = j + 2
     print(y1, y2)
 
 if __name__ == '__main__':
