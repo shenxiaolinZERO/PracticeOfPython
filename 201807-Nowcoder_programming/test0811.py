@@ -107,12 +107,21 @@ def Factorial(n):
     if n == 1:
         factorial = 1
     else:
-        factorial =1
+        factorial = 1
         for i in range(1,n+1):
             factorial = factorial * i
     return factorial
-
-
+def FactorialMain():
+    n = int(input())
+    y1,y2 = 0, 0
+    if n%2 == 0: # n 是偶数
+        for i in range(1,n):
+            y1 = y1 + Factorial(i)
+            i = i + 2
+        for j in range(2,n+1):
+            y2 = y2 + Factorial(i)
+            i = i + 2
+            
 if __name__ == '__main__':
     # MinStamp()
     # GreatestCommonDivisor()
