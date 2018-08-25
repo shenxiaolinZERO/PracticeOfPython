@@ -103,6 +103,9 @@ def AplusB_yes():
             break
 
 # 20180825 Sat
+# 输入n， 求
+# y1=1!+3!+...m!(m是小于等于n的最大奇数）
+# y2=2!+4!+...p!(p是小于等于n的最大偶数)。
 def Factorial(n):
     if n == 1:
         factorial = 1
