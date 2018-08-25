@@ -121,7 +121,15 @@ def FactorialMain():
         for j in range(2,n+1):
             y2 = y2 + Factorial(i)
             i = i + 2
-            
+    else:  # n 是奇数
+        for i in range(1, n + 1):
+            y1 = y1 + Factorial(i)
+            i = i + 2
+        for j in range(2, n):
+            y2 = y2 + Factorial(i)
+            i = i + 2
+    print(y1, y2)
+
 if __name__ == '__main__':
     # MinStamp()
     # GreatestCommonDivisor()
@@ -129,4 +137,5 @@ if __name__ == '__main__':
     # ABC_polite()
     # MainCandy()
     # FibonacciMain()
-    AplusB()  # AC failed???
+    # AplusB()  # AC failed???
+    FactorialMain()
