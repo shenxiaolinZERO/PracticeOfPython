@@ -95,7 +95,14 @@ def AplusB():
     print(c)
 
 # success example:
+def AplusB_yes():
+    while True:
+        try:
+            print(sum(map(int, input().split())))
+        except:
+            break
 
+# 20180825 Sat
 
 
 if __name__ == '__main__':
@@ -106,8 +113,3 @@ if __name__ == '__main__':
     # MainCandy()
     # FibonacciMain()
     AplusB()  # AC failed???
-    while True:
-        try:
-            print(sum(map(int, input().split())))
-        except:
-            break
