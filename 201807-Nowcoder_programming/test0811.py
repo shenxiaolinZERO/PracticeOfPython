@@ -134,6 +134,8 @@ def FactorialMain():
             # j = j + 2
     print(y1, y2)
 
+# 20180826.Sun
+
 if __name__ == '__main__':
     # MinStamp()
     # GreatestCommonDivisor()
