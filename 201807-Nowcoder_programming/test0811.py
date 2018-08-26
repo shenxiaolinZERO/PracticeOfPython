@@ -135,6 +135,8 @@ def FactorialMain():
     print(y1, y2)
 
 # 20180826.Sun
+def GradeSort():
+    
 
 if __name__ == '__main__':
     # MinStamp()
