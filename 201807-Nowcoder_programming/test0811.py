@@ -151,9 +151,10 @@ def GradeSort():
     if ascend ==1 :
         # 将字典转为元组
         # 对字典按值排序，用元组列表的形式返回
-        d2 = sorted(dic.items(), key=lambda d: d[1], reverse=True)  # [('ok', 1), ('no', 2)]
-    else:
+        d2 = sorted(dic.items(), key=lambda d: dic[1], reverse=True)  # [('ok', 1), ('no', 2)]
 
+    else:
+        d2 = sorted(dic.items(), key=lambda d: dic[1], reverse=False)  # [('ok', 1), ('no', 2)]
 
 
 
