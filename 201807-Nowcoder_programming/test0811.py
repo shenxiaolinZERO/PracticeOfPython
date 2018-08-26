@@ -136,7 +136,12 @@ def FactorialMain():
 
 # 20180826.Sun
 def GradeSort():
-    
+    n = int(input())
+    ascend = int(input())
+    dic={}
+    for i in range(n):
+        
+
 
 if __name__ == '__main__':
     # MinStamp()
