@@ -139,7 +139,7 @@ def GradeSort():
     n = int(input())
     ascend = int(input())
     dic={}
-    list=[]
+    list=list
     for i in range(n):
        line = input().split()
        list[i].append(line)
