@@ -146,8 +146,20 @@ def GradeSort():
        # list[i].append(line)
        # list[i][0] = line[0]
        # list[i][1] = line[1]
+    # print(dic) # {'lin': '90', 'shen': '99', 'wang': '80'}
 
-    print(dic)
+    if ascend ==1 :
+        # 将字典转为元组
+        # 对字典按值排序，用元组列表的形式返回
+        d2 = sorted(dic.items(), key=lambda d: d[1], reverse=True)  # [('ok', 1), ('no', 2)]
+    else:
+
+
+
+
+
+
+
 
 
 if __name__ == '__main__':
