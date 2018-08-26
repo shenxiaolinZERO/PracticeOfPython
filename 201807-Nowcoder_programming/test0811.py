@@ -141,9 +141,11 @@ def GradeSort():
     dic={}
     list=[]
     for i in range(n):
-       line =input().split()
-       list[i][0] = line[0]
-       list[i][1] = line[1]
+       line = input().split()
+       list[i].append(line)
+       # list[i][0] = line[0]
+       # list[i][1] = line[1]
+    print(list)
     for i in range(n):
         dic[list[i][0]]=list[i][1]
     print(dic)
