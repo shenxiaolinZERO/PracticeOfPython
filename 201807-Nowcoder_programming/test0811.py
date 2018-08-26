@@ -139,8 +139,12 @@ def GradeSort():
     n = int(input())
     ascend = int(input())
     dic={}
+    list=[]
     for i in range(n):
-        
+       list[i]=input().split()
+    for i in range(n):
+        dic[list[i][0]]=list[i][1]
+    print(dic)
 
 
 if __name__ == '__main__':
@@ -152,3 +156,4 @@ if __name__ == '__main__':
     # FibonacciMain()
     # AplusB()  # AC failed???
     # FactorialMain()
+    GradeSort()
