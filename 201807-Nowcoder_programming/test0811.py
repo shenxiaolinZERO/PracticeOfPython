@@ -142,17 +142,19 @@ def GradeSort():
     ascend = int(input()) #输入升序（1）或者降序（0）
     dic={}
     # list = list
+    list = []
     for i in range(n):
        name,score = input().split()
        dic[name] = score
+       list.append((name,int(score),i))
        # list[i].append(line)
        # list[i][0] = line[0]
        # list[i][1] = line[1]
     # print(dic) # {'lin': '90', 'shen': '99', 'wang': '80'}
-    list =[]
+
     for key,value in dic.items():
         dic[key] = int(value)
-        list.append([key,int(value)])
+        # list.append([key,int(value),])
     print(dic)
     print(list)
 
@@ -160,10 +162,10 @@ def GradeSort():
         # 将字典转为元组
         # 对字典按值排序，用元组列表的形式返回
         # d2 = sorted(dic.items(), key=lambda dic:(dic[1],dic[0]), reverse=False)  # [('ok', 1), ('no', 2)]
-        d2 = sorted(list, key=lambda dic: (list[1], list[0]), reverse=False)  # [('ok', 1), ('no', 2)]
+        d2 = sorted(list, key=lambda dic: (list[1], list[2]), reverse=False)  # [('ok', 1), ('no', 2)]
     else:  # 降序（0）输出
-        d2 = sorted(dic.items(), key=lambda dic:(dic[1],-dic.index(dic)), reverse=True)  # [('ok', 1), ('no', 2)]
-        d2 = sorted(list, key=lambda dic: (list[1], list[0]), reverse=False)  # [('ok', 1), ('no', 2)]
+        # d2 = sorted(dic.items(), key=lambda dic:(dic[1],-dic.index(dic)), reverse=True)  # [('ok', 2), ('no', 1)]
+        d2 = sorted(list, key=lambda dic: (list[1], -list[2]), reverse=True)  # [('ok', 2), ('no', 1)]
     print(d2)
     for i in range(n):
         print(d2[i][0],d2[i][1])
