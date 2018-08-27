@@ -179,7 +179,21 @@ def GradeSort():
         print(d2[i][0],d2[i][1])
 
 
-
+## nowcoder 上自测可以过，就是AC不了===
+def GradeSort1():
+    n = int(input())
+    ascend = int(input())
+    list = []
+    for i in range(n):
+        name,score = input().split()
+        list.append((name, int(score)))
+    if ascend == 1 :
+        d2 = sorted(list, key=lambda item: (item[1], list.index(item)), reverse=False)
+    else:
+        d2 = sorted(list, key=lambda item: (item[1], -list.index(item)), reverse=True)
+    for i in range(n):
+        print(d2[i][0],d2[i][1])
+GradeSort1()
 
 
 
