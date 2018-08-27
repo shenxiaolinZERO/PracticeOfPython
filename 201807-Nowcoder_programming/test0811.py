@@ -135,6 +135,8 @@ def FactorialMain():
     print(y1, y2)
 
 # 20180826.Sun
+# 输入任意（用户，成绩）序列，可以获得成绩从高到低或从低到高的排列,
+# 相同成绩的按先录入排列在前的规则处理。
 def GradeSort():
     n = int(input())
     ascend = int(input())
