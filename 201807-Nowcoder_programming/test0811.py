@@ -146,17 +146,19 @@ def GradeSort():
        # list[i].append(line)
        # list[i][0] = line[0]
        # list[i][1] = line[1]
-    print(dic) # {'lin': '90', 'shen': '99', 'wang': '80'}
+    # print(dic) # {'lin': '90', 'shen': '99', 'wang': '80'}
     for key,value in dic.items():
-        value = int(value)
-    print(dic)
+        dic[key] = int(value)
+    # print(dic)
     if ascend ==1 :
         # 将字典转为元组
         # 对字典按值排序，用元组列表的形式返回
-        d2 = sorted(dic.items(), key=lambda d:dic[1], reverse=True)  # [('ok', 1), ('no', 2)]
+        d2 = sorted(dic.items(), key=lambda dic:(dic[1],dic[0]), reverse=True)  # [('ok', 1), ('no', 2)]
     else:
-        d2 = sorted(dic.items(), key=lambda d:dic[1], reverse=False)  # [('ok', 1), ('no', 2)]
+        d2 = sorted(dic.items(), key=lambda dic:(dic[1],dic[0]), reverse=False)  # [('ok', 1), ('no', 2)]
     print(d2)
+    for i in range(n):
+        print(d2[i][0],d2[i][1])
 
 
 
