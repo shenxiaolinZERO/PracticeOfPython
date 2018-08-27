@@ -86,8 +86,8 @@
       <file leaf-file-name="test0811.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/201807-Nowcoder_programming/test0811.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="195" column="12" lean-forward="true" selection-start-line="195" selection-start-column="12" selection-end-line="195" selection-end-column="12" />
+            <state relative-caret-position="396">
+              <caret line="195" column="12" lean-forward="true" selection-start-line="181" selection-start-column="0" selection-end-line="195" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -948,8 +948,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/201807-Nowcoder_programming/test0811.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="195" column="12" lean-forward="true" selection-start-line="195" selection-start-column="12" selection-end-line="195" selection-end-column="12" />
+        <state relative-caret-position="396">
+          <caret line="195" column="12" lean-forward="true" selection-start-line="181" selection-start-column="0" selection-end-line="195" selection-end-column="12" />
           <folding />
         </state>
       </provider>
