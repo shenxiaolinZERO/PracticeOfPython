@@ -139,7 +139,7 @@ def FactorialMain():
 # 相同成绩的按先录入排列在前的规则处理。
 def GradeSort():
     n = int(input())  #输入用户个数
-    ascend = int(input()) 
+    ascend = int(input()) #输入升序（1）或者降序（0）
     dic={}
     # list=list
     for i in range(n):
