@@ -195,7 +195,10 @@ def GradeSort1():
         print(d2[i][0],d2[i][1])
 # GradeSort1()
 
-# 20180828Tue
+# 20180828Tue  密码翻译
+def PswTranslation():
+    
+
 
 
 
@@ -208,4 +211,5 @@ if __name__ == '__main__':
     # FibonacciMain()
     # AplusB()  # AC failed???
     # FactorialMain()
-    GradeSort()
+    # GradeSort()
+    print(a-1)
