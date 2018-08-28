@@ -196,10 +196,12 @@ def GradeSort1():
 # GradeSort1()
 
 # 20180828Tue  密码翻译
+# print( c + " 的ASCII 码为", ord(c))
+# print( a , " 对应的字符为", chr(a))
 def PswTranslation():
     string = input()
     for i in string :
-        psw = chr(ord(i)+1)
+        if i
         if i == "z" :
             psw = "a"
         if i == "Z":
