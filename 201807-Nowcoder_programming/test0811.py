@@ -197,7 +197,12 @@ def GradeSort1():
 
 # 20180828Tue  密码翻译
 def PswTranslation():
-    
+    string = input()
+    for i in string :
+        psw = chr(ord(i)+1)
+        if i == "z" :
+            psw = "a"
+        if i == "Z":
 
 
 
