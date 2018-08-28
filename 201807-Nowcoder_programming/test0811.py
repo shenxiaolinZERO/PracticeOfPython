@@ -209,7 +209,11 @@ def PswTranslation():
 
             else:
                 psw += chr(ord(i) + 1)
-        print(psw)
+        else:
+            psw +=i
+    print(psw)
+    # Hello ! Zero
+    # Ifmmp ! Afsp
 
 
 
