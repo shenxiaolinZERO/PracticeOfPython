@@ -193,8 +193,9 @@ def GradeSort1():
         d2 = sorted(list, key=lambda item: (item[1], -list.index(item)), reverse=True)
     for i in range(n):
         print(d2[i][0],d2[i][1])
-GradeSort1()
+# GradeSort1()
 
+# 20180828Tue
 
 
 
