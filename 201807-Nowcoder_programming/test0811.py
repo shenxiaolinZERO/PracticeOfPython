@@ -203,7 +203,9 @@ def PswTranslation():
         if i == "z" :
             psw = "a"
         if i == "Z":
-
+            psw = "A"
+        else:
+            psw = chr(ord(i) + 1)
 
 
 
