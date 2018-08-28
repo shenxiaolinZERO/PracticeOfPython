@@ -206,6 +206,7 @@ def PswTranslation():
             psw = "A"
         else:
             psw = chr(ord(i) + 1)
+        print(psw)
 
 
 
@@ -219,4 +220,5 @@ if __name__ == '__main__':
     # AplusB()  # AC failed???
     # FactorialMain()
     # GradeSort()
-    print(a-1)
+    # print(a-1)
+    PswTranslation()
