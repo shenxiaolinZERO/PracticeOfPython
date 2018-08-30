@@ -216,6 +216,17 @@ def PswTranslation():
     # Ifmmp ! Afsp
 
 # 20180830 Thu
+def Factorial(n):
+    if n ==1:
+        fac = 1
+    else:
+        fac = n * Factorial(n-1)
+    return fac
+def FactMain():
+    n = int(input())
+    out = Factorial(n)
+    print(out)
+
 
 if __name__ == '__main__':
     # MinStamp()
@@ -228,4 +239,5 @@ if __name__ == '__main__':
     # FactorialMain()
     # GradeSort()
     # print(a-1)
-    PswTranslation()
+    # PswTranslation()
+    FactMain()
