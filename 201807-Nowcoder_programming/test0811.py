@@ -215,7 +215,7 @@ def PswTranslation():
     # Hello ! Zero
     # Ifmmp ! Afsp
 
-
+# 20180830 Thu
 
 if __name__ == '__main__':
     # MinStamp()
