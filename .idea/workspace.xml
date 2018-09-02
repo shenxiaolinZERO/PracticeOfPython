@@ -53,6 +53,7 @@
     <SUITE FILE_PATH="coverage/PracticeOfPython$180230CountOccurencesOfWords.coverage" NAME="180230CountOccurencesOfWords Coverage Results" MODIFIED="1520774018085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201802" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$0318.coverage" NAME="0318 Coverage Results" MODIFIED="1521773280858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180311TurtleExam_Clock.coverage" NAME="180311TurtleExam-Clock Coverage Results" MODIFIED="1522414535943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
+    <SUITE FILE_PATH="coverage/PracticeOfPython$201808.coverage" NAME="201808 Coverage Results" MODIFIED="1535898324220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nowcoder_programming" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180206PythonDataType2.coverage" NAME="180206PythonDataType2 Coverage Results" MODIFIED="1517983451514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$test0721.coverage" NAME="test0721 Coverage Results" MODIFIED="1532832572932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201807-Nowcoder_programming" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180211ProgramStructure.coverage" NAME="180211ProgramStructure Coverage Results" MODIFIED="1518341118288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -104,11 +105,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test0729_MaxMin.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test0729_MaxMin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/test0729_MaxMin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
               <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="201808.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201808.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="250" column="11" lean-forward="false" selection-start-line="250" selection-start-column="11" selection-end-line="250" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -129,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/180207PythonDataType3tuple.py" />
         <option value="$PROJECT_DIR$/180208Libofmath&amp;random.py" />
         <option value="$PROJECT_DIR$/180209CalculatePi.py" />
         <option value="$PROJECT_DIR$/180210StringFormat.py" />
@@ -180,6 +190,7 @@
         <option value="$PROJECT_DIR$/201807-Nowcoder_programming/test0727.py" />
         <option value="$PROJECT_DIR$/201807-Nowcoder_programming/test0811.py" />
         <option value="$PROJECT_DIR$/Nowcoder_programming/test0729_MaxMin.py" />
+        <option value="$PROJECT_DIR$/Nowcoder_programming/201808.py" />
       </list>
     </option>
   </component>
@@ -269,7 +280,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2018180320CountDays">
+  <component name="RunManager" selected="Python.201808">
+    <configuration name="201808" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Nowcoder_programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PracticeOfPython" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Nowcoder_programming/201808.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="2018180320CountDays" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,25 +314,6 @@
       <module name="PracticeOfPython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018180320CountDays.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test0721" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/201807-Nowcoder_programming" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PracticeOfPython" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/201807-Nowcoder_programming/test0721.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -579,19 +590,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test0721" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test0727" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test0729_MaxMin" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test0811" />
-      <item index="4" class="java.lang.String" itemvalue="Python.2018180320CountDays" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test0727" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test0729_MaxMin" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test0811" />
+      <item index="3" class="java.lang.String" itemvalue="Python.2018180320CountDays" />
+      <item index="4" class="java.lang.String" itemvalue="Python.201808" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.2018180320CountDays" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test0811" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test0727" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test0729_MaxMin" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test0721" />
+        <item index="0" class="java.lang.String" itemvalue="Python.201808" />
+        <item index="1" class="java.lang.String" itemvalue="Python.2018180320CountDays" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test0811" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test0727" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test0729_MaxMin" />
       </list>
     </recent_temporary>
   </component>
@@ -617,7 +628,7 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42729306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42729306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -650,7 +661,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/test.csv" />
     <entry file="file://$PROJECT_DIR$/201803/data2file_implicit.py" />
     <entry file="file://$PROJECT_DIR$/201802/180201PythonGrammar.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -946,6 +956,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201808.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="250" column="11" lean-forward="false" selection-start-line="250" selection-start-column="11" selection-end-line="250" selection-end-column="11" />
           <folding />
         </state>
       </provider>

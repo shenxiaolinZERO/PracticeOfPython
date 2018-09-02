@@ -229,7 +229,11 @@ def FactMain():
 
 # 20180902 Sun
 
-
+def SortN():
+    n = int(input())
+    list = map(int, input().split())
+    output = sorted(list)
+    print(output)
 
 if __name__ == '__main__':
     # MinStamp()
@@ -243,4 +247,5 @@ if __name__ == '__main__':
     # GradeSort()
     # print(a-1)
     # PswTranslation()
-    FactMain()
+    # FactMain()
+    SortN()
