@@ -1,6 +1,6 @@
 # !/usr/bin/env python
 # encoding: utf-8
-__author__ = 'Administrator'
+__author__ = 'ScarlettZero'
 
 # 20180729
 
