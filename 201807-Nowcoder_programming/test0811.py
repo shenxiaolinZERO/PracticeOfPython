@@ -227,6 +227,9 @@ def FactMain():
     out = Factorial(n)
     print(out)
 
+# 20180902 Sun 
+
+
 
 if __name__ == '__main__':
     # MinStamp()
