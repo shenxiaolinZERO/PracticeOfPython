@@ -227,7 +227,7 @@ def FactMain():
     out = Factorial(n)
     print(out)
 
-# 20180902 Sun 
+# 20180902 Sun
 
 
 
