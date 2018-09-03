@@ -12,3 +12,4 @@ def SortN():
     for i in output:
         # print(output[i] ,end=' ')
         print(str(output[i ])+' ', end='')
+SortN()

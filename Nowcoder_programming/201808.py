@@ -241,4 +241,3 @@ if __name__ == '__main__':
     # print(a-1)
     # PswTranslation()
     # FactMain()
-    SortN()
