@@ -53,7 +53,7 @@
     <SUITE FILE_PATH="coverage/PracticeOfPython$180230CountOccurencesOfWords.coverage" NAME="180230CountOccurencesOfWords Coverage Results" MODIFIED="1520774018085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201802" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$0318.coverage" NAME="0318 Coverage Results" MODIFIED="1521773280858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180311TurtleExam_Clock.coverage" NAME="180311TurtleExam-Clock Coverage Results" MODIFIED="1522414535943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
-    <SUITE FILE_PATH="coverage/PracticeOfPython$201808.coverage" NAME="201808 Coverage Results" MODIFIED="1535898324220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nowcoder_programming" />
+    <SUITE FILE_PATH="coverage/PracticeOfPython$201808.coverage" NAME="201808 Coverage Results" MODIFIED="1535899260284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nowcoder_programming" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180206PythonDataType2.coverage" NAME="180206PythonDataType2 Coverage Results" MODIFIED="1517983451514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$test0721.coverage" NAME="test0721 Coverage Results" MODIFIED="1532832572932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201807-Nowcoder_programming" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180211ProgramStructure.coverage" NAME="180211ProgramStructure Coverage Results" MODIFIED="1518341118288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -118,8 +118,8 @@
       <file leaf-file-name="201808.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201808.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="250" column="11" lean-forward="false" selection-start-line="250" selection-start-column="11" selection-end-line="250" selection-end-column="11" />
+            <state relative-caret-position="214">
+              <caret line="233" column="31" lean-forward="false" selection-start-line="233" selection-start-column="31" selection-end-line="233" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -962,8 +962,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201808.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="250" column="11" lean-forward="false" selection-start-line="250" selection-start-column="11" selection-end-line="250" selection-end-column="11" />
+        <state relative-caret-position="214">
+          <caret line="233" column="31" lean-forward="false" selection-start-line="233" selection-start-column="31" selection-end-line="233" selection-end-column="31" />
           <folding />
         </state>
       </provider>

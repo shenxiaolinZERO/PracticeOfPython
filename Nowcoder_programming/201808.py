@@ -233,8 +233,10 @@ def SortN():
     n = int(input())
     list = map(int, input().split())
     output = sorted(list)
-    print(output)
-
+    # print(output)
+    for i in output:
+        # print(output[i] ,end=' ')
+        print(str(output[i ])+' ', end='')
 if __name__ == '__main__':
     # MinStamp()
     # GreatestCommonDivisor()
