@@ -240,4 +240,4 @@ if __name__ == '__main__':
     # GradeSort()
     # print(a-1)
     # PswTranslation()
-    # FactMain()
+    FactMain()
