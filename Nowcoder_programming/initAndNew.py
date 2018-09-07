@@ -44,6 +44,7 @@ class Person(object):
 
     def __str__(self):
         return '<Person: %s(%s)>' %(self.name,self.age)
+    gogogogohome
 
 
 if __name__ == '__main__':
