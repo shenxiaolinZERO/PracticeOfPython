@@ -75,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="initAndNew.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="initAndNew.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/initAndNew.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="471">
@@ -125,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="201809.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="201809.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201809.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="357">
+              <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -198,9 +198,9 @@
         <option value="$PROJECT_DIR$/201807-Nowcoder_programming/test0727.py" />
         <option value="$PROJECT_DIR$/201807-Nowcoder_programming/test0811.py" />
         <option value="$PROJECT_DIR$/Nowcoder_programming/test0729_MaxMin.py" />
-        <option value="$PROJECT_DIR$/Nowcoder_programming/201809.py" />
         <option value="$PROJECT_DIR$/Nowcoder_programming/201808.py" />
         <option value="$PROJECT_DIR$/Nowcoder_programming/initAndNew.py" />
+        <option value="$PROJECT_DIR$/Nowcoder_programming/201809.py" />
       </list>
     </option>
   </component>
@@ -210,7 +210,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="37" />
     <option name="y" value="22" />
     <option name="width" value="1352" />
@@ -633,7 +633,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="22" width="1352" height="1026" extended-state="1" />
+    <frame x="37" y="22" width="1352" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -945,14 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201809.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/test0721.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -981,6 +973,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
           <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201809.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding />
         </state>
       </provider>
