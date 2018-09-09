@@ -17,6 +17,9 @@ __author__ = 'ScarlettZero'
 # 20180908 Sat
 
 # 20180909 Sun
+# 
+# 对于一个数n，如果是偶数，就把n砍掉一半；如果是奇数，把n变成3 * n + 1
+# 后砍掉一半，直到该数变为1为止。     请计算需要经过几步才能将n变到1，具体可见样例。
 def calculateEvenandOdd():
     a = int(input())
     count = 0
