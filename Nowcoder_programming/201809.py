@@ -20,14 +20,13 @@ __author__ = 'ScarlettZero'
 def calculateEvenandOdd():
     a = int(input())
     count = 0
-    # for i in list:
-    #     # print(i)
-        while i != 0 and i !=1:
-            if  i%2 ==0:
-                out = i/2
+    if a !=0:
+        while a!=1:
+            if  a%2 ==0:
+                a= a/2
                 count += 1
             else:
-                out = i*3+1
+                a = (a*3+1)/2
                 count += 1
         print(count)
 calculateEvenandOdd()
