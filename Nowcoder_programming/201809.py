@@ -21,4 +21,5 @@ def calculateEvenandOdd(n):
     if  n%2 ==0:
         out = n/2
     else:
-        
+        out = n*3+1
+
