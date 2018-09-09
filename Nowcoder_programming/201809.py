@@ -18,8 +18,11 @@ SortN()
 
 # 20180909 Sun
 def calculateEvenandOdd(n):
-    if  n%2 ==0:
-        out = n/2
-    else:
-        out = n*3+1
+    list = map(int,input().split())
+    for i in list:
+        print(i)
+    # if  n%2 ==0:
+    #     out = n/2
+    # else:
+    #     out = n*3+1
 
