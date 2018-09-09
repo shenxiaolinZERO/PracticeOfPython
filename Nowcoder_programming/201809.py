@@ -18,13 +18,16 @@ __author__ = 'ScarlettZero'
 
 # 20180909 Sun
 def calculateEvenandOdd():
-    list = map(int,input().split())
-    for i in list:
-        # print(i)
+    a = int(input())
+    count = 0
+    # for i in list:
+    #     # print(i)
         while i != 0 and i !=1:
-            
-    # if  n%2 ==0:
-    #     out = n/2
-    # else:
-    #     out = n*3+1
+            if  i%2 ==0:
+                out = i/2
+                count += 1
+            else:
+                out = i*3+1
+                count += 1
+        print(count)
 calculateEvenandOdd()
