@@ -15,6 +15,10 @@ SortN()
 
 
 # 20180908 Sat
+
 # 20180909 Sun
-def calculateEvenandOdd():
-    
+def calculateEvenandOdd(n):
+    if  n%2 ==0:
+        out = n/2
+    else:
+        
