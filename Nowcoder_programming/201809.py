@@ -2,8 +2,7 @@
 # encoding: utf-8
 __author__ = 'ScarlettZero'
 
-# 20180902 Sun
-
+# 20180902 Sun 排序输出
 def SortN():
     n = int(input())
     list = map(int, input().split())
