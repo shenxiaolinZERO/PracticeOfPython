@@ -16,3 +16,5 @@ SortN()
 
 # 20180908 Sat
 # 20180909 Sun
+def calculateEvenandOdd():
+    
