@@ -37,10 +37,11 @@ __author__ = 'ScarlettZero'
 # 20180910 Mon
 #
 def ZOJ():
-    list = input().split()
+    list = input() #字符串本身就是一个列表
     res = []
+    print(list)
     for  i in list:
-        if i =="Z":
+        if i == "Z":
             res.extend(i)
         for j in list:
             if i == "O":
@@ -49,5 +50,5 @@ def ZOJ():
                 if i == "J":
                     res.extend(i)
     print(res)
-    
+
 ZOJ()
