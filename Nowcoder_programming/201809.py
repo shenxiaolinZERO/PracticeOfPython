@@ -35,3 +35,9 @@ __author__ = 'ScarlettZero'
 
 # [3]
 # 20180910 Mon
+#
+def ZOJ():
+    list = input().split()
+    for  i in list:
+        
+
