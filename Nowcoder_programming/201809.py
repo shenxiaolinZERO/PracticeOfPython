@@ -38,6 +38,10 @@ __author__ = 'ScarlettZero'
 #
 def ZOJ():
     list = input().split()
+    res = []
     for  i in list:
+        if i =="Z":
+            res.extend(i)
         
+
 
