@@ -39,16 +39,27 @@ __author__ = 'ScarlettZero'
 def ZOJ():
     list = input() #字符串本身就是一个列表
     res = []
+    znum,onum,jnum = 0,0,0
     print(list)
     for  i in list:
         if i == "Z":
-            res.extend(i)
-        for j in list:
-            if i == "O":
-                res.extend(i)
-            for z in list:
-                if i == "J":
-                    res.extend(i)
+           znum+=1
+        if i == "O":
+           onum+=1
+        if i == "J":
+           jnum+=1
+    while znum+onum+jnum>0:
+        if znum>0:
+            print("Z")
+            znum-=1
+        if 
+        #     res.extend(i)
+        # for j in list:
+        #     if i == "O":
+        #         res.extend(i)
+        #     for z in list:
+        #         if i == "J":
+        #             res.extend(i)
     print(res)
 
 ZOJ()
