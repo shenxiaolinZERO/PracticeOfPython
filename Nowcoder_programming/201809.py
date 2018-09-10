@@ -42,6 +42,12 @@ def ZOJ():
     for  i in list:
         if i =="Z":
             res.extend(i)
-        
-
-
+        for j in list:
+            if i == "O":
+                res.extend(i)
+            for z in list:
+                if i == "J":
+                    res.extend(i)
+    print(res)
+    
+ZOJ()
