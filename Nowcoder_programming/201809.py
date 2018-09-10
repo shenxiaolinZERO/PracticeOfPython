@@ -35,7 +35,8 @@ __author__ = 'ScarlettZero'
 
 # [3]
 # 20180910 Mon
-#
+# 读入一个字符串，字符串中包含ZOJ三个字符，个数不一定相等，按ZOJ的顺序输出，
+# 当某个字符用完时，剩下的仍然按照ZOJ的顺序输出。
 def ZOJ():
     list = input() #字符串本身就是一个列表
     znum,onum,jnum = 0,0,0
