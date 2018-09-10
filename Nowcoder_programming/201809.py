@@ -1,7 +1,8 @@
 # !/usr/bin/env python
 # encoding: utf-8
 __author__ = 'ScarlettZero'
-# [1]
+
+# # [1]
 # # 20180902 Sun 排序输出
 # def SortN():
 #     n = int(input())
