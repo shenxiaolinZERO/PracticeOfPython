@@ -33,29 +33,33 @@ __author__ = 'ScarlettZero'
 #         print(count)
 # calculateEvenandOdd()
 
-# [3]
-# 20180910 Mon
-# 读入一个字符串，字符串中包含ZOJ三个字符，个数不一定相等，按ZOJ的顺序输出，
-# 当某个字符用完时，剩下的仍然按照ZOJ的顺序输出。
-def ZOJ():
-    list = input() #字符串本身就是一个列表
-    znum,onum,jnum = 0,0,0
-    for  i in list:
-        if i == "Z":
-           znum+=1
-        if i == "O":
-           onum+=1
-        if i == "J":
-           jnum+=1
-    while znum+onum+jnum>0:
-        if znum>0:
-            print("Z",end="")
-            znum-=1
-        if onum>0:
-            print("O",end="")
-            onum-=1
-        if jnum>0:
-            print("J",end="")
-            jnum-=1
+# # [3]
+# # 20180910 Mon
+# # 读入一个字符串，字符串中包含ZOJ三个字符，个数不一定相等，按ZOJ的顺序输出，
+# # 当某个字符用完时，剩下的仍然按照ZOJ的顺序输出。
+# def ZOJ():
+#     list = input() #字符串本身就是一个列表
+#     znum,onum,jnum = 0,0,0
+#     for  i in list:
+#         if i == "Z":
+#            znum+=1
+#         if i == "O":
+#            onum+=1
+#         if i == "J":
+#            jnum+=1
+#     while znum+onum+jnum>0:
+#         if znum>0:
+#             print("Z",end="")
+#             znum-=1
+#         if onum>0:
+#             print("O",end="")
+#             onum-=1
+#         if jnum>0:
+#             print("J",end="")
+#             jnum-=1
+#
+# ZOJ()
 
-ZOJ()
+
+# [4]
+# 20180910 Mon
