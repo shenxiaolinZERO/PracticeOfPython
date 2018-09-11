@@ -65,3 +65,8 @@ __author__ = 'ScarlettZero'
 # 20180911 Tue
 def SpecialMultiply():
     inputData = input().split()
+    str1 = inputData[0]
+    str2 = inputData[1]
+    for i in str1:
+        for j in str2:
+            res = 
