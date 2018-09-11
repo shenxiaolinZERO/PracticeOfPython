@@ -63,6 +63,8 @@ __author__ = 'ScarlettZero'
 
 # [4]
 # 20180911 Tue
+# 写个算法，对2个小于1000000000的输入，求结果。
+# 特殊乘法举例：123 * 45 = 1*4 +1*5 +2*4 +2*5 +3*4+3*5
 def SpecialMultiply():
     inputData = input().split()
     str1 = inputData[0]
