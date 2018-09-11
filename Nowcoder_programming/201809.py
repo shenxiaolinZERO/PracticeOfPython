@@ -67,6 +67,9 @@ def SpecialMultiply():
     inputData = input().split()
     str1 = inputData[0]
     str2 = inputData[1]
+    res =0
     for i in str1:
         for j in str2:
-            res = 
+            res +=int(i)*int(j)
+    print(res)
+SpecialMultiply()
