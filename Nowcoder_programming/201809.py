@@ -62,4 +62,6 @@ __author__ = 'ScarlettZero'
 
 
 # [4]
-# 20180910 Mon
+# 20180911 Tue
+def SpecialMultiply():
+    inputData = input().split()
