@@ -79,13 +79,28 @@ __author__ = 'ScarlettZero'
 # [5]
 # 20180912 Wed
 # 输入一个数n，然后输入n个数值各不相同，再输入一个值x，输出这个值在这个数组中的下标（从0开始，若不在数组中则输出-1）。
-def FindX():
+def FindX0():
     n = int(input())
-    list = map(int,input().split())
-    x = int(input())
+    list = input().split()
     for i in range(n):
-        if x == list[i]:
-            print(i)
-        else:
-            print(-1)
-FindX()
+        list[i]=int(list[i])
+    x = int(input())
+    # for i in range(n):
+    if x in list:
+        print(list.index(x))
+    else:
+        print(-1)
+FindX0()
+#
+# def FindX():
+#     n = int(input())
+#     list = input().split()
+#     # for i in range(n):
+#     #     list[i]=int(list[i])
+#     x = input()
+#     # for i in range(n):
+#     if x in list:
+#         print(i)
+#     else:
+#         print(-1)
+# FindX()
