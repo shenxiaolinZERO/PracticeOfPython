@@ -78,3 +78,14 @@ SpecialMultiply()
 
 # [5]
 # 20180912 Wed
+
+def FindX():
+    n = int(input())
+    list = map(int,input().split())
+    x = int(input())
+    for i in range(n):
+        if x == list[i]:
+            print(i)
+        else:
+            print(-1)
+FindX()
