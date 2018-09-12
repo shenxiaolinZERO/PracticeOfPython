@@ -61,24 +61,24 @@ __author__ = 'ScarlettZero'
 # ZOJ()
 
 
-# [4]
-# 20180911 Tue
-# 写个算法，对2个小于1000000000的输入，求结果。
-# 特殊乘法举例：123 * 45 = 1*4 +1*5 +2*4 +2*5 +3*4+3*5
-def SpecialMultiply():
-    inputData = input().split()
-    str1 = inputData[0]
-    str2 = inputData[1]
-    res =0
-    for i in str1:
-        for j in str2:
-            res +=int(i)*int(j)
-    print(res)
-SpecialMultiply()
+# # [4]
+# # 20180911 Tue
+# # 写个算法，对2个小于1000000000的输入，求结果。
+# # 特殊乘法举例：123 * 45 = 1*4 +1*5 +2*4 +2*5 +3*4+3*5
+# def SpecialMultiply():
+#     inputData = input().split()
+#     str1 = inputData[0]
+#     str2 = inputData[1]
+#     res =0
+#     for i in str1:
+#         for j in str2:
+#             res +=int(i)*int(j)
+#     print(res)
+# SpecialMultiply()
 
 # [5]
 # 20180912 Wed
-
+# 输入一个数n，然后输入n个数值各不相同，再输入一个值x，输出这个值在这个数组中的下标（从0开始，若不在数组中则输出-1）。
 def FindX():
     n = int(input())
     list = map(int,input().split())
