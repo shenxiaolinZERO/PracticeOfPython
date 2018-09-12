@@ -75,3 +75,6 @@ def SpecialMultiply():
             res +=int(i)*int(j)
     print(res)
 SpecialMultiply()
+
+# [5]
+# 20180912 Wed
