@@ -95,11 +95,17 @@ __author__ = 'ScarlettZero'
 
 # [6]
 #
-from _datetime import datetime
+from datetime import datetime
 def CountDays():
     list = input().split()
     year = int(list[0])
     month = int(list[1])
     day = int(list[2])
-    
 
+    firstDay = datetime.strptime('2019-02-01', '%Y-%m-%d')
+    currentDay = datetime.strptime('2019-02-01 ','%Y-%m-%d')
+
+    delta = (currentDay-firstDay).days
+    print(delta)
+    
+CountDays()
