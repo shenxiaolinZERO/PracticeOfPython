@@ -98,14 +98,16 @@ __author__ = 'ScarlettZero'
 from datetime import datetime
 def CountDays():
     list = input().split()
-    year = int(list[0])
-    month = int(list[1])
-    day = int(list[2])
+    year = list[0]
+    month = list[1]
+    day = list[2]
 
-    firstDay = datetime.strptime('2019-02-01', '%Y-%m-%d')
-    currentDay = datetime.strptime('2019-02-01 ','%Y-%m-%d')
+    str1 = year+"-01-01"
+    str2 = year+"-"+month+"-"+day
+    firstDay = datetime.strptime(str1, '%Y-%m-%d')
+    currentDay = datetime.strptime(str2,'%Y-%m-%d')
 
     delta = (currentDay-firstDay).days
     print(delta)
-    
+
 CountDays()
