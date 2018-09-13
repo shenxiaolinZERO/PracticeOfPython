@@ -76,31 +76,23 @@ __author__ = 'ScarlettZero'
 #     print(res)
 # SpecialMultiply()
 
-# [5]
-# 20180912 Wed
-# 输入一个数n，然后输入n个数值各不相同，再输入一个值x，输出这个值在这个数组中的下标（从0开始，若不在数组中则输出-1）。
-def FindX0():
-    n = int(input())
-    list = input().split()
-    for i in range(n):
-        list[i]=int(list[i])
-    x = int(input())
-    # for i in range(n):
-    if x in list:
-        print(list.index(x))
-    else:
-        print(-1)
-FindX0()
-#
-# def FindX():
+# # [5]
+# # 20180912 Wed
+# # 输入一个数n，然后输入n个数值各不相同，再输入一个值x，输出这个值在这个数组中的下标（从0开始，若不在数组中则输出-1）。
+# def FindX0():
 #     n = int(input())
 #     list = input().split()
-#     # for i in range(n):
-#     #     list[i]=int(list[i])
-#     x = input()
+#     for i in range(n):
+#         list[i]=int(list[i])
+#     x = int(input())
 #     # for i in range(n):
 #     if x in list:
-#         print(i)
+#         print(list.index(x))
 #     else:
 #         print(-1)
-# FindX()
+# FindX0()
+
+
+# [6]
+#
+def 
