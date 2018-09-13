@@ -95,4 +95,5 @@ __author__ = 'ScarlettZero'
 
 # [6]
 #
-def 
+def CountDays():
+    
