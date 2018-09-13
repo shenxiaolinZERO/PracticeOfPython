@@ -107,7 +107,7 @@ def CountDays():
     firstDay = datetime.strptime(str1, '%Y-%m-%d')
     currentDay = datetime.strptime(str2,'%Y-%m-%d')
 
-    delta = (currentDay-firstDay).days
+    delta = (currentDay-firstDay).days+1
     print(delta)
 
 CountDays()
