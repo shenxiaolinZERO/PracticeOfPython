@@ -95,5 +95,11 @@ __author__ = 'ScarlettZero'
 
 # [6]
 #
+from _datetime import datetime
 def CountDays():
+    list = input().split()
+    year = int(list[0])
+    month = int(list[1])
+    day = int(list[2])
     
+
