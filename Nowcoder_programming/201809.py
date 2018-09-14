@@ -117,4 +117,17 @@ def CalAPlusB():
     AStr,BStr = input().split()
     AStrList = AStr.split(",")
     BStrList = BStr.split(",")
-    
+    A,B =[],[]
+    print(AStrList, BStrList)
+    # for i in range(len(AStrList)):
+    #     A.extend(i)
+    # for j in range(len(BStrList)):
+    #     B.extend(j)
+    # A=map(int,A)
+    # B=map(int,B)
+    # C=A+B
+    # print(C)
+    print(A,B)
+CalAPlusB()
+
+# -234,567,890 123,456,789
