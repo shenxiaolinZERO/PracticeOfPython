@@ -93,20 +93,23 @@ __author__ = 'ScarlettZero'
 # FindX0()
 
 
-# [6]
+# # [6]
+# # 输入年、月、日，计算该天是本年的第几天。
+# from datetime import datetime
+# def CountDays():
+#     list = input().split()
+#     year = list[0]
+#     month = list[1]
+#     day = list[2]
+#
+#     str1 = year+"-01-01"
+#     str2 = year+"-"+month+"-"+day
+#     firstDay = datetime.strptime(str1, '%Y-%m-%d')
+#     currentDay = datetime.strptime(str2,'%Y-%m-%d')
+#
+#     delta = (currentDay-firstDay).days+1
+#     print(delta)
+# CountDays()
+
+# [7]
 # 输入年、月、日，计算该天是本年的第几天。
-from datetime import datetime
-def CountDays():
-    list = input().split()
-    year = list[0]
-    month = list[1]
-    day = list[2]
-
-    str1 = year+"-01-01"
-    str2 = year+"-"+month+"-"+day
-    firstDay = datetime.strptime(str1, '%Y-%m-%d')
-    currentDay = datetime.strptime(str2,'%Y-%m-%d')
-
-    delta = (currentDay-firstDay).days+1
-    print(delta)
-CountDays()
