@@ -94,7 +94,7 @@ __author__ = 'ScarlettZero'
 
 
 # [6]
-#
+# 输入年、月、日，计算该天是本年的第几天。
 from datetime import datetime
 def CountDays():
     list = input().split()
@@ -109,5 +109,4 @@ def CountDays():
 
     delta = (currentDay-firstDay).days+1
     print(delta)
-
 CountDays()
