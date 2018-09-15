@@ -111,24 +111,26 @@ __author__ = 'ScarlettZero'
 #     print(delta)
 # CountDays()
 
-# [7]
-# 给定两个整数A和B，其表示形式是：从个位开始，每三位数用逗号","隔开。 现在请计算A+B的结果，并以正常形式输出。
-def CalAPlusB():
-    AStr,BStr = input().split()
-    AStrList = AStr.replace(",","")  # key point
-    BStrList = BStr.replace(",","")
-    # print(AStrList, BStrList)
-    # A,B =[],[]
-
-    # for i in AStrList:
-    #     A.extend(i)
-    # for j in BStrList:
-    #     B.extend(j)
-
-    A=int(AStrList)
-    B=int(BStrList)
-    C=A+B
-    print(C)
-CalAPlusB()
-
+# # [7]
+# # 给定两个整数A和B，其表示形式是：从个位开始，每三位数用逗号","隔开。 现在请计算A+B的结果，并以正常形式输出。
+# def CalAPlusB():
+#     AStr,BStr = input().split()
+#     AStrList = AStr.replace(",","")  # key point
+#     BStrList = BStr.replace(",","")
+#     # print(AStrList, BStrList)
+#     # A,B =[],[]
+#
+#     # for i in AStrList:
+#     #     A.extend(i)
+#     # for j in BStrList:
+#     #     B.extend(j)
+#
+#     A=int(AStrList)
+#     B=int(BStrList)
+#     C=A+B
+#     print(C)
+# CalAPlusB()
+#
 # -234,567,890 123,456,789
+
+# [8]
