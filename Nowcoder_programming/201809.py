@@ -134,7 +134,7 @@ __author__ = 'ScarlettZero'
 # -234,567,890 123,456,789
 
 # [8]
-
+实现一个加法器，使其能够输出a+b的值。
 def aPlusb():
     a,b = map(int,input().split())
     c = a+b
