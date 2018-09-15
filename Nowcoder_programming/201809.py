@@ -134,3 +134,9 @@ __author__ = 'ScarlettZero'
 # -234,567,890 123,456,789
 
 # [8]
+
+def aPlusb():
+    a,b = map(int,input().split())
+    c = a+b
+    print(c)
+aPlusb()
