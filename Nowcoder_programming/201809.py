@@ -140,3 +140,6 @@ __author__ = 'ScarlettZero'
 #     c = a+b
 #     print(c)
 # aPlusb()
+
+# [9]
+
