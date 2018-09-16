@@ -113,7 +113,7 @@ __author__ = 'ScarlettZero'
 # CountDays()
 
 # # [7]
-# # 20180914 Wed
+# # 20180914 Fri
 # # 给定两个整数A和B，其表示形式是：从个位开始，每三位数用逗号","隔开。 现在请计算A+B的结果，并以正常形式输出。
 # def CalAPlusB():
 #     AStr,BStr = input().split()
@@ -136,7 +136,7 @@ __author__ = 'ScarlettZero'
 # -234,567,890 123,456,789
 
 # # [8]
-# # 20180915 Wed
+# # 20180915 Sat
 # # 实现一个加法器，使其能够输出a+b的值。
 # def aPlusb():
 #     a,b = map(int,input().split())
@@ -145,5 +145,4 @@ __author__ = 'ScarlettZero'
 # aPlusb()
 
 # [9]
-#
-
+# # 20180916 
