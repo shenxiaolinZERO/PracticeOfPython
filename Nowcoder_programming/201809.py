@@ -150,8 +150,11 @@ def Factorial(n):
     if n == 1:
         fact = 1
     else:
-        fact = n*Factorial(n-1)
+        fact = n * Factorial(n-1)
     return fact
 def FactorMain():
     n = int(input())
+    out = Factorial(n)
+    print(out)
+FactorMain()
 
