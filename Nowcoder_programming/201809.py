@@ -146,4 +146,12 @@ __author__ = 'ScarlettZero'
 
 # [9]
 # 20180916 Sun
+def Factorial(n):
+    if n == 1:
+        fact = 1
+    else:
+        fact = n*Factorial(n-1)
+    return fact
+def FactorMain():
+    n = int(input())
 
