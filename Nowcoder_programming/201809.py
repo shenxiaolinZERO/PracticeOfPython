@@ -144,17 +144,17 @@ __author__ = 'ScarlettZero'
 #     print(c)
 # aPlusb()
 
-# [9]
-# 20180916 Sun
-def Factorial(n):
-    if n == 1:
-        fact = 1
-    else:
-        fact = n * Factorial(n-1)
-    return fact
-def FactorMain():
-    n = int(input())
-    out = Factorial(n)
-    print(out)
-FactorMain()
+# # [9]
+# # 20180916 Sun
+# def Factorial(n):
+#     if n == 1:
+#         fact = 1
+#     else:
+#         fact = n * Factorial(n-1)
+#     return fact
+# def FactorMain():
+#     n = int(input())
+#     out = Factorial(n)
+#     print(out)
+# FactorMain()
 
