@@ -158,3 +158,5 @@ __author__ = 'ScarlettZero'
 #     print(out)
 # FactorMain()
 
+# [10]
+# 20180917 Sun
