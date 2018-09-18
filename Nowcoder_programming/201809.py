@@ -186,17 +186,5 @@ def PrimeMain():
             print(-1)
 PrimeMain()
 
-def PrimeNumber():
-    n = int(input())
-    for i in range(n):
-     for j in range(2,i):
-        # i=i+1
-        if i %j != 0:
-
-               print(i, end=" ")
-        # else:
-        #     continue
-# PrimeNumber()
-
 
 # 100以内的素数：11 31 41 61 71
