@@ -171,17 +171,27 @@ __author__ = 'ScarlettZero'
 def ISPrime(num):
     for i in range(2,num):
         if num % i ==0:
-            
+            return False
+    return True
+def PrimeMain():
+    n = int(input())
+    for i in range(n):
+        if ISPrime(i):
+            if i % 10 == 1:  # 个位数为1
+              print(i,end=" ")
+PrimeMain()
+
 def PrimeNumber():
     n = int(input())
     for i in range(n):
      for j in range(2,i):
         # i=i+1
         if i %j != 0:
-            print(i, end=" ")
+
+               print(i, end=" ")
         # else:
         #     continue
-PrimeNumber()
+# PrimeNumber()
 
 
 # 100以内的素数：11 31 41 61 71
