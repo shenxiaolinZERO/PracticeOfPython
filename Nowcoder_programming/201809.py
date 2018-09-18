@@ -165,3 +165,7 @@ __author__ = 'ScarlettZero'
 #     outputStr = inputStr.replace(" ","")
 #     print(outputStr)
 # StringCat()
+
+# [11]
+# 20180918 Tue
+
