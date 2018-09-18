@@ -168,4 +168,8 @@ __author__ = 'ScarlettZero'
 
 # [11]
 # 20180918 Tue
+def PrimeNumber():
+    n = int(input())
+    for i in range(n):
+        i=i+1
 
