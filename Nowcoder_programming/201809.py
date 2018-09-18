@@ -173,12 +173,17 @@ def ISPrime(num):
         if num % i ==0:
             return False
     return True
+
 def PrimeMain():
     n = int(input())
+    count =0
     for i in range(n):
         if ISPrime(i):
-            if i % 10 == 1:  # 个位数为1
+            if i % 10 == 1 and i !=1:  # 个位数为1
               print(i,end=" ")
+              count +=1
+    if count==0:
+            print(-1)
 PrimeMain()
 
 def PrimeNumber():
