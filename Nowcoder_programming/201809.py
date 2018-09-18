@@ -158,10 +158,10 @@ __author__ = 'ScarlettZero'
 #     print(out)
 # FactorMain()
 
-# [10]
-# 20180917 Mon
-def StringCat():
-    inputStr = input()
-    outputStr = inputStr.replace(" ","")
-    print(outputStr)
-StringCat()
+# # [10]
+# # 20180917 Mon
+# def StringCat():
+#     inputStr = input()
+#     outputStr = inputStr.replace(" ","")
+#     print(outputStr)
+# StringCat()
