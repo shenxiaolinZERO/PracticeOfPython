@@ -170,6 +170,7 @@ __author__ = 'ScarlettZero'
 # 20180918 Tue
 def PrimeNumber():
     n = int(input())
-    for i in range(n):
-        i=i+1
+    for i in range(2,n):
+        # i=i+1
+        if i
 
