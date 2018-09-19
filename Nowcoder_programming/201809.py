@@ -189,3 +189,6 @@ __author__ = 'ScarlettZero'
 
 # [12]
 # 20180919 Wed
+def FindTheMinCouple():
+    n = int(input())
+    
