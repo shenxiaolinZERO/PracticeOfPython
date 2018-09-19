@@ -166,23 +166,23 @@ __author__ = 'ScarlettZero'
 #     print(outputStr)
 # StringCat()
 
-# [11]
-# 20180918 Tue
-def ISPrime(num):
-    for i in range(2,num):
-        if num % i ==0:
-            return False
-    return True
-
-def PrimeMain():
-    n = int(input())
-    count =0
-    for i in range(n):
-        if ISPrime(i):
-            if i % 10 == 1 and i !=1:  # 个位数为1
-              print(i,end=" ")
-              count +=1
-    if count==0:
-            print(-1)
-PrimeMain()
-# 100以内的个位数为1的素数：11 31 41 61 71
+# # [11]
+# # 20180918 Tue
+# def ISPrime(num):
+#     for i in range(2,num):
+#         if num % i ==0:
+#             return False
+#     return True
+#
+# def PrimeMain():
+#     n = int(input())
+#     count =0
+#     for i in range(n):
+#         if ISPrime(i):
+#             if i % 10 == 1 and i !=1:  # 个位数为1
+#               print(i,end=" ")
+#               count +=1
+#     if count==0:
+#             print(-1)
+# PrimeMain()
+# # 100以内的个位数为1的素数：11 31 41 61 71
