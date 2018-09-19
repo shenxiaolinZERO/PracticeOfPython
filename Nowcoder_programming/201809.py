@@ -195,5 +195,7 @@ def FindTheMinCouple():
     for i in range(n):
         x,y = map(int,input().split())
         list.append((x,y))
-    print(list)
+    # print(list)
+    res=(min(list,key=lambda c:(c[0],c[1])))
+    print(res[0],res[1])
 FindTheMinCouple()
