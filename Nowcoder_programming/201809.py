@@ -191,4 +191,9 @@ __author__ = 'ScarlettZero'
 # 20180919 Wed
 def FindTheMinCouple():
     n = int(input())
-    
+    list=[]
+    for i in range(n):
+        x,y = map(int,input().split())
+        list.append((x,y))
+    print(list)
+FindTheMinCouple()
