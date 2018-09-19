@@ -186,3 +186,5 @@ __author__ = 'ScarlettZero'
 #             print(-1)
 # PrimeMain()
 # # 100以内的个位数为1的素数：11 31 41 61 71
+
+# [12]
