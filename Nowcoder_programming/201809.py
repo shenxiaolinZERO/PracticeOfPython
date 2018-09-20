@@ -187,15 +187,15 @@ __author__ = 'ScarlettZero'
 # PrimeMain()
 # # 100以内的个位数为1的素数：11 31 41 61 71
 
-# [12]
-# 20180919 Wed
-def FindTheMinCouple():
-    n = int(input())
-    list=[]
-    for i in range(n):
-        x,y = map(int,input().split())
-        list.append((x,y))
-    # print(list)
-    res=(min(list,key=lambda c:(c[0],c[1])))
-    print(res[0],res[1])
-FindTheMinCouple()
+# # [12]
+# # 20180919 Wed
+# def FindTheMinCouple():
+#     n = int(input())
+#     list=[]
+#     for i in range(n):
+#         x,y = map(int,input().split())
+#         list.append((x,y))
+#     # print(list)
+#     res=(min(list,key=lambda c:(c[0],c[1])))
+#     print(res[0],res[1])
+# FindTheMinCouple()
