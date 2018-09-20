@@ -199,3 +199,21 @@ __author__ = 'ScarlettZero'
 #     res=(min(list,key=lambda c:(c[0],c[1])))
 #     print(res[0],res[1])
 # FindTheMinCouple()
+
+
+
+def IsOddMorethanEven():
+    n = int(input())
+    list = input().split()
+    OddCount=0
+    EvenCount=0
+    for i in range(n):
+        if int(list[i])%2==0:
+            EvenCount +=1
+        else:
+            OddCount +=1
+    if OddCount>EvenCount:
+        print("YES")
+    else:
+        print("NO")
+IsOddMorethanEven()
