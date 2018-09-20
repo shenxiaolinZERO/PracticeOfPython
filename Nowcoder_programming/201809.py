@@ -200,8 +200,8 @@ __author__ = 'ScarlettZero'
 #     print(res[0],res[1])
 # FindTheMinCouple()
 
-
-
+# [13]
+# 20180920 Thu
 def IsOddMorethanEven():
     n = int(input())
     list = input().split()
