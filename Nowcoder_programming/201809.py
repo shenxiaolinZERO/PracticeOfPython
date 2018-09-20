@@ -212,7 +212,7 @@ def IsOddMorethanEven():
             EvenCount +=1
         else:
             OddCount +=1
-    if OddCount>EvenCount:
+    if OddCount>=EvenCount:
         print("YES")
     else:
         print("NO")
