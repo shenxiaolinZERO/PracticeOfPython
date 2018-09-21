@@ -220,4 +220,5 @@ __author__ = 'ScarlettZero'
 
 # [14]
 # 20180921 Fri
-
+def FindNum():
+    
