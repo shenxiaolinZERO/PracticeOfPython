@@ -225,8 +225,10 @@ def FindNum():
     list1 = input().split()
     for i in range(n1):
         list1[i]=int(list1[i])
+    print(list1)
     n2 = int(input())
     list2 = input().split()
     for j in range(n2):
         list2[j] = int(list2[i])
+    print(list2)
 
