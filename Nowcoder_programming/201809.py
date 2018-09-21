@@ -223,19 +223,19 @@ __author__ = 'ScarlettZero'
 def FindNum():
     n1 = int(input())
     list1 = input().split()
-    for i in range(n1):
-        list1[i]=int(list1[i])
-    print(list1)
+    # for i in range(n1):
+    #     list1[i]=int(list1[i])
+    # print(list1)
     n2 = int(input())
     list2 = input().split()
-    for j in range(n2):
-        list2[j] = int(list2[i])
-    print(list2)
+    # for j in range(n2):
+    #     list2[j] = int(list2[j])
+    # print(list2)
     for k in range(n2):
         if list2[k] in list1:
             print("YES")
         else:
             print("NO")
-
+FindNum()
 
 
