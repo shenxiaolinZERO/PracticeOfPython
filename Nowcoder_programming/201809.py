@@ -231,4 +231,11 @@ def FindNum():
     for j in range(n2):
         list2[j] = int(list2[i])
     print(list2)
+    for k in range(n2):
+        if list2[k] in list1:
+            print("YES")
+        else:
+            print("NO")
+
+
 
