@@ -217,3 +217,7 @@ __author__ = 'ScarlettZero'
 #     else:
 #         print("NO")
 # IsOddMorethanEven()
+
+# [14]
+# 20180921 Fri
+
