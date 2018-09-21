@@ -221,4 +221,12 @@ __author__ = 'ScarlettZero'
 # [14]
 # 20180921 Fri
 def FindNum():
-    
+    n1 = int(input())
+    list1 = input().split()
+    for i in range(n1):
+        list1[i]=int(list1[i])
+    n2 = int(input())
+    list2 = input().split()
+    for j in range(n2):
+        list2[j] = int(list2[i])
+
