@@ -33,6 +33,7 @@ __author__ = 'ScarlettZero'
 #         print(count)
 # calculateEvenandOdd()
 
+
 # # [3]
 # # 20180910 Mon
 # # 读入一个字符串，字符串中包含ZOJ三个字符，个数不一定相等，按ZOJ的顺序输出，
@@ -94,7 +95,7 @@ __author__ = 'ScarlettZero'
 
 
 # # [6]
-# # 20180913 Thu
+# # 20180913 Thursday
 # # 输入年、月、日，计算该天是本年的第几天。
 # from datetime import datetime
 # def CountDays():
@@ -113,7 +114,7 @@ __author__ = 'ScarlettZero'
 # CountDays()
 
 # # [7]
-# # 20180914 Fri
+# # 20180914 Friday
 # # 给定两个整数A和B，其表示形式是：从个位开始，每三位数用逗号","隔开。 现在请计算A+B的结果，并以正常形式输出。
 # def CalAPlusB():
 #     AStr,BStr = input().split()
@@ -136,7 +137,7 @@ __author__ = 'ScarlettZero'
 # -234,567,890 123,456,789
 
 # # [8]
-# # 20180915 Sat
+# # 20180915 Saterday
 # # 实现一个加法器，使其能够输出a+b的值。
 # def aPlusb():
 #     a,b = map(int,input().split())
@@ -145,7 +146,7 @@ __author__ = 'ScarlettZero'
 # aPlusb()
 
 # # [9]
-# # 20180916 Sun
+# # 20180916 Sunday
 # def Factorial(n):
 #     if n == 1:
 #         fact = 1
@@ -159,7 +160,7 @@ __author__ = 'ScarlettZero'
 # FactorMain()
 
 # # [10]
-# # 20180917 Mon
+# # 20180917 Monday
 # def StringCat():
 #     inputStr = input()
 #     outputStr = inputStr.replace(" ","")
@@ -167,7 +168,7 @@ __author__ = 'ScarlettZero'
 # StringCat()
 
 # # [11]
-# # 20180918 Tue
+# # 20180918 Tuesday
 # def ISPrime(num):
 #     for i in range(2,num):
 #         if num % i ==0:
@@ -188,7 +189,7 @@ __author__ = 'ScarlettZero'
 # # 100以内的个位数为1的素数：11 31 41 61 71
 
 # # [12]
-# # 20180919 Wed
+# # 20180919 Wednesday
 # def FindTheMinCouple():
 #     n = int(input())
 #     list=[]
@@ -201,7 +202,7 @@ __author__ = 'ScarlettZero'
 # FindTheMinCouple()
 
 # # [13]
-# # 20180920 Thu
+# # 20180920 Thursday
 # def IsOddMorethanEven():
 #     n = int(input())
 #     list = input().split()
@@ -219,7 +220,7 @@ __author__ = 'ScarlettZero'
 # IsOddMorethanEven()
 
 # # [14]
-# # 20180921 Fri
+# # 20180921 Friday
 # def FindNum():
 #     n1 = int(input())
 #     list1 = input().split()
@@ -239,7 +240,7 @@ __author__ = 'ScarlettZero'
 # FindNum()
 
 # [15]
-# 20180922 Sat
+# 20180922 Saterday
 def PrintDate():
     year,day = map(int,input().split())
-    
+
