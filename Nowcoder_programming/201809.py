@@ -241,11 +241,17 @@ __author__ = 'ScarlettZero'
 
 # [15]
 # 20180922 Saterday
-from datetime import datetime
+import datetime
 def PrintDate():
     year,day = map(int,input().split())
-
-    TargetTime = datetime.strptime(str2, '%Y-%m-%d')
-
+    firstDay = datetime.datetime(year,1,1)
+    delta = datetime.timedelta(days=day-1)
+    TargetTime = datetime.datetime.strftime(firstDay+delta,"%Y-%m-%d")
+    print(TargetTime)
+while True:
+    try:
+        PrintDate()
+    except:
+        break
 
 
