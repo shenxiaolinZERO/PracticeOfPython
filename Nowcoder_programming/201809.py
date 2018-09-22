@@ -239,4 +239,5 @@ __author__ = 'ScarlettZero'
 # FindNum()
 
 # [15]
-# 
+# 20180922 Sat
+def 
