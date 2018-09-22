@@ -241,6 +241,11 @@ __author__ = 'ScarlettZero'
 
 # [15]
 # 20180922 Saterday
+from datetime import datetime
 def PrintDate():
     year,day = map(int,input().split())
+
+    TargetTime = datetime.strptime(str2, '%Y-%m-%d')
+
+
 
