@@ -240,4 +240,6 @@ __author__ = 'ScarlettZero'
 
 # [15]
 # 20180922 Sat
-def 
+def PrintDate():
+    year,day = map(int,input().split())
+    
