@@ -256,5 +256,8 @@ __author__ = 'ScarlettZero'
 
 # [16]
 # 20180923 Sunday
+# 
+def MayaCode():
+    n = int(input())
 
 
