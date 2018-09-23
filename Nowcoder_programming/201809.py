@@ -259,9 +259,9 @@ __author__ = 'ScarlettZero'
 # 玛雅人的密码
 def MayaCode():
     n = int(input())
-    str = input()
+    string = input()
     moveCount = 0
-    if n<4:
+    if str<4:
         print(-1)
     else:
         for i in str:
