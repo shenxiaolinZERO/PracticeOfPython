@@ -257,24 +257,15 @@ __author__ = 'ScarlettZero'
 # [16]
 # 20180923 Sunday
 # 玛雅人的密码
+def 
 def MayaCode():
     n = int(input())
     string = input()
     moveCount = 0
-    if string.count("2")<2 or "0" not in string or "1" not in string:
-        print(-1)
-    if "2012" in string:
-        print(0)
-    # 使用 BFS.......emmmmmmm
-    setStr = set([string])  #BFS 搜索的字符串都保存在里面
-    while True:
-        moveCount +=1
-        for item in setStr:
-            toBeAppend = set()
-            for i in range(len(string)-1):
-                curString = item[:i]
 
 
-        for i in str:
+    print(moveCount)
+MayaCode()
+
 
 
