@@ -265,8 +265,15 @@ def MayaCode():
         print(-1)
     if "2012" in string:
         print(0)
-    # 使用 BFS
-        
+    # 使用 BFS.......emmmmmmm
+    setStr = set([string])  #BFS 搜索的字符串都保存在里面
+    while True:
+        moveCount +=1
+        for item in setStr:
+            toBeAppend = set()
+            for i in range(len(string)-1):
+                curString = item[:i]
+
 
         for i in str:
 
