@@ -256,7 +256,7 @@ __author__ = 'ScarlettZero'
 
 # [16]
 # 20180923 Sunday
-# 
+# 玛雅人的密码
 def MayaCode():
     n = int(input())
 
