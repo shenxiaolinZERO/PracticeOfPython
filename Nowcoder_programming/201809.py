@@ -261,9 +261,13 @@ def MayaCode():
     n = int(input())
     string = input()
     moveCount = 0
-    if str<4:
+    if string.count("2")<2 or "0" not in string or "1" not in string:
         print(-1)
-    else:
+    if "2012" in string:
+        print(0)
+    # 使用 BFS
+        
+
         for i in str:
 
 
