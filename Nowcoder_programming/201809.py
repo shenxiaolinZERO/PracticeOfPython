@@ -239,19 +239,19 @@ __author__ = 'ScarlettZero'
 #             print("NO")
 # FindNum()
 
-# [15]
-# 20180922 Saterday
-import datetime
-def PrintDate():
-    year,day = map(int,input().split())
-    firstDay = datetime.datetime(year,1,1)
-    delta = datetime.timedelta(days=day-1)
-    TargetTime = datetime.datetime.strftime(firstDay+delta,"%Y-%m-%d")
-    print(TargetTime)
-while True:
-    try:
-        PrintDate()
-    except:
-        break
+# # [15]
+# # 20180922 Saterday
+# import datetime
+# def PrintDate():
+#     year,day = map(int,input().split())
+#     firstDay = datetime.datetime(year,1,1)
+#     delta = datetime.timedelta(days=day-1)
+#     TargetTime = datetime.datetime.strftime(firstDay+delta,"%Y-%m-%d")
+#     print(TargetTime)
+# while True:
+#     try:
+#         PrintDate()
+#     except:
+#         break
 
 
