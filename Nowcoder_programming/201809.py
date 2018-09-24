@@ -311,6 +311,7 @@ __author__ = 'ScarlettZero'
 # # -------------------原先的思路--end
 # # 此为参考华科平凡大神的解法，实在是妙。
 def getChar(char):
+    #以下四种情况，同一列上的索引是一样的，也即，在同一个按键上
     if char in "adgjmptw" :
         return (1,"adgjmptw".index(char))
     elif char in "behknqux":
