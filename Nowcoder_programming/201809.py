@@ -287,6 +287,16 @@ __author__ = 'ScarlettZero'
 
 # [17]
 # 20180924 Monday
+def TelephoneKeyboard():
+    list = input().split()
+    firstLetter = ["a","d","g","j","m","p","t","w"]
+    secondLetter = ["b","e","h","k","n","q","u","x"]
+    thirdLetter = ["c","f","i","l","o","r","v","y"]
+    fourthLetter = ["s","z"]
+    count = 0
+    for i in range(len(list)):
+        if list[i] in firstLetter:
+            count +=1
 
 
 
