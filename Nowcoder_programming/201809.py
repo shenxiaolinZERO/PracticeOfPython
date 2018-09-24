@@ -309,7 +309,7 @@ __author__ = 'ScarlettZero'
 #         elif list[i] in fourthLetter:
 #             count += 4
 # # -------------------原先的思路--end
-
+# # 此为参考华科平凡大神的解法，实在是妙。
 def getChar(char):
     if char in "adgjmptw" :
         return (1,"adgjmptw".index(char))
