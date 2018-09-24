@@ -287,6 +287,8 @@ __author__ = 'ScarlettZero'
 
 # [17]
 # 20180924 Monday
+
+# -------------------原先的思路：
 def TelephoneKeyboard():
     list = input().split()
     firstLetter = ["a","d","g","j","m","p","t","w"]
@@ -295,8 +297,7 @@ def TelephoneKeyboard():
     fourthLetter = ["s","z"]
 
     # 用字典来存储相邻两个字母是否在同一个按键上
-
-
+    # ......
     count = 0
     for i in range(len(list)):
         if list[i] in firstLetter:
@@ -307,6 +308,7 @@ def TelephoneKeyboard():
             count += 3
         elif list[i] in fourthLetter:
             count += 4
+# -------------------原先的思路--end
 
 def getchar(char):
     if char in "adgjmptw" :
