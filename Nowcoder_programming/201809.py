@@ -288,29 +288,29 @@ __author__ = 'ScarlettZero'
 # [17]
 # 20180924 Monday
 
-# -------------------原先的思路：
-def TelephoneKeyboard():
-    list = input().split()
-    firstLetter = ["a","d","g","j","m","p","t","w"]
-    secondLetter = ["b","e","h","k","n","q","u","x"]
-    thirdLetter = ["c","f","i","l","o","r","v","y"]
-    fourthLetter = ["s","z"]
+# # -------------------原先的思路：not complete and not works
+# def TelephoneKeyboard0():
+#     list = input().split()
+#     firstLetter = ["a","d","g","j","m","p","t","w"]
+#     secondLetter = ["b","e","h","k","n","q","u","x"]
+#     thirdLetter = ["c","f","i","l","o","r","v","y"]
+#     fourthLetter = ["s","z"]
+#
+#     # 用字典来存储相邻两个字母是否在同一个按键上
+#     # ......
+#     count = 0
+#     for i in range(len(list)):
+#         if list[i] in firstLetter:
+#             count +=1
+#         elif list[i] in secondLetter:
+#             count += 2
+#         elif list[i] in thirdLetter:
+#             count += 3
+#         elif list[i] in fourthLetter:
+#             count += 4
+# # -------------------原先的思路--end
 
-    # 用字典来存储相邻两个字母是否在同一个按键上
-    # ......
-    count = 0
-    for i in range(len(list)):
-        if list[i] in firstLetter:
-            count +=1
-        elif list[i] in secondLetter:
-            count += 2
-        elif list[i] in thirdLetter:
-            count += 3
-        elif list[i] in fourthLetter:
-            count += 4
-# -------------------原先的思路--end
-
-def getchar(char):
+def getChar(char):
     if char in "adgjmptw" :
         return (1,"adgjmptw".index(char))
     elif char in "behknqux":
@@ -319,6 +319,18 @@ def getchar(char):
         return (3,"cfilorvy".index(char))
     elif char in "00000s0z":
         return (4,"00000s0z".index(char))
+def TelephoneKeyboard():
+    str = input()
+    count = 0
+    formerChar = None
+    for i in str:
+        currCount,currChar = getChar(i) # currChar其实是char的索引
+        if currChar == formerChar: # 若索引一样，则是在同一个按键上
+            count +=2
+        formerChar = currChar
+        count +=currCount
+    print(count)
+TelephoneKeyboard()
 
 
 
