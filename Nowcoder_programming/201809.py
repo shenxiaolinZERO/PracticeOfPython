@@ -293,10 +293,30 @@ def TelephoneKeyboard():
     secondLetter = ["b","e","h","k","n","q","u","x"]
     thirdLetter = ["c","f","i","l","o","r","v","y"]
     fourthLetter = ["s","z"]
+
+    # 用字典来存储相邻两个字母是否在同一个按键上
+
+
     count = 0
     for i in range(len(list)):
         if list[i] in firstLetter:
             count +=1
+        elif list[i] in secondLetter:
+            count += 2
+        elif list[i] in thirdLetter:
+            count += 3
+        elif list[i] in fourthLetter:
+            count += 4
+
+def getchar(char):
+    if char in "adgjmptw" :
+        return (1,"adgjmptw".index(char))
+    elif char in "behknqux":
+        return (2,"behknqux".index(char))
+    elif char in "cfilorvy":
+        return (3,"cfilorvy".index(char))
+    elif char in "00000s0z":
+        return (4,"00000s0z".index(char))
 
 
 
