@@ -285,9 +285,9 @@ __author__ = 'ScarlettZero'
 # #       02120
 # # output:1
 
+'''
 # [17]
 # 20180924 Monday
-
 # # -------------------原先的思路：not complete and not works
 # def TelephoneKeyboard0():
 #     list = input().split()
@@ -332,7 +332,7 @@ def TelephoneKeyboard():
         count +=currCount
     print(count)
 TelephoneKeyboard()
-
+'''
 
 
 
