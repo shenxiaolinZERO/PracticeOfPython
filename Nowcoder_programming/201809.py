@@ -337,7 +337,9 @@ TelephoneKeyboard()
 # [18]
 def CountWords():
     inputSentence = input().split()
-    
+    for i in range(len(inputSentence)):
+        print(len(inputSentence[i]),end=" ")
+CountWords()
 
 
 
