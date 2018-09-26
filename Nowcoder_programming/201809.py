@@ -337,7 +337,7 @@ TelephoneKeyboard()
 # [18]
 # 20180926 Wednesday
 def CountWords():
-    inputSentence = input().split()
+    inputSentence = input().replace(".","").split()
     for i in range(len(inputSentence)):
         print(len(inputSentence[i]),end=" ")
 CountWords()
