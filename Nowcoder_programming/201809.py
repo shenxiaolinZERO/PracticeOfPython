@@ -336,6 +336,7 @@ TelephoneKeyboard()
 
 # [18]
 def CountWords():
+    inputSentence = input().split()
     
 
 
