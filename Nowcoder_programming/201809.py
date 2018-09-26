@@ -335,6 +335,8 @@ TelephoneKeyboard()
 '''
 
 # [18]
+def CountWords():
+    
 
 
 
