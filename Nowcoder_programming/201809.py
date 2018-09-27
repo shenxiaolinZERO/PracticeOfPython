@@ -345,11 +345,14 @@ TelephoneKeyboard()
 # [19]
 # 20180927 Thursday
 def EandG():
-
+    perfectNumber_list=[]
+    abundanceNumber_list = []
     for n in range(2,61):
-
+        factorSum = 0
         for i in range(int(n/2)+1):
-
+            if n%i == 0:
+                factorSum += i
+                
         # print(i)
 
 EandG()
