@@ -344,7 +344,13 @@ TelephoneKeyboard()
 
 # [19]
 # 20180927 Thursday
+def EandG():
 
+    for n in range(2,61):
 
+        for i in range(int(n/2)+1):
 
+        # print(i)
+
+EandG()
 
