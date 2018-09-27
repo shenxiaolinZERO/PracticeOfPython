@@ -342,7 +342,9 @@ TelephoneKeyboard()
 #         print(len(inputSentence[i]),end=" ")
 # CountWords()
 
-# [19] 
+# [19]
+# 20180927 Thursday
+
 
 
 
