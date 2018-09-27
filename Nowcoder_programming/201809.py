@@ -334,13 +334,15 @@ def TelephoneKeyboard():
 TelephoneKeyboard()
 '''
 
-# # [18]
+# # [18] 计算每个单词的字母数（单词长度）
 # # 20180926 Wednesday
 # def CountWords():
 #     inputSentence = input().replace(".","").split()
 #     for i in range(len(inputSentence)):
 #         print(len(inputSentence[i]),end=" ")
 # CountWords()
+
+# [19] 
 
 
 
