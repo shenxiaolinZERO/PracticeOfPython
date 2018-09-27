@@ -357,6 +357,7 @@ def EandG():
         if n < factorSum:
             abundanceNumber_list.extend(n)
         # print(i)
-
+    for i in perfectNumber_list:
+        print()
 EandG()
 
