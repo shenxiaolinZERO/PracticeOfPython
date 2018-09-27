@@ -347,11 +347,12 @@ TelephoneKeyboard()
 def EandG():
     perfectNumber_list=[]
     abundanceNumber_list = []
-    for n in range(2,61):
+    for n in range(3,61):
         factorSum = 0
         for i in range(int(n/2)+1):
+
             if n%(i+1) == 0:
-                factorSum += i
+                factorSum += i+1
         if n == factorSum:
             perfectNumber_list.append(n)
 
