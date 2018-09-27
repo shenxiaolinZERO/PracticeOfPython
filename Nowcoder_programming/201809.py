@@ -353,13 +353,15 @@ def EandG():
             if n%(i+1) == 0:
                 factorSum += i
         if n == factorSum:
-            perfectNumber_list.extend(n)
+            perfectNumber_list.append(n)
+
         if n <  factorSum:
-            abundanceNumber_list.extend(n)
+            abundanceNumber_list.append(n)
         # print(i)
     print("E:",end=" ")
     for i in perfectNumber_list:
         print(i,end=" ")
+    print()
     print("G:", end=" ")
     for j in abundanceNumber_list:
         print(j,end=" ")
