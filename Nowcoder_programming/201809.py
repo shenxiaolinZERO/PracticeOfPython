@@ -342,29 +342,31 @@ TelephoneKeyboard()
 #         print(len(inputSentence[i]),end=" ")
 # CountWords()
 
-# [19]  求范围内的完数和盈数
-# 20180927 Thursday
-def EandG():
-    perfectNumber_list=[]
-    abundanceNumber_list = []
-    for n in range(3,61):
-        factorSum = 0
-        for i in range(int(n/2)+1):
+# # [19]  求范围内的完数和盈数
+# # 20180927 Thursday
+# def EandG():
+#     perfectNumber_list=[]
+#     abundanceNumber_list = []
+#     for n in range(3,61):
+#         factorSum = 0
+#         for i in range(int(n/2)+1):
+#
+#             if n%(i+1) == 0:
+#                 factorSum += i+1
+#         if n == factorSum:
+#             perfectNumber_list.append(n)
+#
+#         if n <  factorSum:
+#             abundanceNumber_list.append(n)
+#         # print(i)
+#     print("E:",end=" ")
+#     for i in perfectNumber_list:
+#         print(i,end=" ")
+#     print()
+#     print("G:", end=" ")
+#     for j in abundanceNumber_list:
+#         print(j,end=" ")
+# EandG()
 
-            if n%(i+1) == 0:
-                factorSum += i+1
-        if n == factorSum:
-            perfectNumber_list.append(n)
 
-        if n <  factorSum:
-            abundanceNumber_list.append(n)
-        # print(i)
-    print("E:",end=" ")
-    for i in perfectNumber_list:
-        print(i,end=" ")
-    print()
-    print("G:", end=" ")
-    for j in abundanceNumber_list:
-        print(j,end=" ")
-EandG()
 
