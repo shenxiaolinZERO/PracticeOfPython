@@ -254,38 +254,37 @@ __author__ = 'ScarlettZero'
 #     except:
 #         break
 
-# # [16]
-# # 20180923 Sunday
-# # 玛雅人的密码
-# def Maya(string):
-#     if string.count("2")<2 or "0" not in string or "1" not in string:
-#         return -1
-#     if "2012" in string:
-#         return 0
-#     else:
-#         # 使用 BFS.......emmmmmmm
-#         setStr = set([string])  #BFS 搜索的字符串都保存在里面
-#         moveCount = 0
-#         while True:
-#             moveCount +=1
-#             for item in setStr:
-#                 toBeAppend = set()
-#                 for i in range(len(string)-1):
-#                     curString = item[:i]+item[i+1]+item[i]+item[i+2:]
-#                     if "2012" in curString:
-#                         return moveCount
-#                     toBeAppend.add(curString)
-#                 setStr = setStr | toBeAppend  #集合的交集运算
-# def MayaCode():
-#     n = int(input())
-#     string = input()
-#     print(Maya(string))
+# [16]  玛雅人的密码
+# 20180923 Sunday
+def Maya(string):
+    if string.count("2")<2 or "0" not in string or "1" not in string:
+        return -1
+    if "2012" in string:
+        return 0
+    else:
+        # 使用 BFS.......emmmmmmm
+        setStr = set([string])  #BFS 搜索的字符串都保存在里面
+        moveCount = 0
+        while True:
+            moveCount +=1
+            for item in setStr:
+                toBeAppend = set()
+                for i in range(len(string)-1):
+                    curString = item[:i]+item[i+1]+item[i]+item[i+2:]
+                    if "2012" in curString:
+                        return moveCount
+                    toBeAppend.add(curString)
+                setStr = setStr | toBeAppend  #集合的交集运算
+def MayaCode():
+    n = int(input())
+    string = input()
+    print(Maya(string))
 # MayaCode()
-# # input:5
-# #       02120
-# # output:1
+# input:5
+#       02120
+# output:1
 
-'''
+
 # [17]
 # 20180924 Monday
 # # -------------------原先的思路：not complete and not works
@@ -331,8 +330,8 @@ def TelephoneKeyboard():
         formerChar = currChar
         count +=currCount
     print(count)
-TelephoneKeyboard()
-'''
+# TelephoneKeyboard()
+
 
 # # [18] 计算每个单词的字母数（单词长度）
 # # 20180926 Wednesday
@@ -342,36 +341,37 @@ TelephoneKeyboard()
 #         print(len(inputSentence[i]),end=" ")
 # CountWords()
 
-# # [19]  求范围内的完数和盈数
-# # 20180927 Thursday
-# def EandG():
-#     perfectNumber_list=[]
-#     abundanceNumber_list = []
-#     for n in range(3,61):
-#         factorSum = 0
-#         for i in range(int(n/2)+1):
-#
-#             if n%(i+1) == 0:
-#                 factorSum += i+1
-#         if n == factorSum:
-#             perfectNumber_list.append(n)
-#
-#         if n <  factorSum:
-#             abundanceNumber_list.append(n)
-#         # print(i)
-#     print("E:",end=" ")
-#     for i in perfectNumber_list:
-#         print(i,end=" ")
-#     print()
-#     print("G:", end=" ")
-#     for j in abundanceNumber_list:
-#         print(j,end=" ")
+# [19]  求范围内的完数和盈数
+# 20180927 Thursday
+def EandG():
+    perfectNumber_list=[]
+    abundanceNumber_list = []
+    for n in range(3,61):
+        factorSum = 0
+        for i in range(int(n/2)+1):
+
+            if n%(i+1) == 0:
+                factorSum += i+1
+        if n == factorSum:
+            perfectNumber_list.append(n)
+
+        if n <  factorSum:
+            abundanceNumber_list.append(n)
+        # print(i)
+    print("E:",end=" ")
+    for i in perfectNumber_list:
+        print(i,end=" ")
+    print()
+    print("G:", end=" ")
+    for j in abundanceNumber_list:
+        print(j,end=" ")
 # EandG()
 
 # [19] 求一个数的质因数个数
 # 20180928 Friday
 def PrimeFactor():
-    
+    n = int(input())
+
 
 
 
