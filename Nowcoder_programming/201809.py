@@ -368,5 +368,9 @@ TelephoneKeyboard()
 #         print(j,end=" ")
 # EandG()
 
+# [19]
+# 20180928 Friday
+
+
 
 
