@@ -378,7 +378,8 @@ def ISPrime2(num):
 def PrimeFactor():
     n = int(input())
     for i in range(2,int(sqrt(n))):
-        
+
+
 
 
 
