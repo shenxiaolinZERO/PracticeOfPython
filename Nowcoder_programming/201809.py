@@ -342,7 +342,7 @@ TelephoneKeyboard()
 #         print(len(inputSentence[i]),end=" ")
 # CountWords()
 
-# [19]
+# [19]  求范围内的完数和盈数
 # 20180927 Thursday
 def EandG():
     perfectNumber_list=[]
