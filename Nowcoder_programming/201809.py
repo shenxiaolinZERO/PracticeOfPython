@@ -369,6 +369,7 @@ def EandG():
 
 # [19] 求一个数的质因数个数
 # 20180928 Friday
+from math import *
 def ISPrime2(num):
     for i in range(2,num):
         if num % i ==0:
@@ -376,6 +377,10 @@ def ISPrime2(num):
     return True
 def PrimeFactor():
     n = int(input())
+    for i in range(2,int(sqrt(n))):
+        
+
+
 
 
 
