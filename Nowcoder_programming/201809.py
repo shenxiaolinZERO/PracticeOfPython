@@ -379,9 +379,11 @@ def PrimeFactor():
     n = int(input())
     count = 0  # 存储 质因数的个数
     for i in range(2,int(sqrt(n))):
+        # --关键点在这一步，质因数2可以重复出现
         while n % i ==0 :
             count += 1
             n = n/i
+        # --
         i += 1
         if n==1:
             break
