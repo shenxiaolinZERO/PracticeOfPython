@@ -377,7 +377,7 @@ def ISPrime2(num):
     return True
 def PrimeFactor():
     n = int(input())
-    count = 0
+    count = 0  # 存储 质因数的个数
     for i in range(2,int(sqrt(n))):
         while n % i ==0 :
             count += 1
