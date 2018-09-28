@@ -368,9 +368,10 @@ TelephoneKeyboard()
 #         print(j,end=" ")
 # EandG()
 
-# [19]
+# [19] 求一个数的质因数个数
 # 20180928 Friday
-
+def PrimeFactor():
+    
 
 
 
