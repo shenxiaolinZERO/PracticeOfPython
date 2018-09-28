@@ -201,53 +201,53 @@ def FindTheMinCouple():
     print(res[0],res[1])
 # FindTheMinCouple()
 
-# # [13]
-# # 20180920 Thursday
-# def IsOddMorethanEven():
-#     n = int(input())
-#     list = input().split()
-#     OddCount=0
-#     EvenCount=0
-#     for i in range(n):
-#         if int(list[i])%2==0:
-#             EvenCount +=1
-#         else:
-#             OddCount +=1
-#     if OddCount>=EvenCount:
-#         print("YES")
-#     else:
-#         print("NO")
+# [13]
+# 20180920 Thursday
+def IsOddMorethanEven():
+    n = int(input())
+    list = input().split()
+    OddCount=0
+    EvenCount=0
+    for i in range(n):
+        if int(list[i])%2==0:
+            EvenCount +=1
+        else:
+            OddCount +=1
+    if OddCount>=EvenCount:
+        print("YES")
+    else:
+        print("NO")
 # IsOddMorethanEven()
 
-# # [14]
-# # 20180921 Friday
-# def FindNum():
-#     n1 = int(input())
-#     list1 = input().split()
-#     # for i in range(n1):
-#     #     list1[i]=int(list1[i])
-#     # print(list1)
-#     n2 = int(input())
-#     list2 = input().split()
-#     # for j in range(n2):
-#     #     list2[j] = int(list2[j])
-#     # print(list2)
-#     for k in range(n2):
-#         if list2[k] in list1:
-#             print("YES")
-#         else:
-#             print("NO")
+# [14]
+# 20180921 Friday
+def FindNum():
+    n1 = int(input())
+    list1 = input().split()
+    # for i in range(n1):
+    #     list1[i]=int(list1[i])
+    # print(list1)
+    n2 = int(input())
+    list2 = input().split()
+    # for j in range(n2):
+    #     list2[j] = int(list2[j])
+    # print(list2)
+    for k in range(n2):
+        if list2[k] in list1:
+            print("YES")
+        else:
+            print("NO")
 # FindNum()
 
-# # [15]
-# # 20180922 Saterday
-# import datetime
-# def PrintDate():
-#     year,day = map(int,input().split())
-#     firstDay = datetime.datetime(year,1,1)
-#     delta = datetime.timedelta(days=day-1)
-#     TargetTime = datetime.datetime.strftime(firstDay+delta,"%Y-%m-%d")
-#     print(TargetTime)
+# [15]
+# 20180922 Saterday
+import datetime
+def PrintDate():
+    year,day = map(int,input().split())
+    firstDay = datetime.datetime(year,1,1)
+    delta = datetime.timedelta(days=day-1)
+    TargetTime = datetime.datetime.strftime(firstDay+delta,"%Y-%m-%d")
+    print(TargetTime)
 # while True:
 #     try:
 #         PrintDate()
