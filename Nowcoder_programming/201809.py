@@ -390,7 +390,7 @@ def PrimeFactor():
     if n>1:
         count +=1
     print(count)
-PrimeFactor()
+# PrimeFactor()
 
 
 
