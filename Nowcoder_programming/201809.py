@@ -392,7 +392,8 @@ def PrimeFactor():
     print(count)
 # PrimeFactor()
 
-
+# [20] 守形数
+# 
 
 
 
