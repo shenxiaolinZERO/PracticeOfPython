@@ -420,8 +420,12 @@ def ArrangeApple(apple,plate):
     # 若盘子的数量比苹果数量多，那么肯定有空盘子，去掉必空的盘子
     if plate > apple:
         return ArrangeApple(apple,apple)
+    # 若苹果的数量比较多，
+    # 1）至少有一个空盘子，拿掉这个空盘子
+    # 2）每个盘子都有苹果，各拿掉一个苹果（极限是最小的有1个苹果）
     else:
         return ArrangeApple(apple,plate-1)+ArrangeApple(apple-plate,plate)
+    
 def ArraAppMain():
     apple,plate = map(int,input().split())
     res = ArrangeApple(apple,plate)
