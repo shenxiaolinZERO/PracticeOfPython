@@ -411,6 +411,11 @@ def KeepShapeNumber():
             print("No!")
 # KeepShapeNumber()
 
+# [21]
+# 20180930 Sunday
+
+
+
 
 
 
