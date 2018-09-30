@@ -411,10 +411,20 @@ def KeepShapeNumber():
             print("No!")
 # KeepShapeNumber()
 
-# [21]
+# [21] 放苹果 have no idea
 # 20180930 Sunday
-
-
+def ArrangeApple(apple,plate):
+    if apple==0 or plate == 1 :
+        return 1
+    if plate > apple:
+        return ArrangeApple(apple,plate)
+    else:
+        return ArrangeApple(apple,plate-1)+ArrangeApple(apple-plate,plate)
+def ArraAppMain():
+    apple,plate = map(int,input().split())
+    res = ArrangeApple(apple,plate)
+    print(res)
+ArraAppMain()
 
 
 
