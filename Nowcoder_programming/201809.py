@@ -414,10 +414,11 @@ def KeepShapeNumber():
 # [21] 放苹果 have no idea
 # 20180930 Sunday
 def ArrangeApple(apple,plate):
-    if apple==0 or plate == 1 :
+    # 递归出口：1）只有1个盘子，也就只有1种办法了。 2）有0个苹果，也就只有1中办法了
+    if apple == 0 or plate == 1 :
         return 1
     if plate > apple:
-        return ArrangeApple(apple,plate)
+        return ArrangeApple(apple,apple)
     else:
         return ArrangeApple(apple,plate-1)+ArrangeApple(apple-plate,plate)
 def ArraAppMain():
