@@ -430,7 +430,8 @@ def ArraAppMain():
     apple,plate = map(int,input().split())
     res = ArrangeApple(apple,plate)
     print(res)
-ArraAppMain()
+# ArraAppMain()
+
 
 
 
