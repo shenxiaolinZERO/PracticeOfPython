@@ -6,4 +6,5 @@ __author__ = 'ScarlettZero'
 
 # [1] 数组逆置
 # 20181001 Monday
-def
+def ArrayReverse():
+    
