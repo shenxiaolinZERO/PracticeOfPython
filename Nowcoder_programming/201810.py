@@ -7,4 +7,7 @@ __author__ = 'ScarlettZero'
 # [1] 数组逆置
 # 20181001 Monday
 def ArrayReverse():
-    
+    inArray = input()
+    outArray = inArray[::-1]
+    print(outArray)
+ArrayReverse()
