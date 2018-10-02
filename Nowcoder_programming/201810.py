@@ -10,4 +10,4 @@ def ArrayReverse():
     inArray = input()
     outArray = inArray[::-1]
     print(outArray)
-ArrayReverse()
+# ArrayReverse()
