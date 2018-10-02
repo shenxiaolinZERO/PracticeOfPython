@@ -11,3 +11,5 @@ def ArrayReverse():
     outArray = inArray[::-1]
     print(outArray)
 # ArrayReverse()
+
+# [2]
