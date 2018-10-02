@@ -23,6 +23,11 @@ def ArrayReverse():
 # [2] 素数判定
 # 20181002 Tuesday
 def IsPrime(n):
-    for 
+    for
 def JudgePrime():
     n = int(input())
+    if IsPrime(n):
+        print("yes")
+    else:
+        print("no")
+JudgePrime()
