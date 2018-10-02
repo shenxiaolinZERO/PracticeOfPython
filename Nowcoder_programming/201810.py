@@ -14,3 +14,6 @@ def ArrayReverse():
 
 # [2] 二叉树遍历
 # 20181002 Tuesday
+# 二叉树的遍历：
+# 1）
+def BinaryTree():
