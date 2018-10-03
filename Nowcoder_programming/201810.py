@@ -39,6 +39,12 @@ def JudgePrime():
 
 # [3] IP地址
 # 20181003 Wednesday
+def JudgeRange(x):
+    if 0<=x<=255:
+        return True
+    else:
+        return False
 def IPAddress():
-    
+    a,b,c,d =map(int,input().split("."))
+    if 0<=a
 
