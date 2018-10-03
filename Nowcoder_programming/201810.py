@@ -46,5 +46,9 @@ def JudgeRange(x):
         return False
 def IPAddress():
     a,b,c,d =map(int,input().split("."))
-    if 0<=a
+    if JudgeRange(a) and JudgeRange(b) and JudgeRange(c) and JudgeRange(d):
+        print("Yes!")
+    else:
+        print("No!")
+
 
