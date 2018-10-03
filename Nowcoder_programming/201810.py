@@ -35,4 +35,6 @@ def JudgePrime():
         print("yes")
     else:
         print("no")
-JudgePrime()
+# JudgePrime()
+
+
