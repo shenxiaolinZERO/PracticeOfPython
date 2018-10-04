@@ -39,6 +39,8 @@ def JudgePrime():
 
 # [3] IP地址
 # 20181003 Wednesday
+
+
 def JudgeRange(x):
     if 0<=x<=255:
         return True
@@ -50,5 +52,4 @@ def IPAddressMain():
         print("Yes!")
     else:
         print("No!")
-IPAddressMain()
-
+# IPAddressMain()
