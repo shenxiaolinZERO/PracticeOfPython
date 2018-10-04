@@ -54,3 +54,7 @@ def IPAddressMain():
 
 # [4] 中位数
 # 20181004 Thursday
+def Median():
+    n = int(input())
+    for i in range(n):
+        
