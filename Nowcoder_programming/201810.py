@@ -58,5 +58,9 @@ def Median():
     n = int(input())
     list=[]
     for i in range(n):
-        list[i]=int(input())
-
+        list.append(int(input()))
+    if int(input())==0:
+        list.sort()
+        print(list)
+        
+Median()
