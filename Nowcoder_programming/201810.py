@@ -56,5 +56,7 @@ def IPAddressMain():
 # 20181004 Thursday
 def Median():
     n = int(input())
+    list=[]
     for i in range(n):
-        
+        list[i]=int(input())
+
