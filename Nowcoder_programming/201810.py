@@ -62,5 +62,8 @@ def Median():
     if int(input())==0:
         list.sort()
         print(list)
-        
+        if n%2 !=0:
+            print(list[int((n-1)/2)])
+        else:
+            print()
 Median()
