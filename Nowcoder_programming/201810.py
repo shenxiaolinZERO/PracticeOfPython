@@ -69,7 +69,7 @@ def Median1():
             b = int(a-1)
             res = int((list[a]+list[b])/2)
             print(res)
-# Median1()   # 在Nowcoder上AC会报错。（审题没审好，它说N=0时结束输入！）
+# Median1()   # 在Nowcoder上AC会报错。（审题没审好，它说N=0时结束输入！而不是输入的最后一位为0时为结束！）
 
 def Median2():
     n = int(input())
