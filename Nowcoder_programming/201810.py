@@ -69,14 +69,15 @@ def Median1():
             b = int(a-1)
             res = int((list[a]+list[b])/2)
             print(res)
-# Median1()
+# Median1()   # 在Nowcoder上AC会报错。
 
 def Median2():
     n = int(input())
     list=[]
-    for i in range(n):
-        list.append(int(input()))
-    if int(input())==0:
+    if n!= 0:
+        for i in range(n):
+            list.append(int(input()))
+        # if int(input())==0:
         list.sort()
         print(list)
         if n%2 !=0:
