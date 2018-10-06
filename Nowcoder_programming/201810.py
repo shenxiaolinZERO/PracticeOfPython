@@ -91,15 +91,15 @@ def Median2():
 
 # [5]剩下的树（）
 # 20181006 Saterday
-def LeftTrees():
+def LeftTrees1():
     L,M = map(int,input().split( ))
     #要注意区间有重合的情况
     MoveTreeNum = 0
-    abList=[]
+    a,b=[],[]
     for i in range(M):
-        abList.append(map(int,input().split( )))
-    for a,b in abList:
-        
+        x1,x2 = map(int,input().split( ))
+        a.append(x1)
+        b.append(x2)
         MoveTreeNum += b[i]-a[i]+1
         # print(MoveTreeNum)
 
@@ -108,4 +108,22 @@ def LeftTrees():
             MoveTreeNum -= b[j-1]-a[j]+1
     leftTreeNum = L+1-MoveTreeNum
     print(leftTreeNum)
-LeftTrees()
+LeftTrees1()
+
+def LeftTrees2():
+    L,M = map(int,input().split( ))
+    #要注意区间有重合的情况
+    MoveTreeNum = 0
+    abList=[]
+    for i in range(M):
+        abList.append(map(int,input().split( )))
+    for a,b in abList:
+        MoveTreeNum += b-a+1
+        # print(MoveTreeNum)
+
+    for j in range(1,len(abList)):
+        if a[j]<b[j-1]:
+            MoveTreeNum -= b[j-1]-a[j]+1
+    leftTreeNum = L+1-MoveTreeNum
+    print(leftTreeNum)
+# LeftTrees2()
