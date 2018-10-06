@@ -92,7 +92,7 @@ def Median2():
 # [5]剩下的树（）
 # 20181006 Saterday
 # LeftTrees1()的nowcoder,AC未通过所有的测试用例
-def LeftTrees1():
+def LeftTrees1(): # 单纯计算差值的方法行不通
     L,M = map(int,input().split( ))
     #要注意区间有重合的情况
     MoveTreeNum = 0
@@ -108,11 +108,13 @@ def LeftTrees1():
             MoveTreeNum -= b[j-1]-a[j]+1
     leftTreeNum = L+1-MoveTreeNum
     print(leftTreeNum)
-LeftTrees1()
+# LeftTrees1()
 
 def LeftTrees2():
     L,M = map(int,input().split( ))
     #要注意区间有重合的情况
+
+
     MoveTreeNum = 0
     abList=[]
     for i in range(M):
@@ -126,4 +128,4 @@ def LeftTrees2():
             MoveTreeNum -= b[j-1]-a[j]+1
     leftTreeNum = L+1-MoveTreeNum
     print(leftTreeNum)
-# LeftTrees2()
+LeftTrees2()
