@@ -91,4 +91,6 @@ def Median2():
 
 # [5]剩下的树
 # 20181006 Saterday
-
+def LeftTrees():
+    L,M = map(int,input().split())
+    #
