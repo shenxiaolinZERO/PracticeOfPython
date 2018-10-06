@@ -87,4 +87,5 @@ def Median2():
             b = int(a-1)
             res = int((list[a]+list[b])/2)
             print(res)
-Median2()
+# Median2()
+
