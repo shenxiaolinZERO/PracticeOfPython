@@ -100,3 +100,9 @@ def LeftTrees():
         a[i],b[i] = map(int,input().split( ))
         MoveTreeNum += b[i]-a[i]+1
         
+    for j in range(len(a)):
+        if a[j+1]<b[j]:
+            MoveTreeNum += b[j]-a[j+1]+1
+    leftTreeNum = L+1-MoveTreeNum
+    print(leftTreeNum)
+LeftTrees()
