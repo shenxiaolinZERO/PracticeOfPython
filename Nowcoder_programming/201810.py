@@ -95,11 +95,11 @@ def LeftTrees():
     L,M = map(int,input().split( ))
     #要注意区间有重合的情况
     MoveTreeNum = 0
-    a,b=[],[]
+    abList=[]
     for i in range(M):
-        x1,x2 = map(int,input().split( ))
-        a.append(x1)
-        b.append(x2)
+        abList.append(map(int,input().split( )))
+    for a,b in abList:
+        
         MoveTreeNum += b[i]-a[i]+1
         # print(MoveTreeNum)
 
