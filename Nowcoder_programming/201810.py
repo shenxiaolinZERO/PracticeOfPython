@@ -92,5 +92,10 @@ def Median2():
 # [5]剩下的树
 # 20181006 Saterday
 def LeftTrees():
-    L,M = map(int,input().split())
-    #
+    L,M = map(int,input().split( ))
+    #要注意区间有重合的情况
+    MoveTreeNum = 0
+    for i in range(M):
+        a,b = map(int,input().split( ))
+        MoveTreeNum += b-a+1
+        
