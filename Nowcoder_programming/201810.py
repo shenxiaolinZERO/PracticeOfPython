@@ -89,3 +89,6 @@ def Median2():
             print(res)
 # Median2()
 
+# [5]
+# 20181006 Saterday
+
