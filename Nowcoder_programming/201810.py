@@ -89,7 +89,7 @@ def Median2():
             print(res)
 # Median2()
 
-# [5]剩下的树（）
+# [5]剩下的树（90min）
 # 20181006 Saterday
 # LeftTrees1()的nowcoder,AC未通过所有的测试用例
 def LeftTrees1(): # 单纯计算差值的方法行不通
@@ -113,19 +113,13 @@ def LeftTrees1(): # 单纯计算差值的方法行不通
 def LeftTrees2():
     L,M = map(int,input().split( ))
     #要注意区间有重合的情况
-
-
-    MoveTreeNum = 0
-    abList=[]
+    #把所有树先初始化为1
+    Tree = [1]*(L+1) #最开始时共有L+1棵树
+    MoveInterval = [] #移除的树的区间
     for i in range(M):
-        abList.append(map(int,input().split( )))
-    for a,b in abList:
-        MoveTreeNum += b-a+1
-        # print(MoveTreeNum)
-
-    for j in range(1,len(abList)):
-        if a[j]<b[j-1]:
-            MoveTreeNum -= b[j-1]-a[j]+1
-    leftTreeNum = L+1-MoveTreeNum
+        MoveInterval.append(map(int,input().split( )))
+    for a,b in MoveInterval:
+        Tree[a:b+1]=[0]*(b-a+1) #将移除的树置为0
+    leftTreeNum = sum(Tree)
     print(leftTreeNum)
 LeftTrees2()
