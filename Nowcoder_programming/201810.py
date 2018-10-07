@@ -123,3 +123,8 @@ def LeftTrees2():
     leftTreeNum = sum(Tree)
     print(leftTreeNum)
 # LeftTrees2()
+
+# [6] 大整数排序
+# 20181007 Sunday
+def BigIntegerSort():
+    
