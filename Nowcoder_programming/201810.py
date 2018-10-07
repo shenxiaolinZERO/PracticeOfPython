@@ -122,4 +122,4 @@ def LeftTrees2():
         Tree[a:b+1]=[0]*(b-a+1) #将移除的树置为0
     leftTreeNum = sum(Tree)
     print(leftTreeNum)
-LeftTrees2()
+# LeftTrees2()
