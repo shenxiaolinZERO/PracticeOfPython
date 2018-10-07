@@ -124,7 +124,15 @@ def LeftTrees2():
     print(leftTreeNum)
 # LeftTrees2()
 
-# [6] 大整数排序
+# [6] 大整数排序(9min)
 # 20181007 Sunday
 def BigIntegerSort():
-    
+    n = int(input())
+    list=[]
+    for i in range(n):
+        list.append(int(input()))
+    # print(list)
+    res = list.sort()
+    for i in range(n):
+        print(list[i])
+BigIntegerSort()
