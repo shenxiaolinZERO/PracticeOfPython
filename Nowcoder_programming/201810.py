@@ -150,6 +150,13 @@ def FindPosition1():
             print(",".join(dd[i]))
 FindPosition1()
 
+def FindPosition2():
+    strIn = list(input().strip())
+    set_str = []
+    for x in strIn:
+        result = []
+        
+
 
 
 
