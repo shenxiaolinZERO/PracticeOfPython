@@ -140,7 +140,19 @@ def BigIntegerSort():
 # [7] 给重复字符找位置
 # 20181008 Monday
 from collections import defaultdict
-def FindPosition():
-    str = input()
+def FindPosition1():
+    strIn = input()
+    dd = defaultdict(list)
+    for i,v in enumerate(strIn):
+        dd[v].append(v+":"+str(i))
+    for i in sorted(dd.keys(),key=lambda c:strIn.index(c)):
+        if len(dd[i]) >1:
+            print(",".join(dd[i]))
+FindPosition1()
+
+
+
+
+
 
 
