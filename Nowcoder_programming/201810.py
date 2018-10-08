@@ -135,4 +135,7 @@ def BigIntegerSort():
     res = list.sort()
     for i in range(n):
         print(list[i])
-BigIntegerSort()
+# BigIntegerSort()
+
+# [7]
+# 20181008 
