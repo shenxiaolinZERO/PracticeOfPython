@@ -139,3 +139,5 @@ def BigIntegerSort():
 
 # [7] 给重复字符找位置
 # 20181008 Monday
+def FindPosition():
+    
