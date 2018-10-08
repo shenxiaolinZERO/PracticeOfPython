@@ -137,7 +137,7 @@ def BigIntegerSort():
         print(list[i])
 # BigIntegerSort()
 
-# [7] 给重复字符找位置
+# [7] 给重复字符找位置 （90min +）
 # 20181008 Monday
 from collections import defaultdict
 def FindPosition1():
@@ -148,14 +148,23 @@ def FindPosition1():
     for i in sorted(dd.keys(),key=lambda c:strIn.index(c)):
         if len(dd[i]) >1:
             print(",".join(dd[i]))
-FindPosition1()
+# FindPosition1()
 
 def FindPosition2():
     strIn = list(input().strip())
     set_str = []
     for x in strIn:
         result = []
-        
+        tem_index =[]
+        set_str.append(x)
+        for i in range(len(strIn)):
+            if strIn[i] ==x:
+                tem_index.append(i)
+        for j in range(len(tem_index)):
+            result.append(x+":"+str(tem_index[j]))
+        if len(result) >1:
+            print(",".join(result))
+FindPosition2()
 
 
 
