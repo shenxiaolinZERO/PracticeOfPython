@@ -169,10 +169,9 @@ def FindPosition2():
 # [8] 回文字符串
 # 20181009 Tuesday
 def palindromeStr():
-    strList = input().split()
-
+    strList = input()
     reverseStr = strList[::-1]
-    print(reverseStr)
+    # print(reverseStr)
     if reverseStr == strList:
         print("Yes!")
     else:
