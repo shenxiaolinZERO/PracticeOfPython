@@ -164,7 +164,7 @@ def FindPosition2():
             result.append(x+":"+str(tem_index[j]))
         if len(result) >1:
             print(",".join(result))
-FindPosition2()
+# FindPosition2()
 
 
 
