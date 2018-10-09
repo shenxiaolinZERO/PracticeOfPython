@@ -166,6 +166,8 @@ def FindPosition2():
             print(",".join(result))
 # FindPosition2()
 
+# [8] 回文字符串
+# 20181009 Tuesday
 
 
 
