@@ -192,7 +192,10 @@ def IntegerSplit1():
     n = int(input())
     res = fFunc(n)
     print(res)
-IntegerSplit1()
+# IntegerSplit1()
+
+def IntegerSplit2():
+    
 
 
 
