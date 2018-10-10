@@ -196,6 +196,7 @@ def IntegerSplit1():
     print(res)
 # IntegerSplit1()
 
+# 大牛的解法：
 def IntegerSplit2():
     num = int(input())
     dp = [1 for i in range(num + 1)]
