@@ -180,6 +180,8 @@ def palindromeStr():
 
 # [9] 整数拆分
 # 20181010 Wednesday
+# 1.n为奇数,f(n)=f(n-1)
+# 2.n为偶数,f(n)=f(n-1)+f(n/2)
 def fFunc(n):
     if n==1 or n==0:
         return 1
@@ -195,7 +197,15 @@ def IntegerSplit1():
 # IntegerSplit1()
 
 def IntegerSplit2():
-    
+    num = int(input())
+    dp = [1 for i in range(num + 1)]
+    for i in range(1, num + 1):
+        if i % 2 == 1:
+            dp[i] = dp[i - 1]
+        else:
+            dp[i] = dp[i - 1] + dp[i // 2]
+    print(dp[num] % 1000000000)
+IntegerSplit2()
 
 
 
