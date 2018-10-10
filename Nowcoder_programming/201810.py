@@ -176,7 +176,7 @@ def palindromeStr():
         print("Yes!")
     else:
         print("No!")
-palindromeStr()
+# palindromeStr()
 
 
 
