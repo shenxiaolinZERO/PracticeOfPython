@@ -185,16 +185,15 @@ def palindromeStr():
 def fFunc(n):
     if n==1 or n==0:
         return 1
-    for i in range(2,n):
-        if i %2 ==0:
-            return fFunc(n-1)+fFunc(int(n/2))
-        else:
-            return fFunc(n-1)
+    if n %2 !=1:  # 原先不通过的原因是：写成了 if n %2 !=0:
+        return fFunc(n-1)+fFunc(int(n/2))
+    else:
+        return fFunc(n-1)
 def IntegerSplit1():
     n = int(input())
     res = fFunc(n)
     print(res)
-# IntegerSplit1()
+IntegerSplit1()  # 但是这个方法AC不了啊？？？ ！！！
 
 # 大牛的解法：
 def IntegerSplit2():
@@ -206,7 +205,7 @@ def IntegerSplit2():
         else:
             dp[i] = dp[i - 1] + dp[i // 2]
     print(dp[num] % 1000000000)
-IntegerSplit2()
+# IntegerSplit2()
 
 
 
