@@ -181,17 +181,20 @@ def palindromeStr():
 # [9] 整数拆分
 # 20181010 Wednesday
 def fFunc(n):
-    if n==1:
+    if n==1 or n==0:
         return 1
-    elif n % 2 ==1:
-        return fFunc(n-1)+fFunc(n/2)
-    else:
-        return fFunc(n-1)
-def IntegerSplit():
+    for i in range(2,n):
+        if i %2 ==0:
+            return fFunc(n-1)+fFunc(int(n/2))
+        else:
+            return fFunc(n-1)
+def IntegerSplit1():
     n = int(input())
     res = fFunc(n)
     print(res)
-IntegerSplit()
+IntegerSplit1()
+
+
 
 
 
