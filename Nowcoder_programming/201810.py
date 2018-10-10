@@ -180,6 +180,12 @@ def palindromeStr():
 
 # [9] 整数拆分
 # 20181010 Wednesday
+def IntegerSplit():
+    n = int(input())
+    if n %2 !=0 : # 如果n是奇数
+
+    else:# 如果n是偶数
+        
 
 
 
