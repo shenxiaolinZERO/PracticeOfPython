@@ -207,7 +207,7 @@ def IntegerSplit2():
     print(dp[num] % 1000000000)
 # IntegerSplit2()
 
-# [10] 查找学生信息
+# [10] 查找学生信息(45min)
 # 20181011 Thursday
 def FindStuInfo():
     n = int(input())
@@ -225,7 +225,6 @@ def FindStuInfo():
             print("No Answer!")
         else:
             print(num2+" "+stuDict[num2])
-
 FindStuInfo()
 
 
