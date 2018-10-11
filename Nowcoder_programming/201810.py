@@ -207,6 +207,8 @@ def IntegerSplit2():
     print(dp[num] % 1000000000)
 # IntegerSplit2()
 
+# [10]
+# 20181011 Thursday
 
 
 
