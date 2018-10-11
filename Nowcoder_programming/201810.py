@@ -216,8 +216,13 @@ def FindStuInfo():
         num,name,gender,age =input().split()
         info = name+" "+gender+" "+age
         stuDict[num]=info
-        print(info)
-    print(stuDict)
+    #     print(info)
+    # print(stuDict)
+    findNum = int(input()) # 输入要查找的学生数
+    for j in range(findNum):
+        num2 = input()
+        print(num2+" "+stuDict[num2])
+
 FindStuInfo()
 
 
