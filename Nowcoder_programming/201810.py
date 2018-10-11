@@ -178,7 +178,7 @@ def palindromeStr():
         print("No!")
 # palindromeStr()
 
-# [9] 整数拆分
+# [9] 整数拆分(2hours)
 # 20181010 Wednesday
 # 1.n为奇数,f(n)=f(n-1)
 # 2.n为偶数,f(n)=f(n-1)+f(n/2)
@@ -214,8 +214,9 @@ def FindStuInfo():
     stuDict ={}
     for i in range(n):
         num,name,gender,age =input().split()
-        info = name+gender+age
+        info = name+" "+gender+" "+age
         stuDict[num]=info
+        print(info)
     print(stuDict)
 FindStuInfo()
 
