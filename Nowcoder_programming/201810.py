@@ -209,7 +209,11 @@ def IntegerSplit2():
 
 # [10] 查找学生信息
 # 20181011 Thursday
-
+def FindStuInfo():
+    n = int(input())
+    stuDict ={}
+    for i in range(n):
+        
 
 
 
