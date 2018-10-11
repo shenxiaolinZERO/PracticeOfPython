@@ -213,7 +213,11 @@ def FindStuInfo():
     n = int(input())
     stuDict ={}
     for i in range(n):
-        
+        num,name,gender,age =input().split()
+        info = name+gender+age
+        stuDict[num]=info
+    print(stuDict)
+FindStuInfo()
 
 
 
