@@ -193,7 +193,7 @@ def IntegerSplit1():
     n = int(input())
     res = fFunc(n)
     print(res)
-IntegerSplit1()  # 但是这个方法AC不了啊？？？ ！！！
+# IntegerSplit1()  # 但是这个方法AC不了啊？？？ ！！！
 
 # 大牛的解法：
 def IntegerSplit2():
