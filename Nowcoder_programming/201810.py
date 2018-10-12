@@ -225,7 +225,7 @@ def FindStuInfo():
             print("No Answer!")
         else:
             print(num2+" "+stuDict[num2])
-FindStuInfo()
+# FindStuInfo()
 
 
 
