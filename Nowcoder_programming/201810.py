@@ -227,6 +227,8 @@ def FindStuInfo():
             print(num2+" "+stuDict[num2])
 # FindStuInfo()
 
+# [11] 查找第K小数
+
 
 
 
