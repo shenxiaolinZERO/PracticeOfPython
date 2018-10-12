@@ -227,11 +227,17 @@ def FindStuInfo():
             print(num2+" "+stuDict[num2])
 # FindStuInfo()
 
-# [11] 查找第K小数
+# [11] 查找第K小数(12min)
 # 20181012 Friday
 def FindTheKthNumber():
     n = int(input())
-    
+    list = set(map(int,input().split()))
+    print("list1 为：",list)
+    list2 = sorted(list)
+    print("list2 为：",list2)
+    k = int(input())
+    print(list2[k-1])
+FindTheKthNumber()
 
 
 
