@@ -231,7 +231,7 @@ def FindStuInfo():
 # 20181012 Friday
 def FindTheKthNumber():
     n = int(input())
-    list = set(map(int,input().split()))
+    list = set(map(int,input().split())) # 如果没有进行int操作，会导致下面的sort是对字符进行排序（先1开头的，后2开头的
     print("list1 为：",list)
     list2 = sorted(list)
     print("list2 为：",list2)
