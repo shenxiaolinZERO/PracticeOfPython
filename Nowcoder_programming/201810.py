@@ -228,6 +228,7 @@ def FindStuInfo():
 # FindStuInfo()
 
 # [11] 查找第K小数
+# 20181012 Friday
 
 
 
