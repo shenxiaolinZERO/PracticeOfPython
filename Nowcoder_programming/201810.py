@@ -229,7 +229,9 @@ def FindStuInfo():
 
 # [11] 查找第K小数
 # 20181012 Friday
-
+def FindTheKthNumber():
+    n = int(input())
+    
 
 
 
