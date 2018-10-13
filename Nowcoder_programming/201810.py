@@ -239,7 +239,13 @@ def FindTheKthNumber():
     print(list2[k-1])
 # FindTheKthNumber()
 
-# [12]
+# [12] 最小邮票数
+# 20181013 Saturday
+def MinNumberofStamp():
+    TotalValue = int(input())
+    StampNum = int(input())
+    stamp = map(int,input().split())
+
 
 
 
