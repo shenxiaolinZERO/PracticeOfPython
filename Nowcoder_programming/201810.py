@@ -239,6 +239,8 @@ def FindTheKthNumber():
     print(list2[k-1])
 # FindTheKthNumber()
 
+# [12]
+
 
 
 
