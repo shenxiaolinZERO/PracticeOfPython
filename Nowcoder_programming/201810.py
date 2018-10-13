@@ -239,7 +239,7 @@ def FindTheKthNumber():
     print(list2[k-1])
 # FindTheKthNumber()
 
-# [12] 最小邮票数
+# [12] 最小邮票数   || [0/1背包问题]
 # 20181013 Saturday
 def MinNumberofStamp():
     TotalValue = int(input())
