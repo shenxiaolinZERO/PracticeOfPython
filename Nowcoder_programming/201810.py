@@ -237,7 +237,7 @@ def FindTheKthNumber():
     print("list2 为：",list2)
     k = int(input())
     print(list2[k-1])
-FindTheKthNumber()
+# FindTheKthNumber()
 
 
 
