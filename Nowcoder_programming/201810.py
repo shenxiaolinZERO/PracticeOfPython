@@ -250,6 +250,9 @@ def MinNumberofStamp():
 
 # [13] 求最大值
 # 20181015 Monday
+def TheMax():
+    datas = map(int,input().split())
+    
 
 
 
