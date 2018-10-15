@@ -252,7 +252,10 @@ def MinNumberofStamp():
 # 20181015 Monday
 def TheMax():
     datas = map(int,input().split())
-    
+    datas = sorted(datas)
+    max = datas[-1]
+    print("max="+str(max)) # 注意max=和数值之前不要有空格
+TheMax()
 
 
 
