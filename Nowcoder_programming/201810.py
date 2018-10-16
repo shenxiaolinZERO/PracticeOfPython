@@ -257,7 +257,10 @@ def TheMax():
     print("max="+str(max)) # 注意max=和数值之前不要有空格
 TheMax()
 
-# [14] 
+# [14] 找最小数
+# 20181016 Tuesday
+
+
 
 
 
