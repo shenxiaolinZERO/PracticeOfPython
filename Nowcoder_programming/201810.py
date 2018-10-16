@@ -265,9 +265,9 @@ def FindTheMin():
     for i in range(n):
         x,y = map(int,input().split())
         list.append((x,y))
-        res = min(list,key=lambda c:[0][1])
-        print(res[0],res[1])
-
+    res = min(list,key=lambda c:(c[0],c[1]))
+    print(res[0],res[1])
+FindTheMin()
 
 
 
