@@ -255,12 +255,18 @@ def TheMax():
     datas = sorted(datas)
     max = datas[-1]
     print("max="+str(max)) # 注意max=和数值之前不要有空格
-TheMax()
+# TheMax()
 
 # [14] 找最小数
 # 20181016 Tuesday
 def FindTheMin():
     n = int(input())
+    list=[]
+    for i in range(n):
+        x,y = map(int,input().split())
+        list.append((x,y))
+        res = min(list,key=lambda c:[0][1])
+        print(res[0],res[1])
 
 
 
