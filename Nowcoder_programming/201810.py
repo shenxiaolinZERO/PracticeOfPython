@@ -267,7 +267,7 @@ def FindTheMin():
         list.append((x,y))
     res = min(list,key=lambda c:(c[0],c[1]))
     print(res[0],res[1])
-FindTheMin()
+# FindTheMin()
 
 
 
