@@ -259,6 +259,8 @@ TheMax()
 
 # [14] 找最小数
 # 20181016 Tuesday
+def FindTheMin():
+    n = int(input())
 
 
 
