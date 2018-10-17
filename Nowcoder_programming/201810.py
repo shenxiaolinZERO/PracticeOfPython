@@ -277,8 +277,14 @@ def littleMiceQueuing():
     for i in range(n):
         a,b=input().split()
         dic[int(a)]=b
-    print(dic)
-    
+    # print(dic)
+    dic= sorted(dic.items(),key=lambda dic:dic[0],reverse=True)
+    # print(dic)
+    for key,value in dic:
+        print(value)
+littleMiceQueuing()
+
+
 
 
 
