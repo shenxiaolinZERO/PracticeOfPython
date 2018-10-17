@@ -242,13 +242,16 @@ def FindTheKthNumber():
 # [12] 最小邮票数   || [0/1背包问题] DP问题-->https://www.cnblogs.com/shenxiaolin/p/9806447.html
 # 20181013 Saturday
 def MinNumberofStamp():
-    TotalValue = int(input())
-    StampNum = int(input())
-    stamp = map(int,input().split())
-    #每个值都初始化为1000000，一共有TotalValue+1个
-    dp = [int(1000000)]*(TotalValue+1)
+    totalValue = int(input())
+    ttampNum = int(input())
+    # stamp = map(int,input().split())
+    stamp = input().split()
+    #每个值都初始化为1000000，一共有totalValue+1个
+    dp = [int(1000000)]*(totalValue+1)
     dp[0] = int(0)  #第一个初始化为0
-    
+    for i in range():
+        stamp[i]=int(stamp[i])
+
 
 
 
