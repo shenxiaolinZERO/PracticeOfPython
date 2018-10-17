@@ -269,9 +269,11 @@ def FindTheMin():
     print(res[0],res[1])
 # FindTheMin()
 
-# [15] 奇偶校验
+# [15] 小白鼠排队
 # 20181017 Wednesday
-
+def littleMiceQueuing():
+    n = int(input())
+    
 
 
 
