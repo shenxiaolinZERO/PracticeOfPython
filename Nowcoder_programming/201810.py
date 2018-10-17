@@ -245,7 +245,9 @@ def MinNumberofStamp():
     TotalValue = int(input())
     StampNum = int(input())
     stamp = map(int,input().split())
-
+    dp = [int(1000000)]*(TotalValue+1)
+    dp[0] = int(0)
+    
 
 
 # [13] 求最大值
