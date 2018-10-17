@@ -102,8 +102,8 @@
       <file leaf-file-name="201810.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201810.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="243" column="0" lean-forward="false" selection-start-line="243" selection-start-column="0" selection-end-line="259" selection-end-column="18" />
+            <state relative-caret-position="-1">
+              <caret line="241" column="16" lean-forward="false" selection-start-line="241" selection-start-column="16" selection-end-line="241" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -954,8 +954,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201810.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="243" column="0" lean-forward="false" selection-start-line="243" selection-start-column="0" selection-end-line="259" selection-end-column="18" />
+        <state relative-caret-position="-1">
+          <caret line="241" column="16" lean-forward="false" selection-start-line="241" selection-start-column="16" selection-end-line="241" selection-end-column="16" />
           <folding />
         </state>
       </provider>
