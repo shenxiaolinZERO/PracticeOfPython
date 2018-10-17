@@ -283,7 +283,7 @@ def littleMiceQueuing():
     # print(dic)
     for key,value in dic:
         print(value)
-littleMiceQueuing()
+# littleMiceQueuing()
 
 
 
