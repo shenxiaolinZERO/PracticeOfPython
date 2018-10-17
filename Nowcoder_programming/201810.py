@@ -269,6 +269,10 @@ def FindTheMin():
     print(res[0],res[1])
 # FindTheMin()
 
+# [15] 奇偶校验
+# 20181017 Wednesday
+
+
 
 
 
