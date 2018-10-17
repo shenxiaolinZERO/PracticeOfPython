@@ -273,6 +273,11 @@ def FindTheMin():
 # 20181017 Wednesday
 def littleMiceQueuing():
     n = int(input())
+    dic={}
+    for i in range(n):
+        a,b=input().split()
+        dic[int(a)]=b
+    print(dic)
     
 
 
