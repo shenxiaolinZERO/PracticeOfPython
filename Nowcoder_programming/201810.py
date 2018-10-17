@@ -245,9 +245,11 @@ def MinNumberofStamp():
     TotalValue = int(input())
     StampNum = int(input())
     stamp = map(int,input().split())
+    #每个值都初始化为1000000，一共有TotalValue+1个
     dp = [int(1000000)]*(TotalValue+1)
-    dp[0] = int(0)
+    dp[0] = int(0)  #第一个初始化为0
     
+
 
 
 # [13] 求最大值
