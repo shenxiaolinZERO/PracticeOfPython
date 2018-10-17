@@ -278,6 +278,7 @@ def littleMiceQueuing():
         a,b=input().split()
         dic[int(a)]=b
     # print(dic)
+    #### 字典按键排序。默认升序排序，reverse=True 表示降序排序
     dic= sorted(dic.items(),key=lambda dic:dic[0],reverse=True)
     # print(dic)
     for key,value in dic:
