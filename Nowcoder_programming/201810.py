@@ -311,12 +311,25 @@ def CountDay():
     day2 = day1[0:4] + "-" + day2[4:6] + "-" + day2[6:8]
 
     day1 = datetime.strptime(day1,"%Y-%m-%d")  # 之前写成这个了：strftime,会报这个错：TypeError: descriptor 'strftime' requires a 'datetime.date' object but received a 'str'
-    day2 = datetime.strptime(day2, "%Y-%m-%d")
+    day2 = datetime.strptime(day2,"%Y-%m-%d")
     delta = (day2 - day1).days+1
     print(delta)
-CountDay()
+# CountDay()
+# 10000101
+# 10010201
+# 32 (wrong
 
-
+import datetime
+while True:
+    try:
+        date1 = input()
+        date2 = input()
+        print((datetime.datetime(int(date2[:4]),int(date2[4:6]),int(date2[6:]))-datetime.datetime(int(date1[:4]),int(date1[4:6]),int(date1[6:]))).days+1)
+    except Exception:
+        break
+# 10000101
+# 10010201
+# 397
 
 
 
