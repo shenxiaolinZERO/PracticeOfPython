@@ -299,10 +299,10 @@ def littleMiceQueuing():
         print(value)
 # littleMiceQueuing()
 
-# [16]
+# [16] 日期差值
 # 20181018 Thursday
-
-
+from datetime import datetime
+def 
 
 
 
