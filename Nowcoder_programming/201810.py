@@ -310,7 +310,7 @@ def CountDay():
     day2 = day1[0:4] + "-" + day2[4:6] + "-" + day2[6:8]
     print(day1)
     print(day2)
-    day1 = datetime.strftime(day1,'%Y-%m-%d')
+    day1 = datetime.datetime.strftime(day1,'%Y-%m-%d')
 CountDay()
 
 
