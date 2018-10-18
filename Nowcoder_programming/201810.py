@@ -319,20 +319,26 @@ def CountDay():
 # 10010201
 # 32 (wrong
 
-import datetime
+# import datetime
+# while True:
+#     try:
+#         date1 = input()
+#         date2 = input()
+#         print((datetime.datetime(int(date2[:4]),int(date2[4:6]),int(date2[6:]))-datetime.datetime(int(date1[:4]),int(date1[4:6]),int(date1[6:]))).days+1)
+#     except Exception:
+#         break
+# # 10000101
+# # 10010201
+# # 397
+
+
+
+from datetime import datetime
 while True:
     try:
-        date1 = input()
-        date2 = input()
-        print((datetime.datetime(int(date2[:4]),int(date2[4:6]),int(date2[6:]))-datetime.datetime(int(date1[:4]),int(date1[4:6]),int(date1[6:]))).days+1)
-    except Exception:
+        print(-(datetime.strptime(input(),"%Y%m%d")-datetime.strptime(input(),"%Y%m%d")).days+1)
+    except:
         break
-# 10000101
-# 10010201
-# 397
-
-
-
 
 
 
