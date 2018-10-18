@@ -309,9 +309,8 @@ def CountDay():
 
     day1 = day1[0:4] + "-" + day1[4:6] + "-" + day1[6:8]
     day2 = day1[0:4] + "-" + day2[4:6] + "-" + day2[6:8]
-    print(day1)
-    print(day2)
-    day1 = datetime.strptime(day1,"%Y-%m-%d")
+
+    day1 = datetime.strptime(day1,"%Y-%m-%d")  # 之前写成这个了：strftime,会报这个错：TypeError: descriptor 'strftime' requires a 'datetime.date' object but received a 'str'
     day2 = datetime.strptime(day2, "%Y-%m-%d")
     delta = (day2 - day1).days+1
     print(delta)
