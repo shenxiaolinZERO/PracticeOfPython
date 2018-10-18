@@ -307,7 +307,7 @@ def CountDay():
     day1 = input()
     day2 = input()
 
-    day1 = day1[0:4]+"-"+day1[4:6]+"-"+day1[6:8]
+    day1 = day1[0:4] + "-" + day1[4:6] + "-" + day1[6:8]
     day2 = day1[0:4] + "-" + day2[4:6] + "-" + day2[6:8]
     print(day1)
     print(day2)
