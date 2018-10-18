@@ -258,7 +258,7 @@ def MinNumberofStamp():
         print(0)
     else:
         print(dp[totalValue])
-MinNumberofStamp()
+# MinNumberofStamp()
 
 
 
