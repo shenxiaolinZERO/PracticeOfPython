@@ -58,7 +58,6 @@ def ZOJ():
         if jnum>0:
             print("J",end="")
             jnum-=1
-
 # ZOJ()
 
 
@@ -111,7 +110,7 @@ def CountDays():
 
     delta = (currentDay-firstDay).days+1
     print(delta)
-# CountDays()
+CountDays()
 
 # [7]
 # 20180914 Friday
