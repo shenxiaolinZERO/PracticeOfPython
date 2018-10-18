@@ -332,13 +332,13 @@ def CountDay():
 # # 397
 
 
-
-from datetime import datetime
-while True:
-    try:
-        print(-(datetime.strptime(input(),"%Y%m%d")-datetime.strptime(input(),"%Y%m%d")).days+1)
-    except:
-        break
-
-
+# from datetime import datetime
+# while True:
+#     try:
+#         print(-(datetime.strptime(input(),"%Y%m%d")-datetime.strptime(input(),"%Y%m%d")).days+1)
+#     except:
+#         break
+# # 10000101
+# # 10010201
+# # 397
 
