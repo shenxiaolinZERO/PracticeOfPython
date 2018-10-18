@@ -301,20 +301,22 @@ def littleMiceQueuing():
 
 # [16] 日期差值(one morning)
 # 20181018 Thursday
-from datetime import datetime
+
 # import datetime
+from datetime import datetime
 def CountDay():
     day1 = input()
     day2 = input()
 
     # day1 = day1[0:4] + "-" + day1[4:6] + "-" + day1[6:8]
-    # day2 = day1[0:4] + "-" + day2[4:6] + "-" + day2[6:8]
+    # day2 = day2[0:4] + "-" + day2[4:6] + "-" + day2[6:8]
     day1 = day1[:4] + "-" + day1[4:6] + "-" + day1[6:]
-    day2 = day1[:4] + "-" + day2[4:6] + "-" + day2[6:]
+    day2 = day2[:4] + "-" + day2[4:6] + "-" + day2[6:]
 
     day1 = datetime.strptime(day1,"%Y-%m-%d")  # 之前写成这个了：strftime,会报这个错：TypeError: descriptor 'strftime' requires a 'datetime.date' object but received a 'str'
     day2 = datetime.strptime(day2,"%Y-%m-%d")
-    delta = (-(day1-day2)).days+1
+    # print(day2,day1)
+    delta = (day2 - day1).days+1
     print(delta)
 CountDay()
 # 10000101
