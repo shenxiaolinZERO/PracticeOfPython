@@ -301,7 +301,6 @@ def littleMiceQueuing():
 
 # [16] 日期差值(one morning)
 # 20181018 Thursday
-
 # import datetime
 from datetime import datetime
 def CountDay():
@@ -319,7 +318,9 @@ def CountDay():
     delta = (day2 - day1).days+1
     print(delta)
 # CountDay()
-
 # 10000101
 # 10010201
 # 32 (wrong，should be 397
+
+# [17] 求root(N,k)
+# 20181019 Friday
