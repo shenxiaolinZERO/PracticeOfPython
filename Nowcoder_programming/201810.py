@@ -329,4 +329,6 @@ def CountDay():
 # [17] 八进制
 # 20181019 Friday
 def octalNumber():
-    
+    n = int(input())
+    print(oct(n).replace("0o","")) #输出时把前面两个字符去掉
+octalNumber()
