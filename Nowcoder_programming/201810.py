@@ -318,7 +318,8 @@ def CountDay():
     # print(day2,day1)
     delta = (day2 - day1).days+1
     print(delta)
-CountDay()
+# CountDay()
+
 # 10000101
 # 10010201
 # 32 (wrong
