@@ -324,3 +324,9 @@ def CountDay():
 
 # [17] 求root(N,k)
 # 20181019 Friday
+# def calRoot():
+
+# [17] 八进制
+# 20181019 Friday
+def octalNumber():
+    
