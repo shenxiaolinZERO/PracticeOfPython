@@ -356,9 +356,9 @@ def divisorNum(num):
     for i in range(1,s):
         if num%i== 0:
             count+=2
-        if i*i == num:
+    for j in range(s):
+        if pow(j,2) == num:
             count+=1
-
     return count
 def divisorNumMain():
     n = int(input())
