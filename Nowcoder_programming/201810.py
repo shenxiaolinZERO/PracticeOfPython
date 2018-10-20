@@ -336,3 +336,13 @@ def octalNumber1():
     n = int(input())
     print(oct(n).replace("0o","")) #输出时把前面两个字符去掉
 # octalNumber1()
+
+#除8取余法：直到商为0，倒着输出余数即可
+def octalNumber2():
+    n= int(input())
+    result = ""
+    while(n!=0):
+        result = str(n%8)+result
+        n = n/8
+    print(result)
+octalNumber2()
