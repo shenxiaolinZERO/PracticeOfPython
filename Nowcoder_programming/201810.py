@@ -350,11 +350,11 @@ def octalNumber2():
 # [18] 约数的个数
 # 20181020 Saterday
 import math
-def divisorNum(n):
+def divisorNum(num):
     count=0
-    s=int(math.sqrt(n))
+    s=int(math.sqrt(num)) # 限制i*i<n
     for i in range(1,s):
-        if n%i==0:
+        if num%i==0:
             count+=2
     if s==1:
         count+=1
@@ -362,7 +362,9 @@ def divisorNum(n):
 def divisorNumMain():
     n = int(input())
     list = map(int,input().split())
-    
-
+    for i in list:
+        res = divisorNum(i)
+        print(res)
+divisorNumMain()
 
 
