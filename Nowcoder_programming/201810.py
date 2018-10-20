@@ -345,4 +345,8 @@ def octalNumber2():
         res = str(n%8)+res
         n = n//8 # 取商
     print(res)
-octalNumber2()
+# octalNumber2()
+
+
+
+
