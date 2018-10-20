@@ -354,10 +354,11 @@ def divisorNum(num):
     count=0
     s=int(math.sqrt(num)) # 限制i*i<n
     for i in range(1,s):
-        if num%i==0:
+        if num%i== 0:
             count+=2
-    if s==1:
-        count+=1
+        if i*i == num:
+            count+=1
+
     return count
 def divisorNumMain():
     n = int(input())
