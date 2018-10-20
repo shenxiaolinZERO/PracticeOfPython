@@ -347,6 +347,13 @@ def octalNumber2():
     print(res)
 # octalNumber2()
 
+# [18] 约数的个数
+# 20181020 Saterday
+def divisorNum(n):
+
+    
+def divisorNumMain():
+    n = int(input())
 
 
 
