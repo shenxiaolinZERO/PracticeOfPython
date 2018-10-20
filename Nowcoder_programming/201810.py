@@ -340,9 +340,9 @@ def octalNumber1():
 #除8取余法：直到商为0，倒着输出余数即可
 def octalNumber2():
     n= int(input())
-    result = ""
+    res = ""
     while(n!=0):
-        result = str(n%8)+result
-        n = n/8
-    print(result)
+        res = str(n%8)+res
+        n = n//8 # 取商
+    print(res)
 octalNumber2()
