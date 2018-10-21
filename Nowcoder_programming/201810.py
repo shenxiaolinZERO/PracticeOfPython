@@ -351,7 +351,7 @@ def octalNumber2():
 # 20181020 Saterday
 import math
 def divisorNum1(num):
-    count=0
+    count=1
     s=int(math.sqrt(num)) # 限制i*i<n
     for i in range(1,s):
         if num%i== 0:
@@ -366,8 +366,8 @@ def divisorNum1(num):
 # 同理p2^a2的约数有（a2+1）个......pk^ak的约数有（ak+1）个。
 def divisorNum2(num):
     ans = 1 # 约数的个数初始化为1
-    x =2 #每个数的质因数从2开始
-    while x *x <=num:
+    x =2 # 每个数的质因数从2开始
+    while x * x <=num:
         count =1
         #求每个质因数的指数
         while num %x ==0:
@@ -388,7 +388,7 @@ def divisorNumMain():
     print(list2)
 
     for j in range(len(list2)):
-        # res = divisorNum1(list2[j])
+        # res = divisorNum1(list2[j]) #nope
         res = divisorNum2(list2[j])
         print(res)
 divisorNumMain()
