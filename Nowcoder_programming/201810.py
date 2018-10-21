@@ -359,13 +359,18 @@ def divisorNum(num):
     for j in range(1,s):
         if pow(j,2) == num:
             count+=1
-    return count
+    return count,s
 def divisorNumMain():
     n = int(input())
-    list = map(int,input().split())
+    # list = map(int,input().split())
+    list = map(int, input().split())
+    print(list)
+    for i in range(n):
+        
+
     for i in list:
-        res = divisorNum(i)
-        print(res)
+        res,s = divisorNum(i)
+        print(res,s)
 divisorNumMain()
 
 
