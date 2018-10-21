@@ -361,9 +361,13 @@ def divisorNum0(num):
             count+=1
     return count
 
-#ref-法一：从1到n枚举，判断是否可以整除
+#ref-法一：从1到n枚举，判断是否可以整除。时间复杂度 O(n)
+def countDivisors1(num):
+    return  sum(num%i ==0 for i in range(1,num+1))
 
-
+#ref-法二：从1到sqrt(n)枚举，判断是否可以整除。时间复杂度 O(sqrt(n))
+def countDivisors2(num):
+    
 
 # 根据约数个数的定理，
 # p1^a1的约数有:p1^0, p1^1, p1^2......p1^a1 ，共（a1+1）个;
