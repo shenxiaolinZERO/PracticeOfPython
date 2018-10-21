@@ -350,7 +350,7 @@ def octalNumber2():
 # [18] 约数的个数
 # 20181020 Saterday
 import math
-def divisorNum1(num):
+def divisorNum0(num):
     count=1
     s=int(math.sqrt(num)) # 限制i*i<n
     for i in range(1,s+1):
@@ -360,6 +360,10 @@ def divisorNum1(num):
         if pow(i,2) == num:
             count+=1
     return count
+
+#ref-法一：从1到n枚举，判断是否可以整除
+
+
 
 # 根据约数个数的定理，
 # p1^a1的约数有:p1^0, p1^1, p1^2......p1^a1 ，共（a1+1）个;
