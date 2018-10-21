@@ -353,7 +353,7 @@ import math
 def divisorNum1(num):
     count=1
     s=int(math.sqrt(num)) # 限制i*i<n
-    for i in range(1,s):
+    for i in range(1,s+1):
         if num%i== 0:
             count+=2
     # for j in range(1,s):
@@ -393,4 +393,14 @@ def divisorNumMain():
         print(res)
 divisorNumMain()
 
-
+'''
+输入：
+5
+1 3 4 6 12
+输出：
+1
+2
+3
+4
+6
+'''
