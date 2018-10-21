@@ -360,6 +360,8 @@ def divisorNum1(num):
         if pow(i,2) == num:
             count+=1
     return count
+def divisorNmu2(num):
+
 def divisorNumMain():
     n = int(input())
     # list = map(int,input().split())
@@ -371,7 +373,8 @@ def divisorNumMain():
     print(list2)
 
     for j in range(len(list2)):
-        res = divisorNum1(list2[j])
+        # res = divisorNum1(list2[j])
+        res = divisorNum2(list2[j])
         print(res)
 divisorNumMain()
 
