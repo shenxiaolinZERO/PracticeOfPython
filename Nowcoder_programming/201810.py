@@ -360,7 +360,22 @@ def divisorNum1(num):
         if pow(i,2) == num:
             count+=1
     return count
-def divisorNmu2(num):
+
+# 根据约数个数的定理，
+# p1^a1的约数有:p1^0, p1^1, p1^2......p1^a1 ，共（a1+1）个;
+# 同理p2^a2的约数有（a2+1）个......pk^ak的约数有（ak+1）个。
+def divisorNum2(num):
+    ans = 1 # 约数的个数初始化为1
+    x =2 #每个数的质因数从2开始
+    while x *x <=num:
+        count =1
+        #求每个质因数的指数
+        while num %x ==0:
+            count +=1
+            num /=x
+        ans *=count
+        x +=1
+    return ans*(1+(num>1)) # num=1 时返回ans, num>1时返回ans*2
 
 def divisorNumMain():
     n = int(input())
