@@ -367,12 +367,18 @@ def countDivisors1(num):
 
 #ref-法二：从1到sqrt(n)枚举，判断是否可以整除。时间复杂度 O(sqrt(n))
 def countDivisors2(num):
-    
+    count =0
+    sqrt = int(num **0.5)
+    for x in range(1,sqrt+1):
+        if num % x ==0:
+            count +=1
+    return count *2 -(sqrt **2 ==num)
 
+#ref-法三：分解质因子，求幂的乘积。时间复杂度 O(sqrt(n))
 # 根据约数个数的定理，
 # p1^a1的约数有:p1^0, p1^1, p1^2......p1^a1 ，共（a1+1）个;
 # 同理p2^a2的约数有（a2+1）个......pk^ak的约数有（ak+1）个。
-def divisorNum2(num):
+def countDivisors3(num):
     ans = 1 # 约数的个数初始化为1
     x =2 # 每个数的质因数从2开始
     while x * x <=num:
@@ -396,8 +402,12 @@ def divisorNumMain():
     print(list2)
 
     for j in range(len(list2)):
-        # res = divisorNum1(list2[j]) #nope
-        res = divisorNum2(list2[j])
+        # res = divisorNum0(list2[j]) #nope
+        #
+        res = countDivisors1(list2[j])
+        res = countDivisors2(list2[j])
+        res = countDivisors3(list2[j])
+
         print(res)
 divisorNumMain()
 
