@@ -422,3 +422,6 @@ def divisorNumMain():
 4
 6
 '''
+
+# [19] 二进制数
+# 20181022 Monday
