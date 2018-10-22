@@ -409,7 +409,7 @@ def divisorNumMain():
         res = countDivisors3(list2[j])
 
         print(res)
-divisorNumMain()
+# divisorNumMain()
 
 '''
 输入：
