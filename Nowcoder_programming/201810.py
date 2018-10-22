@@ -425,11 +425,14 @@ def divisorNumMain():
 
 # [19] 二进制数
 # 20181022 Monday
-def binaryNumber():
+# def binaryNumber():
 
 def binaryNumberMain():
     n = int(input())
     res = ""
     while (n!=0): # 除2取余
-        res = n%2 +res
-        n = n//2 # 
+        res = str(n%2) + res
+        n = n//2 # 取商
+    print(int(res))
+binaryNumberMain()
+#还可以： print(bin(int(input())).replace("0b",""))
