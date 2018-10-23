@@ -426,7 +426,6 @@ def divisorNumMain():
 # [19] 二进制数
 # 20181022 Monday
 # def binaryNumber():
-
 def binaryNumberMain():
     n = int(input())
     res = ""
@@ -434,5 +433,5 @@ def binaryNumberMain():
         res = str(n%2) + res
         n = n//2 # 取商
     print(int(res))
-binaryNumberMain()
+# binaryNumberMain()
 #还可以： print(bin(int(input())).replace("0b",""))
