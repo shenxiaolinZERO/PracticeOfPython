@@ -436,7 +436,13 @@ def binaryNumberMain():
 # binaryNumberMain()
 #还可以： print(bin(int(input())).replace("0b",""))
 
-# [20] 进制转换[十进制转二进制]
+# [20] 进制转换[十进制转二进制] (3min)
 # 20181023 Tuesday
 def conversionOfNumberSystems():
-    
+    n = int(input())
+    res = ""
+    while (n!=0):
+        res = str(n%2) + res
+        n = n//2
+    print(int(res))
+conversionOfNumberSystems()
