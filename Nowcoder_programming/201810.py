@@ -435,3 +435,6 @@ def binaryNumberMain():
     print(int(res))
 # binaryNumberMain()
 #还可以： print(bin(int(input())).replace("0b",""))
+
+# [20] 进制转换
+# 20181023 Tuesday
