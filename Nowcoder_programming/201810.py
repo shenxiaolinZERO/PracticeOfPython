@@ -446,3 +446,5 @@ def conversionOfNumberSystems():
         n = n//2
     print(int(res))
 # conversionOfNumberSystems()
+
+# [21] N阶楼梯上楼问题
