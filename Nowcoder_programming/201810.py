@@ -447,7 +447,7 @@ def conversionOfNumberSystems():
     print(int(res))
 # conversionOfNumberSystems()
 
-# [21] N阶楼梯上楼问题
+# [21] N阶楼梯上楼问题 (35min)
 # 20181024 Wednesday
 # 斐波那契数列的应用？
 # 斐波那契数列: 1, 1, 2, 3, 5,...,从第3项开始，每一项都等于前两项之和。
