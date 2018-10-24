@@ -454,8 +454,9 @@ def conversionOfNumberSystems():
 def fibonacci(n):
     x,y =1,1
     while n:
-        x=y
-        y=x+y
+        # x=y
+        # y=x+y
+        x,y = y,x+y
         n=n-1
     return x  # 斐波那契数列的第n个数是x
 def NOrderStairs():
