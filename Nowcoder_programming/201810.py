@@ -448,3 +448,4 @@ def conversionOfNumberSystems():
 # conversionOfNumberSystems()
 
 # [21] N阶楼梯上楼问题
+# 20181024 Wednesday
