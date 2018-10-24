@@ -449,3 +449,6 @@ def conversionOfNumberSystems():
 
 # [21] N阶楼梯上楼问题
 # 20181024 Wednesday
+# 斐波那契数列: 1, 1, 2, 3, 5,...,从第3项开始，每一项都等于前两项之和。
+def NOrderStairs():
+    n = int(input())
