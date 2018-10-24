@@ -449,6 +449,16 @@ def conversionOfNumberSystems():
 
 # [21] N阶楼梯上楼问题
 # 20181024 Wednesday
+# 斐波那契数列的应用？
 # 斐波那契数列: 1, 1, 2, 3, 5,...,从第3项开始，每一项都等于前两项之和。
+def fibonacci(n):
+    x,y =1,1
+    while n:
+        x=y
+        y=x+y
+        n=n-1
+    return x  # 斐波那契数列的第n个数是x
 def NOrderStairs():
     n = int(input())
+    print(fibonacci(n))
+NOrderStairs()
