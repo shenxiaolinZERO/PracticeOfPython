@@ -445,4 +445,4 @@ def conversionOfNumberSystems():
         res = str(n%2) + res
         n = n//2
     print(int(res))
-conversionOfNumberSystems()
+# conversionOfNumberSystems()
