@@ -468,7 +468,13 @@ def NOrderStairs():
 # 20181025 Thursday
 def SpecialSort():
     n = int(input())
-    list = map(int,input().split())
-
+    list = input().split()
+    for i in range(n):
+        list[i] = int(int(list[i]))
+    list=sorted(list)
+    print(list[-1])
+    # print(list[:,-1])
+    for j in range(n-1):
+        print()
     print(list)
 SpecialSort()
