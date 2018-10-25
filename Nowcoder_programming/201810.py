@@ -463,3 +463,6 @@ def NOrderStairs():
     n = int(input())
     print(fibonacci(n))
 # NOrderStairs()
+
+# [22] 特殊排序
+# 20181025 Thursday
