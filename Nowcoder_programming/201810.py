@@ -462,4 +462,4 @@ def fibonacci(n):
 def NOrderStairs():
     n = int(input())
     print(fibonacci(n))
-NOrderStairs()
+# NOrderStairs()
