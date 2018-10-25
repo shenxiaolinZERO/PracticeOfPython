@@ -474,7 +474,10 @@ def SpecialSort():
     list=sorted(list)
     print(list[-1])
     # print(list[:,-1])
-    for j in range(n-1):
-        print()
-    print(list)
+    if n >1:
+        for j in range(n-1):
+            print(list[j],end=" ")
+    else :
+        print(-1)
+    # print(list)
 SpecialSort()
