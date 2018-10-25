@@ -467,4 +467,8 @@ def NOrderStairs():
 # [22] 特殊排序
 # 20181025 Thursday
 def SpecialSort():
-    
+    n = int(input())
+    list = map(int,input().split())
+
+    print(list)
+SpecialSort()
