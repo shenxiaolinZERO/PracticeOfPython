@@ -484,22 +484,24 @@ def SpecialSort():
 
 # [23] 递推数列（）
 # 20181026 Friday
-def anFunc(a0,a1,p,q,n): #注意停止条件，三个return诶
-    if n==0:
-        return a0
-    if n==1:
-        return a1
-    else:
-        while n>=2:
-            return p*anFunc(a0,a1,p,q,n-1)+q*anFunc(a0,a1,p,q,n-2)
-
-def RecursionSequence():
+#法1：递归求解，太耗时了编译不通过
+def RecursionSequence01():
     a0,a1,p,q,k = map(int,input().split())
+    def anFunc(a0, a1, p, q, n):  # 注意停止条件，三个return诶
+        if n == 0:
+            return a0
+        if n == 1:
+            return a1
+        else:
+            while n >= 2:
+                return p * anFunc(a0, a1, p, q, n - 1) + q * anFunc(a0, a1, p, q, n - 2)
     ak = anFunc(a0,a1,p,q,k)
     res = ak %10000
     print(res)
-RecursionSequence()
+RecursionSequence01()
 # 20 1 1 14 5
 # 8359
 # 运行超时:您的程序未能在规定时间内运行结束，请检查是否循环有错或算法复杂度过大。
 # case通过率为25.00%
+
+#法2：常规方法
