@@ -484,4 +484,16 @@ def SpecialSort():
 
 # [23] 递推数列（）
 # 20181026 Friday
+def anFunc(n):
+    if n ==1:
+        an =
+
 def RecursionSequence():
+    a0,a1,p,q,k = map(int,input().split())
+    if k==0:
+        an = a0
+    if k==1:
+        an = a1
+    else:
+        an = p*
+RecursionSequence()
