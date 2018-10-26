@@ -464,7 +464,7 @@ def NOrderStairs():
     print(fibonacci(n))
 # NOrderStairs()
 
-# [22] 特殊排序
+# [22] 特殊排序(15min)
 # 20181025 Thursday
 def SpecialSort():
     n = int(input())
@@ -480,4 +480,5 @@ def SpecialSort():
     else :
         print(-1)
     # print(list)
-SpecialSort()
+# SpecialSort()
+
