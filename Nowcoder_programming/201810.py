@@ -484,9 +484,8 @@ def SpecialSort():
 
 # [23] 递推数列（）
 # 20181026 Friday
-def anFunc(n):
-    if n ==1:
-        an =
+def anFunc(n,p,q):
+    an =p*anFunc(n-1,p,q)+q*anFunc(n-2,p,q)
 
 def RecursionSequence():
     a0,a1,p,q,k = map(int,input().split())
