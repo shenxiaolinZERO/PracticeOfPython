@@ -514,7 +514,7 @@ def RecursionSequence01():
 # 运行超时:您的程序未能在规定时间内运行结束，请检查是否循环有错或算法复杂度过大。
 # case通过率为25.00%
 
-#法2：常规方法 (可以通过)
+#法2：常规方法 (可以通过，运行时间22ms)
 def RecursionSequence02():
     # a0,a1,p,q,k = list(map(int,input().split()))
     a0, a1, p, q, k = map(int, input().split())
@@ -524,7 +524,7 @@ def RecursionSequence02():
     print(a[k]%10000)
 # RecursionSequence02()
 
-#法3：常规方法，只记录两个中间值
+#法3：常规方法，只记录两个中间值  (可以通过，运行时间29ms)
 def RecursionSequence03():
     a0,a1,p,q,k = map(int,input().split())
     if k ==0:
@@ -534,4 +534,6 @@ def RecursionSequence03():
     else:
         for i in range(2,k+1):
             temp = p*a1 + q*a0
-            a0,a1 = a1,temp%10000
+            a0,a1 = a1,temp
+        print(a1%10000)
+RecursionSequence03()
