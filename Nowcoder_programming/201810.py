@@ -514,9 +514,10 @@ def RecursionSequence01():
 # 运行超时:您的程序未能在规定时间内运行结束，请检查是否循环有错或算法复杂度过大。
 # case通过率为25.00%
 
-#法2：常规方法
+#法2：常规方法 (可以通过)
 def RecursionSequence02():
-    a0,a1,p,q,k = map(int(),input().split())
+    # a0,a1,p,q,k = list(map(int,input().split()))
+    a0, a1, p, q, k = map(int, input().split())
     a = [a0,a1]
     for i in range(2,k+1):
         a.append((p*a[i-1] + q*a[i-2]))
