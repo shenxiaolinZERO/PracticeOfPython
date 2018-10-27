@@ -520,9 +520,18 @@ def RecursionSequence02():
     a0, a1, p, q, k = map(int, input().split())
     a = [a0,a1]
     for i in range(2,k+1):
-        a.append((p*a[i-1] + q*a[i-2]))
+        a.append((p*a[i-1] + q*a[i-2]))  # 追加在数组a的后面
     print(a[k]%10000)
 # RecursionSequence02()
 
 #法3：常规方法，只记录两个中间值
-# def RecursionSequence03():
+def RecursionSequence03():
+    a0,a1,p,q,k = map(int,input().split())
+    if k ==0:
+        print(a0%10000)
+    elif k==1:
+        print(a1%10000)
+    else:
+        for i in range(2,k+1):
+            temp = p*a1 + q*a0
+            a0,a1 = a1,temp%10000
