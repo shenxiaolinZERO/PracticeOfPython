@@ -497,15 +497,15 @@ def anFunc(a0, a1, p, q, n):  # 注意停止条件，三个return诶
 #法1：递归求解，太耗时了编译不通过
 def RecursionSequence01():
     a0,a1,p,q,k = map(int,input().split())
-    def anFunc(a0, a1, p, q, n):  # 注意停止条件，三个return诶
+    def anFunc(n):  # 注意停止条件，三个return诶
         if n == 0:
             return a0
         if n == 1:
             return a1
         else:
             while n >= 2:
-                return p * anFunc(a0, a1, p, q, n - 1) + q * anFunc(a0, a1, p, q, n - 2)
-    ak = anFunc(a0,a1,p,q,k)
+                return p * anFunc(n - 1) + q * anFunc(n - 2)
+    ak = anFunc(k)
     res = ak %10000
     print(res)
 # RecursionSequence01()
