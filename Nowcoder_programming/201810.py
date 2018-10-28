@@ -537,3 +537,6 @@ def RecursionSequence03():
             a0,a1 = a1,temp
         print(a1%10000)
 RecursionSequence03()
+
+# [23] 递推数列（）
+# 20181026 Friday
