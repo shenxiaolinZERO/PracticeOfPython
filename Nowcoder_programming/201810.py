@@ -536,7 +536,7 @@ def RecursionSequence03():
             temp = p*a1 + q*a0
             a0,a1 = a1,temp
         print(a1%10000)
-RecursionSequence03()
+# RecursionSequence03()
 
 # [24] 最大序列和（）
 # 20181028 Sunday
