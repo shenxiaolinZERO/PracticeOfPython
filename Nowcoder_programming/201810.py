@@ -538,6 +538,6 @@ def RecursionSequence03():
         print(a1%10000)
 RecursionSequence03()
 
-# [23] 递推数列（）
-# 20181026 Friday
-def 
+# [24] 最大序列和（）
+# 20181028 Sunday
+def maxSequenceSum():
