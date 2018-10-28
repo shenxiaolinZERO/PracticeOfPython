@@ -549,7 +549,7 @@ def maxSequenceSum():
         temp = max(temp+listNum[i],listNum[i])
         result =max(temp,result)
     print(result)
-maxSequenceSum()
+maxSequenceSum()  #hhhhh,占用内存70728k啊哈哈
 
 # 6
 # 1 -2 3 4 -10 6
