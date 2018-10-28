@@ -544,4 +544,9 @@ def maxSequenceSum():
     n = int(input())
     list = list(map(int,input().split()))
     temp = 0
-    
+    result =float('-inf')
+    for i in range(n):
+        temp = max(temp+list[i],list[i])
+        result =max(temp,result)
+    print(result)
+maxSequenceSum()
