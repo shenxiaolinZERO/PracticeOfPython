@@ -541,3 +541,7 @@ RecursionSequence03()
 # [24] 最大序列和（）
 # 20181028 Sunday
 def maxSequenceSum():
+    n = int(input())
+    list = list(map(int,input().split()))
+    temp = 0
+    
