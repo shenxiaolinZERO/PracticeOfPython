@@ -542,11 +542,15 @@ def RecursionSequence03():
 # 20181028 Sunday
 def maxSequenceSum():
     n = int(input())
-    list = list(map(int,input().split()))
+    listNum = list(map(int,input().split()))
     temp = 0
     result =float('-inf')
     for i in range(n):
-        temp = max(temp+list[i],list[i])
+        temp = max(temp+listNum[i],listNum[i])
         result =max(temp,result)
     print(result)
 maxSequenceSum()
+
+# 6
+# 1 -2 3 4 -10 6
+# 7
