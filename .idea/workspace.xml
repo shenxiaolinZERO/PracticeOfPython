@@ -80,7 +80,7 @@
       <file leaf-file-name="201808.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201808.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="0">
               <caret line="150" column="29" lean-forward="true" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
               <folding />
             </state>
@@ -101,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201810.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="565" column="4" lean-forward="true" selection-start-line="565" selection-start-column="4" selection-end-line="565" selection-end-column="4" />
+              <caret line="565" column="38" lean-forward="false" selection-start-line="565" selection-start-column="38" selection-end-line="565" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -944,7 +944,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201808.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
+        <state relative-caret-position="0">
           <caret line="150" column="29" lean-forward="true" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
           <folding />
         </state>
@@ -953,7 +953,7 @@
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201810.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="565" column="4" lean-forward="true" selection-start-line="565" selection-start-column="4" selection-end-line="565" selection-end-column="4" />
+          <caret line="565" column="38" lean-forward="false" selection-start-line="565" selection-start-column="38" selection-end-line="565" selection-end-column="38" />
           <folding />
         </state>
       </provider>
