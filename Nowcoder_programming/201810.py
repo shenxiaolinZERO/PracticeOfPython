@@ -563,4 +563,6 @@ def GradeSorted():
         name,age,score = input().split()
         list.append((name,int(age),int(score)))
     print(list)
-    d2=sorted(list,key = lambda item:())
+    d2=sorted(list,key = lambda item:(item[2],list.index(item)),reverse=False)
+    print(d2)
+GradeSorted()
