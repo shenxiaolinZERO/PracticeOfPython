@@ -1,6 +1,7 @@
 # !/usr/bin/env python
 # encoding: utf-8
 __author__ = 'ScarlettZero'
+
 '''
 题目描述
     有若干张邮票，要求从中选取最少的邮票张数凑成一个给定的总值。     
@@ -10,7 +11,6 @@ __author__ = 'ScarlettZero'
 输出描述:
       对于每组数据，能够凑成总值M的最少邮票张数。若无解，输出0。
 '''
-
 # 20180811 最小邮票数
 def MinStamp():
     targetValue = int(input())

@@ -77,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="201808.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="201808.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201808.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1134">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="152" column="29" lean-forward="true" selection-start-line="152" selection-start-column="29" selection-end-line="152" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -97,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="201810.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="201810.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201810.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="559" column="4" lean-forward="false" selection-start-line="559" selection-start-column="4" selection-end-line="559" selection-end-column="4" />
+            <state relative-caret-position="500">
+              <caret line="559" column="0" lean-forward="true" selection-start-line="559" selection-start-column="0" selection-end-line="559" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -168,11 +168,11 @@
         <option value="$PROJECT_DIR$/201807-Nowcoder_programming/test0727.py" />
         <option value="$PROJECT_DIR$/201807-Nowcoder_programming/test0811.py" />
         <option value="$PROJECT_DIR$/Nowcoder_programming/test0729_MaxMin.py" />
-        <option value="$PROJECT_DIR$/Nowcoder_programming/201808.py" />
         <option value="$PROJECT_DIR$/Nowcoder_programming/initAndNew.py" />
         <option value="$PROJECT_DIR$/20180928ReadingPaperSkill.py" />
         <option value="$PROJECT_DIR$/Nowcoder_programming/201809.py" />
         <option value="$PROJECT_DIR$/Nowcoder_programming/201810.py" />
+        <option value="$PROJECT_DIR$/Nowcoder_programming/201808.py" />
       </list>
     </option>
   </component>
@@ -942,18 +942,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201808.py">
+    <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201810.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1134">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="500">
+          <caret line="559" column="0" lean-forward="true" selection-start-line="559" selection-start-column="0" selection-end-line="559" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201810.py">
+    <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201808.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="559" column="4" lean-forward="false" selection-start-line="559" selection-start-column="4" selection-end-line="559" selection-end-column="4" />
+        <state relative-caret-position="357">
+          <caret line="152" column="29" lean-forward="true" selection-start-line="152" selection-start-column="29" selection-end-line="152" selection-end-column="29" />
           <folding />
         </state>
       </provider>
