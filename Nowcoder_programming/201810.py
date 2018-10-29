@@ -556,3 +556,5 @@ def maxSequenceSum():
 # 7
 
 # [25] 成绩排序
+def GradeSorted():
+    
