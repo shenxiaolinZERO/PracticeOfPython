@@ -557,3 +557,8 @@ def maxSequenceSum():
 
 # [25] 成绩排序
 def GradeSorted():
+    n = int(input())
+    for i in range(n):
+        name,age,score = input().split()
+        list = []
+        
