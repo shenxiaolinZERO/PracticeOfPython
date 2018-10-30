@@ -572,3 +572,11 @@ def GradeSorted():
 # GradeSorted()
 
 # [26] 字符串排序
+# 20181030 Tuesday
+def StringSorted():
+    inputString=input()
+    res=sorted(inputString)
+    # print(res)
+    for i in res:
+        print(i,end="")
+StringSorted()
