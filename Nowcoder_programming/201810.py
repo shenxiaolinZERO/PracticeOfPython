@@ -568,4 +568,5 @@ def GradeSorted():
     # print(d2)
     for j in range(n):
         print(d2[j][0],d2[j][1],d2[j][2])
-GradeSorted()
+# GradeSorted()
+
