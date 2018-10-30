@@ -556,6 +556,7 @@ def maxSequenceSum():
 # 7
 
 # [25] 成绩排序
+# 20181029 Monday
 def GradeSorted():
     n = int(input())
     list = []
