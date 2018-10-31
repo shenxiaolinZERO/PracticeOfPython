@@ -612,10 +612,14 @@ def conversionOfNumberSystems2():
         count +=1
     print(sum)
 conversionOfNumberSystems2()
+# 本地是可以通过的，然而AC不了
+# 0xC460——：50272 这个例子通不过
+
 
 #大神的做法：
-def conversionOfNumSystem3():
-    
+def conversionOfNumSystems3():
+    print(int(input(),16))
+# conversionOfNumSystems3()
 
 # 例：2AF5换算成10进制:
 # 用竖式计算：
