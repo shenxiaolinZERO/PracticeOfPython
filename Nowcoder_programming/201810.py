@@ -602,10 +602,22 @@ def conversionOfNumberSystems2():
     inStr = input().replace("0x","").split()
     print(inStr)
     n = len(inStr)
-    sum = 0 
+    sum = 0
     for i in range(n):
-
+        
+        sum
     print()
 conversionOfNumberSystems2()
 
+
+# 例：2AF5换算成10进制:
+# 用竖式计算：
+# 第0位： 5 * 16^0 = 5
+# 第1位： F * 16^1 = 240
+# 第2位： A * 16^2= 2560
+# 第3位： 2 * 16^3 = 8192
+# -------------------------------------
+# 10997
+# 直接计算就是：
+# 5 * 16^0 + F * 16^1 + A * 16^2 + 2 * 16^3 = 10997
 
