@@ -599,17 +599,19 @@ def hexadecimalNotation(char):
         return 14
     if char =="F":
         return 15
-print(hexadecimalNotation("A")) #Yes
+# print(hexadecimalNotation("A")) #Yes
 def conversionOfNumberSystems2():
     inStr = input().replace("0x","")
-    print(inStr)
+    # print(inStr)
     n = len(inStr)
     sum = 0
+    count = 0
     for i in inStr:
-        temp = hexadecimalNotation(i)*math.sqrt(16,n-1-i)
+        temp = int(hexadecimalNotation(i))*(16**(n-1-count))
         sum +=temp
+        count +=1
     print(sum)
-# conversionOfNumberSystems2()
+conversionOfNumberSystems2()
 
 
 # 例：2AF5换算成10进制:
