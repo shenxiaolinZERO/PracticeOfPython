@@ -581,7 +581,7 @@ def StringSorted():
         print(i,end="")
 # StringSorted()
 
-# [27] 进制转换（十六进制转为十进制）
+# [27] 进制转换（十六进制转为十进制） （1hours)
 # 20181031 Wednesday
 import math
 def hexadecimalNotation(char):
@@ -616,10 +616,10 @@ conversionOfNumberSystems2()
 # 0xC460——：50272 这个例子通不过
 
 
-#大神的做法：
+#大神的做法：依然通不过？？
 def conversionOfNumSystems3():
     print(int(input(),16))
-# conversionOfNumSystems3()
+conversionOfNumSystems3()
 
 # 例：2AF5换算成10进制:
 # 用竖式计算：
