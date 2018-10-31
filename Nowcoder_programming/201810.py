@@ -581,6 +581,9 @@ def StringSorted():
         print(i,end="")
 # StringSorted()
 
-# [27] 进制转换
+# [27] 进制转换（十六进制转为十进制）
 # 20181031 Wednesday
+def conversionOfNumberSystems2():
+    
+
 
