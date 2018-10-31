@@ -580,3 +580,7 @@ def StringSorted():
     for i in res:
         print(i,end="")
 # StringSorted()
+
+# [27] 进制转换
+# 20181031 Wednesday
+
