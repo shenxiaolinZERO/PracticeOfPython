@@ -583,7 +583,25 @@ def StringSorted():
 
 # [27] 进制转换（十六进制转为十进制）
 # 20181031 Wednesday
+def hexadecimalNotation(char):
+    if char in "1,2,3,4,5,6,7,8,9":
+        return int(char)
+    if char =="A":
+        return 10
+    if char =="B":
+        return 11
+    if char =="C":
+        return 12
+    if char =="D":
+        return 13
+    if char =="E":
+        return 14
+    if char =="F":
+        return 15
 def conversionOfNumberSystems2():
-    
+    inStr = input().replace("0x","").split()
+    print(inStr)
+    print()
+conversionOfNumberSystems2()
 
 
