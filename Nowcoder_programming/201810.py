@@ -601,6 +601,10 @@ def hexadecimalNotation(char):
 def conversionOfNumberSystems2():
     inStr = input().replace("0x","").split()
     print(inStr)
+    n = len(inStr)
+    sum = 0 
+    for i in range(n):
+
     print()
 conversionOfNumberSystems2()
 
