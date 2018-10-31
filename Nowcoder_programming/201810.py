@@ -585,7 +585,7 @@ def StringSorted():
 # 20181031 Wednesday
 import math
 def hexadecimalNotation(char):
-    if char in "1,2,3,4,5,6,7,8,9":
+    if char in "0,1,2,3,4,5,6,7,8,9":
         return int(char)
     if char =="A":
         return 10
@@ -607,12 +607,15 @@ def conversionOfNumberSystems2():
     sum = 0
     count = 0
     for i in inStr:
-        temp = int(hexadecimalNotation(i))*(16**(n-1-count))
+        temp = hexadecimalNotation(i)*(16**(n-1-count))
         sum +=temp
         count +=1
     print(sum)
 conversionOfNumberSystems2()
 
+#大神的做法：
+def conversionOfNumSystem3():
+    
 
 # 例：2AF5换算成10进制:
 # 用竖式计算：
