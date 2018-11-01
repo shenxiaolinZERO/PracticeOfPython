@@ -611,7 +611,7 @@ def conversionOfNumberSystems2():
         sum +=temp
         count +=1
     print(sum)
-conversionOfNumberSystems2()
+# conversionOfNumberSystems2()
 # 本地是可以通过的，然而AC不了
 # 0xC460——：50272 这个例子通不过
 
