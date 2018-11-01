@@ -9,6 +9,7 @@ def youngestEmployee():
     n = int(input())
     list=[]
     for i in range(n):
-
+        num,name,age = input().split()
+        
 youngestEmployee()
 
