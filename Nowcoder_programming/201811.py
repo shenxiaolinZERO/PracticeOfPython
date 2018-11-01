@@ -11,9 +11,9 @@ def youngestEmployee():
     for i in range(n):
         num,name,age = input().split()
         list.append((int(num),name,int(age)))
-    print(list)
+    # print(list)
     d2 = sorted(list, key=lambda x:(x[2],x[0],x[1]),reverse=False)
-    for j in range(n):
-        
+    for j in range(3):
+        print(d2[j][0],d2[j][1],d2[j][2])
 youngestEmployee()
 
