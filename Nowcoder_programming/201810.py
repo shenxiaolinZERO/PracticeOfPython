@@ -619,7 +619,7 @@ def conversionOfNumberSystems2():
 #大神的做法：依然通不过？？
 def conversionOfNumSystems3():
     print(int(input(),16))
-conversionOfNumSystems3()
+# conversionOfNumSystems3()
 
 # 例：2AF5换算成10进制:
 # 用竖式计算：
