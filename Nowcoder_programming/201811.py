@@ -5,6 +5,7 @@ __author__ = 'ScarlettZero'
 # 2018-November
 
 # [1] 最小年龄的3个职工
+# 20181101 Thursday
 def youngestEmployee():
     n = int(input())
     list=[]
@@ -16,4 +17,6 @@ def youngestEmployee():
     for j in range(3):
         print(d2[j][0],d2[j][1],d2[j][2])
 # youngestEmployee()
+
+# [2]
 
