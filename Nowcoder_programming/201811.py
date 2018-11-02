@@ -15,5 +15,5 @@ def youngestEmployee():
     d2 = sorted(list, key=lambda x:(x[2],x[0],x[1]),reverse=False)
     for j in range(3):
         print(d2[j][0],d2[j][1],d2[j][2])
-youngestEmployee()
+# youngestEmployee()
 
