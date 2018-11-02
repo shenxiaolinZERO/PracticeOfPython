@@ -20,5 +20,11 @@ def youngestEmployee():
 
 # [2] 统计同成绩学生人数
 # 20181102 Friday
+def SameScoreStu():
+    n = int(input())
+    while n!=0:
+        list = input().split()
+        for i in range(n):
+            list[i]=int(list[i])
 
 
