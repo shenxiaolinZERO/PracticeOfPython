@@ -18,5 +18,7 @@ def youngestEmployee():
         print(d2[j][0],d2[j][1],d2[j][2])
 # youngestEmployee()
 
-# [2]
+# [2] 统计同成绩学生人数
+# 20181102 Friday
+
 
