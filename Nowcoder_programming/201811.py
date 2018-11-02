@@ -23,16 +23,16 @@ def youngestEmployee():
 def SameScoreStu():
     n = int(input())
     count =0
-    while n!=0:
-        list = input().split()
-        for i in range(n):
-            list[i]=int(list[i])
-        print(list)
-        target = int(input())
-        for j in range(n):
-            if target ==list[j]:
-                count +=1
-        print(count)
+    # while n!=0:
+    list = input().split()
+    for i in range(n):
+        list[i]=int(list[i])
+    # print(list)
+    target = int(input())
+    for j in range(n):
+        if target == list[j]:
+            count +=1
+    print(count)
 while True:
     SameScoreStu()
 
