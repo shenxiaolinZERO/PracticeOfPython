@@ -20,3 +20,4 @@ print_now=now.strftime('%Y-%m-%d %H:%M:%S')
 print("今天是：",print_now)
 print("距离 2019-02-01 \"work\" 还剩下：%d天"%delta.days)
 print(delta.days,hour, minute, seconds)
+
