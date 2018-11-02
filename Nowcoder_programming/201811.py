@@ -23,7 +23,7 @@ def youngestEmployee():
 def SameScoreStu():
     n = int(input())
     count =0
-    # while n!=0:
+    # while n!=0:  #有时候想的太复杂未必是好事……
     list = input().split()
     for i in range(n):
         list[i]=int(list[i])
@@ -34,8 +34,8 @@ def SameScoreStu():
             count +=1
     print(count)
 
-while True:
-    SameScoreStu()
+# while True:
+SameScoreStu()
 
 # 华科平凡大神的做法：
 # python两行代码就够了。
