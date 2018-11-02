@@ -22,9 +22,25 @@ def youngestEmployee():
 # 20181102 Friday
 def SameScoreStu():
     n = int(input())
+    count =0
     while n!=0:
         list = input().split()
         for i in range(n):
             list[i]=int(list[i])
+        print(list)
+        target = int(input())
+        for j in range(n):
+            if target ==list[j]:
+                count +=1
+        print(count)
+while True:
+    SameScoreStu()
 
-
+#华科平凡大神的做法：
+# python两行代码就够了。
+# while True:
+#     try:
+#         a, b, c = int(input()), list(map(int, input().split())), int(input())
+#         print(b.count(c))
+#     except:
+#         break
