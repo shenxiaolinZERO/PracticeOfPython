@@ -33,6 +33,7 @@ def SameScoreStu():
         if target == list[j]:
             count +=1
     print(count)
+
 while True:
     SameScoreStu()
 
