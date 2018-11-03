@@ -49,7 +49,10 @@ def SameScoreStu():
 
 # [3] 求一个矩阵每列最大的两个数
 # 20181103 Saturday
-#
+#  思路：
+# 1）把列变为行；
+# 2）提取每行最大并去掉；
+# 3）
 def MaxTwoNum():
     numList = [[] for i in range(5)]
     result = [[],[]]
