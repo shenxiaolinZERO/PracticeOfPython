@@ -35,7 +35,7 @@ def SameScoreStu():
     print(count)
 
 # while True:
-SameScoreStu()
+# SameScoreStu()
 
 # 华科平凡大神的做法：
 # python两行代码就够了。
