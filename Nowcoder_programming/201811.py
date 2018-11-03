@@ -71,6 +71,6 @@ def MaxTwoNum():
         else:
             result[0].append(max1)
             result[1].append(max2)
-    print(" ".join(map(str,result[0])))
+    print(" ".join(map(str,result[0]))) #中间使用空格连接输出
     print(" ".join(map(str,result[1])))
 MaxTwoNum()
