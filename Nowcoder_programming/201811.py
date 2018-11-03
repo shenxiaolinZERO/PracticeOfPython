@@ -62,10 +62,10 @@ def MaxTwoNum():
         for j in range(len(temp)):
             numList[j].append(temp[j]) #把输入的列变为行
     for i in range(len(numList)):
-        temp = list(numList[i])
-        max1 = temp.pop(temp.index(max(temp)))
-        max2 = max(temp)
-        if numList[i].index(max1)>numList[i].index(max2):
+        temp = list(numList[i])  # 深copy，不加list则temp只是指向digitList地址，修改的是digitList
+        max1 = temp.pop(temp.index(max(temp))) #取出一列中的最大，同时去除（POP）
+        max2 = max(temp) #得到列剩余的最大，即为第二大
+        if numList[i].index(max1)>numList[i].index(max2):  #因为次序不能改变，则比较次序
             result[0].append(max2)
             result[1].append(max1)
         else:
