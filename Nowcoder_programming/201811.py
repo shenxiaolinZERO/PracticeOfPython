@@ -45,3 +45,7 @@ def SameScoreStu():
 #         print(b.count(c))
 #     except:
 #         break
+
+
+# [3] 最大的两个数
+# 20181103 Saturday
