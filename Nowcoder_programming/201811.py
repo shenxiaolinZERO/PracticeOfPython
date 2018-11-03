@@ -53,4 +53,19 @@ def MaxTwoNum():
     numList = [[] for i in range(5)]
     result = [[],[]]
     for i in range(4):
-        
+        temp = list(map(int,input().split()))
+        for j in range(len(temp)):
+            numList[j].append(temp[j]) #把输入的列变为行
+    for i in range(len(numList)):
+        temp = list(numList[i])
+        max1 = temp.pop(temp.index(max(temp)))
+        max2 = max(temp)
+        if numList[i].index(max1)>numList[i].index(max2):
+            result[0].append(max2)
+            result[1].append(max1)
+        else:
+            result[0].append(max1)
+            result[1].append(max2)
+    print(" ".join(map(str,result[0])))
+    print(" ".join(map(str,result[1])))
+MaxTwoNum()
