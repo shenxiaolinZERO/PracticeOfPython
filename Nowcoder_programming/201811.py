@@ -47,8 +47,9 @@ def SameScoreStu():
 #         break
 
 
-# [3] 最大的两个数
+# [3] 求一个矩阵每列最大的两个数
 # 20181103 Saturday
+#
 def MaxTwoNum():
     numList = [[] for i in range(5)]
     result = [[],[]]
