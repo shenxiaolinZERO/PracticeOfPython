@@ -53,10 +53,10 @@ def SameScoreStu():
 # 1）把列变为行；
 # 2）提取每行最大并去掉；
 # 3）找到第二大（即剩余的最大
-# 4）
+# 4）比较两个数在原来的列里面的索引值大小
 def MaxTwoNum():
     numList = [[] for i in range(5)]
-    result = [[],[]]
+    result = [[],[]]  # 用于保存结果
     for i in range(4):
         temp = list(map(int,input().split()))
         for j in range(len(temp)):
