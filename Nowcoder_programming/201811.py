@@ -49,7 +49,7 @@ def SameScoreStu():
 
 # [3] 求一个矩阵每列最大的两个数
 # 20181103 Saturday
-#  思路：
+#  思路：【reference from TimeMac】
 # 1）把列变为行；
 # 2）提取每行最大并去掉；
 # 3）找到第二大（即剩余的最大
@@ -73,4 +73,4 @@ def MaxTwoNum():
             result[1].append(max2)
     print(" ".join(map(str,result[0]))) #中间使用空格连接输出
     print(" ".join(map(str,result[1])))
-MaxTwoNum()
+# MaxTwoNum()
