@@ -74,3 +74,7 @@ def MaxTwoNum():
     print(" ".join(map(str,result[0]))) #中间使用空格连接输出
     print(" ".join(map(str,result[1])))
 # MaxTwoNum()
+
+# [4]
+# 20181104 Sunday
+
