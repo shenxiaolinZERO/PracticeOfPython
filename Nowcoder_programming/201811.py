@@ -75,6 +75,6 @@ def MaxTwoNum():
     print(" ".join(map(str,result[1])))
 # MaxTwoNum()
 
-# [4]
+# [4] 字符串内排序（ min）
 # 20181104 Sunday
 
