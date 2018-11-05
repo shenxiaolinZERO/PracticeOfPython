@@ -75,11 +75,11 @@ def MaxTwoNum():
     print(" ".join(map(str,result[1])))
 # MaxTwoNum()
 
-# [4] 字符串内排序（ min）
+# [4] 字符串内排序（ 5 min）
 # 20181104 Sunday
 def strSorted():
     strInput = input()
     res = sorted(strInput)
     for i in res:
         print(i,end="")
-strSorted()
+# strSorted()
