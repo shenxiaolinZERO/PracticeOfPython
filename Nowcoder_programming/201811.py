@@ -86,11 +86,15 @@ def strSorted():
 
 # [5] 字符串去特定字符
 # 20181105 Monday
-def deleSomeChar():
+def deleSomeChar1():
     inputList=list(input())
     deleChar = input()
-    
-    if deleChar  inputList:
-        inputList.pop(deleChar)
-    print(inputList)
-deleSomeChar()
+    if deleChar in  inputList:
+        inputList.remove(deleChar)
+    # print(inputList)
+    for i in inputList:
+        print(i,end="")
+deleSomeChar1()
+def deleSomeChar2():
+    inputList=list(input())
+    deleChar = input()
