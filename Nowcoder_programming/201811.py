@@ -94,7 +94,10 @@ def deleSomeChar1():
     # print(inputList)
     for i in inputList:
         print(i,end="")
-deleSomeChar1()
+# deleSomeChar1()
 def deleSomeChar2():
-    inputList=list(input())
+    inputList= input()
     deleChar = input()
+    res = inputList.replace(deleChar,"")
+    print(res)
+deleSomeChar2()
