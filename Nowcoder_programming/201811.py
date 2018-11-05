@@ -83,3 +83,5 @@ def strSorted():
     for i in res:
         print(i,end="")
 # strSorted()
+
+# [5] 字符串去特定字符
