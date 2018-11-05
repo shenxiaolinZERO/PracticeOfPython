@@ -85,3 +85,5 @@ def strSorted():
 # strSorted()
 
 # [5] 字符串去特定字符
+# 20181105 Monday
+
