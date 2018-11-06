@@ -102,6 +102,8 @@ def deleSomeChar2():
     print(res)
 # deleSomeChar2()
 
-# [6]
-# 
+# [6]二进制逆序数
+# 20181106 Tuesday
+def binaryNumberReverse():
+    
 
