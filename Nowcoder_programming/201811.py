@@ -100,4 +100,5 @@ def deleSomeChar2():
     deleChar = input()
     res = inputList.replace(deleChar,"")
     print(res)
-deleSomeChar2()
+# deleSomeChar2()
+
