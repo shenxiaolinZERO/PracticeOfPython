@@ -102,3 +102,6 @@ def deleSomeChar2():
     print(res)
 # deleSomeChar2()
 
+# [6]
+# 
+
