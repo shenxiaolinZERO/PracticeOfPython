@@ -107,8 +107,12 @@ def deleSomeChar2():
 def binaryNumberReverse():
     n = int(input())
     binaryNum = bin(n).replace("0b","")
-    print(binaryNum)
-    rever=reversed(binaryNum)
-    num =int(str(rever),2)
+    # print(binaryNum)
+    # print(str(binaryNum))
+    rever = str(binaryNum)[::-1]
+    # print(rever)
+    # rever = reversed(binaryNum)
+    # print(rever)
+    num = int(rever,2)
     print(num)
 binaryNumberReverse()
