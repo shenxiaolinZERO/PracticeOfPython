@@ -105,5 +105,10 @@ def deleSomeChar2():
 # [6]二进制逆序数
 # 20181106 Tuesday
 def binaryNumberReverse():
-    
-
+    n = int(input())
+    binaryNum = bin(n).replace("0b","")
+    print(binaryNum)
+    rever=reversed(binaryNum)
+    num =int(str(rever),2)
+    print(num)
+binaryNumberReverse()
