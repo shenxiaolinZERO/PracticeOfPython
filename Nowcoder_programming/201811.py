@@ -119,3 +119,11 @@ def binaryNumberReverse():
 
 # [7] 与7无关的数（min）
 # 20181107 Wednesday
+def isRelatedWithSeven(n):
+    if n%7==0 or n%10==7:
+        return True
+    else:
+        return False
+def NotRelatedWith7Main():
+    n = int(input())
+    
