@@ -115,4 +115,5 @@ def binaryNumberReverse():
     # print(rever)
     num = int(rever,2) # 二进制转换为十进制  int("101101",2)
     print(num)
-binaryNumberReverse()
+# binaryNumberReverse()
+
