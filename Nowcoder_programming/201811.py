@@ -102,7 +102,7 @@ def deleSomeChar2():
     print(res)
 # deleSomeChar2()
 
-# [6]二进制逆序数
+# [6] 二进制逆序数
 # 20181106 Tuesday
 def binaryNumberReverse():
     n = int(input())
@@ -117,3 +117,5 @@ def binaryNumberReverse():
     print(num)
 # binaryNumberReverse()
 
+# [7] 与7无关的数（min）
+# 20181107 Wednesday
