@@ -126,4 +126,12 @@ def isRelatedWithSeven(n):
         return False
 def NotRelatedWith7Main():
     n = int(input())
-    
+    sum = 0
+    for i in range(1,n+1):
+        if isRelatedWithSeven(i):
+            print(i,end="")
+        else:
+            print(i, end="")
+            sum += i * i
+    print(sum)
+NotRelatedWith7Main()
