@@ -60,7 +60,7 @@
     <SUITE FILE_PATH="coverage/PracticeOfPython$180230CountOccurencesOfWords.coverage" NAME="180230CountOccurencesOfWords Coverage Results" MODIFIED="1520774018085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201802" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180311TurtleExam_Clock.coverage" NAME="180311TurtleExam-Clock Coverage Results" MODIFIED="1522414535943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201803" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180206PythonDataType2.coverage" NAME="180206PythonDataType2 Coverage Results" MODIFIED="1517983451514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PracticeOfPython$201811.coverage" NAME="201811 Coverage Results" MODIFIED="1541557471201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nowcoder_programming" />
+    <SUITE FILE_PATH="coverage/PracticeOfPython$201811.coverage" NAME="201811 Coverage Results" MODIFIED="1541557849056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nowcoder_programming" />
     <SUITE FILE_PATH="coverage/PracticeOfPython$180227.coverage" NAME="180227 Coverage Results" MODIFIED="1520426806500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/201802" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -91,8 +91,8 @@
       <file leaf-file-name="201811.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201811.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="133" column="28" lean-forward="false" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
+            <state relative-caret-position="-105">
+              <caret line="121" column="20" lean-forward="false" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -173,7 +173,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="443" />
     <option name="width" value="937" />
     <option name="height" value="813" />
@@ -596,7 +596,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="443" y="0" width="937" height="813" extended-state="0" />
+    <frame x="443" y="0" width="937" height="813" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -940,8 +940,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201811.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="133" column="28" lean-forward="false" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
+        <state relative-caret-position="-105">
+          <caret line="121" column="20" lean-forward="false" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
           <folding />
         </state>
       </provider>

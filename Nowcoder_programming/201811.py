@@ -117,7 +117,7 @@ def binaryNumberReverse():
     print(num)
 # binaryNumberReverse()
 
-# [7] 与7无关的数（min）
+# [7] 与7无关的数（19 min）
 # 20181107 Wednesday
 def isRelatedWithSeven(n):
     if n%7==0 or n%10==7:
@@ -128,10 +128,10 @@ def NotRelatedWith7Main():
     n = int(input())
     sum = 0
     for i in range(1,n+1):
-        if isRelatedWithSeven(i):
-            print(i,end="")
-        else:
-            print(i, end="")
+        if isRelatedWithSeven(i)==False:
+            # print(i,end="")
+        # else:
+            # print(i, end="")
             sum += i * i
     print(sum)
 NotRelatedWith7Main()
