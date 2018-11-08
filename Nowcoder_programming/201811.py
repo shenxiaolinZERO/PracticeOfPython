@@ -140,7 +140,8 @@ def NotRelatedWith7Main():
 # 20181108 Thursday
 # 判断最简真分数的函数
 def SimplestTrueFraction(a,b):
-    
+
 def STFMain():
     n = int(input())
-    nums =
+    nums = list(map(int,input().split()))
+    
