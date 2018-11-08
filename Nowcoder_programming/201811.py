@@ -134,4 +134,4 @@ def NotRelatedWith7Main():
             # print(i, end="")
             sum += i * i
     print(sum)
-NotRelatedWith7Main()
+# NotRelatedWith7Main()
