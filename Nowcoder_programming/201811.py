@@ -135,3 +135,6 @@ def NotRelatedWith7Main():
             sum += i * i
     print(sum)
 # NotRelatedWith7Main()
+
+# [8] 最简真分数
+# 20181108 Thursday
