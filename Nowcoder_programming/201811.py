@@ -153,3 +153,8 @@ def STFMain():
                 count+=1
     print(count)
 # STFMain()
+
+# [9] 字符串链接
+# 20181109 Friday
+
+
