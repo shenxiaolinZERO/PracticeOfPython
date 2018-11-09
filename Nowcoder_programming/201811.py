@@ -152,4 +152,4 @@ def STFMain():
             if SimplestTrueFraction(nums[i],nums[j])==1:
                 count+=1
     print(count)
-STFMain()
+# STFMain()
