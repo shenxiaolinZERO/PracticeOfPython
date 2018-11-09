@@ -156,5 +156,8 @@ def STFMain():
 
 # [9] 字符串链接
 # 20181109 Friday
-
+def stringCat():
+    stringIn=input().replace(" ","")
+    print(stringIn)
+stringCat()
 
