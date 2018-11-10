@@ -159,5 +159,5 @@ def STFMain():
 def stringCat():
     stringIn=input().replace(" ","")
     print(stringIn)
-stringCat()
+# stringCat()
 
