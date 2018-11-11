@@ -161,3 +161,5 @@ def stringCat():
     print(stringIn)
 # stringCat()
 
+
+# [10]
