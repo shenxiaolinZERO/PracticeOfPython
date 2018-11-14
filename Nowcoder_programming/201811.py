@@ -167,4 +167,7 @@ def stringCat():
 def WordReplace():
     FirstString = input()
     SecondString = input()
-    
+    ThirdString = input()
+    res=FirstString.replace(SecondString,ThirdString)
+    print(res)
+WordReplace()
