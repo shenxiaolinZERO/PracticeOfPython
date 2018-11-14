@@ -162,5 +162,9 @@ def stringCat():
 # stringCat()
 
 
-# [10]
+# [10] 单词替换
 # 20181114 Tuesday
+def WordReplace():
+    FirstString = input()
+    SecondString = input()
+    
