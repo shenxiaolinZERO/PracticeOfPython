@@ -154,7 +154,7 @@ def STFMain():
     print(count)
 # STFMain()
 
-# [9] 字符串链接
+# [9] 字符串连接
 # 20181109 Friday
 def stringCat():
     stringIn=input().replace(" ","")
