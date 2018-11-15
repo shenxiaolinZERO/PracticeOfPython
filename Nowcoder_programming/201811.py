@@ -168,7 +168,8 @@ def WordReplace():
     FirstString = input()
     SecondString = input()
     ThirdString = input()
-    while FirstString.find(SecondString)!=-1:
-        res=FirstString.replace(" "+SecondString+" "," "+ThirdString+" ")
+    if FirstString.find(SecondString)!=-1:
+        # res=FirstString.replace(" "+SecondString+" "," "+ThirdString+" ")
+        res = FirstString.replace(SecondString,ThirdString)
     print(res)
-WordReplace()
+# WordReplace()
