@@ -177,11 +177,14 @@ def WordReplace():
 # [11] 数字反转
 # 20181115 Thursday
 def NumberReverse():
-    a = input()
-    b = input()
-    aPb = int(a)+int(b)
-    aRe = a[::,-1]
-    bRe = b[::,-1]
-    ARePbRe= int(aRe)+int(bRe)
-
+    # a,b = map(int,input().split())
+    a, b = input().split()
+    a_P_b = int(a)+int(b)
+    aRe = a[::-1]
+    bRe = b[::-1]
+    aRe_P_bRe= int(aRe)+int(bRe)
+    if str(a_P_b)[::-1]==str(aRe_P_bRe):
+        print(a_P_b)
+    else:
+        print("NO")
 NumberReverse()
