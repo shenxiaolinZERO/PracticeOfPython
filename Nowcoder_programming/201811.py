@@ -175,3 +175,13 @@ def WordReplace():
 # WordReplace()
 
 # [11] 数字反转
+# 20181115 Thursday
+def NumberReverse():
+    a = input()
+    b = input()
+    aPb = int(a)+int(b)
+    aRe = a[::,-1]
+    bRe = b[::,-1]
+    ARePbRe= int(aRe)+int(bRe)
+
+NumberReverse()
