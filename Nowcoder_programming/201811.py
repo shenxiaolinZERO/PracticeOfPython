@@ -173,3 +173,5 @@ def WordReplace():
         res = FirstString.replace(SecondString,ThirdString)
     print(res)
 # WordReplace()
+
+# [11] 数字反转
