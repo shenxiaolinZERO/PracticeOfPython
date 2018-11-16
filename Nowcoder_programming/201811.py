@@ -188,3 +188,6 @@ def NumberReverse():
     else:
         print("NO")
 # NumberReverse()
+
+# [12] 字母统计
+# 20181116 Friday
