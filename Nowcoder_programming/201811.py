@@ -187,4 +187,4 @@ def NumberReverse():
         print(a_P_b)
     else:
         print("NO")
-NumberReverse()
+# NumberReverse()
