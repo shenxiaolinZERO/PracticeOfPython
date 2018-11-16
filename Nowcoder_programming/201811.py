@@ -191,3 +191,11 @@ def NumberReverse():
 
 # [12] 字母统计
 # 20181116 Friday
+def CountingLetter():
+    inStr = input()
+    # for i in inStr:
+    #     if i=="A":
+    #         ACount +=1  #土方法实在太像老太太的裹脚布
+    for i in range(65,91):
+        print("%s:%d" %(chr(i),inStr.count(chr(i))))
+CountingLetter()
