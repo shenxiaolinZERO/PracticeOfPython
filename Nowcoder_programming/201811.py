@@ -199,3 +199,17 @@ def CountingLetter():
     for i in range(65,91):
         print("%s:%d" %(chr(i),inStr.count(chr(i))))
 # CountingLetter()
+
+# [13] 合并符串
+# 20181117 Saterday
+def MergeString():
+    S1=input()
+    S2=input()[::-1]
+    # print(S2)
+    S =""
+    for i in S1:
+        S=S+i
+        for j in S2:
+            S=S+j
+    print(S)
+MergeString()
