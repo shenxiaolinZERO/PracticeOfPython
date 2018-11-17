@@ -207,9 +207,15 @@ def MergeString():
     S2=input()[::-1]
     # print(S2)
     S =""
-    for i in S1:
-        S=S+i
-        for j in S2:
-            S=S+j
+    # n= len(S1)+len(S2)
+    # for i in range(0,2,n-1):
+    #     for s1 in S1:
+    #         S=S+s1
+    #  for j in range(1,2,n):
+    #     for s2 in S2:
+    #         S=S+j
+    # print(S)
+    for i in range(len(S1)):
+        S = S+S1[i]+S2[i]
     print(S)
 MergeString()
