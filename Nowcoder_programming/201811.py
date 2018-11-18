@@ -227,13 +227,14 @@ def PrintExtremumValueIndex():
     listNum = list(map(int,input().split()))
     # 把数据分成3部分？== 头两个数+后两个数+除去前后两个数的中间的数
     if listNum[0]!=listNum[1]:
-        front = 0
-    if listNum[-1]!=listNum[-2]:
-        back = len(listNum)-1
+        print(0,end=" ")
 
     for i in range(1,len(listNum)-1):
         if listNum[i-1]>listNum[i] and listNum[i+1]>listNum[i]:
-            print(i)
+            print(i,end=" ")
         if listNum[i-1]<listNum[i] and listNum[i+1]<listNum[i]:
-            print(i)
+            print(i,end=" ")
+    # 注意下标按照从小到大的        
+    if listNum[-1]!=listNum[-2]:
+        print(len(listNum)-1,end=" ")
 PrintExtremumValueIndex()
