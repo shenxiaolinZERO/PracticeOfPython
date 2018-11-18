@@ -234,7 +234,7 @@ def PrintExtremumValueIndex():
             print(i,end=" ")
         if listNum[i-1]<listNum[i] and listNum[i+1]<listNum[i]:
             print(i,end=" ")
-    # 注意下标按照从小到大的        
+    # 注意下标按照从小到大的
     if listNum[-1]!=listNum[-2]:
         print(len(listNum)-1,end=" ")
 PrintExtremumValueIndex()
