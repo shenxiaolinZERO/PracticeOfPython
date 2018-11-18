@@ -219,3 +219,6 @@ def MergeString():
         S = S+S1[i]+S2[i]
     print(S)
 # MergeString()
+
+# [14] 打印极值点下标
+# 20181118 Sunday
