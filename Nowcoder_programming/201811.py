@@ -218,4 +218,4 @@ def MergeString():
     for i in range(len(S1)):
         S = S+S1[i]+S2[i]
     print(S)
-MergeString()
+# MergeString()
