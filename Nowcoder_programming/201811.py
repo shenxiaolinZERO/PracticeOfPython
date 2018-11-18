@@ -222,3 +222,18 @@ def MergeString():
 
 # [14] 打印极值点下标
 # 20181118 Sunday
+def PrintExtremumValueIndex():
+    n = int(input())
+    listNum = list(map(int,input().split()))
+    # 把数据分成3部分？== 头两个数+后两个数+除去前后两个数的中间的数
+    if listNum[0]!=listNum[1]:
+        front = 0
+    if listNum[-1]!=listNum[-2]:
+        back = len(listNum)-1
+
+    for i in range(1,len(listNum)-1):
+        if listNum[i-1]>listNum[i] and listNum[i+1]>listNum[i]:
+            print(i)
+        if listNum[i-1]<listNum[i] and listNum[i+1]<listNum[i]:
+            print(i)
+PrintExtremumValueIndex()
