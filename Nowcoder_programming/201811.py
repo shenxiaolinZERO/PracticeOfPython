@@ -239,5 +239,7 @@ def PrintExtremumValueIndex():
         print(len(listNum)-1,end=" ")
 # PrintExtremumValueIndex()
 
-# 
-# 2018
+# Simple Sorting
+# 20181119 Monday
+def SimpleSorting():
+    
