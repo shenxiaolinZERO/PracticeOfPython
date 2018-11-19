@@ -238,3 +238,6 @@ def PrintExtremumValueIndex():
     if listNum[-1]!=listNum[-2]:
         print(len(listNum)-1,end=" ")
 # PrintExtremumValueIndex()
+
+# 
+# 2018
