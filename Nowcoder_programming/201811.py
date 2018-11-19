@@ -242,4 +242,10 @@ def PrintExtremumValueIndex():
 # Simple Sorting
 # 20181119 Monday
 def SimpleSorting():
-    
+    n = int(input())
+    nums=set(map(int,input().split()))
+    res=sorted(nums)
+    # print(res)
+    for i in range(len(res)):
+        print(res[i],end=" ")
+SimpleSorting()
