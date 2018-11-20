@@ -252,6 +252,14 @@ def SimpleSorting():
 
 # 整除问题
 # 20181120 Tuesday
+def Factorial(n):
+    if n==1:
+        fac=1
+    else:
+        fac=1
+        for i in range(1,n+1):
+            fac=fac * i
+    return fac
 def ExactDivision():
     n,a = map(int,input().split())
-    
+
