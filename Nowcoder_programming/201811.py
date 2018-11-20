@@ -264,5 +264,9 @@ def Factorial(n):
 def ExactDivision():
     n,a = map(int,input().split())
     n_fac=Factorial(n)
-    print(n_fac)
-ExactDivision()
+    # print(n_fac)
+    for i in range(1,n):
+        if n_fac % (a**i) ==0 and n_fac % (a**(i+1)) !=0:
+            print(i)
+            break
+ExactDivision()  #其实每太懂这个“最大的k”
