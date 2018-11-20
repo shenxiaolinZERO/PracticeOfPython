@@ -249,3 +249,7 @@ def SimpleSorting():
     for i in range(len(res)):
         print(res[i],end=" ")
 # SimpleSorting()
+
+# 整除问题
+# 20181120 Tuesday
+def 
