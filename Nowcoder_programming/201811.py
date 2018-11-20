@@ -248,4 +248,4 @@ def SimpleSorting():
     # print(res)
     for i in range(len(res)):
         print(res[i],end=" ")
-SimpleSorting()
+# SimpleSorting()
