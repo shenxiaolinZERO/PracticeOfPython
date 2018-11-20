@@ -252,6 +252,7 @@ def SimpleSorting():
 
 # 整除问题
 # 20181120 Tuesday
+# 求阶乘函数
 def Factorial(n):
     if n==1:
         fac=1
@@ -262,4 +263,6 @@ def Factorial(n):
     return fac
 def ExactDivision():
     n,a = map(int,input().split())
-
+    n_fac=Factorial(n)
+    print(n_fac)
+ExactDivision()
