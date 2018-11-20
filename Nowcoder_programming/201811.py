@@ -252,4 +252,6 @@ def SimpleSorting():
 
 # 整除问题
 # 20181120 Tuesday
-def 
+def ExactDivision():
+    n,a = map(int,input().split())
+    
