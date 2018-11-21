@@ -273,4 +273,8 @@ def ExactDivision():
 
 # skew数
 # 20181121 Wednesday
-def
+def SkewNumberToInt():
+    skewnum = input()
+    length = len(skewnum)
+    for i in range(length):
+        x_i = int(skewnum[i])*()
