@@ -269,4 +269,8 @@ def ExactDivision():
         if n_fac % (a**i) ==0 and n_fac % (a**(i+1)) !=0:
             print(i)
             break
-ExactDivision()  #其实每太懂这个“最大的k”
+# ExactDivision()  #其实每太懂这个“最大的k”怎么搞到最大
+
+# skew数
+# 20181121 Wednesday
+def
