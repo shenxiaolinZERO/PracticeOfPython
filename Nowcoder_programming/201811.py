@@ -273,7 +273,7 @@ def ExactDivision():
 
 # skew数
 # 20181121 Wednesday
-def SkewNumberToInt():
+def SkewNumberToInt1():
     skewnum = input()
     length = len(skewnum)
     sum=0
@@ -283,4 +283,20 @@ def SkewNumberToInt():
         if skewnum[i]=='2':
             break
     print(sum)
-SkewNumberToInt()
+# SkewNumberToInt1() #一次性输入多组测试用例的时候行不通
+
+def SkewNumberToInt2():
+    try:
+        while True:
+            skewnum = input()
+            length = len(skewnum)
+            sum=0
+            for i in range(length):
+                x_i = int(skewnum[i])*(2**(length-i)-1)
+                sum +=x_i
+                if skewnum[i]=='2':
+                    break
+            print(sum)
+    except Exception:
+        pass
+SkewNumberToInt2()
