@@ -276,5 +276,11 @@ def ExactDivision():
 def SkewNumberToInt():
     skewnum = input()
     length = len(skewnum)
+    sum=0
     for i in range(length):
-        x_i = int(skewnum[i])*()
+        x_i = int(skewnum[i])*(2**(length-i)-1)
+        sum +=x_i
+        if skewnum[i]=='2':
+            break
+    print(sum)
+SkewNumberToInt()
