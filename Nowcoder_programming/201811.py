@@ -305,17 +305,18 @@ def SkewNumberToInt2():
 # 20181122 Thursday
 # 读入两个小于10000的正整数A和B，计算A+B。
 # 需要注意的是：如果A和B的末尾K（不超过8）位数字相同，请直接输出-1。
-def StillAPlusB():
+def StillAPlusB1():  #从整数的角度
     try:
         while True:
             A,B,K = map(int,input().split())
-            if A%10 == B%10:
+            divisor = 10**K
+            if A%divisor == B%divisor:
                 print(-1)
                 break
             else:
-                sum=A+B
+                sum = A+B
                 print(sum)
     except Exception:
         pass
-StillAPlusB()
+StillAPlusB1()
 
