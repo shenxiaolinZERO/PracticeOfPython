@@ -309,7 +309,7 @@ def StillAPlusB():
     try:
         while True:
             A,B,K = map(int,input().split())
-            if A%10==B%10:
+            if A%10 == B%10:
                 print(-1)
                 break
             else:
