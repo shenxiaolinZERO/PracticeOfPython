@@ -328,10 +328,11 @@ def StillAPlusB2():  #从字符串的角度
             A,B,K = input().split()
             if A==B=='0':
                 break
-            divisor = 10**K
-            if A%divisor == B%divisor:
+            K=int(K)
+            if K ==0:
                 print(-1)
-                break
+            elif int(A[-K:])==int(B[-K:]):
+                print(-1)
             else:
                 sum = int(A)+int(B)
                 print(sum)
