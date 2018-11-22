@@ -309,6 +309,8 @@ def StillAPlusB1():  #从整数的角度
     try:
         while True:
             A,B,K = map(int,input().split())
+            if A==B==0:
+                break
             divisor = 10**K
             if A%divisor == B%divisor:
                 print(-1)
@@ -318,5 +320,21 @@ def StillAPlusB1():  #从整数的角度
                 print(sum)
     except Exception:
         pass
-StillAPlusB1()
+# StillAPlusB1()
 
+def StillAPlusB2():  #从字符串的角度
+    try:
+        while True:
+            A,B,K = map(int,input().split())
+            if A==B==0:
+                break
+            divisor = 10**K
+            if A%divisor == B%divisor:
+                print(-1)
+                break
+            else:
+                sum = A+B
+                print(sum)
+    except Exception:
+        pass
+StillAPlusB2()
