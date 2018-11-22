@@ -325,15 +325,15 @@ def StillAPlusB1():  #从整数的角度
 def StillAPlusB2():  #从字符串的角度
     try:
         while True:
-            A,B,K = map(int,input().split())
-            if A==B==0:
+            A,B,K = input().split()
+            if A==B=='0':
                 break
             divisor = 10**K
             if A%divisor == B%divisor:
                 print(-1)
                 break
             else:
-                sum = A+B
+                sum = int(A)+int(B)
                 print(sum)
     except Exception:
         pass
