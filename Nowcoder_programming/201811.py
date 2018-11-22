@@ -320,7 +320,7 @@ def StillAPlusB1():  #从整数的角度
                 print(sum)
     except Exception:
         pass
-# StillAPlusB1()
+StillAPlusB1()
 
 def StillAPlusB2():  #从字符串的角度
     try:
