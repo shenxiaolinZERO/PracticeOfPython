@@ -303,6 +303,12 @@ def SkewNumberToInt2():
 
 # 还是A+B
 # 20181122 Thursday
+def StillAPlusB():
+    try:
+        while True:
+            A,B,K = map(int,input().split())
 
-
+    except Exception:
+        pass
+StillAPlusB()
 
