@@ -343,5 +343,12 @@ def StillAPlusB2():  #从字符串的角度
 # 首字母大写
 # 20181124 Saterday
 def CapitalizedFirstLetter():
-    inStr = input()
-
+    inStr = list(input())
+    # out = inStr.replace(" ","")
+    inStr[0]=inStr[0].upper()
+    for i in range(1,len(inStr)-1):
+        if inStr[i]==" " or inStr[i]=="\t" or inStr[i]=="\r" or inStr[i]=="\n":
+            inStr[i+1]=inStr[i+1].upper()
+    res=inStr
+    print(res)
+CapitalizedFirstLetter()
