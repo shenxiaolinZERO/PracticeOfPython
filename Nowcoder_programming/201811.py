@@ -350,5 +350,7 @@ def CapitalizedFirstLetter():
         if inStr[i]==" " or inStr[i]=="\t" or inStr[i]=="\r" or inStr[i]=="\n":
             inStr[i+1]=inStr[i+1].upper()
     res=inStr
-    print(res)
+    # print(res)
+    for i in range(len(res)):
+        print(res[i],end="")
 CapitalizedFirstLetter()
