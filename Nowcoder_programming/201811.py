@@ -341,7 +341,7 @@ def StillAPlusB2():  #从字符串的角度
 # StillAPlusB2()
 
 # 首字母大写
-# 20181123 Friday
+# 20181124 Saterday
 def CapitalizedFirstLetter():
     inStr = input()
-    
+
