@@ -357,5 +357,8 @@ def CapitalizedFirstLetter():
 
 # 简单密码
 # 20181125 Sunday
-
+# 比如字符A用F来代替。
+# 如下是密文和明文中字符的对应关系。
+# 密文 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+# 明文 V W X Y Z A B C D E F G H I J K L M N O P Q R S T U
 def EasyPassword():
