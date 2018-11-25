@@ -362,3 +362,15 @@ def CapitalizedFirstLetter():
 # 密文 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 # 明文 V W X Y Z A B C D E F G H I J K L M N O P Q R S T U
 def EasyPassword():
+    try:
+        while input()!="ENDOFINPUT":
+            start = input()
+            EncryptedText = list(input())
+            end = input()
+            for i in range(len(EncryptedText)):
+                if EncryptedText[i].isalpha():
+                    EncryptedText[i]=str(chr(EncryptedText[i])-5)
+            print(EncryptedText)
+    except Exception:
+        pass
+EasyPassword()
