@@ -355,5 +355,7 @@ def CapitalizedFirstLetter():
         print(res[i],end="")
 # CapitalizedFirstLetter()
 
-#
+# 简单密码
 # 20181125 Sunday
+
+def EasyPassword():
