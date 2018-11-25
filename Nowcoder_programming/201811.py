@@ -286,8 +286,8 @@ def SkewNumberToInt1():
 # SkewNumberToInt1() #一次性输入多组测试用例的时候行不通
 
 def SkewNumberToInt2():
-    try:
-        while True:
+   while True:
+        try:
             skewnum = input()
             length = len(skewnum)
             sum=0
@@ -297,8 +297,8 @@ def SkewNumberToInt2():
                 if skewnum[i]=='2':
                     break
             print(sum)
-    except Exception:
-        pass
+        except Exception:
+             pass
 # SkewNumberToInt2()
 
 # 还是A+B
@@ -369,7 +369,7 @@ def EasyPassword():
             end = input()
             for i in range(len(EncryptedText)):
                 if EncryptedText[i].isalpha():
-                    EncryptedText[i]=str(chr(EncryptedText[i])-5)
+                    EncryptedText[i]=str(ord(EncryptedText[i])-5)
             print(EncryptedText)
     except Exception:
         pass
