@@ -111,8 +111,8 @@
       <file leaf-file-name="201811.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201811.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="355" column="24" lean-forward="true" selection-start-line="355" selection-start-column="24" selection-end-line="355" selection-end-column="24" />
+            <state relative-caret-position="318">
+              <caret line="356" column="0" lean-forward="true" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -194,8 +194,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="406" />
-    <option name="y" value="11" />
+    <option name="x" value="1663" />
+    <option name="y" value="65" />
     <option name="width" value="1034" />
     <option name="height" value="849" />
   </component>
@@ -251,7 +251,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MachineLearningInAction/MachineLearningInAction" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://I:/GithubCodes/PracticeOfPython/PracticeOfPython/Nowcoder_programming/test0721.py" />
@@ -617,7 +617,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="406" y="11" width="1034" height="849" extended-state="0" />
+    <frame x="1663" y="65" width="1034" height="849" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -961,8 +961,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201811.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="355" column="24" lean-forward="true" selection-start-line="355" selection-start-column="24" selection-end-line="355" selection-end-column="24" />
+        <state relative-caret-position="318">
+          <caret line="356" column="0" lean-forward="true" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
           <folding />
         </state>
       </provider>
