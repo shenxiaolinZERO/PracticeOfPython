@@ -362,15 +362,26 @@ def CapitalizedFirstLetter():
 # 密文 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 # 明文 V W X Y Z A B C D E F G H I J K L M N O P Q R S T U
 def EasyPassword():
-    try:
-        while input()!="ENDOFINPUT":
+    cipherText="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    clearText="VWXYZABCDEFGHIJKLMNOPQRSTU"
+    while True:
+        try:
             start = input()
-            EncryptedText = list(input())
-            end = input()
-            for i in range(len(EncryptedText)):
-                if EncryptedText[i].isalpha():
-                    EncryptedText[i]=str(ord(EncryptedText[i])-5)
-            print(EncryptedText)
-    except Exception:
-        pass
+            # if start !="ENDOFINPUT": # 算法复杂度过大
+            if start == "START":
+                EncryptedText = input()
+                DecryptedText =""
+                # end = input()
+                for i in EncryptedText:
+                    # if i.isalpha():
+                    if i.isupper():
+                        DecryptedText+=clearText[cipherText.index(i)]
+                    else:
+                        DecryptedText+=i
+                print(DecryptedText)
+        # 这样会运行超时的啊！！！
+        # except Exception:
+        #     pass
+        except:
+            break
 EasyPassword()
