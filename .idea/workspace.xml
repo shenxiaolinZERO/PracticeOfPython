@@ -91,7 +91,7 @@
       <file leaf-file-name="201809.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201809.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2457">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -101,7 +101,7 @@
       <file leaf-file-name="201808.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201808.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="2289">
               <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="17" />
               <folding />
             </state>
@@ -111,8 +111,8 @@
       <file leaf-file-name="201811.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201811.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="386" column="16" lean-forward="true" selection-start-line="386" selection-start-column="16" selection-end-line="386" selection-end-column="16" />
+            <state relative-caret-position="453">
+              <caret line="390" column="0" lean-forward="true" selection-start-line="390" selection-start-column="0" selection-end-line="390" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -194,10 +194,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1597" />
-    <option name="y" value="74" />
+    <option name="x" value="345" />
+    <option name="y" value="44" />
     <option name="width" value="916" />
-    <option name="height" value="849" />
+    <option name="height" value="736" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
@@ -214,22 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PracticeOfPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PracticeOfPython" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PracticeOfPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PracticeOfPython" type="462c0819:PsiDirectoryNode" />
-              <item name="201802" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -246,7 +231,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PracticeOfPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticeOfPython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticeOfPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticeOfPython" type="462c0819:PsiDirectoryNode" />
+              <item name="201802" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -617,16 +617,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1597" y="74" width="916" height="849" extended-state="0" />
+    <frame x="345" y="44" width="916" height="736" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2731214" sideWeight="0.14905363" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28730822" sideWeight="0.85094637" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28730822" sideWeight="0.85094637" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05140187" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.052570093" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -945,7 +945,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201809.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2457">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -953,7 +953,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201808.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="2289">
           <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="17" />
           <folding />
         </state>
@@ -961,8 +961,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201811.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="386" column="16" lean-forward="true" selection-start-line="386" selection-start-column="16" selection-end-line="386" selection-end-column="16" />
+        <state relative-caret-position="453">
+          <caret line="390" column="0" lean-forward="true" selection-start-line="390" selection-start-column="0" selection-end-line="390" selection-end-column="0" />
           <folding />
         </state>
       </provider>
