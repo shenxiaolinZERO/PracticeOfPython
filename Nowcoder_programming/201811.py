@@ -388,3 +388,6 @@ def EasyPassword():
 
 # 完数
 # 20181128 Wednesday
+def isFactor
+
+def perfectNumber():
