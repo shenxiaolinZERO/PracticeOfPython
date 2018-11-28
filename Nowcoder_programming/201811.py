@@ -362,8 +362,8 @@ def CapitalizedFirstLetter():
 # 密文 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 # 明文 V W X Y Z A B C D E F G H I J K L M N O P Q R S T U
 def EasyPassword():
-    cipherText="ABCDEFGHIJKLMNOPQRSTUVWXYZ" #密文
-    clearText="VWXYZABCDEFGHIJKLMNOPQRSTU"  #明文
+    cipherText="ABCDEFGHIJKLMNOPQRSTUVWXYZ" # 密文
+    clearText="VWXYZABCDEFGHIJKLMNOPQRSTU"  # 明文
     while True:
         try:
             start = input()
@@ -389,6 +389,20 @@ def EasyPassword():
 
 # 完数
 # 20181128 Wednesday
-def isFactor
+def isPerfect(n):
+    sum =0
+    for i in range(1,int(n/2)):
+        if n%i ==0:
+            sum +=0
+    if sum==n:
+        return n
+    else:
+        return 0
 
 def perfectNumber():
+    n = int(input())
+    for i in range(1,n+1):
+        res = isPerfect(i)
+        if res != 0:
+            print(res,end=" ")
+perfectNumber()
