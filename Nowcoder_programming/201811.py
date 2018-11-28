@@ -362,8 +362,8 @@ def CapitalizedFirstLetter():
 # 密文 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 # 明文 V W X Y Z A B C D E F G H I J K L M N O P Q R S T U
 def EasyPassword():
-    cipherText="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    clearText="VWXYZABCDEFGHIJKLMNOPQRSTU"
+    cipherText="ABCDEFGHIJKLMNOPQRSTUVWXYZ" #密文
+    clearText="VWXYZABCDEFGHIJKLMNOPQRSTU"  #明文
     while True:
         try:
             start = input()
