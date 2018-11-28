@@ -386,6 +386,7 @@ def EasyPassword():
             break
 # EasyPassword()
 
+
 # 完数
 # 20181128 Wednesday
 def isFactor
