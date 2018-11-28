@@ -387,13 +387,14 @@ def EasyPassword():
 # EasyPassword()
 
 
-# 完数
+# 完数 (5hour?
 # 20181128 Wednesday
 def isPerfect(n):
     sum =0
-    for i in range(1,int(n/2)):
+    for i in range(1,int(n/2)+1):
         if n%i ==0:
-            sum +=0
+            sum +=i
+    # print(sum)
     if sum==n:
         return n
     else:
@@ -405,4 +406,9 @@ def perfectNumber():
         res = isPerfect(i)
         if res != 0:
             print(res,end=" ")
+        # else:
+        #     print("no")
 perfectNumber()
+# A=isPerfect(6)
+# print(A)
+
