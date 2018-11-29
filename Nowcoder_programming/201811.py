@@ -412,6 +412,18 @@ def perfectNumber():
 # A=isPerfect(6)
 # print(A)
 
-# 互换最大最小数
+# 互换最大最小数(min)
 # 20181129 Thursday
-
+def ExchangeMaxMin():
+    n = int(input())
+    nums=list(map(int,input().split()))
+    maxnum=max(nums)
+    minnum=min(nums)
+    maxIndex=nums.index(maxnum)
+    minIndex=nums.index(minnum)
+    # print(maxIndex,minIndex)
+    nums[maxIndex]=minnum
+    nums[minIndex]=maxnum
+    for i in range(n):
+        print(nums[i],end=" ")
+ExchangeMaxMin()
