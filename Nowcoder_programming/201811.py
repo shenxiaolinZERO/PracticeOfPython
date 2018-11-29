@@ -408,7 +408,7 @@ def perfectNumber():
             print(res,end=" ")
         # else:
         #     print("no")
-perfectNumber()
+# perfectNumber()
 # A=isPerfect(6)
 # print(A)
 
