@@ -412,3 +412,6 @@ def perfectNumber():
 # A=isPerfect(6)
 # print(A)
 
+# 互换最大最小数
+# 20181129 Thursday
+
