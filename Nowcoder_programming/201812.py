@@ -9,3 +9,9 @@ __author__ = 'ScarlettZero'
 def interceptTheMissiles():
     n = int(input())
     listNum = list(map(int,input().split()))
+    dp = [1]*n
+    for i in range(n):
+        for j in range(i):
+            if listNum[i] <= listNum[j]:
+                dp[i] =max(dp[i],dp[j]+1)
+                
