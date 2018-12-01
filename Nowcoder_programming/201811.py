@@ -387,7 +387,7 @@ def EasyPassword():
 # EasyPassword()
 
 
-# 完数 (5hour?
+# [21] 完数 (5hour?
 # 20181128 Wednesday
 def isPerfect(n):
     sum =0
