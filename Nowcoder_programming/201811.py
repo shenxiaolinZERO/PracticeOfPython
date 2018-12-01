@@ -412,7 +412,7 @@ def perfectNumber():
 # A=isPerfect(6)
 # print(A)
 
-# 互换最大最小数(min)
+# [22] 互换最大最小数(min)
 # 20181129 Thursday
 def ExchangeMaxMin():
     n = int(input())
