@@ -239,7 +239,7 @@ def PrintExtremumValueIndex():
         print(len(listNum)-1,end=" ")
 # PrintExtremumValueIndex()
 
-# Simple Sorting
+# [15] Simple Sorting
 # 20181119 Monday
 def SimpleSorting():
     n = int(input())
@@ -250,7 +250,7 @@ def SimpleSorting():
         print(res[i],end=" ")
 # SimpleSorting()
 
-# 整除问题
+# [16] 整除问题
 # 20181120 Tuesday
 # 求阶乘函数
 def Factorial(n):
@@ -271,7 +271,7 @@ def ExactDivision():
             break
 # ExactDivision()  #其实每太懂这个“最大的k”怎么搞到最大
 
-# skew数
+# [17] skew数
 # 20181121 Wednesday
 def SkewNumberToInt1():
     skewnum = input()

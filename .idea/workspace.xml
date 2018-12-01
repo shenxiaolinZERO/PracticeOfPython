@@ -71,7 +71,7 @@
       <file leaf-file-name="20180320CountDays.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20180320CountDays.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="0">
               <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
@@ -81,28 +81,8 @@
       <file leaf-file-name="201810.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201810.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8988">
+            <state relative-caret-position="21">
               <caret line="428" column="16" lean-forward="false" selection-start-line="428" selection-start-column="4" selection-end-line="428" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="201809.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201809.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="201808.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201808.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2289">
-              <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -111,8 +91,18 @@
       <file leaf-file-name="201811.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201811.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3192">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="189">
+              <caret line="273" column="7" lean-forward="false" selection-start-line="273" selection-start-column="7" selection-end-line="273" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="201812.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201812.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -133,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/180213Exceptions.py" />
         <option value="$PROJECT_DIR$/180225FileBase.py" />
         <option value="$PROJECT_DIR$/180226FileProcess.py" />
         <option value="$PROJECT_DIR$/201802/180227.py" />
@@ -183,6 +172,7 @@
         <option value="$PROJECT_DIR$/Nowcoder_programming/201808.py" />
         <option value="$PROJECT_DIR$/Nowcoder_programming/201810.py" />
         <option value="$PROJECT_DIR$/20180320CountDays.py" />
+        <option value="$PROJECT_DIR$/Nowcoder_programming/201812.py" />
         <option value="$PROJECT_DIR$/Nowcoder_programming/201811.py" />
       </list>
     </option>
@@ -655,13 +645,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/201802/180225FileBase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1157">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/201802/180227FileExample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1701">
@@ -929,16 +912,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/20180320CountDays.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="0">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201810.py">
+    <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201808.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8988">
-          <caret line="428" column="16" lean-forward="false" selection-start-line="428" selection-start-column="4" selection-end-line="428" selection-end-column="16" />
+        <state relative-caret-position="147">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -951,18 +934,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201808.py">
+    <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201810.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2289">
-          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="17" />
+        <state relative-caret-position="21">
+          <caret line="428" column="16" lean-forward="false" selection-start-line="428" selection-start-column="4" selection-end-line="428" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201812.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201811.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3192">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="189">
+          <caret line="273" column="7" lean-forward="false" selection-start-line="273" selection-start-column="7" selection-end-line="273" selection-end-column="7" />
           <folding />
         </state>
       </provider>
