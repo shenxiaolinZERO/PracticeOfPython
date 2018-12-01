@@ -301,7 +301,7 @@ def SkewNumberToInt2():
              pass
 # SkewNumberToInt2()
 
-# 还是A+B
+# [18] 还是A+B
 # 20181122 Thursday
 # 读入两个小于10000的正整数A和B，计算A+B。
 # 需要注意的是：如果A和B的末尾K（不超过8）位数字相同，请直接输出-1。
@@ -340,7 +340,7 @@ def StillAPlusB2():  #从字符串的角度
             pass
 # StillAPlusB2()
 
-# 首字母大写
+# [19] 首字母大写
 # 20181124 Saterday
 def CapitalizedFirstLetter():
     inStr = list(input())
@@ -355,7 +355,7 @@ def CapitalizedFirstLetter():
         print(res[i],end="")
 # CapitalizedFirstLetter()
 
-# 简单密码
+# [20] 简单密码
 # 20181125 Sunday
 # 比如字符A用F来代替。
 # 如下是密文和明文中字符的对应关系。
