@@ -4,7 +4,7 @@ __author__ = 'ScarlettZero'
 
 # 2018-December
 
-# [1] 拦截导弹
+# [1] 拦截导弹，（动态规划？
 # 20181201 Saterday
 def interceptTheMissiles():
     n = int(input())
