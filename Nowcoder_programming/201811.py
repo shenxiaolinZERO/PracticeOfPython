@@ -427,3 +427,4 @@ def ExchangeMaxMin():
     for i in range(n):
         print(nums[i],end=" ")
 ExchangeMaxMin()
+
