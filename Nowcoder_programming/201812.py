@@ -17,3 +17,6 @@ def interceptTheMissiles():
     # print(dp)  # print :[1, 2, 3, 2, 3, 4, 5, 6]
     print(max(dp)) # print :6
 # interceptTheMissiles()
+
+# [2] 判断三角形类型
+# 20181202 Sunday
