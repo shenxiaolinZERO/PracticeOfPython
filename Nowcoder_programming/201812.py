@@ -23,6 +23,7 @@ def interceptTheMissiles():
 def triangleType():
     listNum = list(map(int,input().split()))
     listNum =sorted(listNum)
+    print(listNum)
     a = listNum[0]
     b = listNum[1]
     c = listNum[2]
