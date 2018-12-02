@@ -22,4 +22,8 @@ def interceptTheMissiles():
 # 20181202 Sunday
 def triangleType():
     listNum = list(map(int,input().split()))
-
+    listNum =sorted(listNum)
+    a = listNum[0]
+    b = listNum[1]
+    c = listNum[2]
+    
