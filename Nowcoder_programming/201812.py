@@ -26,4 +26,11 @@ def triangleType():
     a = listNum[0]
     b = listNum[1]
     c = listNum[2]
-    
+    delta = c*c - (b*b +a*a)
+    if delta <0:
+        print("锐角三角形")
+    elif delta ==0:
+        print("直角三角形")
+    else :
+        print("钝角三角形")
+triangleType()
