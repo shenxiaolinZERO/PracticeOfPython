@@ -20,3 +20,6 @@ def interceptTheMissiles():
 
 # [2] 判断三角形类型
 # 20181202 Sunday
+def triangleType():
+    listNum = list(map(int,input().split()))
+
