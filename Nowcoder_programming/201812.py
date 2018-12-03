@@ -34,4 +34,4 @@ def triangleType():
         print("直角三角形")
     else :
         print("钝角三角形")
-triangleType()
+# triangleType()
