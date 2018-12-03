@@ -36,11 +36,14 @@ def triangleType():
         print("钝角三角形")
 # triangleType()
 
-# [3] 进制转换
+# [3] 进制转换 (5min)
 # 20181203 Monday
 def IntToBinary():
     while True:
         try:
-            
+            n = int(input())
+            res = bin(n).replace("0b","")
+            print(res)
         except:
             break
+IntToBinary()
