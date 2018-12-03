@@ -38,4 +38,9 @@ def triangleType():
 
 # [3] 进制转换
 # 20181203 Monday
-
+def IntToBinary():
+    while True:
+        try:
+            
+        except:
+            break
