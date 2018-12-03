@@ -35,3 +35,7 @@ def triangleType():
     else :
         print("钝角三角形")
 # triangleType()
+
+# [3] 进制转换
+# 20181203 Monday
+
