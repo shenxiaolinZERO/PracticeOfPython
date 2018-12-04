@@ -2,8 +2,8 @@
 # encoding: utf-8
 __author__ = 'ScarlettZero'
 
-# [1]
-# 20180902 Sun 排序输出
+# [1] 排序输出
+# 20180902 Sunday
 def SortN():
     n = int(input())
     list = map(int, input().split())
@@ -13,7 +13,6 @@ def SortN():
         # print(output[i] ,end=' ')
         print(str(output[i]), end='')
 # SortN()
-
 
 # [2]
 # 20180909 Sun
@@ -32,7 +31,6 @@ def calculateEvenandOdd():
                 count += 1
         print(count)
 # calculateEvenandOdd()
-
 
 # [3]
 # 20180910 Mon
