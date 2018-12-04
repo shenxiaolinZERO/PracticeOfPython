@@ -51,12 +51,31 @@ def IntToBinary():
 # [4] 数制转换
 # 20181204 Tuesday
 
+#  辅助功能函数
+def ABCToNum(char):
+    if char in "0123456789":
+        return int(char)
+    if char in "Aa" :
+        return 10
+    if char in "Bb":
+        return 11
+    if char in "Cc" :
+        return 12
+    if char in "Dd":
+        return 13
+    if char in "Ee" :
+        return 14
+    if char in "Ff":
+        return 15
+
 # 将X进制转为int十进制的功能函数：(乘X次方各位数的加和法)
 def XToInt(strNum,X):
     sum = 0
     strNum = strNum.lstrip("0") #去掉开始的0（前导零）
     length = len(strNum)
-
+    for i in range(length):
+        sum += ABCToNum(strNum[i])*(X**(length-i-1))
+    return sum
 # 将int十进制转为Y进制的功能函数：(除Y取余法)
 def intToY(num,Y):
     res = ""
@@ -67,7 +86,9 @@ def intToY(num,Y):
     res.upper()
     return res
 
-
-
 def NumberSystemConversion():
     X,strInput,Y = input().split()
+    intA = XToInt(strInput,int(X))
+    outB = intToY(intA,int(Y))
+    print(outB)
+NumberSystemConversion()
