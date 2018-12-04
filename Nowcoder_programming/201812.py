@@ -51,12 +51,16 @@ def IntToBinary():
 # [4] 数制转换
 # 20181204 Tuesday
 
-# 将int十进制转为X进制的功能函数：(除X取余法)
-def intToX(num,X):
+# 将X进制转为int十进制的功能函数：(除X取余法)
+def XToInt(num,X):
+
+
+# 将int十进制转为Y进制的功能函数：(除X取余法)
+def intToY(num,Y):
     res = ""
     while (num!=0):
-        res = str(num%X)+res
-        num = num//X #取商
+        res = str(num%Y)+res
+        num = num//Y #取商
     # res = int(res)
     res.upper()
     return res
