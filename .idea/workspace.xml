@@ -80,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="201810.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="201810.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201810.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5733">
-              <caret line="447" column="29" lean-forward="true" selection-start-line="447" selection-start-column="29" selection-end-line="447" selection-end-column="29" />
+            <state relative-caret-position="693">
+              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -93,18 +93,18 @@
       <file leaf-file-name="201811.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201811.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7010">
-              <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+            <state relative-caret-position="361">
+              <caret line="206" column="20" lean-forward="true" selection-start-line="206" selection-start-column="20" selection-end-line="206" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="201812.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="201812.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201812.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+            <state relative-caret-position="1050">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -186,8 +186,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1788" />
-    <option name="y" value="16" />
+    <option name="x" value="482" />
     <option name="width" value="1057" />
     <option name="height" value="832" />
   </component>
@@ -609,7 +608,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1788" y="16" width="1057" height="832" extended-state="0" />
+    <frame x="482" y="0" width="1057" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -618,7 +617,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25857142" sideWeight="0.85094637" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17352057" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1564694" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -936,26 +935,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201810.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5733">
-          <caret line="447" column="29" lean-forward="true" selection-start-line="447" selection-start-column="29" selection-end-line="447" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201811.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7010">
-          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        <state relative-caret-position="361">
+          <caret line="206" column="20" lean-forward="true" selection-start-line="206" selection-start-column="20" selection-end-line="206" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201812.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+        <state relative-caret-position="1050">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201810.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
           <folding />
         </state>
       </provider>
