@@ -51,10 +51,11 @@ def IntToBinary():
 # [4] 数制转换
 # 20181204 Tuesday
 
-# 将X进制转为int十进制的功能函数：(乘X各位数的加和法)
-def XToInt(num,X):
+# 将X进制转为int十进制的功能函数：(乘X次方各位数的加和法)
+def XToInt(strNum,X):
     sum = 0
-
+    strNum = strNum.lstrip("0") #去掉开始的0（前导零）
+    length = len(strNum)
 
 # 将int十进制转为Y进制的功能函数：(除Y取余法)
 def intToY(num,Y):
