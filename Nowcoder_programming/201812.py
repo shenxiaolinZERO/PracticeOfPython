@@ -51,7 +51,13 @@ def IntToBinary():
 # [4] 数制转换
 # 20181204 Tuesday
 
-# 将int十进制转为X进制的功能函数：
+# 将int十进制转为X进制的功能函数：(除X取余法)
 def intToX(num,X):
+    res = ""
+    while (num!=0):
+        res = str(num%X)+res
+        num = num//X #取商
+    res = int(res)
+    return res
 
 def NumberSystemConversion():
