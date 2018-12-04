@@ -46,4 +46,4 @@ def IntToBinary():
             print(res)
         except:
             break
-IntToBinary()
+# IntToBinary()
