@@ -57,7 +57,10 @@ def intToX(num,X):
     while (num!=0):
         res = str(num%X)+res
         num = num//X #取商
-    res = int(res)
+    # res = int(res)
+    res.upper()
     return res
+
+
 
 def NumberSystemConversion():
