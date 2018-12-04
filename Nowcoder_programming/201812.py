@@ -48,3 +48,10 @@ def IntToBinary():
             break
 # IntToBinary()
 
+# [4] 数制转换
+# 20181204 Tuesday
+
+# 将int十进制转为X进制的功能函数：
+def intToX(num,X):
+
+def NumberSystemConversion():

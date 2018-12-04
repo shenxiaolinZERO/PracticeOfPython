@@ -89,7 +89,7 @@ def Median2():
             print(res)
 # Median2()
 
-# [5]剩下的树（90min）
+# [5] 剩下的树（90min）
 # 20181006 Saterday
 # LeftTrees1()的nowcoder,AC未通过所有的测试用例
 def LeftTrees1(): # 单纯计算差值的方法行不通
@@ -259,7 +259,6 @@ def MinNumberofStamp():
     else:
         print(dp[totalValue])
 # MinNumberofStamp()
-
 
 
 # [13] 求最大值
