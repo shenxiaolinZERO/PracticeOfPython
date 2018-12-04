@@ -48,7 +48,7 @@ def IntToBinary():
             break
 # IntToBinary()
 
-# [4] 数制转换
+# [4] 数制转换 (nearly 3h)
 # 20181204 Tuesday
 
 #  辅助功能函数
@@ -69,7 +69,7 @@ def ABCToNum(char):
         return 15
 #  辅助功能函数
 def NumToABC(intN):
-    if str(intN) in "0123456789":
+    if intN in [0,1,2,3,4,5,6,7,8,9]:
         return intN
     if intN ==10 :
         return 'A'
