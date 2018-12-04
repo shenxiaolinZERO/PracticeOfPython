@@ -67,9 +67,9 @@ def ABCToNum(char):
         return 14
     if char in "Ff":
         return 15
-
+#  辅助功能函数
 def NumToABC(intN):
-    if intN in "0123456789":
+    if str(intN) in "0123456789":
         return intN
     if intN ==10 :
         return 'A'
@@ -83,7 +83,7 @@ def NumToABC(intN):
         return 'E'
     if intN ==15 :
         return 'F'
-   
+
 # 将X进制转为int十进制的功能函数：(乘X次方各位数的加和法)
 def XToInt(strNum,X):
     sum = 0
@@ -96,7 +96,9 @@ def XToInt(strNum,X):
 def intToY(num,Y):
     res = ""
     while (num!=0):
-        res = str(num%Y)+res
+        # temp=
+        # temp=
+        res = str(NumToABC(num%Y))+res
         num = num//Y #取商
     # res = int(res)
     res.upper()
