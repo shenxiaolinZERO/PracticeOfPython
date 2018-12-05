@@ -111,7 +111,7 @@ def NumberSystemConversion():
     print(outB)
 # NumberSystemConversion()
 
-# [5] 放苹果
+# [5] 放苹果 同201809[21]
 # 20181205 Wednesday
 def PutApple():
     appleNum,plate = map(int,input().split())

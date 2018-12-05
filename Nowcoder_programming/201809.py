@@ -408,7 +408,7 @@ def KeepShapeNumber():
 # [21] 放苹果 have no idea
 # 20180930 Sunday
 def ArrangeApple(apple,plate):
-    # 递归出口：1）只有1个盘子，也就只有1种办法了。 2）有0个苹果，也就只有1中办法了
+    # 递归出口：1）只有1个盘子，也就只有1种办法了。 2）有0个苹果，也就只有1种办法了
     if apple == 0 or plate == 1 :
         return 1
     # 若盘子的数量比苹果数量多，那么肯定有空盘子，去掉必空的盘子
