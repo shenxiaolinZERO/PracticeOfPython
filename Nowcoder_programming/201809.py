@@ -107,7 +107,7 @@ def CountDays():
 
     delta = (currentDay-firstDay).days+1
     print(delta)
-CountDays()
+# CountDays()
 
 # [7]
 # 20180914 Friday
@@ -405,8 +405,10 @@ def KeepShapeNumber():
             print("No!")
 # KeepShapeNumber()
 
-# [21] 放苹果 have no idea
-# 20180930 Sunday
+# [21] 20180930 Sunday
+# 放苹果 have no idea
+# 把M个同样的苹果放在N个同样的盘子里，允许有的盘子空着不放，
+# 问共有多少种不同的分法？（用K表示）5，1，1和1，5，1 是同一种分法。
 def ArrangeApple(apple,plate):
     # 递归出口：1）只有1个盘子，也就只有1种办法了。 2）有0个苹果，也就只有1种办法了
     if apple == 0 or plate == 1 :
@@ -424,7 +426,7 @@ def ArraAppMain():
     apple,plate = map(int,input().split())
     res = ArrangeApple(apple,plate)
     print(res)
-# ArraAppMain()
+ArraAppMain()
 
 
 
