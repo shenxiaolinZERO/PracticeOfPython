@@ -73,18 +73,8 @@
       <file leaf-file-name="20180320CountDays.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20180320CountDays.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="280">
               <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="201810.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201810.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="987">
-              <caret line="551" column="0" lean-forward="true" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,8 +83,8 @@
       <file leaf-file-name="201812.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201812.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="111" column="26" lean-forward="true" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+            <state relative-caret-position="322">
+              <caret line="114" column="11" lean-forward="false" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -176,8 +166,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1470" />
-    <option name="y" value="18" />
+    <option name="x" value="411" />
     <option name="width" value="1057" />
     <option name="height" value="832" />
   </component>
@@ -599,7 +588,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1470" y="18" width="1057" height="832" extended-state="0" />
+    <frame x="411" y="0" width="1057" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -909,14 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20180320CountDays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201809.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1596">
@@ -949,10 +930,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/20180320CountDays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201812.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="111" column="26" lean-forward="true" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+        <state relative-caret-position="322">
+          <caret line="114" column="11" lean-forward="false" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
           <folding />
         </state>
       </provider>

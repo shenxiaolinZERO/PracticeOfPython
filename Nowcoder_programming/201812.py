@@ -110,3 +110,6 @@ def NumberSystemConversion():
     outB = intToY(intA,int(Y))
     print(outB)
 # NumberSystemConversion()
+
+# [5] 放苹果
+# 20181205 
