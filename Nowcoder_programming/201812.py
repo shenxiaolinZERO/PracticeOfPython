@@ -113,5 +113,16 @@ def NumberSystemConversion():
 
 # [5] 放苹果 同201809[21]
 # 20181205 Wednesday
-def PutApple():
-    appleNum,plate = map(int,input().split())
+def PutApple(apple,plate):
+    if apple == 0 or plate == 1:
+        return 1
+    if plate > apple :
+        return PutApple(apple,apple)
+    else:
+        return PutApple(apple,plate-1)+PutApple(apple-plate,plate)
+
+def PutAppleMain():
+    apple,plate = map(int,input().split())
+    res = PutApple(apple,plate)
+    print(res)
+PutAppleMain()
