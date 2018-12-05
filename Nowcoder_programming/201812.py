@@ -109,4 +109,4 @@ def NumberSystemConversion():
     intA = XToInt(strInput,int(X))
     outB = intToY(intA,int(Y))
     print(outB)
-NumberSystemConversion()
+# NumberSystemConversion()
