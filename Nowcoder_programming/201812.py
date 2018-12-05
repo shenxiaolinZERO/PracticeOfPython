@@ -115,4 +115,3 @@ def NumberSystemConversion():
 # 20181205 Wednesday
 def PutApple():
     appleNum,plate = map(int,input().split())
-    

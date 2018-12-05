@@ -583,7 +583,7 @@ def StringSorted():
 # [27] 进制转换（十六进制转为十进制） （1hours)
 # 20181031 Wednesday
 import math
-def hexadecimalNotation(char):
+def hexadecimalNotation(char):  #hexadecimal 十六进制
     if char in "0,1,2,3,4,5,6,7,8,9":
         return int(char)
     if char =="A":
