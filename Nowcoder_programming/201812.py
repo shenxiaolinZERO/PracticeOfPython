@@ -113,11 +113,19 @@ def NumberSystemConversion():
 
 # [5] 放苹果 同201809[21]
 # 20181205 Wednesday
+# 把M个同样的苹果放在N个同样的盘子里，允许有的盘子空着不放，
+# 问共有多少种不同的分法？（用K表示）5，1，1和1，5，1 是同一种分法。
+
 def PutApple(apple,plate):
+    # 递归出口：1）只有1个盘子，也就只有1种办法了。 2）有0个苹果，也就只有1种办法了
     if apple == 0 or plate == 1:
         return 1
+    # 若盘子的数量比苹果数量多，那么肯定有空盘子，去掉必空的盘子
     if plate > apple :
         return PutApple(apple,apple)
+    # 若苹果的数量比较多：
+    # 1）至少有一个空盘子，拿掉这个空盘子
+    # 2）每个盘子都有苹果，各拿掉一个苹果（极限是最小的有1个苹果）
     else:
         return PutApple(apple,plate-1)+PutApple(apple-plate,plate)
 
