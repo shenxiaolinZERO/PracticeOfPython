@@ -113,3 +113,6 @@ def NumberSystemConversion():
 
 # [5] 放苹果
 # 20181205 Wednesday
+def PutApple():
+    appleNum,plate = map(int,input().split())
+    
