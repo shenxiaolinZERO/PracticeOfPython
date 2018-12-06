@@ -138,9 +138,13 @@ def PutAppleMain():
 # [6] 20181206 Thursday
 # Prime Number(2,3,5,7,...) : Output the k-th prime number.
 def IsPrime(n):
+    if n <=1:
+        return False
     # for i in range(2,int(n/2)):
-    for i in range(2, n):
-        if n%i !=0 :
+    # for i in range(2, int(math.sqrt(n)) + 1):
+    # for i in range(2, n):
+    for i in range(2,int(n**0.5)+1):
+        if n%i ==0 :
             return False
     return True
 

@@ -166,6 +166,8 @@ def StringCat():
 # [11]
 # 20180918 Tuesday
 def ISPrime(num):
+    # for i in range(2, int(math.sqrt(n)) + 1):
+    # 上述那样效率会更高
     for i in range(2,num):
         if num % i ==0:
             return False
