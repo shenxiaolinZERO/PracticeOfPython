@@ -148,14 +148,15 @@ def IsPrime(n):
             return False
     return True
 
-def theKthPrimeNumber():
+def theKthPrimeNumber1():
     k = int(input())
     primeList=[]
+    # 感觉这样效率很低……
     for i in range(2,10000):
         if IsPrime(i):
             primeList.append(i)
     print(primeList[k-1])
-theKthPrimeNumber()
+theKthPrimeNumber1()
 
 
 
