@@ -156,7 +156,11 @@ def theKthPrimeNumber1():
         if IsPrime(i):
             primeList.append(i)
     print(primeList[k-1])
-theKthPrimeNumber1()
+# theKthPrimeNumber1()  #AC不了，请检查是否存在语法错误或者数组越界非法访问等情况，case通过率为33.33%
+
+def theKthPrimeNumer2():
+    k = int(input())
+    
 
 
 
