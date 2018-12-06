@@ -136,7 +136,8 @@ def PutAppleMain():
 # PutAppleMain()
 
 # [6] 20181206 Thursday
-# Prime Number : Output the k-th prime number.
-
+# Prime Number(2,3,5,7,...) : Output the k-th prime number.
+def IsPrime(n):
+    
 
 
