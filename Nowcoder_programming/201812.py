@@ -135,3 +135,7 @@ def PutAppleMain():
     print(res)
 # PutAppleMain()
 
+# [6] 20181206 Thursday
+# Prime Number
+
+
