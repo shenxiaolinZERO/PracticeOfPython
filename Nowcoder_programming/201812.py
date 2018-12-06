@@ -133,4 +133,4 @@ def PutAppleMain():
     apple,plate = map(int,input().split())
     res = PutApple(apple,plate)
     print(res)
-PutAppleMain()
+# PutAppleMain()
