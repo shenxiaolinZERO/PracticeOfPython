@@ -158,10 +158,20 @@ def theKthPrimeNumber1():
     print(primeList[k-1])
 # theKthPrimeNumber1()  #AC不了，请检查是否存在语法错误或者数组越界非法访问等情况，case通过率为33.33%
 
-def theKthPrimeNumer2():
-    k = int(input())
-    
-
+def theKthPrimeNumber2():
+    while True:
+        try:
+            k = int(input())
+            primeList = [2]
+            secondOne = 3
+            while len(primeList) < k:
+                if IsPrime(secondOne):
+                    primeList.append(secondOne)
+                secondOne +=2
+            print(primeList[k-1])
+        except:
+            break
+theKthPrimeNumber2()
 
 
 
