@@ -171,8 +171,9 @@ def theKthPrimeNumber2():
             print(primeList[k-1])
         except:
             break
-theKthPrimeNumber2()
+# theKthPrimeNumber2()
 
+# [7] 
 
 
 
