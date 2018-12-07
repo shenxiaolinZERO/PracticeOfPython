@@ -176,10 +176,24 @@ def theKthPrimeNumber2():
 # [7] 【众数】20181207 Friday
 # 输入20个数，每个数都在1-10之间，求1-10中的众数。
 # （众数就是出现次数最多的数，如果存在一样多次数的众数，则输出权值较小的那一个）。
+# 5 1 5 10 3 5 3 4 8 6 8 3 6 5 10 7 10 2 6 2
 def TheModeNumber():
-    numList=list(map(int,input().split()))
-    numList=sorted(numList)
-    
+    while True:
+        try:
+            numList=list(map(int,input().split()))
+            # numList=sorted(numList)
+            # print(numList)
+            # for i in range(len(numList)):
+            theMax = 0
+            theMode = 0
+            for i in range(1,11):
+                if numList.count(i) > theMax:
+                    theMax =numList.count(i)
+                    theMode =i
+            print(theMode)
+        except :
+            break
+TheModeNumber()
 
 
 
