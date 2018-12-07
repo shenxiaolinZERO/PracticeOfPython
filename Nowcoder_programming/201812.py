@@ -178,6 +178,7 @@ def theKthPrimeNumber2():
 # （众数就是出现次数最多的数，如果存在一样多次数的众数，则输出权值较小的那一个）。
 def TheModeNumber():
     numList=list(map(int,input().split()))
+    numList=sorted(numList)
     
 
 
