@@ -173,7 +173,9 @@ def theKthPrimeNumber2():
             break
 # theKthPrimeNumber2()
 
-# [7] 
+# [7] 【众数】20181207 Friday
+# 
+
 
 
 
