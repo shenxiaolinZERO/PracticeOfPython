@@ -196,6 +196,7 @@ def TheModeNumber():
 # TheModeNumber()
 
 # [8] 20181208 Saterday
-# 
+# 又一版 A+B
+def 
 
 
