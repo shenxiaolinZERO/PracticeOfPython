@@ -193,7 +193,8 @@ def TheModeNumber():
             print(theMode)
         except :
             break
-TheModeNumber()
+# TheModeNumber()
+
 
 
 
