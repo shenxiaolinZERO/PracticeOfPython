@@ -197,6 +197,30 @@ def TheModeNumber():
 
 # [8] 20181208 Saterday
 # 又一版 A+B
-def 
+# 将int转为X进制 (1<X<10)
+def IntToX(num,X):
+    res= ""
+    while num !=0:
+        res = str(num%X)+res
+        num = num //X
+    return res
+
+
+def AnotherAPlusB():
+    while True:
+        try:
+            m,A,B = map(int,input().split())
+            if m !=0:
+                C = A+B
+                # print(C)
+                if C==0:
+                    print(0)
+                else:
+                    res = IntToX(C,m)
+                    print(res)
+        except:
+            break
+
+AnotherAPlusB()
 
 
