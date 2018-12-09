@@ -222,6 +222,23 @@ def AnotherAPlusB():
 
 # [9] 20181209 Sunday
 # 比较奇偶数个数
-def 
+def OddVSEven():
+    n = int(input())
+    numList = list(map(int,input().split()))
+    OddCount = 0
+    EvenCount = 0
+    for i in numList:
+        if i % 2 ==0:
+            EvenCount +=1
+        else:
+            OddCount +=1
+    if EvenCount >OddCount:
+        print("NO")
+    else:
+        print("YES")
+OddVSEven()
+
+
+
 
 
