@@ -236,7 +236,7 @@ def OddVSEven():
         print("NO")
     else:
         print("YES")
-OddVSEven()
+# OddVSEven()
 
 
 

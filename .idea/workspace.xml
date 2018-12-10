@@ -73,7 +73,7 @@
       <file leaf-file-name="20180320CountDays.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20180320CountDays.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="462">
               <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
@@ -83,8 +83,8 @@
       <file leaf-file-name="201812.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201812.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="239" column="0" lean-forward="true" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+            <state relative-caret-position="377">
+              <caret line="241" column="0" lean-forward="true" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -173,10 +173,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-102" />
-    <option name="y" value="32" />
+    <option name="x" value="432" />
     <option name="width" value="883" />
-    <option name="height" value="828" />
+    <option name="height" value="765" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
@@ -193,6 +192,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PracticeOfPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticeOfPython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticeOfPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticeOfPython" type="462c0819:PsiDirectoryNode" />
+              <item name="201802" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
@@ -205,22 +220,6 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="PracticeOfPython" type="cbb8eebc:String" user="PracticeOfPython" />
               <item name="Nowcoder_programming" type="cbb8eebc:String" user="Nowcoder_programming" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PracticeOfPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PracticeOfPython" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PracticeOfPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PracticeOfPython" type="462c0819:PsiDirectoryNode" />
-              <item name="201802" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -596,16 +595,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-102" y="32" width="883" height="828" extended-state="0" />
+    <frame x="432" y="0" width="883" height="765" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2731214" sideWeight="0.14905363" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22270115" sideWeight="0.85094637" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22270115" sideWeight="0.85094637" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06075334" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14702308" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -908,7 +907,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/20180320CountDays.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="462">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
@@ -918,7 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="174" column="0" lean-forward="true" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,7 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-30">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,7 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-30">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,14 +938,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-30">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201812.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="239" column="0" lean-forward="true" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+        <state relative-caret-position="377">
+          <caret line="241" column="0" lean-forward="true" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
           <folding />
         </state>
       </provider>
