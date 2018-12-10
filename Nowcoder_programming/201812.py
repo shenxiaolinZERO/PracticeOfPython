@@ -238,6 +238,7 @@ def OddVSEven():
         print("YES")
 # OddVSEven()
 
+# [10] 20181210 Monday
 
 
 
