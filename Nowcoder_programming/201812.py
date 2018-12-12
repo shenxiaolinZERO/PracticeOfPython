@@ -246,7 +246,7 @@ def StringSort():
     return
 
 # Sum of Factorials
-
+# There are some numbers which can be expressed by the sum of factorials. For example 9, 9 = 1! + 2! + 3! .
 
 
 
