@@ -253,7 +253,7 @@ def Factorial(n):
         res = res*i
     print(res)
     return res
-# Factorial(10) #3628800
+# Factorial(10) #3628800 ，，用不到？~
 # Factorial(9) #362880
 def SumOfFactorials():
     n = int(input())
@@ -261,9 +261,10 @@ def SumOfFactorials():
     FactList=[1] *10
     # index : 0 1 2 3 4 5 6 7 8 9
     # value : 1 1 1 1 1 1 1 1 1 1
-    print(FactList)
+    # print(FactList)
     for i in range(2,10):
         FactList[i] = FactList[i-1] *i
+    # value : [1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880]
     print(FactList)
     return
 SumOfFactorials()
