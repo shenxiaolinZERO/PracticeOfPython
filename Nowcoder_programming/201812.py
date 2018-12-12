@@ -238,7 +238,8 @@ def OddVSEven():
         print("YES")
 # OddVSEven()
 
-# [10] Sum of Factorials
+# [10] 20181213 Wednesday
+# Sum of Factorials
 # There are some numbers which can be expressed by the sum of factorials. For example 9, 9 = 1! + 2! + 3! .
 def Factorial(n):
     res = 1
@@ -271,3 +272,10 @@ def SumOfFactorials():
 SumOfFactorials()
 
 
+# 字符串排序
+# https://www.nowcoder.com/practice/d9aa3894d3aa4887843a85d26daa4437?tpId=40&tqId=21407&tPage=4&rp=4&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking
+def StringSort():
+
+    return
+
+#
