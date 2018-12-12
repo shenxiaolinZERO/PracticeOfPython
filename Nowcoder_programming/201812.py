@@ -253,6 +253,8 @@ def Factorial(n):
         res = res*i
     # print(res)
     return res
-Factorial(10)
+# Factorial(10)
 
+def SumOfFactorials():
+    
 
