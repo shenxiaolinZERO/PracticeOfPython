@@ -254,10 +254,16 @@ def Factorial(n):
     print(res)
     return res
 # Factorial(10) #3628800
-Factorial(9) #362880
+# Factorial(9) #362880
 def SumOfFactorials():
     n = int(input())
-    # 先初始化好1~10中每个数的阶乘（因为题目限制了最大输入(n≤1,000,000)，因此算到10足矣。）
-    for i in range(10):
-        print(i)
+    # 先初始化好1~10中每个数的阶乘（因为题目限制了最大输入(n≤1,000,000)，因此算到前10个阶乘足矣。）
+    FactList=[1] *10
+    # index : 0 1 2 3 4 5 6 7 8 9
+    # value : 1 1 1 1 1 1 1 1 1 1
+    print(FactList)
+    for i in range(2,10):
+        FactList[i] = FactList[i-1] *i
+    print(FactList)
     return
+SumOfFactorials()
