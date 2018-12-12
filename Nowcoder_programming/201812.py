@@ -251,10 +251,13 @@ def Factorial(n):
     res = 1
     for i in range(2,n+1):
         res = res*i
-    # print(res)
+    print(res)
     return res
-# Factorial(10)
-
+# Factorial(10) #3628800
+Factorial(9) #362880
 def SumOfFactorials():
-    
-
+    n = int(input())
+    # 先初始化好1~10中每个数的阶乘（因为题目限制了最大输入(n≤1,000,000)，因此算到10足矣。）
+    for i in range(10):
+        print(i)
+    return
