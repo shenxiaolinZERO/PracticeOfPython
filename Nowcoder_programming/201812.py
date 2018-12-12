@@ -232,13 +232,13 @@ def OddVSEven():
             EvenCount +=1
         else:
             OddCount +=1
-    if EvenCount >OddCount:
+    if EvenCount > OddCount:
         print("NO")
     else:
         print("YES")
 # OddVSEven()
 
-# [10] 20181211 Tuesday
+# [10] 20181213 Wednesday
 # 复数集合
 
 
