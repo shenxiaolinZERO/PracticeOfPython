@@ -247,6 +247,12 @@ def StringSort():
 
 # Sum of Factorials
 # There are some numbers which can be expressed by the sum of factorials. For example 9, 9 = 1! + 2! + 3! .
-
+def Factorial(n):
+    res = 1
+    for i in range(2,n+1):
+        res = res*i
+    # print(res)
+    return res
+Factorial(10)
 
 
