@@ -238,14 +238,7 @@ def OddVSEven():
         print("YES")
 # OddVSEven()
 
-# [10] 20181213 Wednesday
-# 字符串排序
-# https://www.nowcoder.com/practice/d9aa3894d3aa4887843a85d26daa4437?tpId=40&tqId=21407&tPage=4&rp=4&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking
-def StringSort():
-
-    return
-
-# Sum of Factorials
+# [10] Sum of Factorials
 # There are some numbers which can be expressed by the sum of factorials. For example 9, 9 = 1! + 2! + 3! .
 def Factorial(n):
     res = 1
@@ -265,6 +258,16 @@ def SumOfFactorials():
     for i in range(2,10):
         FactList[i] = FactList[i-1] *i
     # value : [1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880]
-    print(FactList)
-    return
+    # print(FactList)
+    index =9
+    while index >=0:  # 从最大的阶乘的数减起，能减就减，因为阶乘大于其前面所有阶乘的和
+        if n >=FactList[index]:
+            n -= FactList[index]
+        index -=1
+    if n == 0:   # 如果减为0了，说明其能够全部分解为阶乘的数的和了
+        print("YES")
+    else:
+        print("NO")
 SumOfFactorials()
+
+
