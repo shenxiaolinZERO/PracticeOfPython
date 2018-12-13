@@ -269,7 +269,7 @@ def SumOfFactorials():
         print("YES")
     else:
         print("NO")
-SumOfFactorials()
+# SumOfFactorials()
 
 
 # 字符串排序
