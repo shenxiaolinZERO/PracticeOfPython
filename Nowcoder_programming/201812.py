@@ -282,5 +282,7 @@ def SumOfFactorials():
 
 # [11]
 
-def  adbMain():
+def  absMain():
+    n = int(input())
+    numList = list(map(int,input()))
     
