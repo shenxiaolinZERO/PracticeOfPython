@@ -285,7 +285,7 @@ def SumOfFactorials():
 
 # 法1：me
 # 10分/100分 -运行错误？
-def  absMain():
+def  absMain1():
     n = int(input())
     numList = list(map(int,input().split()))
     minus=0
@@ -295,14 +295,18 @@ def  absMain():
             if a<minus:
                 minus=a
     print(minus)
-absMain()
+absMain1()
 
-count = input()
-data = list(map(int, input().split()))
-data.sort()
-r = data[1] - data[0]
-for i in range(2, len(data)):
-    t = data[i] - data[i - 1]
-    if t < r:
-        r = t
-print(r)
+# 法2：others
+# 100分/100分 -√√√
+def absMain2():
+    count = input()
+    data = list(map(int, input().split()))
+    data.sort()
+    r = data[1] - data[0]
+    for i in range(2, len(data)):
+        t = data[i] - data[i - 1]
+        if t < r:
+            r = t
+    print(r)
+
