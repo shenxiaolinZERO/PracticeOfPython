@@ -283,8 +283,8 @@ def SumOfFactorials():
 # [11] 20181216 Sunday
 # CCFCSP试题，求一组数两两之间的最小差值
 
+# 法1：me
 # 10分/100分 -运行错误？
-
 def  absMain():
     n = int(input())
     numList = list(map(int,input().split()))
