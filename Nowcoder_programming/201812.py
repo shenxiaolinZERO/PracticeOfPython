@@ -280,9 +280,9 @@ def SumOfFactorials():
 
 #
 
-# [11]
+# [11] 20181216 Sunday
 
-# 10fen -运行错误？
+# 10分/100分 -运行错误？
 
 def  absMain():
     n = int(input())
