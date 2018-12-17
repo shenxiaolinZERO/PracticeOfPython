@@ -282,7 +282,26 @@ def SumOfFactorials():
 
 # [11]
 
+# 10fen -运行错误？
+
 def  absMain():
     n = int(input())
-    numList = list(map(int,input()))
-    
+    numList = list(map(int,input().split()))
+    minus=0
+    for i in range(5):
+        for j in range(5):
+            a = abs(numList[i]-numList[j])
+            if a<minus:
+                minus=a
+    print(minus)
+absMain()
+
+count = input()
+data = list(map(int, input().split()))
+data.sort()
+r = data[1] - data[0]
+for i in range(2, len(data)):
+    t = data[i] - data[i - 1]
+    if t < r:
+        r = t
+print(r)
