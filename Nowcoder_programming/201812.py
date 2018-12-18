@@ -300,7 +300,7 @@ def absMain2():
         if t < r:
             r = t
     print(r)
-absMain2()
+# absMain2()
 
 
 # [12] 20181218 Tuesday
@@ -312,6 +312,9 @@ def LatentFriend():
         a=int(input())
         listNum.append(a)
     print(listNum)
+    for j in range(N):
+        
+
 LatentFriend()
 
 
