@@ -262,7 +262,7 @@ def SumOfFactorials():
     # print(FactList)
     index =9
     while index >=0:  # 从最大的阶乘的数减起，能减就减，因为阶乘大于其前面所有阶乘的和
-        if n >=FactList[index]:
+        if n >= FactList[index]:
             n -= FactList[index]
         index -=1
     if n == 0:   # 如果减为0了，说明其能够全部分解为阶乘的数的和了
@@ -314,10 +314,10 @@ def LatentFriend():
     print(listNum)
     for j in range(N):
         temp = listNum.count(listNum[j])
-        if temp ==0:
+        if temp ==1:
             print("BeiJu")
         else:
-            print(temp)
+            print(temp-1)
 LatentFriend()
 
 
