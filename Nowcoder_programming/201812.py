@@ -311,7 +311,7 @@ def LatentFriend():
     for i in range(N):
         a = int(input())
         listNum.append(a)
-    print(listNum)
+    # print(listNum)
     for j in range(N):
         temp = listNum.count(listNum[j])
         if temp ==1:
