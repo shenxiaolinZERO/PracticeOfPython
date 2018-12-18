@@ -313,8 +313,11 @@ def LatentFriend():
         listNum.append(a)
     print(listNum)
     for j in range(N):
-        print()
-
+        temp = listNum.count(listNum[j])
+        if temp ==0:
+            print("BeiJu")
+        else:
+            print(temp)
 LatentFriend()
 
 
