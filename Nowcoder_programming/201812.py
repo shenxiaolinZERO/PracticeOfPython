@@ -286,7 +286,7 @@ def  absMain1():
             if a < minus:
                 minus = a
     print(minus)
-absMain1()
+# absMain1()
 
 # 法2：others
 # 100分/100分 -√√√
@@ -307,8 +307,12 @@ absMain2()
 # 潜在朋友
 def LatentFriend():
     N,M = map(int,input().split())
+    listNum=[]
     for i in range(N):
-        
+        a=int(input())
+        listNum.append(a)
+    print(listNum)
+LatentFriend()
 
 
 # # 字符串排序
