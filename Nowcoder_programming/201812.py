@@ -309,11 +309,11 @@ def LatentFriend():
     N,M = map(int,input().split())
     listNum=[]
     for i in range(N):
-        a=int(input())
+        a = int(input())
         listNum.append(a)
     print(listNum)
     for j in range(N):
-        
+        print()
 
 LatentFriend()
 
