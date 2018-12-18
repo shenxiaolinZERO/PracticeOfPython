@@ -272,14 +272,6 @@ def SumOfFactorials():
 # SumOfFactorials()
 
 
-# # 字符串排序
-# # https://www.nowcoder.com/practice/d9aa3894d3aa4887843a85d26daa4437?tpId=40&tqId=21407&tPage=4&rp=4&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking
-# def StringSort():
-#
-#     return
-
-#
-
 # [11] 20181216 Sunday
 # CCFCSP试题，求一组数两两之间的最小差值
 # 法1：me
@@ -287,12 +279,12 @@ def SumOfFactorials():
 def  absMain1():
     n = int(input())
     numList = list(map(int,input().split()))
-    minus=0
+    minus = 0
     for i in range(5):
         for j in range(5):
             a = abs(numList[i]-numList[j])
-            if a<minus:
-                minus=a
+            if a < minus:
+                minus = a
     print(minus)
 absMain1()
 
@@ -310,4 +302,14 @@ def absMain2():
     print(r)
 absMain2()
 
+
+# [12] 20181218 
+
+
+
+# # 字符串排序
+# # https://www.nowcoder.com/practice/d9aa3894d3aa4887843a85d26daa4437?tpId=40&tqId=21407&tPage=4&rp=4&ru=/ta/kaoyan&qru=/ta/kaoyan/question-ranking
+# def StringSort():
+#
+#     return
 
