@@ -304,8 +304,11 @@ absMain2()
 
 
 # [12] 20181218 Tuesday
-
-
+# 潜在朋友
+def LatentFriend():
+    N,M = map(int,input().split())
+    for i in range(N):
+        
 
 
 # # 字符串排序
