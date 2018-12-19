@@ -318,7 +318,7 @@ def LatentFriend():
             print("BeiJu")
         else:
             print(temp-1)
-LatentFriend()
+# LatentFriend()
 
 
 # # 字符串排序
