@@ -337,7 +337,7 @@ def OddEvenSort():
             print(OddList,EvenList)
             OddRes=sorted(OddList,reverse=True)
             EvenRes=sorted(EvenList)
-            res= OddRes+EvenRes
+            res= OddRes+EvenRes # 合并两个数组
             for j in range(len(res)):
                 print(res[j],end=" ")
         except:
