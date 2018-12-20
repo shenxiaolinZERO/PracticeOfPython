@@ -321,6 +321,11 @@ def LatentFriend():
 # LatentFriend()
 
 # [13] 20181220 Thursday
+# 整数奇偶排序
+def OddEvenSort():
+    
+
+
 
 
 # # 字符串排序
