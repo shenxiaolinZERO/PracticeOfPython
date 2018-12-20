@@ -323,7 +323,11 @@ def LatentFriend():
 # [13] 20181220 Thursday
 # 整数奇偶排序
 def OddEvenSort():
-    
+    # numList = list(map(int,input().split()))
+    numList = input().split()
+    OddList = []
+    EvenList = []
+    for i in 
 
 
 
