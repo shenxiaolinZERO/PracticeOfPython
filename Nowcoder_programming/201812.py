@@ -347,6 +347,10 @@ def OddEvenSort():
 # [14] 20181221 Friday
 # 数字阶梯求和, eg. 1+11+111+1111+11111+...
 # 例如：a,n =1,10
+# a1=1
+# a2=1*10^1+a1
+# a3=1*10^2+a2
+# a4=1*10^3+a3
 # 
 def DigitalStepSum():
     a,n = map(int,input().split())
