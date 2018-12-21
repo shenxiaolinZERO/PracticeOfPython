@@ -342,7 +342,7 @@ def OddEvenSort():
                 print(res[j],end=" ")
         except:
             break
-OddEvenSort()
+# OddEvenSort()
 
 
 
