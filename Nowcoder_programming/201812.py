@@ -348,7 +348,9 @@ def OddEvenSort():
 # 数字阶梯求和
 def DigitalStepSum():
     a,n = map(int,input().split())
-    
+    sum = 0
+    for 
+DigitalStepSum()
 
 
 
