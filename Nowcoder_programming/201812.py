@@ -351,7 +351,11 @@ def OddEvenSort():
 # a2=1*10^1+a1
 # a3=1*10^2+a2
 # a4=1*10^3+a3
-# 
+# 例如：a,n =2,10
+# a1=2
+# a2=2*10^1+a1
+# a3=2*10^2+a2
+# a4=2*10^3+a3
 def DigitalStepSum():
     a,n = map(int,input().split())
     # a, n = input().split()
