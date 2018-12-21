@@ -345,15 +345,17 @@ def OddEvenSort():
 # OddEvenSort()
 
 # [14] 20181221 Friday
-# 数字阶梯求和
+# 数字阶梯求和, eg. 1+11+111+1111+11111+...
 def DigitalStepSum():
     a,n = map(int,input().split())
     # a, n = input().split()
     # n = int(n)
     sum = 0
+    baseA = a
+    baseFactor = a*10
     for i in range(1,n+1):
-        sum = sum + int(a)
-        a=a+a
+        sum = sum + a
+        a = baseA*(baseFactor**i) + a
     print(sum)
 DigitalStepSum()
 
