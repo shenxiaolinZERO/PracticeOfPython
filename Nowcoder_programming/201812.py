@@ -349,9 +349,12 @@ def OddEvenSort():
 def DigitalStepSum():
     # a,n = map(int,input().split())
     a, n = input().split()
+    n = int(n)
     sum = 0
     for i in range(1,n+1):
-        
+        sum = sum + int(a)
+        a=a+a
+    print(sum)
 DigitalStepSum()
 
 
