@@ -346,7 +346,9 @@ def OddEvenSort():
 
 # [14] 20181221 Friday
 # 数字阶梯求和
-def 
+def DigitalStepSum():
+    a,n = map(int,input().split())
+    
 
 
 
