@@ -367,7 +367,7 @@ def DigitalStepSum():
         sum = sum + a
         a = baseA*(baseFactor**i) + a
     print(sum)
-DigitalStepSum()
+# DigitalStepSum()
 
 
 
