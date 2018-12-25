@@ -373,15 +373,24 @@ def DigitalStepSum():
 # [15] 20181225 Tuesday
 # 采药  ,,又是背包问题，动态规划
 def gatherHerbs():
-    T,M = map(int,input().split())
-    listNum = []
-    for i in range(M):
-        tAndv = list(map(int,input().split()))
-        listNum.append(tAndv)
-    # print(listNum)
-    # 动态规划，用一个数组values[i]表示i时间能采集到的草药价值
-    values = [0]*(T+1)
-
+    while True:
+        try:
+            T, M = map(int, input().split())
+            listNum = []
+            for i in range(M):
+                tAndv = list(map(int, input().split()))
+                listNum.append(tAndv)
+            # print(listNum)
+            # 动态规划，用一个数组values[i]表示i时间能采集到的草药价值
+            values = [0] * (T + 1)
+            for i in range(M):
+                if listNum[i][0] <= T:  # 如果比所给时间小，从后往前到不够时间摘下该草药为止
+                    for j in range(T, listNum[i][0] - 1, -1):
+                        # 从后往前到不够时间摘下该草药为止，看加入进来是否有价值增加的可能。
+                        values[j] = max(values[j], values[j - listNum[i][0]] + listNum[i][1])
+            print(values[T])
+        except Exception:
+            break
 gatherHerbs()
 
 
