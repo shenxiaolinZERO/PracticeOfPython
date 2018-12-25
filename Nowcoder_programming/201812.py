@@ -372,6 +372,8 @@ def DigitalStepSum():
 
 # [15] 20181225 Tuesday
 # 采药
+def gatherHerbs():
+    
 
 
 
