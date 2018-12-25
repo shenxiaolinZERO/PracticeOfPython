@@ -379,7 +379,7 @@ def gatherHerbs():
         tAndv = list(map(int,input().split()))
         listNum.append(tAndv)
     # print(listNum)
-    
+
 gatherHerbs()
 
 
