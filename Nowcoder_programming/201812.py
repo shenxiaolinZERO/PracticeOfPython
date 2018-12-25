@@ -371,7 +371,7 @@ def DigitalStepSum():
 
 
 # [15] 20181225 Tuesday
-# 采药  ,,又是背包问题
+# 采药  ,,又是背包问题，动态规划
 def gatherHerbs():
     T,M = map(int,input().split())
     listNum = []
@@ -379,6 +379,8 @@ def gatherHerbs():
         tAndv = list(map(int,input().split()))
         listNum.append(tAndv)
     # print(listNum)
+    # 动态规划，用一个数组values[i]表示i时间能采集到的草药价值
+    values = [0]*(T+1)
 
 gatherHerbs()
 
