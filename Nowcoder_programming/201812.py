@@ -373,7 +373,10 @@ def DigitalStepSum():
 # [15] 20181225 Tuesday
 # 采药
 def gatherHerbs():
-    
+    T,M = map(int,input().split())
+    listNum = []
+    for i in range(M):
+        t,v = map(int,input().split())
 
 
 
