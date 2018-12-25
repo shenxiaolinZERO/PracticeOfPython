@@ -374,12 +374,12 @@ def DigitalStepSum():
 # 采药  ,,又是背包问题
 def gatherHerbs():
     T,M = map(int,input().split())
-    listNum = [[],[]]
+    listNum = []
     for i in range(M):
-        t,v = map(int,input().split())
-        listNum[i][0].append(t)
-        listNum[i][1].append(v)
-    print(listNum)
+        tAndv = list(map(int,input().split()))
+        listNum.append(tAndv)
+    # print(listNum)
+    
 gatherHerbs()
 
 
