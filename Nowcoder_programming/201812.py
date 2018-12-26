@@ -402,11 +402,15 @@ def StringSort():
             strList = []
             for i in range(n):
                 string = input()
+                if string == "stop":
+                    break
                 length = len(string)
                 strList.append((string,length))
-            res = sorted(strList,key=)
+            res = sorted(strList,key=lambda x:(x[1]))
 
             print(res)
+            for i in range(len(res)):
+                
         except:
             break
 StringSort()
