@@ -403,7 +403,7 @@ def StringSort():
             for i in range(n):
                 string = input()
                 length = len(string)
-                strList.append((string,len))
+                strList.append((string,length))
             res = sorted(strList,key=)
 
             print(res)
