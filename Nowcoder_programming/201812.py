@@ -396,8 +396,19 @@ def gatherHerbs():
 # [16] 20181226 Wednesday
 # 字符串排序
 def StringSort():
-    
-
+    while True:
+        try:
+            n = int(input())
+            strList = []
+            for i in range(n):
+                string = input()
+                strList.append(string)
+            res = sorted(strList)
+            print(strList)
+            print(res)
+        except:
+            break
+StringSort()
 
 
 # # 字符串排序
