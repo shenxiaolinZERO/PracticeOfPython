@@ -391,7 +391,7 @@ def gatherHerbs():
             print(values[T])
         except Exception:
             break
-gatherHerbs()
+# gatherHerbs()
 
 
 
