@@ -402,9 +402,10 @@ def StringSort():
             strList = []
             for i in range(n):
                 string = input()
-                strList.append(string)
-            res = sorted(strList)
-            print(strList)
+                length = len(string)
+                strList.append((string,len))
+            res = sorted(strList,key=)
+
             print(res)
         except:
             break
