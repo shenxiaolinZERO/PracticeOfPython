@@ -407,10 +407,9 @@ def StringSort():
                 length = len(string)
                 strList.append((string,length))
             res = sorted(strList,key=lambda x:(x[1]))
-
-            print(res)
+            # print(res)
             for i in range(len(res)):
-                
+                print(res[i][0])
         except:
             break
 StringSort()
