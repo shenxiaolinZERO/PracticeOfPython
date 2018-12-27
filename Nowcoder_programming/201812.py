@@ -421,8 +421,8 @@ def CalculateTheMidValue():
     list1Len,list2Len = map(int,input().split())
     list1 = list(map(int,input().split()))
     list2 = list(map(int,input().split()))
-    a,b = map(int,input().split())
-    c,d = map(int,input().split())
+    a,b,c,d = map(int,input().split())
+
     truncateList1 = list1[a-1:b]
     truncateList2 = list2[c-1:d]
     # print(truncateList1,truncateList2)
