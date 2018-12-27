@@ -416,7 +416,8 @@ def StringSort():
 
 # [17] 20181227 Thursday
 # 取中值
-
+def CalculateTheMidValue():
+    
 
 
 
