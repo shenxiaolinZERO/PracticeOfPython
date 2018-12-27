@@ -415,6 +415,8 @@ def StringSort():
 # StringSort()
 
 # [17] 20181227 Thursday
+# 取中值
+
 
 
 
