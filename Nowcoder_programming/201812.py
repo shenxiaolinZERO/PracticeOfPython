@@ -418,9 +418,11 @@ def StringSort():
 # 取中值
 def CalculateTheMidValue():
     list1Len,list2Len = map(int,input().split())
-    list1 = []
-    list2 = []
-    
+    list1 = list(map(int,input().split()))
+    list2 = list(map(int,input().split()))
+    for i in range(list1Len):
+
+CalculateTheMidValue()
 
 
 
