@@ -421,7 +421,7 @@ def CalculateTheMidValue():
     list1 = list(map(int,input().split()))
     list2 = list(map(int,input().split()))
     for i in range(list1Len):
-
+        
 CalculateTheMidValue()
 
 
