@@ -416,15 +416,25 @@ def StringSort():
 
 # [17] 20181227 Thursday
 # 取中值
+import math
 def CalculateTheMidValue():
     list1Len,list2Len = map(int,input().split())
     list1 = list(map(int,input().split()))
     list2 = list(map(int,input().split()))
     a,b = map(int,input().split())
     c,d = map(int,input().split())
-    truncateList1 = list1[a-1:b-1]
-    truncateList2 = list2[c-1:d-1]
-
+    truncateList1 = list1[a-1:b]
+    truncateList2 = list2[c-1:d]
+    # print(truncateList1,truncateList2)
+    mergeList = truncateList1+truncateList2
+    # print(mergeList)
+    length = len(mergeList)
+    if length %2==0:
+        index = int(length/2)-1
+        print(mergeList[index])
+    if length %2 !=0:
+        index = int(math.floor(length/2))
+        print(mergeList[index])
 CalculateTheMidValue()
 
 
