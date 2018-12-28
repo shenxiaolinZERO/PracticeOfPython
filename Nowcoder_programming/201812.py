@@ -435,7 +435,7 @@ def CalculateTheMidValue():
     if length %2 !=0:
         index = int(math.floor(length/2))
         print(mergeList[index])
-CalculateTheMidValue()
+# CalculateTheMidValue()
 
 
 
