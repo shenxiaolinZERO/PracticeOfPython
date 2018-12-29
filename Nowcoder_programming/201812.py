@@ -437,6 +437,7 @@ def CalculateTheMidValue():
         print(mergeList[index])
 # CalculateTheMidValue()
 
+# [18] 20181229 Saterday
 
 
 
