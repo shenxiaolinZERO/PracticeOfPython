@@ -445,6 +445,11 @@ def inverseCodeOfString():
             inString = input()
             if inString =="!":
                 break
+            for i in inString:
+        except:
+            break
+inverseCodeOfString()
+
 
 
 
