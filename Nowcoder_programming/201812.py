@@ -445,7 +445,7 @@ def inverseCodeOfString():
             inString = input()
             if inString =="!":
                 break
-                
+
 
 
 
