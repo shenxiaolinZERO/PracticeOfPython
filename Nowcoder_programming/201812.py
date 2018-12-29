@@ -439,6 +439,7 @@ def CalculateTheMidValue():
 
 # [18] 20181229 Saterday
 # 字符串的反码
+def inverseCodeOfString():
 
 
 
