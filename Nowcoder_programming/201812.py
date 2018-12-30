@@ -443,9 +443,13 @@ def inverseCodeOfString():
     while True:
         try:
             inString = input()
+            outString=""
             if inString =="!":
                 break
             for i in inString:
+                if i.isalpha():
+
+
         except:
             break
 inverseCodeOfString()
