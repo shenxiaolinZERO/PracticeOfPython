@@ -444,15 +444,21 @@ def inverseCodeOfString():
         try:
             inString = input()
             outString=""
-            if inString =="!":
+            if inString == "!":
                 break
             for i in inString:
-                if i.isalpha():
+                if i.islower():
+                    outString += chr(ord("z")-(ord(i)-ord("a")))
+                if i.isupper():
+                    outString += chr(ord("Z")-(ord(i)-ord("A")))
+
 
 
         except:
             break
 # inverseCodeOfString()
+
+
 
 
 
