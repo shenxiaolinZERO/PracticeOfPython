@@ -455,8 +455,7 @@ def inverseCodeOfString():
                     outString += chr(ord("Z")-(ord(i)-ord("A")))
                 else:
                     outString += i
-
-
+            print(outString)
         except:
             break
 # inverseCodeOfString()
