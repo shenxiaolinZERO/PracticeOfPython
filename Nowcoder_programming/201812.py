@@ -451,9 +451,10 @@ def inverseCodeOfString():
                     # ord()函数主要用来返回对应字符的ascii码，
                     # chr()主要用来表示ascii码对应的字符他的输入时数字，可以用十进制，也可以用十六进制。
                     outString += chr(ord("z")-(ord(i)-ord("a")))
-                if i.isupper():
+                elif i.isupper():
                     outString += chr(ord("Z")-(ord(i)-ord("A")))
-
+                else:
+                    outString += i
 
 
         except:
