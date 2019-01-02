@@ -458,7 +458,7 @@ def inverseCodeOfString():
             print(outString)
         except:
             break
-# inverseCodeOfString()
+inverseCodeOfString()
 
 
 
