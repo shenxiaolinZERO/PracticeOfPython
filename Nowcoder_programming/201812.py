@@ -460,12 +460,3 @@ def inverseCodeOfString():
             break
 # inverseCodeOfString()
 
-# [19] 20181230 Sunday
-# 字符串排序
-def LongStringSort():
-    inString = input()
-    outString = ""
-    for i in inString:
-        
-    return 0
-LongStringSort()
