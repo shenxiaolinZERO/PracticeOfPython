@@ -460,7 +460,8 @@ def inverseCodeOfString():
             break
 inverseCodeOfString()
 
-
+# [19] 20181230 Sunday
+# 
 
 
 
