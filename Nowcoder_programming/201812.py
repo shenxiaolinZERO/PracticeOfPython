@@ -458,10 +458,10 @@ def inverseCodeOfString():
             print(outString)
         except:
             break
-inverseCodeOfString()
+# inverseCodeOfString()
 
 # [19] 20181230 Sunday
-# 
+#
 
 
 
