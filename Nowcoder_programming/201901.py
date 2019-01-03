@@ -7,11 +7,15 @@ __author__ = 'ScarlettZero'
 # [1] 20190103 Thursday
 # 字符串排序
 def LongStringSort():
-    inString = input()
-    outString = ""
-    for i in inString:
+    while True:
+        try:
+            inString = input()
+            outString = ""
+            for i in inString:
 
-    return 0
+            return 0
 
+        except:
+            break
 
 LongStringSort()
