@@ -17,8 +17,8 @@ def LongStringSort():
             letterString = ""
             for i in inString:
                 if i.isalpha():
-                    letterString +=i
-                    
+                    letterString += i
+
 
 
         except:
