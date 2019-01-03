@@ -17,7 +17,7 @@ def LongStringSort():
             outString = []
             letterString = ""
             length =len(inString)
-            for i in inString:
+            for i in range(length):
                 if i.isalpha():
                     letterString += i
 
