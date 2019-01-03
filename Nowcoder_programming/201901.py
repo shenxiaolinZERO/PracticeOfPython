@@ -13,8 +13,10 @@ def LongStringSort():
     while True:
         try:
             inString = input()
-            outString = ""
+            tmp =[]
+            outString = []
             letterString = ""
+            length =len(inString)
             for i in inString:
                 if i.isalpha():
                     letterString += i
