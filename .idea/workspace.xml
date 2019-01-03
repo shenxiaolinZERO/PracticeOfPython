@@ -83,8 +83,8 @@
       <file leaf-file-name="201812.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201812.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="467" column="16" lean-forward="true" selection-start-line="467" selection-start-column="16" selection-end-line="467" selection-end-column="16" />
+            <state relative-caret-position="399">
+              <caret line="468" column="8" lean-forward="true" selection-start-line="468" selection-start-column="8" selection-end-line="468" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -184,7 +184,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="452" />
+    <option name="x" value="714" />
     <option name="width" value="1248" />
     <option name="height" value="872" />
   </component>
@@ -606,7 +606,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="452" y="0" width="1248" height="872" extended-state="0" />
+    <frame x="714" y="0" width="1248" height="872" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -956,8 +956,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201812.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="467" column="16" lean-forward="true" selection-start-line="467" selection-start-column="16" selection-end-line="467" selection-end-column="16" />
+        <state relative-caret-position="399">
+          <caret line="468" column="8" lean-forward="true" selection-start-line="468" selection-start-column="8" selection-end-line="468" selection-end-column="8" />
           <folding />
         </state>
       </provider>
