@@ -83,8 +83,8 @@
       <file leaf-file-name="201812.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201812.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="461" column="0" lean-forward="true" selection-start-line="461" selection-start-column="0" selection-end-line="461" selection-end-column="0" />
+            <state relative-caret-position="441">
+              <caret line="467" column="16" lean-forward="true" selection-start-line="467" selection-start-column="16" selection-end-line="467" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -114,6 +114,7 @@
       <find>P</find>
       <find>prime</find>
       <find>众数</find>
+      <find>StringSort</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -955,8 +956,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201812.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="461" column="0" lean-forward="true" selection-start-line="461" selection-start-column="0" selection-end-line="461" selection-end-column="0" />
+        <state relative-caret-position="441">
+          <caret line="467" column="16" lean-forward="true" selection-start-line="467" selection-start-column="16" selection-end-line="467" selection-end-column="16" />
           <folding />
         </state>
       </provider>
