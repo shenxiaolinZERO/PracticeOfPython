@@ -51,6 +51,7 @@ def PlayCards():
         try:
             ownCards = input()
             opponentCards = input()
+            weatherPlay = False
             
 
         except:
