@@ -55,7 +55,9 @@ def PlayCards():
             opponentCards = input()
             whetherPlay = False
             if len(opponentCards)<5:
-                card
+                cardNum = int(opponentCards[0])
+                for i in range(cardNum+1,10):
+                    
             else:
 
 
