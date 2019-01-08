@@ -54,6 +54,9 @@ def PlayCards():
             ownCards = input()
             opponentCards = input()
             whetherPlay = False
+            if len(opponentCards)<5:
+                card
+            else:
 
 
         except:
