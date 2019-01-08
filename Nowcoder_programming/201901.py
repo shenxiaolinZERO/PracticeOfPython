@@ -41,7 +41,8 @@ def LongStringSort():
 # 打牌
 # 思路：分为两大部分，一是对方出的牌为小于5的重复牌，二是对方出的牌为连续的顺子牌
 # ①对方出的牌为小于5的重复牌
-#
+#   a. 查找我方的牌中是否有比对方的牌（去重后or取第一个）还大的牌
+#   b. 
 # ②对方出的牌为连续的顺子牌
 #
 # 工具：使用find函数（如果包含子字符串返回开始的索引值，否则返回-1）来进行查找
@@ -52,7 +53,7 @@ def PlayCards():
             ownCards = input()
             opponentCards = input()
             weatherPlay = False
-            
+
 
         except:
             break
