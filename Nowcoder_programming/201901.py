@@ -47,3 +47,11 @@ def LongStringSort():
 # 工具：使用find函数（如果包含子字符串返回开始的索引值，否则返回-1）来进行查找
 #
 def PlayCards():
+    while True:
+        try:
+            ownCards = input()
+            opponentCards = input()
+            
+
+        except:
+            break
