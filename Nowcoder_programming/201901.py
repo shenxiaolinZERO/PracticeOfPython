@@ -75,6 +75,6 @@ def PlayCards():
                 print("YES")
             else:
                 print("NO")
-
         except:
             break
+PlayCards()
