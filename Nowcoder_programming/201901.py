@@ -56,10 +56,25 @@ def PlayCards():
             whetherPlay = False
             if len(opponentCards)<5:
                 cardNum = int(opponentCards[0])
-                for i in range(cardNum+1,10):
-
+                for i in range(cardNum+1,10): # i循环到9，因为最大数字是9，牌只有1到9.
+                    temp = str(i)*len(opponentCards)
+                    if ownCards.find(temp)>-1:
+                        whetherPlay = True
+                        break
             else:
-
+                ownCards = list(set(ownCards))
+                ownCards.sort()
+                ownCards = ''.join(ownCards)
+                cardNum = int(opponentCards[0])
+                for i in range(cardNum+1,6): # 6?
+                    temp = str(i)+str(i+1)+str(i+2)+str(i+3)+str(i+4)
+                    if ownCards.find(temp) >-1:
+                        whetherPlay =True
+                        break
+            if whetherPlay:
+                print("YES")
+            else:
+                print("NO")
 
         except:
             break
