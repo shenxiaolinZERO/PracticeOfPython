@@ -118,5 +118,7 @@ def CalculateGPA():
     for i in range(courseNumber):
         sum1 += matchGPA(actualScore[i])*credit[i]
     print(sum1)
-    
+    res = sum1 /sum(credit)
+    print("%.2f",res)
+
 
