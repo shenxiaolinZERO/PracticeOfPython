@@ -84,7 +84,26 @@ def PlayCards():
 #
 
 # 实际成绩对应的绩点的功能函数
-def matchGPA():
+def matchGPA(score):
+    if 90<=score<=100:
+        return 4.0
+    if 85<=score<=89:
+        return 3.7
+    if 82<=score<=84:
+        return 3.3
+    if 78<=score<=81:
+        return 3.0
+    if 75<=score<=77:
+        return 2.7
+    if 72<=score<=74:
+        return 2.3
+    if 68<=score<=71:
+        return 2.0
+    if 64<=score<=67:
+        return 1.5
+    if 60<=score<=63:
+        return 1.0
+    if score<=60:
+        return 0.0
     
-
-def
+def CalculateGPA():
