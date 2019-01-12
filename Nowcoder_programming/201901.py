@@ -110,15 +110,15 @@ def CalculateGPA():
     courseNumber =int(input())
     credit = list(map(int,input().split()))
     actualScore = list(map(int,input().split()))
-    CreditAndScoreList = []
-    for i in range(courseNumber):
-        CreditAndScoreList.append((credit[i],actualScore[i]))
-    print(CreditAndScoreList)
+    # CreditAndScoreList = []
+    # for i in range(courseNumber):
+    #     CreditAndScoreList.append((credit[i],actualScore[i]))
+    # print(CreditAndScoreList)
     sum1=0.0
     for i in range(courseNumber):
         sum1 += matchGPA(actualScore[i])*credit[i]
-    print(sum1)
+    # print(sum1)
     res = sum1 /sum(credit)
-    print("%.2f",res)
-
+    print("%.2f"%res)
+CalculateGPA()
 
