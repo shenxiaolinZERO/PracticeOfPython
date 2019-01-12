@@ -105,5 +105,11 @@ def matchGPA(score):
         return 1.0
     if score<=60:
         return 0.0
-    
+
 def CalculateGPA():
+    courseNumber =int(input())
+    credit = list(map(int,input().split()))
+    actualScore = list(map(int,input().split()))
+    CreditAndScoreList = []
+    for i in range(courseNumber):
+        CreditAndScoreList.append(())
