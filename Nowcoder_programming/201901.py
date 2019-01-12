@@ -114,4 +114,7 @@ def CalculateGPA():
     for i in range(courseNumber):
         CreditAndScoreList.append((credit[i],actualScore[i]))
     print(CreditAndScoreList)
-    
+    sum1=0.0
+    for i in range(courseNumber):
+        
+
