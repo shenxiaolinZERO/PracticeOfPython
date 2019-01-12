@@ -112,4 +112,6 @@ def CalculateGPA():
     actualScore = list(map(int,input().split()))
     CreditAndScoreList = []
     for i in range(courseNumber):
-        CreditAndScoreList.append(())
+        CreditAndScoreList.append((credit[i],actualScore[i]))
+    print(CreditAndScoreList)
+    
