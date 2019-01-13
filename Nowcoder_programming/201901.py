@@ -120,5 +120,5 @@ def CalculateGPA():
     # print(sum1)
     res = sum1 /sum(credit)
     print("%.2f"%res)
-CalculateGPA()
+# CalculateGPA()
 
