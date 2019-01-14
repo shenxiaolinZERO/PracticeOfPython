@@ -124,9 +124,13 @@ def CalculateGPA():
 # [4] 20190114 Monday
 # 买房子
 def BuyHouse():
+    # N:程序员的年薪；K:房价以每年百分之K增长
     N,K = map(int,input().split())
     rangeYear = 21
-    
+    housePrice = 200
+
+    for i in range(1,rangeYear):
+
 
 
 
