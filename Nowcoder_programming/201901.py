@@ -123,5 +123,9 @@ def CalculateGPA():
 
 # [4] 20190114 Monday
 # 买房子
+def BuyHouse():
+    N,K = map(int,input().split())
+
+
 
 
