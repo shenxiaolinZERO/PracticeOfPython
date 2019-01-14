@@ -133,15 +133,16 @@ def BuyHouse():
             rangeYear = 21
             housePrice1 = 200
             housePriceSum = housePrice1
-            salarySum = 0
+            salarySum = N
             canBuy = False
             canBuyYear = 0
             for i in range(0, rangeYear+1):
-                housePriceSum = housePriceSum * (1 + K*i)
-                salarySum += N
-                if salarySum >= housePriceSum:
+                # housePriceSum = housePriceSum * (1 + K)**(i-1)
+                # salarySum = salarySum*i
+                # if salarySum >= housePriceSum:
+                if salarySum*i >= 200*(1+K)**(i-1):
                     canBuy = True
-                    canBuyYear += i
+                    canBuyYear = i
                     break
             if canBuy == True:
                 print(canBuyYear)
