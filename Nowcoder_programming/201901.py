@@ -125,7 +125,8 @@ def CalculateGPA():
 # 买房子
 def BuyHouse():
     N,K = map(int,input().split())
-
+    rangeYear = 21
+    
 
 
 
