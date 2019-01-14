@@ -124,27 +124,31 @@ def CalculateGPA():
 # [4] 20190114 Monday
 # 买房子
 def BuyHouse():
-    # N:程序员的年薪；K:房价以每年百分之K增长
-    N,K = map(int,input().split())
-    K = K/100
-    # print(K)
-    rangeYear = 21
-    housePrice1 = 200
-    housePriceSum = housePrice1
-    salarySum = 0
-    canBuy = False
-    canBuyYear = 0
-    for i in range(1,rangeYear):
-        housePriceSum = housePriceSum*(1+K)
-        salarySum  += N
-        if salarySum >= housePriceSum:
-            canBuy = True
-            canBuyYear +=i
+    while True:
+        try:
+            # N:程序员的年薪；K:房价以每年百分之K增长
+            N, K = map(int, input().split())
+            K = K / 100
+            # print(K)
+            rangeYear = 21
+            housePrice1 = 200
+            housePriceSum = housePrice1
+            salarySum = 0
+            canBuy = False
+            canBuyYear = 0
+            for i in range(1, rangeYear):
+                housePriceSum = housePriceSum * (1 + K)
+                salarySum += N
+                if salarySum >= housePriceSum:
+                    canBuy = True
+                    canBuyYear += i
+                    break
+            if canBuy == True:
+                print(canBuyYear)
+            else:
+                print("Impossible")
+        except:
             break
-    if canBuy ==True:
-        print(canBuyYear)
-    else:
-        print("Impossible")
 BuyHouse()
 
 
