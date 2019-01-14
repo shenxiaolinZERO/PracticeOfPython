@@ -82,7 +82,6 @@ def PlayCards():
 # 20190112 Saterday
 # 北大学分绩点
 #
-
 # 实际成绩对应的绩点的功能函数
 def matchGPA(score):
     if 90<=score<=100:
@@ -121,4 +120,6 @@ def CalculateGPA():
     res = sum1 /sum(credit)
     print("%.2f"%res)
 # CalculateGPA()
+
+
 
