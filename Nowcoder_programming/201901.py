@@ -152,5 +152,11 @@ def BuyHouse():
             break
 # BuyHouse()
 
+# 50 10
+# 8
+# 40 10
+# Impossible
+# 40 8
+# 10
 
 
