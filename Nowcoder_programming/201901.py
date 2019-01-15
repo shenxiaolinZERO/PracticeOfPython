@@ -150,7 +150,7 @@ def BuyHouse():
                 print("Impossible")
         except:
             break
-BuyHouse()
+# BuyHouse()
 
 
 
