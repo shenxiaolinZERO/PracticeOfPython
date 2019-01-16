@@ -161,4 +161,5 @@ def BuyHouse():
 
 # [5] 20190116 Wednesday
 # 大整数的因子
-
+def FactorOfBigInteger():
+    
