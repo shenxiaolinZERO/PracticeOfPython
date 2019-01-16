@@ -160,4 +160,5 @@ def BuyHouse():
 # 10
 
 # [5] 20190116 Wednesday
+# 大整数的因子
 
