@@ -164,7 +164,14 @@ def BuyHouse():
 def FactorOfBigInteger():
     while True:
         try:
-
+            c = int(input())
+            flag =False
+            for k in range(2,10):
+                if c%k==0:
+                    print(k,end=" ")
+                    flag = True
+            if flag==False:
+                print("none")
         except:
             break
 FactorOfBigInteger()
