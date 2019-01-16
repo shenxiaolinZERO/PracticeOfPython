@@ -136,7 +136,7 @@ def BuyHouse():
             salarySum = N
             canBuy = False
             canBuyYear = 0
-            for i in range(0, rangeYear+1):
+            for i in range(1, rangeYear+1):
                 # housePriceSum = housePriceSum * (1 + K)**(i-1)
                 # salarySum = salarySum*i
                 # if salarySum >= housePriceSum:
