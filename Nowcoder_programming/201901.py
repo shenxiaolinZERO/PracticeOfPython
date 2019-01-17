@@ -183,11 +183,12 @@ def MillionaireProblem():
     millionaire = 0 # 百万富翁给出的钱以分为单位
     for i in range(30):
         millionaire +=2**i
-    # 转换前
+    # 转换前：
     print(millionaire,stranger)
-    # 转换后
+    # 转换后：
     # 题目要求输出结果：富翁交出的钱以万元为单位，陌生人交出的钱以分为单位
     # 万元和分转换为 10^6
-
+    millionaire = int(millionaire/(10**6))
+    stranger = stranger*(10**6)
     print(millionaire,stranger)
 MillionaireProblem()
