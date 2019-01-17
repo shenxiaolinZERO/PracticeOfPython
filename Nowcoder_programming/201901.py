@@ -177,3 +177,6 @@ def FactorOfBigInteger():
 # FactorOfBigInteger()
 
 # [6] 20190117 Thursday
+# 百万富翁问题
+def MillionaireProblem():
+    millionaire
