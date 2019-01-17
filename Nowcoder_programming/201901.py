@@ -174,4 +174,4 @@ def FactorOfBigInteger():
                 print("none")
         except:
             break
-FactorOfBigInteger()
+# FactorOfBigInteger()
