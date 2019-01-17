@@ -175,3 +175,5 @@ def FactorOfBigInteger():
         except:
             break
 # FactorOfBigInteger()
+
+# [6]
