@@ -182,3 +182,4 @@ def MillionaireProblem():
     millionaire =
     stranger = 30*10
     print(millionaire,stranger)
+MillionaireProblem()
