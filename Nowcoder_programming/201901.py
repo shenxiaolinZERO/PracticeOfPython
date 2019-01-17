@@ -179,8 +179,8 @@ def FactorOfBigInteger():
 # [6] 20190117 Thursday
 # 百万富翁问题
 def MillionaireProblem():
-    stranger = 30*10
-    millionaire = 0
+    stranger = 30*10 # 陌生人给出的钱以万元为单位
+    millionaire = 0 # 百万富翁给出的钱以分为单位
     for i in range(30):
         millionaire +=2**i
     print(millionaire)
