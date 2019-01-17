@@ -181,7 +181,8 @@ def FactorOfBigInteger():
 def MillionaireProblem():
     stranger = 30*10
     millionaire = 0
-    for i in range():
-        
+    for i in range(30):
+        millionaire +=2**i
+    print(millionaire)
     print(millionaire,stranger)
 MillionaireProblem()
