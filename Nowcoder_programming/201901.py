@@ -178,12 +178,16 @@ def FactorOfBigInteger():
 
 # [6] 20190117 Thursday
 # 百万富翁问题
+# 一个百万富翁遇到一个陌生人，陌生人找他谈了一个换钱的计划。
+# 该计划如下：我每天给你10 万元，你第一天给我1 分钱，第二天2 分钱，
+# 第三天4 分钱……
+# 这样交换 30 天后，百万富翁交出了多少钱？陌生人交出了多少钱？（注意一个是万元，一个是分）
 def MillionaireProblem():
     stranger = 30*10 # 陌生人给出的钱以万元为单位
     millionaire = 0 # 百万富翁给出的钱以分为单位
     for i in range(30):
         millionaire +=2**i
-    # 转换前：
+    # 转换前：(题目是要求先输出百万富翁交出的钱，后输出陌生人交出的钱)
     print(millionaire,stranger)
     # 转换后：
     # 题目要求输出结果：富翁交出的钱以万元为单位，陌生人交出的钱以分为单位
@@ -191,4 +195,5 @@ def MillionaireProblem():
     millionaire = int(millionaire/(10**6))
     stranger = stranger*(10**6)
     print(millionaire,stranger)
+
 MillionaireProblem()
