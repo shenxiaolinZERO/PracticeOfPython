@@ -179,7 +179,9 @@ def FactorOfBigInteger():
 # [6] 20190117 Thursday
 # 百万富翁问题
 def MillionaireProblem():
-    millionaire =
     stranger = 30*10
+    millionaire = 0
+    for i in range():
+        
     print(millionaire,stranger)
 MillionaireProblem()
