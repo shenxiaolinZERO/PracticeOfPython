@@ -200,5 +200,7 @@ def MillionaireProblem():
     #-------------------------------------------
     # 但是上面都AC不了，下面这个才OK……<疑问：计划的提出者不是陌生人吗！？每天给10万元的不是陌生人吗？>
     print(stranger,millionaire)
-MillionaireProblem()
+# MillionaireProblem()
+
+
 
