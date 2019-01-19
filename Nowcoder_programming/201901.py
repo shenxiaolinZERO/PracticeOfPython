@@ -205,7 +205,11 @@ def MillionaireProblem():
 # [7] 20190119 Saterday
 # 计算表达式
 def CalculateExpression():
-    expression = input()
+    while True:
+        try:
+            expression = input()
+        except:
+            break
 
 CalculateExpression()
 
