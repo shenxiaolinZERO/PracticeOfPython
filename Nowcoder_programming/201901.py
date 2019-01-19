@@ -207,10 +207,9 @@ def MillionaireProblem():
 def CalculateExpression():
     while True:
         try:
-            expression = input()
+            expression = int(eval(input()))
             print(expression)
         except:
             break
-
 CalculateExpression()
 
