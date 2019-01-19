@@ -202,7 +202,8 @@ def MillionaireProblem():
     print(stranger,millionaire)
 # MillionaireProblem()
 
-# [7] 2019
+# [7] 20190119 Saterday
+
 
 
 
