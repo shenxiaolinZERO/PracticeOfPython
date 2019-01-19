@@ -204,7 +204,8 @@ def MillionaireProblem():
 
 # [7] 20190119 Saterday
 # 计算表达式
-def
+def CalculateExpression():
+    expression = input()
 
-
+CalculateExpression()
 
