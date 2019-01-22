@@ -218,7 +218,15 @@ def CalculateExpression():
 import math
 def SquareFactor():
     n = int(input())
-    for i in range(2,math.sqrt())
-        
+    flag = False
+    for i in range(2,int(math.sqrt(n))+1):
+        if n % (i*i) ==0:
+            flag =True
+    if flag ==False:
+        print("No")
+    else:
+        print("Yes")
+SquareFactor()
+
 
 
