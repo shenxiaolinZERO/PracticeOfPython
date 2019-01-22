@@ -215,6 +215,10 @@ def CalculateExpression():
 
 # [8] 20190122 Tuesday
 # 平方因子
-def 
+import math
+def SquareFactor():
+    n = int(input())
+    for i in range(2,math.sqrt())
+        
 
 
