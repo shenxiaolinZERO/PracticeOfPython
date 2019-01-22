@@ -214,6 +214,7 @@ def CalculateExpression():
 # CalculateExpression()
 
 # [8] 20190122 Tuesday
-def
+# 平方因子
+def 
 
 
