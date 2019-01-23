@@ -226,7 +226,7 @@ def SquareFactor():
         print("No")
     else:
         print("Yes")
-SquareFactor()
+# SquareFactor()
 
 
 
