@@ -230,7 +230,12 @@ def SquareFactor():
 
 # [9] 20190124 Thursday
 # 简单计算器
+def SimpleCalculator():
+    while True:
+        try:
 
+        except:
+            break
 
 
 
