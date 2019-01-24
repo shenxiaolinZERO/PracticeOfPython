@@ -233,10 +233,10 @@ def SquareFactor():
 def SimpleCalculator():
     while True:
         try:
-
+            
         except:
             break
-
+SimpleCalculator()
 
 
 
