@@ -233,9 +233,11 @@ def SquareFactor():
 def SimpleCalculator():
     while True:
         try:
-            string = input().split()
-            out = int(eval(string))
-
+            intString = input()
+            if intString !="0":
+                temp = str(intString.split())
+                out = eval(intString)
+                print("%.2f"%out)
         except:
             break
 SimpleCalculator()
