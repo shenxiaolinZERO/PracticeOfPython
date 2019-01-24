@@ -233,7 +233,9 @@ def SquareFactor():
 def SimpleCalculator():
     while True:
         try:
-            
+            string = input().split()
+            out = int(eval(string))
+
         except:
             break
 SimpleCalculator()
