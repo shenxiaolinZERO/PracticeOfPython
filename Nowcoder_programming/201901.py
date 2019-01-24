@@ -228,5 +228,8 @@ def SquareFactor():
         print("Yes")
 # SquareFactor()
 
+# [9] 20190124 Thursday
+
+
 
 
