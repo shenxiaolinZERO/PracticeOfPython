@@ -240,7 +240,9 @@ def SimpleCalculator():
                 print("%.2f"%out)
         except:
             break
-SimpleCalculator()
+# SimpleCalculator()
+
+
 
 
 
