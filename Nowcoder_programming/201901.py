@@ -243,7 +243,8 @@ def SimpleCalculator():
 # SimpleCalculator()
 
 # [10] 20190125 Friday
-
+# A + B
+def 
 
 
 
