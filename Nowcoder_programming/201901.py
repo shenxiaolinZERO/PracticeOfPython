@@ -244,7 +244,15 @@ def SimpleCalculator():
 
 # [10] 20190125 Friday
 # A + B
-def 
+def WordToNum():
+
+def APlusBNumIsWord():
+    while True:
+        try:
+
+        except:
+            
 
 
+APlusBNumIsWord()
 
