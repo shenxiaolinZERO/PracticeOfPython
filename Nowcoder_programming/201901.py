@@ -282,10 +282,7 @@ def APlusBNumIsWord():
                     outString = outString+ str(WordToNum(stringToList[i]))
             res = eval(outString)
             print(res)
-
         except:
             break
-
-
 APlusBNumIsWord()
 
