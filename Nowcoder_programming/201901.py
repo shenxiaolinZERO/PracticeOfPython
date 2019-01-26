@@ -270,10 +270,10 @@ def APlusBNumIsWord():
     while True:
         try:
             string1 = input().lower()
-            # if string1 =="zero + zero =": # three zero + zero three =:会判为空啊
-            #     break
+            if string1 =="zero + zero =": # three zero + zero three =:会判为空啊
+                break
             stringToList = list(string1.split())
-            print(stringToList)
+            #print(stringToList)
             outString =""
             for i in range(len(stringToList)-1):
                 if stringToList[i] =="+" :
@@ -283,12 +283,15 @@ def APlusBNumIsWord():
                 if stringToList[i] !="+" and stringToList[i] !="=":
                 #else:
                     outString = outString+ str(WordToNum(stringToList[i]))
-            print(outString)
-            res = int(eval(outString))
-            if res==0:
-                break
-            else:
-                print(res)
+            #print(outString)
+
+            A,B = map(int,outString.split("+"))
+            res = A+B
+            # if res==0:
+            #     break
+            # else:
+            print(res)
+            # res = int(eval(outString))
         except:
             break
 APlusBNumIsWord()
