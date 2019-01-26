@@ -269,10 +269,18 @@ def WordToNum(word):
 def APlusBNumIsWord():
     while True:
         try:
-            string = input().lower()
-            if string =="zero + zero =":
+            string1 = input().lower()
+            if string1 =="zero + zero =":
                 break
-            string.split()
+            stringToList = list(string1.split())
+            outString =""
+            for i in range(len(stringToList)):
+                if i !="+" or  i !="=":
+                    outString = outString+ str(WordToNum(i))
+                if i =="+" or i =="=":
+                    outString += i
+            res = eval(outString)
+            print(res)
 
         except:
             break
