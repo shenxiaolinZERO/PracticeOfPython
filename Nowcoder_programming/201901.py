@@ -296,27 +296,27 @@ def APlusBNumIsWord():
             break
 APlusBNumIsWord()
 
-# 牛客网上TimeMac大神：
-链接：https: // www.nowcoder.com / questionTerminal / 5
-fb3548802bb4a13a10c2e53a6fbfdd9?commentTags = Python
-来源：牛客网
-
-while True:
-    try:
-        string = input().lower()
-        if string == "zero + zero =":
-            break
-        numEnglish = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
-        string = string.split("+")
-        left = string[0].strip().split()
-        right = string[1].strip('=').split()
-        leftNum = '0'
-        rightNum = '0'
-        for i in left:
-            leftNum += str(numEnglish.index(i))
-        for i in right:
-            rightNum += str(numEnglish.index(i))
-        print(int(leftNum) + int(rightNum))
-
-    except Exception:
-        break
+# 牛客网上TimeMac大神： （妙啊）
+# 链接：https: // www.nowcoder.com / questionTerminal / 5
+# fb3548802bb4a13a10c2e53a6fbfdd9?commentTags = Python
+# 来源：牛客网
+#
+# while True:
+#     try:
+#         string = input().lower()
+#         if string == "zero + zero =":
+#             break
+#         numEnglish = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+#         string = string.split("+")
+#         left = string[0].strip().split()
+#         right = string[1].strip('=').split()
+#         leftNum = '0'
+#         rightNum = '0'
+#         for i in left:
+#             leftNum += str(numEnglish.index(i))
+#         for i in right:
+#             rightNum += str(numEnglish.index(i))
+#         print(int(leftNum) + int(rightNum))
+#
+#     except Exception:
+#         break
