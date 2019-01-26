@@ -275,7 +275,7 @@ def APlusBNumIsWord():
             string.split()
 
         except:
-
+            break
 
 
 APlusBNumIsWord()
