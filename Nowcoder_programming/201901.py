@@ -275,10 +275,11 @@ def APlusBNumIsWord():
             stringToList = list(string1.split())
             outString =""
             for i in range(len(stringToList)):
-                if i !="+" or  i !="=":
-                    outString = outString+ str(WordToNum(i))
-                if i =="+" or i =="=":
-                    outString += i
+                if stringToList[i] =="+" or stringToList[i] =="=":
+                    outString += stringToList[i]
+                # if stringToList[i] !="+" or stringToList[i] !="=":
+                else:
+                    outString = outString+ str(WordToNum(stringToList[i]))
             res = eval(outString)
             print(res)
 
