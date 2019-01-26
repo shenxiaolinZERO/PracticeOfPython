@@ -272,7 +272,7 @@ def APlusBNumIsWord():
             string = input().lower()
             if string =="zero + zero =":
                 break
-            
+            string.split()
 
         except:
 
