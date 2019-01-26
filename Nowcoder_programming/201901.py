@@ -254,7 +254,7 @@ def WordToNum(word):
     if word=="three":
         return 3
     if word=="four":
-        return 0
+        return 4
     if word=="five":
         return 5
     if word=="six":
@@ -269,6 +269,10 @@ def WordToNum(word):
 def APlusBNumIsWord():
     while True:
         try:
+            string = input().lower()
+            if string =="zero + zero =":
+                break
+            
 
         except:
 
