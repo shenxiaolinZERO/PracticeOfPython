@@ -294,7 +294,7 @@ def APlusBNumIsWord():
             # res = int(eval(outString))
         except:
             break
-APlusBNumIsWord()
+# APlusBNumIsWord()
 
 # 牛客网上TimeMac大神： （妙啊）
 # 链接：https: // www.nowcoder.com / questionTerminal / 5
