@@ -323,12 +323,19 @@ def APlusBNumIsWord():
 
 # [11] 20190131 Thursday
 #  浮点数加法
+from decimal import Decimal, getcontext
+getcontext().prec = 105
 def FloatSum():
-    # A = eval(input())
-    # B = eval(input())
-    A = eval(input())
-    B = eval(input())
-    sum = str(A+B)
-    print(str(sum))
+    while True:
+        try:
+            # A = eval(input())
+            # B = eval(input())
+            A = Decimal(input())
+            B = Decimal(input())
+            sum = str(A + B)
+            print(str(sum))
+        except:
+            break
+
 FloatSum()
 
