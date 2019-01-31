@@ -322,4 +322,13 @@ def APlusBNumIsWord():
 #         break
 
 # [11] 20190131 Thursday
+#  浮点数加法
+def FloatSum():
+    # A = eval(input())
+    # B = eval(input())
+    A = eval(input())
+    B = eval(input())
+    sum = str(A+B)
+    print(str(sum))
+FloatSum()
 
