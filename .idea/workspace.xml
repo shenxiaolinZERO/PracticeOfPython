@@ -3,7 +3,6 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/201803/180317-Numpy.py" line="56" mnemonic="3" />
     <bookmark url="file://$PROJECT_DIR$/Nowcoder_programming/201812.py" line="36" />
-    <bookmark url="file://$PROJECT_DIR$/Nowcoder_programming/201901.py" line="323" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91eb10ce-e3c2-4e2a-b63e-ff33c5329e34" name="Default" comment="" />
@@ -107,8 +106,8 @@
       <file leaf-file-name="201901.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201901.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="302" column="1" lean-forward="true" selection-start-line="302" selection-start-column="1" selection-end-line="302" selection-end-column="1" />
+            <state relative-caret-position="336">
+              <caret line="323" column="16" lean-forward="true" selection-start-line="323" selection-start-column="16" selection-end-line="323" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -971,8 +970,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nowcoder_programming/201901.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="302" column="1" lean-forward="true" selection-start-line="302" selection-start-column="1" selection-end-line="302" selection-end-column="1" />
+        <state relative-caret-position="336">
+          <caret line="323" column="16" lean-forward="true" selection-start-line="323" selection-start-column="16" selection-end-line="323" selection-end-column="16" />
           <folding />
         </state>
       </provider>
